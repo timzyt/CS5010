@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.5" timestamp="2018-10-15T02:01:32.611">
+<file name="D:\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment4-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment4\ridesharemodel\validators\DriverPoolValidator.java">
+<violation beginline="91" endline="93" begincolumn="9" endcolumn="9" rule="CollapsibleIfStatements" ruleset="Basic" package="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators" class="DriverPoolValidator" method="findDriverFromVehicleSet" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>

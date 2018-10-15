@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>DriverPool.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment4.ridesharemodel</a> &gt; <span class="el_source">DriverPool.java</span></div><h1>DriverPool.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment4.ridesharemodel;
+
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+
+/**
+ * Driver pool class. Serves as one of the ridershare models.
+ */
+public class DriverPool {
+
+  private HashMap&lt;Driver, HashSet&lt;Vehicle&gt;&gt; driverPoolDatabase;
+  private DriverPoolValidator driverPoolValidator;
+
+  /**
+   * Instantiates a new Driver pool.
+   */
+<span class="fc" id="L24">  public DriverPool() {</span>
+<span class="fc" id="L25">    driverPoolDatabase = new HashMap&lt;Driver, HashSet&lt;Vehicle&gt;&gt;();</span>
+<span class="fc" id="L26">    driverPoolValidator = new DriverPoolValidator(this);</span>
+<span class="fc" id="L27">  }</span>
+
+  /**
+   * Gets driver pool.
+   *
+   * @return the driver pool
+   */
+  public HashMap&lt;Driver, HashSet&lt;Vehicle&gt;&gt; getDriverPoolDatabase() {
+<span class="fc" id="L35">    return driverPoolDatabase;</span>
+  }
+
+  /**
+   * Add the driver and vehicle into the existing driver pool.
+   *
+   * @param registration the registration
+   */
+  public void addDriverVehicle(Registration registration) {
+<span class="fc" id="L44">    Driver newDriver = registration.getDriver();</span>
+<span class="fc" id="L45">    Vehicle newVehicle = registration.getVehicle();</span>
+<span class="pc bpc" id="L46" title="1 of 2 branches missed.">    if (!this.driverPoolDatabase.keySet().contains(newDriver)) {</span>
+<span class="fc" id="L47">      HashSet&lt;Vehicle&gt; newVehicleSet = new HashSet&lt;Vehicle&gt;();</span>
+<span class="fc bfc" id="L48" title="All 2 branches covered.">      if (newVehicle != null) {</span>
+<span class="fc" id="L49">        newVehicleSet.add(newVehicle);</span>
+      }
+<span class="fc" id="L51">      this.driverPoolDatabase.put(newDriver, newVehicleSet);</span>
+<span class="fc" id="L52">    } else {</span>
+<span class="nc" id="L53">      this.driverPoolDatabase.get(newDriver).add(newVehicle);</span>
+    }
+<span class="fc" id="L55">  }</span>
+
+  /**
+   * Returns the result from the master validator whether the new registration was meeting all three
+   * requirements for the existing driver pool.
+   *
+   * @param registration the registration
+   * @return the boolean
+   */
+  public boolean validateRegistrationInPool(Registration registration) {
+<span class="nc" id="L65">    return this.driverPoolValidator.masterValidator(registration);</span>
+  }
+
+
+  /**
+   * Concludes validations happen both in the registration and the existing driver pool. Add the
+   * provided driver into the existing driver database if passes the validation, otherwise print
+   * failure message.
+   *
+   * @param registration the registration
+   */
+  public void masterValidator(Registration registration) {
+<span class="nc bnc" id="L77" title="All 2 branches missed.">    if (this.validateRegistrationInPool(registration)</span>
+<span class="nc bnc" id="L78" title="All 2 branches missed.">        &amp;&amp; registration.validateRegistration()) {</span>
+<span class="nc" id="L79">      this.addDriverVehicle(registration);</span>
+<span class="nc" id="L80">      System.out.println(&quot;This driver is successfully added into the existing driver pool.&quot;);</span>
+    } else {
+<span class="nc" id="L82">      System.out.println(&quot;Sorry this driver cannot be accepted at this time.&quot;);</span>
+    }
+<span class="nc" id="L84">  }</span>
+
+  /**
+   * Find all the driver whose last name match the given last name.
+   *
+   * @param lastName provided last name.
+   * @return ArraryList of drivers as driverList.
+   */
+  public ArrayList&lt;Driver&gt; findDriverList(String lastName) {
+<span class="nc" id="L93">    ArrayList&lt;Driver&gt; driverList = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L94" title="All 2 branches missed.">    for (Driver driver : this.driverPoolDatabase.keySet()) {</span>
+<span class="nc bnc" id="L95" title="All 2 branches missed.">      if (driver.getName().getLastName().equals(lastName)) {</span>
+<span class="nc" id="L96">        driverList.add(driver);</span>
+      }
+<span class="nc" id="L98">    }</span>
+<span class="nc" id="L99">    Collections.sort(driverList, new Comparator&lt;Driver&gt;() {</span>
+      @Override
+      public int compare(Driver obj1, Driver obj2) {
+<span class="nc" id="L102">        return obj1.getName().getFirstName().compareToIgnoreCase(obj2.getName().getFirstName());</span>
+      }
+    });
+<span class="nc" id="L105">    return driverList;</span>
+  }
+
+  /**
+   * Find all vehicles matching every driver in the provided driver list.
+   *
+   * @param driverList the driver list
+   * @return HashMap of drivers and their registered vehicles
+   */
+  public HashMap&lt;Driver, HashSet&lt;Vehicle&gt;&gt; findFullList(ArrayList&lt;Driver&gt; driverList) {
+<span class="nc" id="L115">    HashMap&lt;Driver, HashSet&lt;Vehicle&gt;&gt; fullList = new HashMap&lt;Driver, HashSet&lt;Vehicle&gt;&gt;();</span>
+<span class="nc bnc" id="L116" title="All 2 branches missed.">    for (Driver driver : driverList) {</span>
+<span class="nc bnc" id="L117" title="All 2 branches missed.">      if (!this.driverPoolDatabase.get(driver).isEmpty()) {</span>
+<span class="nc" id="L118">        fullList.put(driver, this.driverPoolDatabase.get(driver));</span>
+      } else {
+<span class="nc" id="L120">        fullList.put(driver, null);</span>
+      }
+<span class="nc" id="L122">    }</span>
+<span class="nc" id="L123">    return fullList;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

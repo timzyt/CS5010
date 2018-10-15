@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>DriverPoolValidator.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators</a> &gt; <span class="el_source">DriverPoolValidator.java</span></div><h1>DriverPoolValidator.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators;
+
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+/**
+ * The driver pool validator class.
+ */
+public class DriverPoolValidator implements MasterValidator {
+
+  private DriverPool driverPool;
+
+  /**
+   * Instantiates a new Driver pool validator.
+   *
+   * @param driverPool the driver pool
+   */
+<span class="fc" id="L23">  public DriverPoolValidator(DriverPool driverPool) {</span>
+<span class="fc" id="L24">    this.driverPool = driverPool;</span>
+<span class="fc" id="L25">  }</span>
+
+  /**
+   * Validate if the accepted driver is adding a vehicle that's already in the existing driver pool.
+   * If yes, return false, otherwise return true.
+   *
+   * @param registration the registration
+   * @return the boolean.
+   */
+  public Boolean validateUniqueness(Registration registration) {
+<span class="fc" id="L35">    Driver newDriver = registration.getDriver();</span>
+<span class="fc" id="L36">    Vehicle newVehicle = registration.getVehicle();</span>
+<span class="fc bfc" id="L37" title="All 2 branches covered.">    if (driverPool.getDriverPoolDatabase().containsKey(newDriver) &amp;&amp; driverPool</span>
+<span class="pc bpc" id="L38" title="1 of 2 branches missed.">        .getDriverPoolDatabase().get(newDriver).contains(newVehicle)) {</span>
+<span class="fc" id="L39">      return false;</span>
+    }
+<span class="fc" id="L41">    return true;</span>
+  }
+
+
+  /**
+   * If the accepted driver has multiple vehicles, validates whether this driver is driving only one
+   * vehicle at the same time.If yes, return true, otherwise return false.
+   *
+   * @param registration the registration
+   * @return the boolean.
+   */
+  public Boolean validateDriverWithMultipleVehicles(Registration registration) {
+<span class="fc" id="L53">    Driver newDriver = registration.getDriver();</span>
+<span class="fc" id="L54">    HashSet&lt;Driver&gt; driverCheckSet = new HashSet&lt;&gt;();</span>
+    //check if registered driver has no vehicle, if so return true;
+<span class="fc bfc" id="L56" title="All 2 branches covered.">    if (this.driverPool.getDriverPoolDatabase().get(newDriver).isEmpty()) {</span>
+<span class="fc" id="L57">      return true;</span>
+    } else {
+<span class="fc bfc" id="L59" title="All 2 branches covered.">      for (Vehicle e : driverPool.getDriverPoolDatabase().get(newDriver)) {</span>
+<span class="fc" id="L60">        driverCheckSet.add(newDriver);</span>
+<span class="fc bfc" id="L61" title="All 2 branches covered.">        if (driverCheckSet.contains(e.getPersonInDriverSeat())) {</span>
+<span class="fc" id="L62">          return false;</span>
+        } else {
+          //if the personInDriverSeat is null, meaning nobody is driving this vehicle,
+          // so no need to add it into the checklist.
+<span class="pc bpc" id="L66" title="1 of 2 branches missed.">          if (e.getPersonInDriverSeat() != null) {</span>
+<span class="fc" id="L67">            driverCheckSet.add(e.getPersonInDriverSeat());</span>
+          }
+        }
+<span class="fc" id="L70">      }</span>
+    }
+<span class="fc" id="L72">    return true;</span>
+  }
+
+  /**
+   * Given a vehicle, find the physically identical vehicle in a given hashset, then return the
+   * person in the driving seat of the found vehicle.
+   *
+   * @param vehicleSet the vehicle set
+   * @param vehicle the vehicle
+   * @return the driver
+   */
+  //helper method to iterate through the vehicle set, and return the specific vehicle in the set
+  public ArrayList&lt;Driver&gt; findDriverFromVehicleSet(HashSet&lt;Vehicle&gt; vehicleSet, Vehicle vehicle) {
+<span class="fc" id="L85">    ArrayList&lt;Driver&gt; personInSeatList = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L86" title="All 2 branches covered.">    if (vehicle.getPersonInDriverSeat() != null) {</span>
+<span class="fc" id="L87">      personInSeatList.add(vehicle.getPersonInDriverSeat());</span>
+    }
+<span class="fc bfc" id="L89" title="All 2 branches covered.">    for (Vehicle v : vehicleSet) {</span>
+<span class="pc bpc" id="L90" title="1 of 2 branches missed.">      if (v.equals(vehicle)) {</span>
+<span class="pc bpc" id="L91" title="1 of 2 branches missed.">        if (v.getPersonInDriverSeat() != null) {</span>
+<span class="fc" id="L92">          personInSeatList.add(v.getPersonInDriverSeat());</span>
+        }
+      }
+<span class="fc" id="L95">    }</span>
+    //if no identical vehicle is found in the set, return null.
+<span class="fc" id="L97">    return personInSeatList;</span>
+  }
+
+  /**
+   * If one vehicle is registered under multiple drivers, validate that no different drivers should
+   * be driving the same vehicle at the same time, possibly in different directions. If no such
+   * conflict happens, return true, otherwise return false.
+   *
+   * @param registration the registration
+   * @return the boolean.
+   */
+  public Boolean validateSharedVehicle(Registration registration) {
+<span class="nc" id="L109">    Vehicle newVehicle = registration.getVehicle();</span>
+
+<span class="nc bnc" id="L111" title="All 2 branches missed.">    for (Driver d : driverPool.getDriverPoolDatabase().keySet()) {</span>
+      //check if the existing driverPool contains the newVehicle,
+      // if not, no chance of having multiple driver in it, so return true.
+<span class="nc bnc" id="L114" title="All 2 branches missed.">      if (!driverPool.getDriverPoolDatabase().get(d).contains(newVehicle)) {</span>
+<span class="nc" id="L115">        return true;</span>
+      } else {
+<span class="nc bnc" id="L117" title="All 2 branches missed.">        for (Vehicle v : driverPool.getDriverPoolDatabase().get(d)) {</span>
+<span class="nc bnc" id="L118" title="All 2 branches missed.">          if (v.getPersonInDriverSeat().equals(newVehicle.getPersonInDriverSeat())) {</span>
+<span class="nc" id="L119">            return false;</span>
+          }
+<span class="nc" id="L121">        }</span>
+      }
+<span class="nc" id="L123">    }</span>
+<span class="nc" id="L124">    return true;</span>
+  }
+
+  @Override
+  public boolean masterValidator(Registration registration) {
+<span class="nc bnc" id="L129" title="All 2 branches missed.">    return validateUniqueness(registration)</span>
+<span class="nc bnc" id="L130" title="All 2 branches missed.">        &amp;&amp; validateDriverWithMultipleVehicles(registration)</span>
+<span class="nc bnc" id="L131" title="All 2 branches missed.">        &amp;&amp; validateSharedVehicle(registration);</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

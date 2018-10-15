@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>ViolationTypes.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords</a> &gt; <span class="el_source">ViolationTypes.java</span></div><h1>ViolationTypes.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords;
+
+/**
+ * The enum class violation types.
+ */
+<span class="fc" id="L6">public enum ViolationTypes {</span>
+  /**
+   * Distracted driving violation types.
+   */
+<span class="fc" id="L10">  Distracted_driving,</span>
+  /**
+   * Reckless driving violation types.
+   */
+<span class="fc" id="L14">  Reckless_driving,</span>
+  /**
+   * Speeding violation types.
+   */
+<span class="fc" id="L18">  Speeding,</span>
+  /**
+   * Driving under influence violation types.
+   */
+<span class="fc" id="L22">  Driving_under_influence,</span>
+  /**
+   * Failure to respect traffic signs violation types.
+   */
+<span class="fc" id="L26">  Failure_to_respect_traffic_signs,</span>
+  /**
+   * Driving without a valid license and or insurance violation types.
+   */
+<span class="fc" id="L30">  Driving_without_a_valid_license_and_or_insurance,</span>
+  /**
+   * Parking violation violation types.
+   */
+<span class="fc" id="L34">  Parking_violation,</span>
+  /**
+   * Paperwork issues violation types.
+   */
+<span class="fc" id="L38">  Paperwork_issues,</span>
+  /**
+   * Problems with the vehicle violation types.
+   */
+<span class="fc" id="L42">  Problems_with_the_vehicle;</span>
+
+  /**
+   * print the enum values to string.
+   *
+   * @return string.
+   */
+  public String toString() {
+<span class="fc" id="L50">    StringBuilder strBuilder = new StringBuilder();</span>
+<span class="pc bpc" id="L51" title="1 of 10 branches missed.">    switch (this) {</span>
+      case Distracted_driving:
+<span class="fc" id="L53">        strBuilder.append(&quot;Distracted driving&quot;);</span>
+<span class="fc" id="L54">        break;</span>
+      case Reckless_driving:
+<span class="fc" id="L56">        strBuilder.append(&quot;Reckless driving&quot;);</span>
+<span class="fc" id="L57">        break;</span>
+      case Speeding:
+<span class="fc" id="L59">        strBuilder.append(&quot;Speeding&quot;);</span>
+<span class="fc" id="L60">        break;</span>
+      case Driving_under_influence:
+<span class="fc" id="L62">        strBuilder.append(&quot;Driving under influence&quot;);</span>
+<span class="fc" id="L63">        break;</span>
+      case Failure_to_respect_traffic_signs:
+<span class="fc" id="L65">        strBuilder.append(&quot;Failure to respect traffic signs&quot;);</span>
+<span class="fc" id="L66">        break;</span>
+      case Driving_without_a_valid_license_and_or_insurance:
+<span class="fc" id="L68">        strBuilder.append(&quot;Driving without a valid license and or instance&quot;);</span>
+<span class="fc" id="L69">        break;</span>
+      case Parking_violation:
+<span class="fc" id="L71">        strBuilder.append(&quot;Parking violation&quot;);</span>
+<span class="fc" id="L72">        break;</span>
+      case Paperwork_issues:
+<span class="fc" id="L74">        strBuilder.append(&quot;Paperwork issues&quot;);</span>
+<span class="fc" id="L75">        break;</span>
+      case Problems_with_the_vehicle:
+<span class="fc" id="L77">        strBuilder.append(&quot;Problems with the vehicle&quot;);</span>
+<span class="fc" id="L78">        break;</span>
+      default:
+        break;
+    }
+<span class="fc" id="L82">    return strBuilder.toString();</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

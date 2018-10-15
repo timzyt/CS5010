@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c061311-92a8-47dc-a4a8-52135a765c9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/AddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/AddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/RestaurantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/RestaurantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/lab2/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/lab2/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/lab2/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/lab2/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/lab2/Restaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/lab2/Restaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/findbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/findbugsXml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/Address.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/Address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/Menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/Menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/Restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/Restaurant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/class-use/Address.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/class-use/Address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/class-use/Menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/class-use/Menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/class-use/Restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/class-use/Restaurant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/lab2/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Address.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Address.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Address.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Menu.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Menu.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Restaurant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Restaurant.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/Restaurant.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.lab2/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/lab2/AddressTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/lab2/AddressTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/lab2/MenuTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/lab2/MenuTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/lab2/RestaurantTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/lab2/RestaurantTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/lab2/Address.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/lab2/Address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/lab2/Menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/lab2/Menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/lab2/Restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/lab2/Restaurant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.lab2.AddressTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.lab2.AddressTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.lab2.MenuTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.lab2.MenuTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.lab2.RestaurantTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.lab2.RestaurantTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.lab2.AddressTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.lab2.AddressTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.lab2.MenuTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.lab2.MenuTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.lab2.RestaurantTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.lab2.RestaurantTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/lab2/AddressTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/lab2/AddressTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/lab2/MenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/lab2/MenuTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/lab2/RestaurantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/lab2/RestaurantTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lab2$RestaurantTest_testSetIsOpen.ic" NAME="RestaurantTest.testSetIsOpen Coverage Results" MODIFIED="1538541807258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$RestaurantTest_testSetAddress2.ic" NAME="RestaurantTest.testSetAddress2 Coverage Results" MODIFIED="1538541993357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$RestaurantTest_testSetAddress.ic" NAME="RestaurantTest.testSetAddress Coverage Results" MODIFIED="1538541825155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$RestaurantTest_testGetMenu.ic" NAME="RestaurantTest.testGetMenu Coverage Results" MODIFIED="1538525163315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.Lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$RestaurantTest_testSetResName.ic" NAME="RestaurantTest.testSetResName Coverage Results" MODIFIED="1538524235037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.Lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$RestaurantTest_testSetMenu.ic" NAME="RestaurantTest.testSetMenu Coverage Results" MODIFIED="1538541476968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$AddressTest.ic" NAME="AddressTest Coverage Results" MODIFIED="1538542893774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$MenuTest_testSetBeverages.ic" NAME="MenuTest.testSetBeverages Coverage Results" MODIFIED="1538543698022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$edu_neu_ccs_cs5010_lab2_in_Lab2.ic" NAME="edu.neu.ccs.cs5010.lab2 in Lab2 Coverage Results" MODIFIED="1538545334442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$RestaurantTest_testSetMenu2.ic" NAME="RestaurantTest.testSetMenu2 Coverage Results" MODIFIED="1538541564498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$RestaurantTest_testSetIsOpen2.ic" NAME="RestaurantTest.testSetIsOpen2 Coverage Results" MODIFIED="1538541928013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$RestaurantTest.ic" NAME="RestaurantTest Coverage Results" MODIFIED="1538544153802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$MenuTest.ic" NAME="MenuTest Coverage Results" MODIFIED="1538543745001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$MenuTest_testSetMeals.ic" NAME="MenuTest.testSetMeals Coverage Results" MODIFIED="1538526033552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.Lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$MenuTest_testSetDrinks.ic" NAME="MenuTest.testSetDrinks Coverage Results" MODIFIED="1538543732154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$RestaurantTest_testGetResName.ic" NAME="RestaurantTest.testGetResName Coverage Results" MODIFIED="1538524160717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.Lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$MenuTest_testGetMeals.ic" NAME="MenuTest.testGetMeals Coverage Results" MODIFIED="1538525952328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.Lab2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab2$edu_neu_ccs_cs5010_Lab2_in_Lab2.ic" NAME="edu.neu.ccs.cs5010.Lab2 in Lab2 Coverage Results" MODIFIED="1538526250440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.Lab2.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="116" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1778720711">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="6091" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6091" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setAddress</find>
+      <find>Restaurant</find>
+      <find>getResname</find>
+      <find>streetNumber</find>
+      <find>@After</find>
+      <find>meals</find>
+      <find>throws Exceotion</find>
+      <find>&lt;Authors name&gt;</find>
+      <find>List</find>
+      <find>newAddress2</find>
+      <find>is</find>
+      <find>boolean</find>
+      <find>setIsOpen</find>
+      <find>getStat</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>timzyt</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/Lab2/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/Lab2/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/Lab2/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/Lab2/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/Lab2/RestaurantTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/Lab2/AddressTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/Lab2/MenuTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/MenuTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/AddressTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/RestaurantTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Restaurant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Address.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-18" />
+    <option name="width" value="1629" />
+    <option name="height" value="1728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path" value="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\libs" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538545363984" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.neu.ccs.cs5010.Lab2" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.neu.ccs.cs5010.Lab2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.edu.neu.ccs.cs5010.lab2 in Lab2">
+    <configuration name="AddressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.lab2" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.lab2.AddressTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.lab2" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.lab2.MenuTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuTest.testSetDrinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.lab2" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.lab2.MenuTest" />
+      <option name="METHOD_NAME" value="testSetDrinks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.lab2" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.lab2.RestaurantTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.neu.ccs.cs5010.lab2 in Lab2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.lab2" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MenuTest" />
+      <item itemvalue="JUnit.MenuTest.testSetDrinks" />
+      <item itemvalue="JUnit.edu.neu.ccs.cs5010.lab2 in Lab2" />
+      <item itemvalue="JUnit.AddressTest" />
+      <item itemvalue="JUnit.RestaurantTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.edu.neu.ccs.cs5010.lab2 in Lab2" />
+        <item itemvalue="JUnit.RestaurantTest" />
+        <item itemvalue="JUnit.MenuTest" />
+        <item itemvalue="JUnit.AddressTest" />
+        <item itemvalue="JUnit.MenuTest.testSetDrinks" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c061311-92a8-47dc-a4a8-52135a765c9b" name="Default Changelist" comment="" />
+      <created>1538516326733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538516326733</updated>
+      <workItem from="1538516328644" duration="2181000" />
+      <workItem from="1538518663911" duration="7527000" />
+      <workItem from="1538526241125" duration="6949000" />
+      <workItem from="1538545312555" duration="232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MenuTest - 2018.10.02 at 22h 12m 27s.xml">
+      <configuration name="MenuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_testSetMeals - 2018.10.02 at 22h 12m 40s.xml">
+      <configuration name="MenuTest.testSetMeals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_testSetMeals - 2018.10.02 at 22h 13m 35s.xml">
+      <configuration name="MenuTest.testSetMeals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_testSetDesserts - 2018.10.02 at 22h 14m 23s.xml">
+      <configuration name="MenuTest.testSetDesserts" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_testSetBeverages - 2018.10.02 at 22h 14m 59s.xml">
+      <configuration name="MenuTest.testSetBeverages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest_testSetDrinks - 2018.10.02 at 22h 15m 34s.xml">
+      <configuration name="MenuTest.testSetDrinks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MenuTest - 2018.10.02 at 22h 15m 47s.xml">
+      <configuration name="MenuTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RestaurantTest - 2018.10.02 at 22h 22m 36s.xml">
+      <configuration name="RestaurantTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="edu_neu_ccs_cs5010_lab2_in_Lab2 - 2018.10.02 at 22h 22m 43s.xml">
+      <configuration name="edu.neu.ccs.cs5010.lab2 in Lab2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="edu_neu_ccs_cs5010_lab2_in_Lab2 - 2018.10.02 at 22h 42m 20s.xml">
+      <configuration name="edu.neu.ccs.cs5010.lab2 in Lab2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16889000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22335026" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32554516" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39719626" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.49844238" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="PlantUML" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.49532712" visible="true" weight="0.27121103" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5046729" side_tool="true" visible="true" weight="0.27121103" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/Lab2/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/Lab2/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/edu/neu/ccs/cs5010/lab2/RestaurantTestTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/lab2/AddressTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Restaurant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2033">
+          <caret line="115" column="53" selection-start-line="115" selection-start-column="53" selection-end-line="115" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/RestaurantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/AddressTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/lab2/MenuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="74" column="66" selection-start-line="74" selection-start-column="66" selection-end-line="74" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/lab2/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="121" column="24" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Lab2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.mockito:mockito-all:2.0.2-beta</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

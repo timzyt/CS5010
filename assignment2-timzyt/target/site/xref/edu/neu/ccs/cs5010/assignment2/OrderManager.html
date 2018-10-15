@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>OrderManager xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../../../apidocs/edu/neu/ccs/cs5010/assignment2/OrderManager.html">View Javadoc</a></div><pre>
+<a class="jxr_linenumber" name="L1" href="#L1">1</a>   <strong class="jxr_keyword">package</strong> edu.neu.ccs.cs5010.assignment2;
+<a class="jxr_linenumber" name="L2" href="#L2">2</a>   
+<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> java.util.HashMap;
+<a class="jxr_linenumber" name="L4" href="#L4">4</a>   
+<a class="jxr_linenumber" name="L5" href="#L5">5</a>   
+<a class="jxr_linenumber" name="L6" href="#L6">6</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L7" href="#L7">7</a>   <em class="jxr_javadoccomment"> * The class Order manager.</em>
+<a class="jxr_linenumber" name="L8" href="#L8">8</a>   <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="L9" href="#L9">9</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/OrderManager.html">OrderManager</a> {
+<a class="jxr_linenumber" name="L10" href="#L10">10</a>  
+<a class="jxr_linenumber" name="L11" href="#L11">11</a>    <strong class="jxr_keyword">private</strong> HashMap&lt;String, Integer&gt; order = <strong class="jxr_keyword">new</strong> HashMap&lt;String, Integer&gt;();
+<a class="jxr_linenumber" name="L12" href="#L12">12</a>    <strong class="jxr_keyword">private</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/StockService.html">StockService</a> theStockService;
+<a class="jxr_linenumber" name="L13" href="#L13">13</a>  
+<a class="jxr_linenumber" name="L14" href="#L14">14</a>    <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L15" href="#L15">15</a>  <em class="jxr_javadoccomment">   * Getter for field order.</em>
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>  <em class="jxr_javadoccomment">   *</em>
+<a class="jxr_linenumber" name="L17" href="#L17">17</a>  <em class="jxr_javadoccomment">   * @return the order in this order manager.</em>
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>  <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L19" href="#L19">19</a>    <strong class="jxr_keyword">public</strong> HashMap&lt;String, Integer&gt; getOrder() {
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>      <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">this</strong>.order;
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>    }
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>  
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>    <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>  <em class="jxr_javadoccomment">   * Setter for field order.</em>
+<a class="jxr_linenumber" name="L25" href="#L25">25</a>  <em class="jxr_javadoccomment">   *</em>
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>  <em class="jxr_javadoccomment">   * @param order an order.</em>
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>  <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setOrder(HashMap&lt;String, Integer&gt; order) {
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>      <strong class="jxr_keyword">this</strong>.order = order;
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>    }
+<a class="jxr_linenumber" name="L31" href="#L31">31</a>  
+<a class="jxr_linenumber" name="L32" href="#L32">32</a>    <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L33" href="#L33">33</a>  <em class="jxr_javadoccomment">   * Setter for field theStockService.</em>
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>  <em class="jxr_javadoccomment">   *</em>
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>  <em class="jxr_javadoccomment">   * @param newStockService a new stock service.</em>
+<a class="jxr_linenumber" name="L36" href="#L36">36</a>  <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L37" href="#L37">37</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setStockService(<a href="../../../../../edu/neu/ccs/cs5010/assignment2/StockService.html">StockService</a> newStockService) {
+<a class="jxr_linenumber" name="L38" href="#L38">38</a>      <strong class="jxr_keyword">this</strong>.theStockService = newStockService;
+<a class="jxr_linenumber" name="L39" href="#L39">39</a>    }
+<a class="jxr_linenumber" name="L40" href="#L40">40</a>  
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>    <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L42" href="#L42">42</a>  <em class="jxr_javadoccomment">   * take a SKU# as an argument and add that item to the current order if that item is in stock. It</em>
+<a class="jxr_linenumber" name="L43" href="#L43">43</a>  <em class="jxr_javadoccomment">   * should give useful feedback by standard output indicating whether the item was added to the</em>
+<a class="jxr_linenumber" name="L44" href="#L44">44</a>  <em class="jxr_javadoccomment">   * order (a SKU# that is not in stock should not be added, and the user should be informed of the</em>
+<a class="jxr_linenumber" name="L45" href="#L45">45</a>  <em class="jxr_javadoccomment">   * issue).</em>
+<a class="jxr_linenumber" name="L46" href="#L46">46</a>  <em class="jxr_javadoccomment">   *</em>
+<a class="jxr_linenumber" name="L47" href="#L47">47</a>  <em class="jxr_javadoccomment">   * @param newSku the new sku</em>
+<a class="jxr_linenumber" name="L48" href="#L48">48</a>  <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> addToOrder(String newSku) {
+<a class="jxr_linenumber" name="L50" href="#L50">50</a>      <strong class="jxr_keyword">if</strong> (newSku == <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L51" href="#L51">51</a>        <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/NullValueException.html">NullValueException</a>(<span class="jxr_string">"Provided SKU# is null."</span>);
+<a class="jxr_linenumber" name="L52" href="#L52">52</a>      }
+<a class="jxr_linenumber" name="L53" href="#L53">53</a>      <strong class="jxr_keyword">if</strong> (newSku.length() == 0) {
+<a class="jxr_linenumber" name="L54" href="#L54">54</a>        <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/InvalidConstructorArgumentsException.html">InvalidConstructorArgumentsException</a>(<span class="jxr_string">"Provided SKU# is invalid."</span>);
+<a class="jxr_linenumber" name="L55" href="#L55">55</a>      }
+<a class="jxr_linenumber" name="L56" href="#L56">56</a>  
+<a class="jxr_linenumber" name="L57" href="#L57">57</a>      <strong class="jxr_keyword">if</strong> (theStockService.getStock().containsKey(newSku)) {
+<a class="jxr_linenumber" name="L58" href="#L58">58</a>        <strong class="jxr_keyword">if</strong> (<strong class="jxr_keyword">this</strong>.order.containsKey(newSku) || <strong class="jxr_keyword">this</strong>.order.get(newSku) != <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L59" href="#L59">59</a>          Integer newCount = Integer.valueOf(<strong class="jxr_keyword">this</strong>.order.get(newSku).intValue() + 1);
+<a class="jxr_linenumber" name="L60" href="#L60">60</a>          <strong class="jxr_keyword">this</strong>.order.put(newSku, newCount);
+<a class="jxr_linenumber" name="L61" href="#L61">61</a>        } <strong class="jxr_keyword">else</strong> {
+<a class="jxr_linenumber" name="L62" href="#L62">62</a>          <strong class="jxr_keyword">this</strong>.order.put(newSku, 1);
+<a class="jxr_linenumber" name="L63" href="#L63">63</a>        }
+<a class="jxr_linenumber" name="L64" href="#L64">64</a>        System.out.println(
+<a class="jxr_linenumber" name="L65" href="#L65">65</a>            theStockService.getStock().get(newSku).getCategory() + <span class="jxr_string">" SKU# "</span> + newSku
+<a class="jxr_linenumber" name="L66" href="#L66">66</a>                + <span class="jxr_string">" is added to the order."</span>);
+<a class="jxr_linenumber" name="L67" href="#L67">67</a>      } <strong class="jxr_keyword">else</strong> {
+<a class="jxr_linenumber" name="L68" href="#L68">68</a>        System.out.println(
+<a class="jxr_linenumber" name="L69" href="#L69">69</a>            <span class="jxr_string">"Provided item with SKU# "</span> + newSku + <span class="jxr_string">" is not in stock, cannot be added to the order."</span>);
+<a class="jxr_linenumber" name="L70" href="#L70">70</a>      }
+<a class="jxr_linenumber" name="L71" href="#L71">71</a>    }
+<a class="jxr_linenumber" name="L72" href="#L72">72</a>  
+<a class="jxr_linenumber" name="L73" href="#L73">73</a>    <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L74" href="#L74">74</a>  <em class="jxr_javadoccomment">   * take a SKU# as an argument and remove one instance of that item from the current order. It</em>
+<a class="jxr_linenumber" name="L75" href="#L75">75</a>  <em class="jxr_javadoccomment">   * should give useful feedback via standard output as to whether the item was removed.</em>
+<a class="jxr_linenumber" name="L76" href="#L76">76</a>  <em class="jxr_javadoccomment">   *</em>
+<a class="jxr_linenumber" name="L77" href="#L77">77</a>  <em class="jxr_javadoccomment">   * @param newSku the new sku</em>
+<a class="jxr_linenumber" name="L78" href="#L78">78</a>  <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L79" href="#L79">79</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> removeOneFromOrder(String newSku) {
+<a class="jxr_linenumber" name="L80" href="#L80">80</a>      <strong class="jxr_keyword">if</strong> (newSku == <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L81" href="#L81">81</a>        <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/NullValueException.html">NullValueException</a>(<span class="jxr_string">"Provided SKU# is null."</span>);
+<a class="jxr_linenumber" name="L82" href="#L82">82</a>      }
+<a class="jxr_linenumber" name="L83" href="#L83">83</a>      <strong class="jxr_keyword">if</strong> (newSku.length() == 0) {
+<a class="jxr_linenumber" name="L84" href="#L84">84</a>        <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/InvalidConstructorArgumentsException.html">InvalidConstructorArgumentsException</a>(<span class="jxr_string">"Provided SKU# is invalid."</span>);
+<a class="jxr_linenumber" name="L85" href="#L85">85</a>      }
+<a class="jxr_linenumber" name="L86" href="#L86">86</a>      <strong class="jxr_keyword">if</strong> (!order.containsKey(newSku)) {
+<a class="jxr_linenumber" name="L87" href="#L87">87</a>        System.out.println(<span class="jxr_string">"No item in the order matches provided SKU#."</span>);
+<a class="jxr_linenumber" name="L88" href="#L88">88</a>      } <strong class="jxr_keyword">else</strong> {
+<a class="jxr_linenumber" name="L89" href="#L89">89</a>        Integer newCount = Integer.valueOf(order.get(newSku).intValue() - 1);
+<a class="jxr_linenumber" name="L90" href="#L90">90</a>        <strong class="jxr_keyword">this</strong>.order.put(newSku, newCount);
+<a class="jxr_linenumber" name="L91" href="#L91">91</a>        System.out.println(<span class="jxr_string">"One item by SKU# "</span> + newSku + <span class="jxr_string">" is removed from the order, "</span> + newCount
+<a class="jxr_linenumber" name="L92" href="#L92">92</a>            + <span class="jxr_string">" of such item is left in the order."</span>);
+<a class="jxr_linenumber" name="L93" href="#L93">93</a>        <strong class="jxr_keyword">if</strong> (newCount == 0) {
+<a class="jxr_linenumber" name="L94" href="#L94">94</a>          order.remove(newSku);
+<a class="jxr_linenumber" name="L95" href="#L95">95</a>        } 
+<a class="jxr_linenumber" name="L96" href="#L96">96</a>      }
+<a class="jxr_linenumber" name="L97" href="#L97">97</a>    }
+<a class="jxr_linenumber" name="L98" href="#L98">98</a>  
+<a class="jxr_linenumber" name="L99" href="#L99">99</a>    <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L100" href="#L100">100</a> <em class="jxr_javadoccomment">   * confirm that all items in the current order conform to the same measurement system. It should</em>
+<a class="jxr_linenumber" name="L101" href="#L101">101</a> <em class="jxr_javadoccomment">   * return a Boolean value ("true" if all items conform and "false" if the order includes mixed</em>
+<a class="jxr_linenumber" name="L102" href="#L102">102</a> <em class="jxr_javadoccomment">   * measurement systems). It should also print a report to the standard output giving useful</em>
+<a class="jxr_linenumber" name="L103" href="#L103">103</a> <em class="jxr_javadoccomment">   * information about the measurements (it is up to you to decide what this method should report).</em>
+<a class="jxr_linenumber" name="L104" href="#L104">104</a> <em class="jxr_javadoccomment">   *</em>
+<a class="jxr_linenumber" name="L105" href="#L105">105</a> <em class="jxr_javadoccomment">   * @return the boolean</em>
+<a class="jxr_linenumber" name="L106" href="#L106">106</a> <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L107" href="#L107">107</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> validateMeasurementSystem() {
+<a class="jxr_linenumber" name="L108" href="#L108">108</a>     <strong class="jxr_keyword">if</strong> (<strong class="jxr_keyword">this</strong>.order == <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L109" href="#L109">109</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/NullValueException.html">NullValueException</a>(<span class="jxr_string">"Provided order is empty."</span>);
+<a class="jxr_linenumber" name="L110" href="#L110">110</a>     }
+<a class="jxr_linenumber" name="L111" href="#L111">111</a>     <strong class="jxr_keyword">if</strong> (order.isEmpty()) {
+<a class="jxr_linenumber" name="L112" href="#L112">112</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/InvalidHashMapKeyException.html">InvalidHashMapKeyException</a>(<span class="jxr_string">"Provided order is empty."</span>);
+<a class="jxr_linenumber" name="L113" href="#L113">113</a>     }
+<a class="jxr_linenumber" name="L114" href="#L114">114</a>     Boolean result = false;
+<a class="jxr_linenumber" name="L115" href="#L115">115</a>     String[] keyArray = <strong class="jxr_keyword">this</strong>.order.keySet().toArray(<strong class="jxr_keyword">new</strong> String[0]);
+<a class="jxr_linenumber" name="L116" href="#L116">116</a>     String firstMmeasurementSystem = <strong class="jxr_keyword">this</strong>.theStockService.getStock().get(keyArray[0]).getSom()
+<a class="jxr_linenumber" name="L117" href="#L117">117</a>         .name();
+<a class="jxr_linenumber" name="L118" href="#L118">118</a>     <strong class="jxr_keyword">for</strong> (String nextKey : keyArray) {
+<a class="jxr_linenumber" name="L119" href="#L119">119</a>       <strong class="jxr_keyword">if</strong> (!firstMmeasurementSystem
+<a class="jxr_linenumber" name="L120" href="#L120">120</a>           .contentEquals(theStockService.getStock().get(nextKey).getSom().name())) {
+<a class="jxr_linenumber" name="L121" href="#L121">121</a>         result = false;
+<a class="jxr_linenumber" name="L122" href="#L122">122</a>       } <strong class="jxr_keyword">else</strong> {
+<a class="jxr_linenumber" name="L123" href="#L123">123</a>         result = <strong class="jxr_keyword">true</strong>;
+<a class="jxr_linenumber" name="L124" href="#L124">124</a>       }
+<a class="jxr_linenumber" name="L125" href="#L125">125</a>     }
+<a class="jxr_linenumber" name="L126" href="#L126">126</a>     <strong class="jxr_keyword">if</strong> (result) {
+<a class="jxr_linenumber" name="L127" href="#L127">127</a>       System.out
+<a class="jxr_linenumber" name="L128" href="#L128">128</a>           .println(<span class="jxr_string">"This order contains items only in "</span> + firstMmeasurementSystem + <span class="jxr_string">" system."</span>);
+<a class="jxr_linenumber" name="L129" href="#L129">129</a>     } <strong class="jxr_keyword">else</strong> {
+<a class="jxr_linenumber" name="L130" href="#L130">130</a>       System.out.println(<span class="jxr_string">"This order contains items of mixed measurement system."</span>);
+<a class="jxr_linenumber" name="L131" href="#L131">131</a>     }
+<a class="jxr_linenumber" name="L132" href="#L132">132</a>     <strong class="jxr_keyword">return</strong> result;
+<a class="jxr_linenumber" name="L133" href="#L133">133</a>   }
+<a class="jxr_linenumber" name="L134" href="#L134">134</a> 
+<a class="jxr_linenumber" name="L135" href="#L135">135</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L136" href="#L136">136</a> <em class="jxr_javadoccomment">   * take a measurement system (metric or standard) as an argument and delete all items in the order</em>
+<a class="jxr_linenumber" name="L137" href="#L137">137</a> <em class="jxr_javadoccomment">   * that do not conform to that measurement system, leaving only those items in the order that do</em>
+<a class="jxr_linenumber" name="L138" href="#L138">138</a> <em class="jxr_javadoccomment">   * conform to the measurement system.</em>
+<a class="jxr_linenumber" name="L139" href="#L139">139</a> <em class="jxr_javadoccomment">   *</em>
+<a class="jxr_linenumber" name="L140" href="#L140">140</a> <em class="jxr_javadoccomment">   * @param measurementSystem the measurement system</em>
+<a class="jxr_linenumber" name="L141" href="#L141">141</a> <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L142" href="#L142">142</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> filterByMeasurementSystem(String measurementSystem) {
+<a class="jxr_linenumber" name="L143" href="#L143">143</a>     <strong class="jxr_keyword">if</strong> (<strong class="jxr_keyword">this</strong>.order == <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L144" href="#L144">144</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/NullValueException.html">NullValueException</a>(<span class="jxr_string">"Provided order is null."</span>);
+<a class="jxr_linenumber" name="L145" href="#L145">145</a>     }
+<a class="jxr_linenumber" name="L146" href="#L146">146</a>     <strong class="jxr_keyword">if</strong> (measurementSystem == <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L147" href="#L147">147</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/NullValueException.html">NullValueException</a>(<span class="jxr_string">"Provided measurement system input is null."</span>);
+<a class="jxr_linenumber" name="L148" href="#L148">148</a>     }
+<a class="jxr_linenumber" name="L149" href="#L149">149</a>     <strong class="jxr_keyword">if</strong> (measurementSystem.length() == 0) {
+<a class="jxr_linenumber" name="L150" href="#L150">150</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/InvalidConstructorArgumentsException.html">InvalidConstructorArgumentsException</a>(<span class="jxr_string">"Provided measurement system is invalid."</span>);
+<a class="jxr_linenumber" name="L151" href="#L151">151</a>     }
+<a class="jxr_linenumber" name="L152" href="#L152">152</a>     String[] keyArray = <strong class="jxr_keyword">this</strong>.order.keySet().toArray(<strong class="jxr_keyword">new</strong> String[0]);
+<a class="jxr_linenumber" name="L153" href="#L153">153</a>     <strong class="jxr_keyword">for</strong> (String nextKey : keyArray) {
+<a class="jxr_linenumber" name="L154" href="#L154">154</a>       <strong class="jxr_keyword">if</strong> (!theStockService.getStock().get(nextKey).getSom().name()
+<a class="jxr_linenumber" name="L155" href="#L155">155</a>           .contentEquals(measurementSystem)) {
+<a class="jxr_linenumber" name="L156" href="#L156">156</a>         order.remove(nextKey);
+<a class="jxr_linenumber" name="L157" href="#L157">157</a>       }
+<a class="jxr_linenumber" name="L158" href="#L158">158</a>     }
+<a class="jxr_linenumber" name="L159" href="#L159">159</a>   }
+<a class="jxr_linenumber" name="L160" href="#L160">160</a> 
+<a class="jxr_linenumber" name="L161" href="#L161">161</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L162" href="#L162">162</a> <em class="jxr_javadoccomment">   * check each item in the order for its category (e.g. "Precision Ball Bearings") and return the</em>
+<a class="jxr_linenumber" name="L163" href="#L163">163</a> <em class="jxr_javadoccomment">   * category if all items  share the same category, and return "Mixed" if the order contains items</em>
+<a class="jxr_linenumber" name="L164" href="#L164">164</a> <em class="jxr_javadoccomment">   * of different categories.</em>
+<a class="jxr_linenumber" name="L165" href="#L165">165</a> <em class="jxr_javadoccomment">   *</em>
+<a class="jxr_linenumber" name="L166" href="#L166">166</a> <em class="jxr_javadoccomment">   * @return the string</em>
+<a class="jxr_linenumber" name="L167" href="#L167">167</a> <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L168" href="#L168">168</a>   <strong class="jxr_keyword">public</strong> String orderCategory() {
+<a class="jxr_linenumber" name="L169" href="#L169">169</a>     <strong class="jxr_keyword">if</strong> (<strong class="jxr_keyword">this</strong>.order == <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L170" href="#L170">170</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/NullValueException.html">NullValueException</a>(<span class="jxr_string">"Provided order is null."</span>);
+<a class="jxr_linenumber" name="L171" href="#L171">171</a>     }
+<a class="jxr_linenumber" name="L172" href="#L172">172</a>     <strong class="jxr_keyword">if</strong> (order.isEmpty()) {
+<a class="jxr_linenumber" name="L173" href="#L173">173</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/InvalidHashMapKeyException.html">InvalidHashMapKeyException</a>(<span class="jxr_string">"Provided order is empty."</span>);
+<a class="jxr_linenumber" name="L174" href="#L174">174</a>     }
+<a class="jxr_linenumber" name="L175" href="#L175">175</a>     String[] keyArray = order.keySet().toArray(<strong class="jxr_keyword">new</strong> String[0]);
+<a class="jxr_linenumber" name="L176" href="#L176">176</a>     String firstItemCategory = theStockService.getStock().get(keyArray[0]).getCategory();
+<a class="jxr_linenumber" name="L177" href="#L177">177</a>     <strong class="jxr_keyword">for</strong> (String nextKey : keyArray) {
+<a class="jxr_linenumber" name="L178" href="#L178">178</a>       <strong class="jxr_keyword">if</strong> (!firstItemCategory
+<a class="jxr_linenumber" name="L179" href="#L179">179</a>           .contentEquals(theStockService.getStock().get(nextKey).getCategory())) {
+<a class="jxr_linenumber" name="L180" href="#L180">180</a>         <strong class="jxr_keyword">return</strong> <span class="jxr_string">"Mixed"</span>;
+<a class="jxr_linenumber" name="L181" href="#L181">181</a>       }
+<a class="jxr_linenumber" name="L182" href="#L182">182</a>     }
+<a class="jxr_linenumber" name="L183" href="#L183">183</a>     <strong class="jxr_keyword">return</strong> firstItemCategory;
+<a class="jxr_linenumber" name="L184" href="#L184">184</a>   }
+<a class="jxr_linenumber" name="L185" href="#L185">185</a> 
+<a class="jxr_linenumber" name="L186" href="#L186">186</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L187" href="#L187">187</a> <em class="jxr_javadoccomment">   * print out (to standard output) a tabulated report of the current order listing the category,</em>
+<a class="jxr_linenumber" name="L188" href="#L188">188</a> <em class="jxr_javadoccomment">   * SKU#, and price of each item in the order, with the total cost at the bottom of the report.</em>
+<a class="jxr_linenumber" name="L189" href="#L189">189</a> <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L190" href="#L190">190</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> printDocket() {
+<a class="jxr_linenumber" name="L191" href="#L191">191</a>     Integer totalPriceInCent = 0;
+<a class="jxr_linenumber" name="L192" href="#L192">192</a>     <strong class="jxr_keyword">if</strong> (<strong class="jxr_keyword">this</strong>.order == <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L193" href="#L193">193</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/NullValueException.html">NullValueException</a>(<span class="jxr_string">"Provided order is null."</span>);
+<a class="jxr_linenumber" name="L194" href="#L194">194</a>     }
+<a class="jxr_linenumber" name="L195" href="#L195">195</a>     <strong class="jxr_keyword">if</strong> (order.isEmpty()) {
+<a class="jxr_linenumber" name="L196" href="#L196">196</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/InvalidHashMapKeyException.html">InvalidHashMapKeyException</a>(<span class="jxr_string">"Provided order is empty."</span>);
+<a class="jxr_linenumber" name="L197" href="#L197">197</a>     }
+<a class="jxr_linenumber" name="L198" href="#L198">198</a>     String[] keyArray = order.keySet().toArray(<strong class="jxr_keyword">new</strong> String[0]);
+<a class="jxr_linenumber" name="L199" href="#L199">199</a>     <strong class="jxr_keyword">for</strong> (String nextKey : keyArray) {
+<a class="jxr_linenumber" name="L200" href="#L200">200</a>       System.out.println(
+<a class="jxr_linenumber" name="L201" href="#L201">201</a>           theStockService.getStock().get(nextKey).getCategory() + <span class="jxr_string">" "</span> + nextKey + <span class="jxr_string">" "</span>
+<a class="jxr_linenumber" name="L202" href="#L202">202</a>               + theStockService.getStock().get(nextKey).getPrice().printPrice());
+<a class="jxr_linenumber" name="L203" href="#L203">203</a>       totalPriceInCent += theStockService.getStock().get(nextKey).getPrice().getPriceInCent();
+<a class="jxr_linenumber" name="L204" href="#L204">204</a>     }
+<a class="jxr_linenumber" name="L205" href="#L205">205</a>     StringBuffer strbdr = <strong class="jxr_keyword">new</strong> StringBuffer()
+<a class="jxr_linenumber" name="L206" href="#L206">206</a>         .append(theStockService.getStock().get(keyArray[0]).getPrice().getCurrency())
+<a class="jxr_linenumber" name="L207" href="#L207">207</a>         .append(((<strong class="jxr_keyword">double</strong>) totalPriceInCent / 100.00));
+<a class="jxr_linenumber" name="L208" href="#L208">208</a>     System.out.print(strbdr.toString());
+<a class="jxr_linenumber" name="L209" href="#L209">209</a>   }
+<a class="jxr_linenumber" name="L210" href="#L210">210</a> 
+<a class="jxr_linenumber" name="L211" href="#L211">211</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="L212" href="#L212">212</a> <em class="jxr_javadoccomment">   * take two arbitrary stock item SKU#s and determine whether they represent a shaft/shaft-mounted</em>
+<a class="jxr_linenumber" name="L213" href="#L213">213</a> <em class="jxr_javadoccomment">   * pair of items for which the diameter of the shaft matches the "for shaft diameter" value of the</em>
+<a class="jxr_linenumber" name="L214" href="#L214">214</a> <em class="jxr_javadoccomment">   * shaft-mounted part. It should return a Boolean value representing whether the two items fit</em>
+<a class="jxr_linenumber" name="L215" href="#L215">215</a> <em class="jxr_javadoccomment">   * each other. If so, it should print a report to standard output following the given format.</em>
+<a class="jxr_linenumber" name="L216" href="#L216">216</a> <em class="jxr_javadoccomment">   *</em>
+<a class="jxr_linenumber" name="L217" href="#L217">217</a> <em class="jxr_javadoccomment">   * @param sku1 the sku 1</em>
+<a class="jxr_linenumber" name="L218" href="#L218">218</a> <em class="jxr_javadoccomment">   * @param sku2 the sku 2</em>
+<a class="jxr_linenumber" name="L219" href="#L219">219</a> <em class="jxr_javadoccomment">   * @return the boolean</em>
+<a class="jxr_linenumber" name="L220" href="#L220">220</a> <em class="jxr_javadoccomment">   */</em>
+<a class="jxr_linenumber" name="L221" href="#L221">221</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">boolean</strong> checkFit(String sku1, String sku2) {
+<a class="jxr_linenumber" name="L222" href="#L222">222</a>     String category1;
+<a class="jxr_linenumber" name="L223" href="#L223">223</a>     String category2;
+<a class="jxr_linenumber" name="L224" href="#L224">224</a>     <a href="../../../../../edu/neu/ccs/cs5010/assignment2/SystemOfMeasurement.html">SystemOfMeasurement</a> som1;
+<a class="jxr_linenumber" name="L225" href="#L225">225</a>     <a href="../../../../../edu/neu/ccs/cs5010/assignment2/SystemOfMeasurement.html">SystemOfMeasurement</a> som2;
+<a class="jxr_linenumber" name="L226" href="#L226">226</a>     <strong class="jxr_keyword">if</strong> (sku1 == <strong class="jxr_keyword">null</strong> || sku2 == <strong class="jxr_keyword">null</strong>) {
+<a class="jxr_linenumber" name="L227" href="#L227">227</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/NullValueException.html">NullValueException</a>(<span class="jxr_string">"Provided SKU# is null."</span>);
+<a class="jxr_linenumber" name="L228" href="#L228">228</a>     }
+<a class="jxr_linenumber" name="L229" href="#L229">229</a>     <strong class="jxr_keyword">if</strong> (sku1.length() == 0 || sku2.length() == 0) {
+<a class="jxr_linenumber" name="L230" href="#L230">230</a>       <strong class="jxr_keyword">throw</strong> <strong class="jxr_keyword">new</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/InvalidConstructorArgumentsException.html">InvalidConstructorArgumentsException</a>(<span class="jxr_string">"Provided SKU# is invalid."</span>);
+<a class="jxr_linenumber" name="L231" href="#L231">231</a>     }
+<a class="jxr_linenumber" name="L232" href="#L232">232</a>     <strong class="jxr_keyword">if</strong> (!theStockService.getStock().containsKey(sku1) &amp;&amp; !theStockService.getStock()
+<a class="jxr_linenumber" name="L233" href="#L233">233</a>         .containsKey(sku2)) {
+<a class="jxr_linenumber" name="L234" href="#L234">234</a>       StringBuilder errorMsg3 = <strong class="jxr_keyword">new</strong> StringBuilder();
+<a class="jxr_linenumber" name="L235" href="#L235">235</a>       errorMsg3.append(<span class="jxr_string">"No item in the stock matches provided SKU# "</span>).append(sku1).append(<span class="jxr_string">" and "</span>)
+<a class="jxr_linenumber" name="L236" href="#L236">236</a>           .append(sku2).append(<span class="jxr_string">"."</span>);
+<a class="jxr_linenumber" name="L237" href="#L237">237</a>       System.out.println(errorMsg3.toString());
+<a class="jxr_linenumber" name="L238" href="#L238">238</a>     } <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (!theStockService.getStock().containsKey(sku1)) {
+<a class="jxr_linenumber" name="L239" href="#L239">239</a>       StringBuilder errorMsg1 = <strong class="jxr_keyword">new</strong> StringBuilder();
+<a class="jxr_linenumber" name="L240" href="#L240">240</a>       errorMsg1.append(<span class="jxr_string">"No item in the stock matches provided SKU# "</span>).append(sku1).append(<span class="jxr_string">"."</span>);
+<a class="jxr_linenumber" name="L241" href="#L241">241</a>       System.out.println(errorMsg1.toString());
+<a class="jxr_linenumber" name="L242" href="#L242">242</a>     } <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (!theStockService.getStock().containsKey(sku2)) {
+<a class="jxr_linenumber" name="L243" href="#L243">243</a>       StringBuilder errorMsg2 = <strong class="jxr_keyword">new</strong> StringBuilder();
+<a class="jxr_linenumber" name="L244" href="#L244">244</a>       errorMsg2.append(<span class="jxr_string">"No item in the stock matches provided SKU# "</span>).append(sku2).append(<span class="jxr_string">"."</span>);
+<a class="jxr_linenumber" name="L245" href="#L245">245</a>       System.out.println(errorMsg2.toString());
+<a class="jxr_linenumber" name="L246" href="#L246">246</a>     } <strong class="jxr_keyword">else</strong> {
+<a class="jxr_linenumber" name="L247" href="#L247">247</a>       category1 = theStockService.getStock().get(sku1).getCategory();
+<a class="jxr_linenumber" name="L248" href="#L248">248</a>       category2 = theStockService.getStock().get(sku2).getCategory();
+<a class="jxr_linenumber" name="L249" href="#L249">249</a>       som1 = theStockService.getStock().get(sku1).getSom();
+<a class="jxr_linenumber" name="L250" href="#L250">250</a>       som2 = theStockService.getStock().get(sku2).getSom();
+<a class="jxr_linenumber" name="L251" href="#L251">251</a>       <strong class="jxr_keyword">if</strong> ((!category1.contains(<span class="jxr_string">"Rotary Shaft"</span>) &amp;&amp; !category2
+<a class="jxr_linenumber" name="L252" href="#L252">252</a>           .contains(<span class="jxr_string">"Rotary Shaft"</span>)) || (
+<a class="jxr_linenumber" name="L253" href="#L253">253</a>           category1.contains(<span class="jxr_string">"Rotary Shaft"</span>) &amp;&amp; category2.contains(<span class="jxr_string">"Rotary Shaft"</span>))) {
+<a class="jxr_linenumber" name="L254" href="#L254">254</a>         System.out.println(<span class="jxr_string">"Not a shaft/shaft-mounted pair."</span>);
+<a class="jxr_linenumber" name="L255" href="#L255">255</a>       } <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (!som1.equals(som2)) {
+<a class="jxr_linenumber" name="L256" href="#L256">256</a>         System.out.println(<span class="jxr_string">"System of Measurement don't match."</span>);
+<a class="jxr_linenumber" name="L257" href="#L257">257</a>       } <strong class="jxr_keyword">else</strong> <strong class="jxr_keyword">if</strong> (category1.contains(<span class="jxr_string">"Rotary Shaft"</span>)) {
+<a class="jxr_linenumber" name="L258" href="#L258">258</a>         <strong class="jxr_keyword">if</strong> (theStockService.getStock().get(sku1).getShaft()
+<a class="jxr_linenumber" name="L259" href="#L259">259</a>             .equals(theStockService.getStock().get(sku2).getShaft())) {
+<a class="jxr_linenumber" name="L260" href="#L260">260</a>           StringBuilder resMsg1 = <strong class="jxr_keyword">new</strong> StringBuilder();
+<a class="jxr_linenumber" name="L261" href="#L261">261</a>           resMsg1.append(theStockService.getStock().get(sku2).getCategory()).append(<span class="jxr_string">" SKU# "</span>)
+<a class="jxr_linenumber" name="L262" href="#L262">262</a>               .append(sku2).append(<span class="jxr_string">" for "</span>)
+<a class="jxr_linenumber" name="L263" href="#L263">263</a>               .append(theStockService.getStock().get(sku2).getShaft().printMeasurement())
+<a class="jxr_linenumber" name="L264" href="#L264">264</a>               .append(<span class="jxr_string">" shaft fits on Rotary Shafts SKU# "</span>).append(sku1);
+<a class="jxr_linenumber" name="L265" href="#L265">265</a>           System.out.println(resMsg1.toString());
+<a class="jxr_linenumber" name="L266" href="#L266">266</a>           <strong class="jxr_keyword">return</strong> <strong class="jxr_keyword">true</strong>;
+<a class="jxr_linenumber" name="L267" href="#L267">267</a>         } <strong class="jxr_keyword">else</strong> {
+<a class="jxr_linenumber" name="L268" href="#L268">268</a>           StringBuilder resMsg2 = <strong class="jxr_keyword">new</strong> StringBuilder();
+<a class="jxr_linenumber" name="L269" href="#L269">269</a>           resMsg2.append(theStockService.getStock().get(sku2).getCategory()).append(<span class="jxr_string">" SKU# "</span>)
+<a class="jxr_linenumber" name="L270" href="#L270">270</a>               .append(sku2).append(<span class="jxr_string">" for "</span>)
+<a class="jxr_linenumber" name="L271" href="#L271">271</a>               .append(theStockService.getStock().get(sku2).getShaft().printMeasurement())
+<a class="jxr_linenumber" name="L272" href="#L272">272</a>               .append(<span class="jxr_string">" shaft does not fit on Rotary Shafts SKU# "</span>).append(sku1);
+<a class="jxr_linenumber" name="L273" href="#L273">273</a>           System.out.println(resMsg2);
+<a class="jxr_linenumber" name="L274" href="#L274">274</a>           <strong class="jxr_keyword">return</strong> false;
+<a class="jxr_linenumber" name="L275" href="#L275">275</a>         }
+<a class="jxr_linenumber" name="L276" href="#L276">276</a>       }
+<a class="jxr_linenumber" name="L277" href="#L277">277</a>     }
+<a class="jxr_linenumber" name="L278" href="#L278">278</a>     <strong class="jxr_keyword">return</strong> false;
+<a class="jxr_linenumber" name="L279" href="#L279">279</a>   }
+<a class="jxr_linenumber" name="L280" href="#L280">280</a> 
+<a class="jxr_linenumber" name="L281" href="#L281">281</a> }
+</pre>
+<hr/>
+<div id="footer">Copyright &#169; 2018. All rights reserved.</div>
+</body>
+</html>

@@ -1,0 +1,1720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9225bb9-5b1e-4947-8764-34129d5ce6ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/classes/edu/neu/ccs/cs5010/assignment3/ReservationSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/classes/edu/neu/ccs/cs5010/assignment3/ReservationSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/findbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/findbugsXml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidConstructorArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidConstructorArgumentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidNumberOfSeatException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidNumberOfSeatException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidUserInputException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidUserInputException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/NullValueException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/NullValueException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationsService.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationsService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Row.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Row.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Seat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Seat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Theater.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Theater.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidConstructorArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidConstructorArgumentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidNumberOfSeatException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidNumberOfSeatException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidUserInputException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidUserInputException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/NullValueException.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/NullValueException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationsService.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationsService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Row.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Row.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Seat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Seat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Theater.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Theater.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/apidocs/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/checkstyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/dependency-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/distribution-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/distribution-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/findbugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/findbugs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/integration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/issue-tracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/issue-tracking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/.sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/.sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/license.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/license.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/mail-lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/mail-lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/plugin-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/pmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/pmd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/project-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/project-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/project-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/source-repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/source-repository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/team-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/team-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/site/xref/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/site/xref/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.RowTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.RowTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.SeatTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.SeatTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.TheaterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.TheaterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.RowTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.RowTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.SeatTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.SeatTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.TheaterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.TheaterTest.txt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/assignment2$SystemOfMeasurementTest.ic" NAME="SystemOfMeasurementTest Coverage Results" MODIFIED="1537682478038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$BallbearingTest_setSealType.ic" NAME="BallbearingTest.setSealType Coverage Results" MODIFIED="1537679615302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$MeasurementTest_getValue3.ic" NAME="MeasurementTest.getValue3 Coverage Results" MODIFIED="1537682917431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_validateMeasurementSystem5.ic" NAME="OrderManagerTest.validateMeasurementSystem5 Coverage Results" MODIFIED="1538439846376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$edu_neu_ccs_cs5010_assignment2_problem1_in_assignment2_timzyt.ic" NAME="edu.neu.ccs.cs5010.assignment2.problem1 in assignment2-timzyt Coverage Results" MODIFIED="1537839100693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_validateMeasurementSystem.ic" NAME="OrderManagerTest.validateMeasurementSystem Coverage Results" MODIFIED="1538437656459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$CategoryTest_testValueOf.ic" NAME="CategoryTest.testValueOf Coverage Results" MODIFIED="1537656462074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_removeOneFromOrder3.ic" NAME="OrderManagerTest.removeOneFromOrder3 Coverage Results" MODIFIED="1538436882599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PriceTest_setCurrency3.ic" NAME="PriceTest.setCurrency3 Coverage Results" MODIFIED="1537681724854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PriceTest_printPrice2.ic" NAME="PriceTest.printPrice2 Coverage Results" MODIFIED="1538427764242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_getPrice.ic" NAME="RotaryShaftTest.getPrice Coverage Results" MODIFIED="1537644884846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest__1_.ic" NAME="PrecisionBallBearingTest (1) Coverage Results" MODIFIED="1538358777236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setSom.ic" NAME="RotaryShaftTest.setSom Coverage Results" MODIFIED="1537645537639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_testRotaryShaftConstructor2.ic" NAME="RotaryShaftTest.testRotaryShaftConstructor2 Coverage Results" MODIFIED="1538360117987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PriceTest.ic" NAME="PriceTest Coverage Results" MODIFIED="1538428649351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_addToOrder.ic" NAME="OrderManagerTest.addToOrder Coverage Results" MODIFIED="1538433379777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_checkFit10.ic" NAME="OrderManagerTest.checkFit10 Coverage Results" MODIFIED="1538598991838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_getShaft.ic" NAME="RotaryShaftTest.getShaft Coverage Results" MODIFIED="1538428593018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_addToOrder4.ic" NAME="OrderManagerTest.addToOrder4 Coverage Results" MODIFIED="1538435321721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$SprocketTest_fitsShaft.ic" NAME="SprocketTest.fitsShaft Coverage Results" MODIFIED="1537651832546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setPrice2.ic" NAME="RotaryShaftTest.setPrice2 Coverage Results" MODIFIED="1537682084165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$FractionTest_testFrac2Str1.ic" NAME="FractionTest.testFrac2Str1 Coverage Results" MODIFIED="1538429591955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PriceTest_testPrice2.ic" NAME="PriceTest.testPrice2 Coverage Results" MODIFIED="1537681644029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest_getShaft.ic" NAME="PrecisionBallBearingTest.getShaft Coverage Results" MODIFIED="1538428510044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$MeasurementTest_getValue.ic" NAME="MeasurementTest.getValue Coverage Results" MODIFIED="1537648706790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setSku1.ic" NAME="RotaryShaftTest.setSku1 Coverage Results" MODIFIED="1537682008337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setLength1.ic" NAME="RotaryShaftTest.setLength1 Coverage Results" MODIFIED="1537682164918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_removeOneFromOrder2.ic" NAME="OrderManagerTest.removeOneFromOrder2 Coverage Results" MODIFIED="1538449464969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setSku.ic" NAME="RotaryShaftTest.setSku Coverage Results" MODIFIED="1537637475437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setPrice.ic" NAME="RotaryShaftTest.setPrice Coverage Results" MODIFIED="1537641960828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$FractionTest_testFrac2Str.ic" NAME="FractionTest.testFrac2Str Coverage Results" MODIFIED="1538429939350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$edu_neu_ccs_cs5010_assignment2_in_assignment2_timzyt.ic" NAME="edu.neu.ccs.cs5010.assignment2 in assignment2-timzyt Coverage Results" MODIFIED="1538601293386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$BallbearingTest_setSealType2.ic" NAME="BallbearingTest.setSealType2 Coverage Results" MODIFIED="1537679014707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PriceTest_printPrice3.ic" NAME="PriceTest.printPrice3 Coverage Results" MODIFIED="1538427690927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_addToOrder3.ic" NAME="OrderManagerTest.addToOrder3 Coverage Results" MODIFIED="1538435509549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setPrice1.ic" NAME="RotaryShaftTest.setPrice1 Coverage Results" MODIFIED="1537682089520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_getCategory.ic" NAME="RotaryShaftTest.getCategory Coverage Results" MODIFIED="1537645168444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$SprocketForANSIRollerChainTest.ic" NAME="SprocketForANSIRollerChainTest Coverage Results" MODIFIED="1538426722436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PriceTest_printPrice.ic" NAME="PriceTest.printPrice Coverage Results" MODIFIED="1538427874599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_validateMeasurementSystem3.ic" NAME="OrderManagerTest.validateMeasurementSystem3 Coverage Results" MODIFIED="1538439767732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$FractionTest_testHashCode.ic" NAME="FractionTest.testHashCode Coverage Results" MODIFIED="1538429970790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$FractionTest.ic" NAME="FractionTest Coverage Results" MODIFIED="1538413122804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$AbstractStockItemTest_getCategory.ic" NAME="AbstractStockItemTest.getCategory Coverage Results" MODIFIED="1538430530128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest_setSom2.ic" NAME="PrecisionBallBearingTest.setSom2 Coverage Results" MODIFIED="1538598715570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_removeOneFromOrder5.ic" NAME="OrderManagerTest.removeOneFromOrder5 Coverage Results" MODIFIED="1538436941974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest_setSom.ic" NAME="PrecisionBallBearingTest.setSom Coverage Results" MODIFIED="1538598720366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$FractionTest_testFrac2Str3.ic" NAME="FractionTest.testFrac2Str3 Coverage Results" MODIFIED="1538414189691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest_testFitsShaft2.ic" NAME="PrecisionBallBearingTest.testFitsShaft2 Coverage Results" MODIFIED="1538358604341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setLength.ic" NAME="RotaryShaftTest.setLength Coverage Results" MODIFIED="1537591586282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$SprocketTest_setNumOfTeeth.ic" NAME="SprocketTest.setNumOfTeeth Coverage Results" MODIFIED="1537656726573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$FractionTest_testEquals.ic" NAME="FractionTest.testEquals Coverage Results" MODIFIED="1538600147738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$FractionTest_testConstructor.ic" NAME="FractionTest.testConstructor Coverage Results" MODIFIED="1538600699207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_isInEnum.ic" NAME="RotaryShaftTest.isInEnum Coverage Results" MODIFIED="1537659428491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$MeasurementTest_getValue2.ic" NAME="MeasurementTest.getValue2 Coverage Results" MODIFIED="1537680778799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$MeasurementTest_setSom.ic" NAME="MeasurementTest.setSom Coverage Results" MODIFIED="1537660506641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$SprocketTest.ic" NAME="SprocketTest Coverage Results" MODIFIED="1537683309572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest_getCategory.ic" NAME="PrecisionBallBearingTest.getCategory Coverage Results" MODIFIED="1538371795766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$CategoryTest.ic" NAME="CategoryTest Coverage Results" MODIFIED="1537681358419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_removeOneFromOrder4.ic" NAME="OrderManagerTest.removeOneFromOrder4 Coverage Results" MODIFIED="1538436932560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_testRotaryShaftConstructor1.ic" NAME="RotaryShaftTest.testRotaryShaftConstructor1 Coverage Results" MODIFIED="1537681860296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$SprocketForMetricRollerChainTest.ic" NAME="SprocketForMetricRollerChainTest Coverage Results" MODIFIED="1538427084779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_addToOrder5.ic" NAME="OrderManagerTest.addToOrder5 Coverage Results" MODIFIED="1538435443261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setSku3.ic" NAME="RotaryShaftTest.setSku3 Coverage Results" MODIFIED="1537681983972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PriceTest_getCurrency.ic" NAME="PriceTest.getCurrency Coverage Results" MODIFIED="1538427831609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$SealTypeTest.ic" NAME="SealTypeTest Coverage Results" MODIFIED="1537682401732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest_testFitsShaft3.ic" NAME="PrecisionBallBearingTest.testFitsShaft3 Coverage Results" MODIFIED="1538358629499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$MeasurementTest_testHashCode.ic" NAME="MeasurementTest.testHashCode Coverage Results" MODIFIED="1537660542488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_getSku.ic" NAME="RotaryShaftTest.getSku Coverage Results" MODIFIED="1537637518677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$SprocketForANSIRollerChainTest_getShaft.ic" NAME="SprocketForANSIRollerChainTest.getShaft Coverage Results" MODIFIED="1538426382173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setPrice3.ic" NAME="RotaryShaftTest.setPrice3 Coverage Results" MODIFIED="1537682077978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$MeasurementTest_printMeasurement.ic" NAME="MeasurementTest.printMeasurement Coverage Results" MODIFIED="1538429144503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$FractionTest_testFrac2Str2.ic" NAME="FractionTest.testFrac2Str2 Coverage Results" MODIFIED="1538414185569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_testRotaryShaftConstructor1_and_21_more.ic" NAME="RotaryShaftTest,testRotaryShaftConstructor1 and 21 more Coverage Results" MODIFIED="1537682347340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest_setSealType1.ic" NAME="PrecisionBallBearingTest.setSealType1 Coverage Results" MODIFIED="1538356962398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$BallbearingTest_setSealType1.ic" NAME="BallbearingTest.setSealType1 Coverage Results" MODIFIED="1537679004155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_getLength.ic" NAME="RotaryShaftTest.getLength Coverage Results" MODIFIED="1537589888195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PriceTest_setCurrency.ic" NAME="PriceTest.setCurrency Coverage Results" MODIFIED="1537652519749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setDiameter.ic" NAME="RotaryShaftTest.setDiameter Coverage Results" MODIFIED="1537601695732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$SprocketTest_setForShaftDiameter.ic" NAME="SprocketTest.setForShaftDiameter Coverage Results" MODIFIED="1537651938777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_testRotaryShaftConstructor.ic" NAME="RotaryShaftTest.testRotaryShaftConstructor Coverage Results" MODIFIED="1537600973324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_validateMeasurementSystem4.ic" NAME="OrderManagerTest.validateMeasurementSystem4 Coverage Results" MODIFIED="1538439773216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$StockServiceTest_getStock.ic" NAME="StockServiceTest.getStock Coverage Results" MODIFIED="1538431745539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$BallbearingTest.ic" NAME="BallbearingTest Coverage Results" MODIFIED="1537680697883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest_getSealType.ic" NAME="PrecisionBallBearingTest.getSealType Coverage Results" MODIFIED="1538356956671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest_testFitsShaft1.ic" NAME="PrecisionBallBearingTest.testFitsShaft1 Coverage Results" MODIFIED="1538357241004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$FractionTest_testFrac2Str4.ic" NAME="FractionTest.testFrac2Str4 Coverage Results" MODIFIED="1538430025238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$AbstractStockItemTest.ic" NAME="AbstractStockItemTest Coverage Results" MODIFIED="1538431057703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest.ic" NAME="PrecisionBallBearingTest Coverage Results" MODIFIED="1538431090979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$PrecisionBallBearingTest_setSom3.ic" NAME="PrecisionBallBearingTest.setSom3 Coverage Results" MODIFIED="1538598710380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest_setSku2.ic" NAME="RotaryShaftTest.setSku2 Coverage Results" MODIFIED="1537682012406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_validateMeasurementSystem2.ic" NAME="OrderManagerTest.validateMeasurementSystem2 Coverage Results" MODIFIED="1538437787371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest.ic" NAME="OrderManagerTest Coverage Results" MODIFIED="1538600517291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$RotaryShaftTest.ic" NAME="RotaryShaftTest Coverage Results" MODIFIED="1538431167395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$OrderManagerTest_removeOneFromOrder.ic" NAME="OrderManagerTest.removeOneFromOrder Coverage Results" MODIFIED="1538449520761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$MeasurementTest_setValue.ic" NAME="MeasurementTest.setValue Coverage Results" MODIFIED="1537681065517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$MeasurementTest_setSom1.ic" NAME="MeasurementTest.setSom1 Coverage Results" MODIFIED="1537682976156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$MeasurementTest.ic" NAME="MeasurementTest Coverage Results" MODIFIED="1538413556481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment2$MeasurementTest_equals.ic" NAME="MeasurementTest.equals Coverage Results" MODIFIED="1537684374813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment2.problem1.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="180" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1242138364">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="38" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="10" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="4" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="40" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="assignment2" value="2" />
+          <entry key="html" value="1" />
+          <entry key="java" value="653" />
+          <entry key="png" value="2" />
+          <entry key="problem1" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="653" />
+          <entry key="UML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="43" />
+          <entry key="java" value="52276" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="52276" />
+          <entry key="PLAIN_TEXT" value="43" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/OrderManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/StockService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-133">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/AbstractBallBearing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/FractionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/OrderManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1273">
+              <caret line="77" column="29" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="29" />
+              <folding>
+                <element signature="e#3641#3642#0" expanded="true" />
+                <element signature="e#3679#3680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment2 UML.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fraction2</find>
+      <find>getShaft</find>
+      <find>getCategory</find>
+      <find>price1</find>
+      <find>forShftDia2</find>
+      <find>numOfTh1</find>
+      <find>numOfTh</find>
+      <find>metric</find>
+      <find>getCurrency</find>
+      <find>printPrice</find>
+      <find>NUllValue</find>
+      <find>frac2</find>
+      <find>InvalidCon</find>
+      <find>frac2Str</find>
+      <find>addTo</find>
+      <find>newStockService</find>
+      <find>itemCount</find>
+      <find>om2</find>
+      <find>get</find>
+      <find>InvalidSystem</find>
+      <find>setout</find>
+      <find>invalidMea</find>
+      <find>category</find>
+      <find>newCount</find>
+      <find>asom</find>
+      <find>don't match</find>
+      <find>eQuals</find>
+      <find>fraction10</find>
+      <find>ByteArrayOutputStream</find>
+      <find>originalOut</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>this</replace>
+      <replace>RotaryShaft</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/Ballbearing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/AbstractStockItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/OrderManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/Fraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/AbstractBallBearing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/AbstractRotaryShaft.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/AbstractSprocket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/Measurement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/PrecisionBallBearing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/RotaryShaft.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/SprocketForANSIRollerChain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/SprocketForMetricRollerChain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/StockService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/problem1/AbstractBallBearingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/problem1/AbstractRotaryShaftTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/problem1/RotaryShaftTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/problem1/MeasurementTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/problem1/SprocketForANSIRollerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/SprocketForANSIRollerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/SystemOfMeasurementTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/SprocketForANSIRollerChainTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/PriceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/RotaryShaftTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/MeasurementTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/AbstractStockItemTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/SprocketForMetricRollerChainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/InvalidSystemOfMeasurementException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/AbstractRotaryShaft.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/AbstractBallBearing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/InvalidConstructorArgumentsException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/InvalidHashMapKeyException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/NullValueException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/Price.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/RotaryShaft.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/SealType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/SystemOfMeasurement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/Measurement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/SprocketForANSIRollerChain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/SprocketForAnsiRollerChain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/AbstractSprocket.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/PrecisionBallBearingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/SprocketForansiRollerChain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/StockService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/PrecisionBallBearing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/SprocketForMetricRollerChain.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/StockServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/AbstractStockItem.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/OrderManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/FractionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/Fraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/OrderManager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1584" />
+    <option name="width" value="1629" />
+    <option name="height" value="1728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment2-timzyt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment2-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment2-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment2-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment2-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment2-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment2-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment2-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment2-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment2-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539124065155" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.neu.ccs.cs5010.assignment2" />
+      <recent name="edu.neu.ccs.cs5010.assignment2.problem1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.neu.ccs.cs5010.assignment2.problem1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.edu.neu.ccs.cs5010.assignment2 in assignment2-timzyt">
+    <configuration name="FractionTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment2.FractionTest" />
+      <option name="METHOD_NAME" value="testConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FractionTest.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment2.FractionTest" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment2.OrderManagerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderManagerTest.checkFit10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment2" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment2.OrderManagerTest" />
+      <option name="METHOD_NAME" value="checkFit10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edu.neu.ccs.cs5010.assignment2 in assignment2-timzyt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment2-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment2" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.edu.neu.ccs.cs5010.assignment2 in assignment2-timzyt" />
+      <item itemvalue="JUnit.OrderManagerTest.checkFit10" />
+      <item itemvalue="JUnit.FractionTest.testEquals" />
+      <item itemvalue="JUnit.OrderManagerTest" />
+      <item itemvalue="JUnit.FractionTest.testConstructor" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.edu.neu.ccs.cs5010.assignment2 in assignment2-timzyt" />
+        <item itemvalue="JUnit.FractionTest.testConstructor" />
+        <item itemvalue="JUnit.OrderManagerTest" />
+        <item itemvalue="JUnit.FractionTest.testEquals" />
+        <item itemvalue="JUnit.OrderManagerTest.checkFit10" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9225bb9-5b1e-4947-8764-34129d5ce6ac" name="Default Changelist" comment="" />
+      <created>1537395878281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537395878281</updated>
+      <workItem from="1537395880310" duration="171000" />
+      <workItem from="1537396077429" duration="3373000" />
+      <workItem from="1537551881638" duration="26809000" />
+      <workItem from="1537589428831" duration="5615000" />
+      <workItem from="1537636205431" duration="6505000" />
+      <workItem from="1537645347296" duration="8444000" />
+      <workItem from="1537658213297" duration="2895000" />
+      <workItem from="1537675487821" duration="7508000" />
+      <workItem from="1537683097919" duration="1305000" />
+      <workItem from="1537684421324" duration="207000" />
+      <workItem from="1537726969238" duration="11400000" />
+      <workItem from="1537809767150" duration="136000" />
+      <workItem from="1537823916418" duration="2668000" />
+      <workItem from="1537837362715" duration="219000" />
+      <workItem from="1537837595925" duration="326000" />
+      <workItem from="1537837959922" duration="15434000" />
+      <workItem from="1537889507622" duration="11063000" />
+      <workItem from="1537915743363" duration="8863000" />
+      <workItem from="1537980286432" duration="11000" />
+      <workItem from="1537980354551" duration="12259000" />
+      <workItem from="1538031214400" duration="804000" />
+      <workItem from="1538353924868" duration="13451000" />
+      <workItem from="1538409255646" duration="8606000" />
+      <workItem from="1538428256997" duration="12806000" />
+      <workItem from="1538463989330" duration="692000" />
+      <workItem from="1538511934613" duration="1288000" />
+      <workItem from="1538521682576" duration="1662000" />
+      <workItem from="1538594983472" duration="4136000" />
+      <workItem from="1538599150224" duration="2317000" />
+      <workItem from="1538607499533" duration="6000" />
+      <workItem from="1538608276606" duration="175000" />
+      <workItem from="1538613831793" duration="105000" />
+      <workItem from="1538615087678" duration="650000" />
+      <workItem from="1538685860332" duration="6000" />
+      <workItem from="1538711930796" duration="912000" />
+      <workItem from="1538743434885" duration="1394000" />
+      <workItem from="1538838282788" duration="605000" />
+      <workItem from="1538854373724" duration="2953000" />
+      <workItem from="1539122584126" duration="1473000" />
+      <workItem from="1539129042820" duration="892000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OrderManagerTest_checkFit10 - 2018.10.03 at 13h 36m 36s.xml">
+      <configuration name="OrderManagerTest.checkFit10" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="edu_neu_ccs_cs5010_assignment2_in_assignment2-timzyt - 2018.10.03 at 13h 39m 23s.xml">
+      <configuration name="edu.neu.ccs.cs5010.assignment2 in assignment2-timzyt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest_testEquals - 2018.10.03 at 13h 55m 12s.xml">
+      <configuration name="FractionTest.testEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest_testEquals - 2018.10.03 at 13h 55m 44s.xml">
+      <configuration name="FractionTest.testEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest_testEquals - 2018.10.03 at 13h 55m 50s.xml">
+      <configuration name="FractionTest.testEquals" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderManagerTest - 2018.10.03 at 14h 01m 59s.xml">
+      <configuration name="OrderManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FractionTest_testConstructor - 2018.10.03 at 14h 05m 01s.xml">
+      <configuration name="FractionTest.testConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="edu_neu_ccs_cs5010_assignment2_in_assignment2-timzyt - 2018.10.03 at 14h 07m 04s.xml">
+      <configuration name="edu.neu.ccs.cs5010.assignment2 in assignment2-timzyt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="edu_neu_ccs_cs5010_assignment2_in_assignment2-timzyt - 2018.10.03 at 14h 14m 05s.xml">
+      <configuration name="edu.neu.ccs.cs5010.assignment2 in assignment2-timzyt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="edu_neu_ccs_cs5010_assignment2_in_assignment2-timzyt - 2018.10.03 at 14h 14m 56s.xml">
+      <configuration name="edu.neu.ccs.cs5010.assignment2 in assignment2-timzyt" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="180144000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27483684" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32087228" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39719626" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32866043" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49541286" weight="0.24945612" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24945612" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32994923" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="PlantUML" order="7" weight="0.32994923" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.48165137" visible="true" weight="0.19796954" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.51834863" side_tool="true" visible="true" weight="0.31834662" />
+      <window_info anchor="right" x="94" y="94" width="1235" height="572" id="Byte Code Viewer" order="11" type="FLOATING" />
+      <window_info anchor="right" id="SciView" order="12" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/containsEnum.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/problem1/AbstractMountOnShaftTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/InvalidEnumValueException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/InvalidEnumException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/DiaLen.java" />
+    <entry file="file://$PROJECT_DIR$/Package problem1.png" />
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment2.problem1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment2.problem1</OriginalElement>
+          <nodes>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.FitsShaft</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.Price</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.Sprocket</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.Category</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.RotaryShaft</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.AbstractStockItem</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.SystemOfMeasurement</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.Measurement</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.Ballbearing</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.AbstractMountOnShaft</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment2.problem1.SealType</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6595982142857143" x="399.0" y="438.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/InvalidSystemOfMeasurementType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/AbstractMountOnShaft.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/PartCategory.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/problem1/PartCategoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/SystemOfMeasurementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/SealTypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/SprocketForansiRollerChainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="77" column="56" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/PriceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="78" column="7" selection-start-line="70" selection-start-column="6" selection-end-line="78" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/MeasurementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/RotaryShaftTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/AbstractStockItemTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/SprocketForMetricRollerChainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/InvalidConstructorArgumentsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/InvalidHashMapKeyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/InvalidSystemOfMeasurementException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/NullValueException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/Price.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/SealType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/SystemOfMeasurement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/Measurement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="121" column="10" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/AbstractRotaryShaft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/RotaryShaft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/AbstractSprocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/PrecisionBallBearingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/StockServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/SprocketForMetricRollerChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/SprocketForansiRollerChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/AbstractStockItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment2</OriginalElement>
+          <nodes>
+            <node x="266.95491732804265" y="1241.0">edu.neu.ccs.cs5010.assignment2.RotaryShaft</node>
+            <node x="1183.7166666666667" y="0.0">edu.neu.ccs.cs5010.assignment2.InvalidConstructorArgumentsException</node>
+            <node x="1248.8045924272487" y="156.5">edu.neu.ccs.cs5010.assignment2.SystemOfMeasurement</node>
+            <node x="724.9549173280426" y="1641.0">edu.neu.ccs.cs5010.assignment2.SprocketForMetricRollerChain</node>
+            <node x="71.47725281084752" y="79.0">edu.neu.ccs.cs5010.assignment2.Fraction</node>
+            <node x="1092.8045924272487" y="429.0">edu.neu.ccs.cs5010.assignment2.Price</node>
+            <node x="101.40725694444416" y="1252.5">edu.neu.ccs.cs5010.assignment2.SealType</node>
+            <node x="811.3855861441807" y="1429.0">edu.neu.ccs.cs5010.assignment2.AbstractSprocket</node>
+            <node x="238.70491732804282" y="407.0">edu.neu.ccs.cs5010.assignment2.Measurement</node>
+            <node x="315.70491732804265" y="1073.0">edu.neu.ccs.cs5010.assignment2.AbstractRotaryShaft</node>
+            <node x="1038.9608424272487" y="1963.0">edu.neu.ccs.cs5010.assignment2.OrderManager</node>
+            <node x="1471.8045924272487" y="1840.5">edu.neu.ccs.cs5010.assignment2.InvalidHashMapKeyException</node>
+            <node x="65.04839864418045" y="1641.0">edu.neu.ccs.cs5010.assignment2.PrecisionBallBearing</node>
+            <node x="481.9549173280426" y="1263.5">edu.neu.ccs.cs5010.assignment2.FitsShaft</node>
+            <node x="101.79839864418045" y="1407.0">edu.neu.ccs.cs5010.assignment2.AbstractBallBearing</node>
+            <node x="948.9549173280426" y="1641.0">edu.neu.ccs.cs5010.assignment2.SprocketForansiRollerChain</node>
+            <node x="665.3879257605822" y="1807.0">edu.neu.ccs.cs5010.assignment2.StockService</node>
+            <node x="873.7808101851855" y="178.5">edu.neu.ccs.cs5010.assignment2.NullValueException</node>
+            <node x="1112.4549173280425" y="745.0">edu.neu.ccs.cs5010.assignment2.AbstractStockItem</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="edu.neu.ccs.cs5010.assignment2.StockService" target="edu.neu.ccs.cs5010.assignment2.SprocketForMetricRollerChain">
+              <point x="0.0" y="-48.0" />
+              <point x="836.8879257605822" y="1787.0" />
+              <point x="826.9549173280426" y="1787.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.OrderManager" target="edu.neu.ccs.cs5010.assignment2.InvalidHashMapKeyException">
+              <point x="119.58333333333326" y="-147.0" />
+              <point x="1302.0441757605822" y="1943.0" />
+              <point x="1573.3045924272487" y="1943.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractStockItem" target="edu.neu.ccs.cs5010.assignment2.NullValueException">
+              <point x="-75.3125" y="-114.0" />
+              <point x="1157.6424173280425" y="675.0" />
+              <point x="1016.8358424272488" y="675.0" />
+              <point x="1016.8358424272488" y="367.0" />
+              <point x="986.2808101851855" y="367.0" />
+              <point x="37.5" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.SprocketForMetricRollerChain" target="edu.neu.ccs.cs5010.assignment2.Measurement">
+              <point x="-68.0" y="-48.0" />
+              <point x="758.9549173280426" y="1616.0" />
+              <point x="778.6355861441807" y="1616.0" />
+              <point x="778.6355861441807" y="725.0" />
+              <point x="402.4549173280428" y="725.0" />
+              <point x="32.75" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractBallBearing" target="edu.neu.ccs.cs5010.assignment2.NullValueException">
+              <point x="-119.11111111111109" y="-92.0" />
+              <point x="116.68728753306937" y="1387.0" />
+              <point x="90.90725694444416" y="1387.0" />
+              <point x="90.90725694444416" y="357.0" />
+              <point x="911.2808101851855" y="357.0" />
+              <point x="-37.5" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.Fraction" target="edu.neu.ccs.cs5010.assignment2.InvalidConstructorArgumentsException">
+              <point x="0.0" y="-114.0" />
+              <point x="166.97725281084752" y="59.0" />
+              <point x="1215.2166666666667" y="59.0" />
+              <point x="-94.5" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractSprocket" target="edu.neu.ccs.cs5010.assignment2.AbstractRotaryShaft">
+              <point x="-76.57142857142856" y="-70.0" />
+              <point x="868.814157572752" y="1377.0" />
+              <point x="760.4549173280426" y="1377.0" />
+              <point x="760.4549173280426" y="1211.0" />
+              <point x="510.10491732804275" y="1211.0" />
+              <point x="86.40000000000009" y="59.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.OrderManager" target="edu.neu.ccs.cs5010.assignment2.NullValueException">
+              <point x="-119.58333333333337" y="-147.0" />
+              <point x="1062.8775090939155" y="1943.0" />
+              <point x="25.5" y="1943.0" />
+              <point x="25.5" y="347.0" />
+              <point x="886.2808101851855" y="347.0" />
+              <point x="-62.5" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.SprocketForMetricRollerChain" target="edu.neu.ccs.cs5010.assignment2.AbstractSprocket">
+              <point x="68.0" y="-48.0" />
+              <point x="894.9549173280426" y="1616.0" />
+              <point x="911.8855861441807" y="1616.0" />
+              <point x="-33.5" y="70.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.StockService" target="edu.neu.ccs.cs5010.assignment2.SystemOfMeasurement">
+              <point x="152.44444444444446" y="-48.0" />
+              <point x="989.3323702050267" y="1787.0" />
+              <point x="1439.3045924272487" y="1787.0" />
+              <point x="1439.3045924272487" y="387.0" />
+              <point x="1375.5545924272487" y="387.0" />
+              <point x="42.25" y="36.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.StockService" target="edu.neu.ccs.cs5010.assignment2.SprocketForansiRollerChain">
+              <point x="38.111111111111086" y="-48.0" />
+              <point x="874.9990368716933" y="1757.0" />
+              <point x="1046.4549173280425" y="1757.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.StockService" target="edu.neu.ccs.cs5010.assignment2.AbstractStockItem">
+              <point x="76.22222222222229" y="-48.0" />
+              <point x="913.1101479828045" y="1767.0" />
+              <point x="1307.0129257605822" y="1767.0" />
+              <point x="1307.0129257605822" y="1053.0" />
+              <point x="1308.2674173280425" y="1053.0" />
+              <point x="75.3125" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractStockItem" target="edu.neu.ccs.cs5010.assignment2.Price">
+              <point x="-15.0625" y="-114.0" />
+              <point x="1217.8924173280425" y="655.0" />
+              <point x="1189.8045924272487" y="655.0" />
+              <point x="0.0" y="92.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractSprocket" target="edu.neu.ccs.cs5010.assignment2.NullValueException">
+              <point x="38.285714285714334" y="-70.0" />
+              <point x="983.6713004298949" y="1387.0" />
+              <point x="976.1760069444442" y="1387.0" />
+              <point x="976.1760069444442" y="367.0" />
+              <point x="961.2808101851855" y="367.0" />
+              <point x="12.5" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.RotaryShaft" target="edu.neu.ccs.cs5010.assignment2.Measurement">
+              <point x="-65.0" y="-48.0" />
+              <point x="299.45491732804265" y="1211.0" />
+              <point x="305.20491732804265" y="1211.0" />
+              <point x="305.20491732804265" y="725.0" />
+              <point x="336.9549173280428" y="725.0" />
+              <point x="-32.75" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.StockService" target="edu.neu.ccs.cs5010.assignment2.Measurement">
+              <point x="-114.33333333333337" y="-48.0" />
+              <point x="722.5545924272488" y="1777.0" />
+              <point x="51.260472883598254" y="1777.0" />
+              <point x="51.260472883598254" y="685.0" />
+              <point x="249.62158399470945" y="685.0" />
+              <point x="-120.08333333333337" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.RotaryShaft" target="edu.neu.ccs.cs5010.assignment2.AbstractRotaryShaft">
+              <point x="65.0" y="-48.0" />
+              <point x="429.45491732804265" y="1221.0" />
+              <point x="423.70491732804265" y="1221.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.StockService" target="edu.neu.ccs.cs5010.assignment2.RotaryShaft">
+              <point x="-38.111111111111086" y="-48.0" />
+              <point x="798.7768146494711" y="1757.0" />
+              <point x="396.7928430886249" y="1757.0" />
+              <point x="396.7928430886249" y="1377.0" />
+              <point x="364.45491732804265" y="1377.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.Price" target="edu.neu.ccs.cs5010.assignment2.InvalidConstructorArgumentsException">
+              <point x="48.5" y="-92.0" />
+              <point x="1238.3045924272487" y="59.0" />
+              <point x="1278.2166666666667" y="59.0" />
+              <point x="-31.5" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.FitsShaft" target="edu.neu.ccs.cs5010.assignment2.AbstractRotaryShaft">
+              <point x="0.0" y="-25.5" />
+              <point x="615.9549173280426" y="1221.0" />
+              <point x="466.9049173280427" y="1221.0" />
+              <point x="43.200000000000045" y="59.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractBallBearing" target="edu.neu.ccs.cs5010.assignment2.Measurement">
+              <point x="-29.77777777777783" y="-92.0" />
+              <point x="206.90725694444416" y="705.0" />
+              <point x="293.2882506613762" y="705.0" />
+              <point x="-76.41666666666663" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.PrecisionBallBearing" target="edu.neu.ccs.cs5010.assignment2.AbstractBallBearing">
+              <point x="0.0" y="-48.0" />
+              <point x="162.54839864418045" y="1616.0" />
+              <point x="168.79839864418045" y="1616.0" />
+              <point x="-67.0" y="92.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractBallBearing" target="edu.neu.ccs.cs5010.assignment2.AbstractRotaryShaft">
+              <point x="89.33333333333326" y="-92.0" />
+              <point x="325.1317319775137" y="1357.0" />
+              <point x="256.45491732804265" y="1357.0" />
+              <point x="256.45491732804265" y="1221.0" />
+              <point x="337.3049173280427" y="1221.0" />
+              <point x="-86.39999999999998" y="59.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.Measurement" target="edu.neu.ccs.cs5010.assignment2.SystemOfMeasurement">
+              <point x="52.40000000000009" y="-114.0" />
+              <point x="422.1049173280429" y="377.0" />
+              <point x="1262.8879257605822" y="377.0" />
+              <point x="-70.41666666666667" y="36.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.Measurement" target="edu.neu.ccs.cs5010.assignment2.Fraction">
+              <point x="-52.39999999999998" y="-114.0" />
+              <point x="317.30491732804285" y="327.0" />
+              <point x="230.64391947751426" y="327.0" />
+              <point x="63.66666666666674" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractSprocket" target="edu.neu.ccs.cs5010.assignment2.FitsShaft">
+              <point x="-114.85714285714283" y="-70.0" />
+              <point x="830.5284432870378" y="1387.0" />
+              <point x="682.9549173280426" y="1387.0" />
+              <point x="67.0" y="25.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.OrderManager" target="edu.neu.ccs.cs5010.assignment2.SystemOfMeasurement">
+              <point x="23.916666666666742" y="-147.0" />
+              <point x="1206.3775090939157" y="1923.0" />
+              <point x="1450.3045924272487" y="1923.0" />
+              <point x="1450.3045924272487" y="377.0" />
+              <point x="1403.7212590939157" y="377.0" />
+              <point x="70.41666666666674" y="36.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractBallBearing" target="edu.neu.ccs.cs5010.assignment2.SealType">
+              <point x="-59.55555555555566" y="-92.0" />
+              <point x="176.2428430886248" y="1387.0" />
+              <point x="172.65725694444416" y="1387.0" />
+              <point x="23.75" y="36.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.SprocketForansiRollerChain" target="edu.neu.ccs.cs5010.assignment2.Measurement">
+              <point x="65.0" y="-48.0" />
+              <point x="1111.4549173280425" y="1616.0" />
+              <point x="1101.9549173280425" y="1616.0" />
+              <point x="1101.9549173280425" y="695.0" />
+              <point x="467.9549173280428" y="695.0" />
+              <point x="98.25" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractSprocket" target="edu.neu.ccs.cs5010.assignment2.Measurement">
+              <point x="-38.28571428571428" y="-70.0" />
+              <point x="907.0998718584664" y="1387.0" />
+              <point x="920.7427290013236" y="1387.0" />
+              <point x="920.7427290013236" y="715.0" />
+              <point x="424.2882506613761" y="715.0" />
+              <point x="54.58333333333326" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.PrecisionBallBearing" target="edu.neu.ccs.cs5010.assignment2.Measurement">
+              <point x="-65.0" y="-48.0" />
+              <point x="97.54839864418045" y="1616.0" />
+              <point x="78.26047288359825" y="1616.0" />
+              <point x="78.26047288359825" y="695.0" />
+              <point x="271.4549173280428" y="695.0" />
+              <point x="-98.25" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractRotaryShaft" target="edu.neu.ccs.cs5010.assignment2.Measurement">
+              <point x="-81.0" y="-59.0" />
+              <point x="342.70491732804265" y="993.0" />
+              <point x="364.20491732804265" y="993.0" />
+              <point x="364.20491732804265" y="725.0" />
+              <point x="358.7882506613761" y="725.0" />
+              <point x="-10.916666666666742" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.SprocketForansiRollerChain" target="edu.neu.ccs.cs5010.assignment2.AbstractSprocket">
+              <point x="-65.0" y="-48.0" />
+              <point x="981.4549173280426" y="1616.0" />
+              <point x="978.8855861441807" y="1616.0" />
+              <point x="33.5" y="70.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractStockItem" target="edu.neu.ccs.cs5010.assignment2.InvalidConstructorArgumentsException">
+              <point x="105.4375" y="-114.0" />
+              <point x="1338.3924173280425" y="725.0" />
+              <point x="1428.3045924272487" y="725.0" />
+              <point x="1428.3045924272487" y="59.0" />
+              <point x="1341.2166666666667" y="59.0" />
+              <point x="31.5" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.Price" target="edu.neu.ccs.cs5010.assignment2.NullValueException">
+              <point x="-48.5" y="-92.0" />
+              <point x="1141.3045924272487" y="357.0" />
+              <point x="1011.2808101851855" y="357.0" />
+              <point x="62.5" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractStockItem" target="edu.neu.ccs.cs5010.assignment2.SystemOfMeasurement">
+              <point x="45.1875" y="-114.0" />
+              <point x="1278.1424173280425" y="705.0" />
+              <point x="1327.8045924272487" y="705.0" />
+              <point x="1327.8045924272487" y="387.0" />
+              <point x="1319.2212590939155" y="387.0" />
+              <point x="-14.083333333333371" y="36.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.Measurement" target="edu.neu.ccs.cs5010.assignment2.NullValueException">
+              <point x="0.0" y="-114.0" />
+              <point x="369.7049173280428" y="367.0" />
+              <point x="936.2808101851855" y="367.0" />
+              <point x="-12.5" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractBallBearing" target="edu.neu.ccs.cs5010.assignment2.AbstractStockItem">
+              <point x="59.55555555555566" y="-92.0" />
+              <point x="295.3539541997361" y="1367.0" />
+              <point x="245.4549173280426" y="1367.0" />
+              <point x="245.4549173280426" y="1013.0" />
+              <point x="1157.6424173280425" y="1013.0" />
+              <point x="-75.3125" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractSprocket" target="edu.neu.ccs.cs5010.assignment2.AbstractStockItem">
+              <point x="76.57142857142856" y="-70.0" />
+              <point x="1021.9570147156091" y="1387.0" />
+              <point x="1002.3858283730156" y="1387.0" />
+              <point x="1002.3858283730156" y="1043.0" />
+              <point x="1248.0174173280425" y="1043.0" />
+              <point x="15.0625" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractRotaryShaft" target="edu.neu.ccs.cs5010.assignment2.AbstractStockItem">
+              <point x="27.0" y="-59.0" />
+              <point x="450.70491732804265" y="1023.0" />
+              <point x="1187.7674173280425" y="1023.0" />
+              <point x="-45.1875" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.OrderManager" target="edu.neu.ccs.cs5010.assignment2.InvalidConstructorArgumentsException">
+              <point x="71.75" y="-147.0" />
+              <point x="1254.2108424272487" y="1933.0" />
+              <point x="1461.3045924272487" y="1933.0" />
+              <point x="1461.3045924272487" y="49.0" />
+              <point x="1404.2166666666667" y="49.0" />
+              <point x="94.5" y="14.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractStockItem" target="edu.neu.ccs.cs5010.assignment2.Measurement">
+              <point x="-105.4375" y="-114.0" />
+              <point x="1127.5174173280425" y="685.0" />
+              <point x="489.7882506613761" y="685.0" />
+              <point x="120.08333333333326" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.AbstractBallBearing" target="edu.neu.ccs.cs5010.assignment2.FitsShaft">
+              <point x="119.11111111111109" y="-92.0" />
+              <point x="354.90950975529154" y="1387.0" />
+              <point x="548.9549173280426" y="1387.0" />
+              <point x="-67.0" y="25.5" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.OrderManager" target="edu.neu.ccs.cs5010.assignment2.StockService">
+              <point x="-23.916666666666742" y="-147.0" />
+              <point x="1158.5441757605822" y="1923.0" />
+              <point x="922.6379257605822" y="1923.0" />
+              <point x="85.75" y="48.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.StockService" target="edu.neu.ccs.cs5010.assignment2.Fraction">
+              <point x="-152.44444444444446" y="-48.0" />
+              <point x="684.4434813161378" y="1787.0" />
+              <point x="40.260472883598254" y="1787.0" />
+              <point x="40.260472883598254" y="337.0" />
+              <point x="103.31058614418077" y="337.0" />
+              <point x="-63.66666666666674" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment2.StockService" target="edu.neu.ccs.cs5010.assignment2.PrecisionBallBearing">
+              <point x="-76.22222222222229" y="-48.0" />
+              <point x="760.6657035383599" y="1767.0" />
+              <point x="162.54839864418045" y="1767.0" />
+              <point x="0.0" y="48.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.16908212560386474" x="838.0" y="1129.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="69" column="61" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/FitsShaft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/PrecisionBallBearing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/OrderManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/AbstractBallBearing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/FractionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment2/OrderManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1273">
+          <caret line="77" column="29" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="29" />
+          <folding>
+            <element signature="e#3641#3642#0" expanded="true" />
+            <element signature="e#3679#3680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment2 UML.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment2/StockService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>assignment2-timzyt</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

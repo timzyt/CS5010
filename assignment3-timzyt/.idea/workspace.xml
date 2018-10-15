@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d759e0a-599c-4c11-a5ad-58fdd5d53f7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../assignment2-timzyt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2-timzyt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment3/ReservationSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment3/ReservationSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/findbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/findbugsXml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidConstructorArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidConstructorArgumentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidNumberOfSeatException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidNumberOfSeatException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidUserInputException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidUserInputException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/NullValueException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/NullValueException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationsService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationsService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Row.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Row.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Seat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Seat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Theater.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Theater.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidConstructorArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidConstructorArgumentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidNumberOfSeatException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidNumberOfSeatException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidUserInputException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidUserInputException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/NullValueException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/NullValueException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationsService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationsService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Row.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Row.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Seat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Seat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Theater.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Theater.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/distribution-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/distribution-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/findbugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/findbugs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/integration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/issue-tracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/issue-tracking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/license.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/license.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/mail-lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/mail-lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/pmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/pmd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/source-repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/source-repository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/team-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/team-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.RowTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.RowTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.SeatTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.SeatTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.TheaterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.TheaterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.RowTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.RowTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.SeatTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.SeatTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.TheaterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.TheaterTest.txt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/assignment3$SeatTest_testSetSeatName2.ic" NAME="SeatTest.testSetSeatName2 Coverage Results" MODIFIED="1538749194466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$RowTest.ic" NAME="RowTest Coverage Results" MODIFIED="1538800146827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationSystemTest_testMain4.ic" NAME="ReservationSystemTest.testMain4 Coverage Results" MODIFIED="1538861688019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$RowTest_testGetRowMap.ic" NAME="RowTest.testGetRowMap Coverage Results" MODIFIED="1538799723362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$RowTest_testGetEmptySeat.ic" NAME="RowTest.testGetEmptySeat Coverage Results" MODIFIED="1538799918943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationSystemTest_testMain2.ic" NAME="ReservationSystemTest.testMain2 Coverage Results" MODIFIED="1538861541750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$RowTest_testRowConstructor.ic" NAME="RowTest.testRowConstructor Coverage Results" MODIFIED="1538800086722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$SeatTest_testSetReservedFor4.ic" NAME="SeatTest.testSetReservedFor4 Coverage Results" MODIFIED="1538848405571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$TheaterTest_testGetNumOfRow.ic" NAME="TheaterTest.testGetNumOfRow Coverage Results" MODIFIED="1538848291621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$SeatTest.ic" NAME="SeatTest Coverage Results" MODIFIED="1538779326498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$RowTest_testGetRowNumber.ic" NAME="RowTest.testGetRowNumber Coverage Results" MODIFIED="1538799872152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$TheaterTest_testGetName.ic" NAME="TheaterTest.testGetName Coverage Results" MODIFIED="1538839488928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow15.ic" NAME="ReservationsServiceTest.testFindBestRow15 Coverage Results" MODIFIED="1538903641365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$edu_neu_ccs_cs5010_assignment3_in_assignment3_timzyt.ic" NAME="edu.neu.ccs.cs5010.assignment3 in assignment3-timzyt Coverage Results" MODIFIED="1538901424720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow3.ic" NAME="ReservationsServiceTest.testFindBestRow3 Coverage Results" MODIFIED="1538852446389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$TheaterTest.ic" NAME="TheaterTest Coverage Results" MODIFIED="1538901270214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow13.ic" NAME="ReservationsServiceTest.testFindBestRow13 Coverage Results" MODIFIED="1538902811299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow5.ic" NAME="ReservationsServiceTest.testFindBestRow5 Coverage Results" MODIFIED="1538852566357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow11.ic" NAME="ReservationsServiceTest.testFindBestRow11 Coverage Results" MODIFIED="1538901160630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow7.ic" NAME="ReservationsServiceTest.testFindBestRow7 Coverage Results" MODIFIED="1538899159697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$TheaterTest_testTheaterConstructor4.ic" NAME="TheaterTest.testTheaterConstructor4 Coverage Results" MODIFIED="1538902249582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$RowTest_testGetNumOfSeat.ic" NAME="RowTest.testGetNumOfSeat Coverage Results" MODIFIED="1538799877576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$TheaterTest_testTheaterConstructor2.ic" NAME="TheaterTest.testTheaterConstructor2 Coverage Results" MODIFIED="1538848105058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$SeatTest_getSeatName.ic" NAME="SeatTest.getSeatName Coverage Results" MODIFIED="1538749117117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$RowTest_testRowConstructor2.ic" NAME="RowTest.testRowConstructor2 Coverage Results" MODIFIED="1538800124778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationSystemTest_testMain5.ic" NAME="ReservationSystemTest.testMain5 Coverage Results" MODIFIED="1538864427368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$TheaterTest_testTheaterConstructor.ic" NAME="TheaterTest.testTheaterConstructor Coverage Results" MODIFIED="1538845443441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationSystemTest_testMain3.ic" NAME="ReservationSystemTest.testMain3 Coverage Results" MODIFIED="1538861610293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationSystemTest.ic" NAME="ReservationSystemTest Coverage Results" MODIFIED="1539128835524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow2.ic" NAME="ReservationsServiceTest.testFindBestRow2 Coverage Results" MODIFIED="1538852086756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow.ic" NAME="ReservationsServiceTest.testFindBestRow Coverage Results" MODIFIED="1538851994721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$SeatTest_testSetSeatName.ic" NAME="SeatTest.testSetSeatName Coverage Results" MODIFIED="1538749075058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$SeatTest_testSetReservedFor.ic" NAME="SeatTest.testSetReservedFor Coverage Results" MODIFIED="1538749523988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow14.ic" NAME="ReservationsServiceTest.testFindBestRow14 Coverage Results" MODIFIED="1538902969728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationSystemTest_testMain.ic" NAME="ReservationSystemTest.testMain Coverage Results" MODIFIED="1538861409078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow4.ic" NAME="ReservationsServiceTest.testFindBestRow4 Coverage Results" MODIFIED="1538852700865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$RowTest_testGetIsAccessible.ic" NAME="RowTest.testGetIsAccessible Coverage Results" MODIFIED="1538902035597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest.ic" NAME="ReservationsServiceTest Coverage Results" MODIFIED="1538903147618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow8.ic" NAME="ReservationsServiceTest.testFindBestRow8 Coverage Results" MODIFIED="1538852767317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow6.ic" NAME="ReservationsServiceTest.testFindBestRow6 Coverage Results" MODIFIED="1538852616316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testFindBestRow10.ic" NAME="ReservationsServiceTest.testFindBestRow10 Coverage Results" MODIFIED="1538899442327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$TheaterTest_testTheaterConstructor3.ic" NAME="TheaterTest.testTheaterConstructor3 Coverage Results" MODIFIED="1538902199576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationSystem.ic" NAME="ReservationSystem Coverage Results" MODIFIED="1538801282494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testShowMap.ic" NAME="ReservationsServiceTest.testShowMap Coverage Results" MODIFIED="1538852859699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="124" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-932182020">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.14" value="4" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="InvalidConstructorArgumentException" value="3" />
+          <entry key="MODULES/mdl-assignment3-timzyt" value="1" />
+          <entry key="assignment3" value="1" />
+          <entry key="html" value="1" />
+          <entry key="java" value="129" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="129" />
+          <entry key="UML" value="5" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="1" />
+          <entry key="java" value="23019" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="23019" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="assignment3" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/Seat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/ReservationSystemTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getSeatName</find>
+      <find>em</find>
+      <find>emptyList</find>
+      <find>new Scanner</find>
+      <find>reserveSeats</find>
+      <find>getTheater</find>
+      <find>reserved</find>
+      <find>reserveCommand</find>
+      <find>client</find>
+      <find>clientName</find>
+      <find>junit</find>
+      <find>dependency</find>
+      <find>test</find>
+      <find>contrib</find>
+      <find>findBes</find>
+      <find>showMap</find>
+      <find>setSeatName</find>
+      <find>showmap</find>
+      <find>accessibility</find>
+      <find>new Reservation</find>
+      <find>yes</find>
+      <find>findBestRow</find>
+      <find>Integer.valueOf(midRowNumber)</find>
+      <find>Integer.valueOf</find>
+      <find>what would you like to do?</find>
+      <find>System.out.printLn</find>
+      <find>scannerGroup</find>
+      <find>scannerGroupSize</find>
+      <find>scann</find>
+      <find>.next()</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>midRowNumber</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/InvalidNumerOfSeatException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/InvalidNumberOfSeatException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/NullValueException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/EmptyListException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/InvalidConstructorArgumentException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment3/SeatTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/InvalidReservationNameException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/SeatTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment3/ReservationsServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/InvalidUserInputException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/Seat.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/Row.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/ReservationSystemTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/Theater.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/RowTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/TheaterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationsService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/ReservationsServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1584" />
+    <option name="width" value="1629" />
+    <option name="height" value="1728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment3-timzyt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment3-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment3-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment3-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment3-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment3-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment3-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment3-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment3-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment3-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539138075062" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.neu.ccs.cs5010.assignment3" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.neu.ccs.cs5010.assignment3" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ReservationSystemTest">
+    <configuration name="ReservationSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment3.ReservationSystem" />
+      <module name="assignment3-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment3-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment3" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment3.ReservationSystemTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationsServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment3-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment3" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationsServiceTest.testFindBestRow14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment3-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment3" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest" />
+      <option name="METHOD_NAME" value="testFindBestRow14" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationsServiceTest.testFindBestRow15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment3-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment3" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest" />
+      <option name="METHOD_NAME" value="testFindBestRow15" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ReservationsServiceTest.testFindBestRow14" />
+      <item itemvalue="JUnit.ReservationsServiceTest" />
+      <item itemvalue="JUnit.ReservationsServiceTest.testFindBestRow15" />
+      <item itemvalue="Application.ReservationSystem" />
+      <item itemvalue="JUnit.ReservationSystemTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ReservationSystemTest" />
+        <item itemvalue="Application.ReservationSystem" />
+        <item itemvalue="JUnit.ReservationsServiceTest.testFindBestRow15" />
+        <item itemvalue="JUnit.ReservationsServiceTest" />
+        <item itemvalue="JUnit.ReservationsServiceTest.testFindBestRow14" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d759e0a-599c-4c11-a5ad-58fdd5d53f7b" name="Default Changelist" comment="" />
+      <created>1538033395968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538033395968</updated>
+      <workItem from="1538033397599" duration="322000" />
+      <workItem from="1538196440556" duration="9591000" />
+      <workItem from="1538238537821" duration="19669000" />
+      <workItem from="1538352871422" duration="803000" />
+      <workItem from="1538524576116" duration="155000" />
+      <workItem from="1538593334826" duration="91000" />
+      <workItem from="1538599339598" duration="620000" />
+      <workItem from="1538607530460" duration="811000" />
+      <workItem from="1538613800310" duration="140000" />
+      <workItem from="1538615054619" duration="9000" />
+      <workItem from="1538685898881" duration="25625000" />
+      <workItem from="1538839234606" duration="1795000" />
+      <workItem from="1538848771244" duration="10825000" />
+      <workItem from="1538861873279" duration="20547000" />
+      <workItem from="1539122611636" duration="1066000" />
+      <workItem from="1539125276943" duration="4115000" />
+      <workItem from="1539243720655" duration="447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ReservationsServiceTest_testFindBestRow14 - 2018.10.07 at 02h 02m 23s.xml">
+      <configuration name="ReservationsServiceTest.testFindBestRow14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationsServiceTest_testFindBestRow14 - 2018.10.07 at 02h 02m 38s.xml">
+      <configuration name="ReservationsServiceTest.testFindBestRow14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationsServiceTest_testFindBestRow14 - 2018.10.07 at 02h 02m 51s.xml">
+      <configuration name="ReservationsServiceTest.testFindBestRow14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationsServiceTest_testFindBestRow14 - 2018.10.07 at 02h 05m 24s.xml">
+      <configuration name="ReservationsServiceTest.testFindBestRow14" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationsServiceTest - 2018.10.07 at 02h 05m 49s.xml">
+      <configuration name="ReservationsServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationsServiceTest_testFindBestRow15 - 2018.10.07 at 02h 09m 53s.xml">
+      <configuration name="ReservationsServiceTest.testFindBestRow15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationsServiceTest_testFindBestRow15 - 2018.10.07 at 02h 13m 36s.xml">
+      <configuration name="ReservationsServiceTest.testFindBestRow15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationsServiceTest_testFindBestRow15 - 2018.10.07 at 02h 14m 03s.xml">
+      <configuration name="ReservationsServiceTest.testFindBestRow15" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationSystemTest - 2018.10.09 at 16h 21m 40s.xml">
+      <configuration name="ReservationSystemTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationSystemTest - 2018.10.09 at 16h 47m 17s.xml">
+      <configuration name="ReservationSystemTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="96631000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988399" visible="true" weight="0.20014504" />
+      <window_info id="Structure" order="1" sideWeight="0.5011601" side_tool="true" weight="0.28788978" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5011601" side_tool="true" weight="0.28788978" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866043" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26791278" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32866043" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32866043" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32866043" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="PlantUML" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.4906542" visible="true" weight="0.30239305" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.50934577" side_tool="true" visible="true" weight="0.30239305" />
+      <window_info anchor="right" id="SciView" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/NullValueException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-994">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/InvalidReservationNameException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/InvalidNumberOfSeatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/InvalidConstructorArgumentException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/EmptyListException.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/InvalidUserInputException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/index.html" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/ByteArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/SeatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-assignment3-timzyt">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-assignment3-timzyt</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-assignment3-timzyt</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="93.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/Row.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/RowTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/TheaterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="72" column="57" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="178" column="77" selection-start-line="178" selection-start-column="77" selection-end-line="178" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/ReservationsServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="206" column="43" selection-start-line="206" selection-start-column="43" selection-end-line="206" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment3.InvalidConstructorArgumentException">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment3.InvalidConstructorArgumentException</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.Throwable</node>
+            <node x="" y="">java.lang.RuntimeException</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment3.InvalidConstructorArgumentException</node>
+            <node x="" y="">java.lang.Exception</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8246575342465754" x="124.0" y="200.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/Theater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-893">
+          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment3</OriginalElement>
+          <nodes>
+            <node x="86.65104166666667" y="0.0">edu.neu.ccs.cs5010.assignment3.Seat</node>
+            <node x="147.11979166666669" y="958.0">edu.neu.ccs.cs5010.assignment3.ReservationSystem</node>
+            <node x="79.15104166666667" y="212.0">edu.neu.ccs.cs5010.assignment3.Row</node>
+            <node x="107.11979166666667" y="512.0">edu.neu.ccs.cs5010.assignment3.Theater</node>
+            <node x="0.0" y="790.0">edu.neu.ccs.cs5010.assignment3.ReservationsService</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="edu.neu.ccs.cs5010.assignment3.ReservationSystem" target="edu.neu.ccs.cs5010.assignment3.Theater">
+              <point x="62.25" y="-25.5" />
+              <point x="292.3697916666667" y="938.0" />
+              <point x="305.5" y="938.0" />
+              <point x="305.5" y="765.0" />
+              <point x="346.8697916666667" y="765.0" />
+              <point x="102.75000000000001" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment3.Row" target="edu.neu.ccs.cs5010.assignment3.Seat">
+              <point x="75.66666666666669" y="-125.0" />
+              <point x="268.31770833333337" y="187.0" />
+              <point x="263.31770833333337" y="187.0" />
+              <point x="70.66666666666669" y="81.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment3.ReservationsService" target="edu.neu.ccs.cs5010.assignment3.Row">
+              <point x="-94.66666666666669" y="-59.0" />
+              <point x="47.333333333333314" y="765.0" />
+              <point x="57.859375" y="765.0" />
+              <point x="57.859375" y="487.0" />
+              <point x="107.52604166666667" y="487.0" />
+              <point x="-85.125" y="125.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment3.ReservationsService" target="edu.neu.ccs.cs5010.assignment3.Theater">
+              <point x="94.66666666666669" y="-59.0" />
+              <point x="236.66666666666669" y="765.0" />
+              <point x="209.86979166666669" y="765.0" />
+              <point x="-34.25" y="114.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment3.ReservationSystem" target="edu.neu.ccs.cs5010.assignment3.ReservationsService">
+              <point x="-20.75" y="-25.5" />
+              <point x="209.36979166666669" y="938.0" />
+              <point x="213.0" y="938.0" />
+              <point x="71.0" y="59.0" />
+            </edge>
+            <edge source="edu.neu.ccs.cs5010.assignment3.Theater" target="edu.neu.ccs.cs5010.assignment3.Row">
+              <point x="0.0" y="-114.0" />
+              <point x="244.11979166666669" y="487.0" />
+              <point x="221.02604166666669" y="487.0" />
+              <point x="28.375" y="125.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7183770883054893" x="284.0" y="391.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/Seat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/ReservationSystemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>assignment3-timzyt</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.github.stefanbirkner:system-rules:1.16.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42528737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

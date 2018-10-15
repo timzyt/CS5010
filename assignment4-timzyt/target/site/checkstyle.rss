@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>Assignment for class CS5010 - Checkstyle report</title>
+    <link>${project.url}</link>
+    <description>Assignment for class CS5010 - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2018</copyright>
+    <item>
+      <title>File: 23,
+             Errors: 0,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>${project.url}/checkstyle.html</link>
+      <description>
+        <p>Click <a href="${project.url}/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/DmvRecords.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.TimeCalculator.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/TimeCalculator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/InsuranceValidator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/Driver.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/VehicleValidator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/License.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.CrashTypes.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/CrashTypes.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.exceptions.InvalidConstructorArgumentException.java">edu/neu/ccs/cs5010/assignment4/exceptions/InvalidConstructorArgumentException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.exceptions.InvalidVehicleYearException.java">edu/neu/ccs/cs5010/assignment4/exceptions/InvalidVehicleYearException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.RideShareController.java">edu/neu/ccs/cs5010/assignment4/RideShareController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Country.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/Country.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Name.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/Name.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.ViolationTypes.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/ViolationTypes.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.Insurance.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/insurance/Insurance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverValidator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/Record.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/MasterValidator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.RiderShareView.java">edu/neu/ccs/cs5010/assignment4/RiderShareView.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration.java">edu/neu/ccs/cs5010/assignment4/ridesharemodel/Registration.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

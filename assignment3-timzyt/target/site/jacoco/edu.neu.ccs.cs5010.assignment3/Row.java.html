@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Row.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment3</a> &gt; <span class="el_source">Row.java</span></div><h1>Row.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment3;
+
+import java.util.ArrayList;
+
+/**
+ * The class Row.
+ *
+ * @author timzyt. created on 2018/10/01.
+ */
+public class Row {
+
+  private Integer rowNum;
+  private Integer numOfSeat;
+  private Boolean isAccessible;
+  private ArrayList&lt;Seat&gt; rowMap;
+
+  /**
+   * Instantiates a new Row.
+   *
+   * @param rowNum the row num.
+   * @param numOfSeat the num of seat.
+   * @throws Exception the exception.
+   */
+<span class="fc" id="L24">  public Row(Integer rowNum, Integer numOfSeat) throws Exception {</span>
+<span class="pc bpc" id="L25" title="1 of 4 branches missed.">    if (rowNum == null || numOfSeat == null) {</span>
+<span class="fc" id="L26">      throw new NullValueException(&quot;Provided rowNum or numOfSeat is null.&quot;);</span>
+    }
+<span class="pc bpc" id="L28" title="1 of 4 branches missed.">    if (rowNum == 0 || numOfSeat == 0) {</span>
+<span class="fc" id="L29">      throw new InvalidConstructorArgumentException(&quot;Provided rowNum or numOfSeat is invalid.&quot;);</span>
+    }
+<span class="fc" id="L31">    this.rowNum = rowNum;</span>
+<span class="fc" id="L32">    this.numOfSeat = numOfSeat;</span>
+<span class="fc" id="L33">    this.rowMap = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L34">    this.isAccessible = false;</span>
+<span class="fc bfc" id="L35" title="All 2 branches covered.">    for (int i = 0; i &lt; this.numOfSeat; i++) {</span>
+<span class="fc" id="L36">      this.rowMap.add(new Seat(Character.toString((char) ('A' + i)), &quot;&quot;));</span>
+    }
+<span class="fc" id="L38">  }</span>
+
+  /**
+   * Getter for rowMap.
+   *
+   * @return the rowMap.
+   */
+  public ArrayList&lt;Seat&gt; getRowMap() {
+<span class="fc" id="L46">    return this.rowMap;</span>
+  }
+
+  /**
+   * Getter for field rowNumber.
+   *
+   * @return the rowNumber.
+   */
+  public Integer getRowNumber() {
+<span class="fc" id="L55">    return this.rowNum;</span>
+  }
+
+  //  public void setRowNumber(Integer i) {
+  //    if (i == null) {
+  //      throw new NullValueException(&quot;Provided row number is null.&quot;);
+  //    }
+  //    if (i &lt; 0) {
+  //      throw new InvalidConstructorArgumentException(&quot;Provided row number is invalid.&quot;);
+  //    }
+  //    this.rowNum = i;
+  //  }
+
+  /**
+   * Getter for field numOfSeat.
+   *
+   * @return the numOfSeat.
+   */
+  public Integer getNumOfSeat() {
+<span class="fc" id="L74">    return this.numOfSeat;</span>
+  }
+
+  //  public void setNumOfSeat(Integer nSeat) throws Exception{
+  //    if (nSeat == null) {
+  //      throw new NullValueException(&quot;Provided input is null.&quot;);
+  //    }
+  //    if (nSeat == 0) {
+  //      throw new InvalidConstructorArgumentException(&quot;Provided input is invalid.&quot;);
+  //    }
+  //    this.numOfSeat = nSeat;
+  //  }
+
+  /**
+   * Getter for the field isAccessible.
+   *
+   * @return isAccessible as boolean value.
+   */
+  public Boolean getIsAccessible() {
+<span class="fc" id="L93">    return this.isAccessible;</span>
+  }
+
+  /**
+   * Setter for the field isAccessible.
+   *
+   * @param accessibility boolean parameter for isAccessible.
+   */
+  public void setIsAccessible(Boolean accessibility) {
+<span class="fc" id="L102">    this.isAccessible = accessibility;</span>
+<span class="fc" id="L103">  }</span>
+
+  /**
+   * Gets the number of empty seat.
+   *
+   * @return the number of empty seat.
+   */
+  public Integer getEmptySeat() {
+<span class="fc" id="L111">    Integer nemptySeat = 0;</span>
+<span class="fc bfc" id="L112" title="All 2 branches covered.">    for (int i = 0; i &lt; this.numOfSeat - 1; i++) {</span>
+<span class="fc bfc" id="L113" title="All 2 branches covered.">      if (this.rowMap.get(i).getReservedFor().contentEquals(&quot;&quot;)) {</span>
+<span class="fc" id="L114">        nemptySeat += 1;</span>
+      }
+    }
+<span class="fc" id="L117">    return nemptySeat + 1;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

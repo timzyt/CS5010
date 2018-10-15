@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.5" timestamp="2018-09-18T17:43:04.051">
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment1-timzyt\src\main\java\assignment1\problem1\TransitCard.java">
+<violation beginline="21" endline="21" begincolumn="29" endcolumn="34" rule="UnusedFormalParameter" ruleset="Unused Code" package="assignment1.problem1" class="TransitCard" method="TransitCard" variable="cardId" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'cardId'.
+</violation>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment1-timzyt\src\main\java\assignment1\problem2\AbstractStarship.java">
+<violation beginline="86" endline="88" begincolumn="10" endcolumn="3" rule="BooleanGetMethodName" ruleset="Naming" package="assignment1.problem2" class="AbstractStarship" method="getIsDestroyed" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/naming.html#BooleanGetMethodName" priority="4">
+A getX() method which returns a boolean should be named isX()
+</violation>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment1-timzyt\src\main\java\assignment1\problem4\GenRandomNumber.java">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statements" package="assignment1.problem4" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.concurrent.ThreadLocalRandom'
+</violation>
+</file>
+</pmd>

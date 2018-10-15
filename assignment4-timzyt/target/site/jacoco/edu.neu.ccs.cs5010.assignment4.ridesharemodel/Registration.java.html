@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Registration.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment4.ridesharemodel</a> &gt; <span class="el_source">Registration.java</span></div><h1>Registration.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment4.ridesharemodel;
+
+import edu.neu.ccs.cs5010.assignment4.exceptions.InvalidConstructorArgumentException;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.Insurance;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle;
+
+import java.time.LocalDate;
+
+
+/**
+ * The Registration class. Serves as one of the ridershare models.
+ */
+public class Registration {
+
+  private Driver driver;
+  private Vehicle vehicle;
+  private Insurance insurance;
+  private DriverValidator driverValidator;
+  private VehicleValidator vehicleValidator;
+  private InsuranceValidator insuranceValidator;
+  private HistoryValidator historyValidator;
+
+  /**
+   * Instantiates a new Registration.
+   *
+   * @param driver the driver
+   * @param insurance the insurance
+   * @param vehicle the vehicle
+   */
+<span class="fc" id="L36">  public Registration(Driver driver, Insurance insurance, Vehicle vehicle) throws Exception {</span>
+<span class="fc bfc" id="L37" title="All 2 branches covered.">    if (driver == null) {</span>
+<span class="fc" id="L38">      throw new InvalidConstructorArgumentException();</span>
+    }
+<span class="fc bfc" id="L40" title="All 2 branches covered.">    if (insurance == null) {</span>
+<span class="fc" id="L41">      throw new InvalidConstructorArgumentException();</span>
+    }
+<span class="fc" id="L43">    this.driver = driver;</span>
+<span class="fc" id="L44">    this.insurance = insurance;</span>
+<span class="fc" id="L45">    this.vehicle = vehicle;</span>
+<span class="fc" id="L46">    this.driverValidator = new DriverValidator(this);</span>
+<span class="fc" id="L47">    this.vehicleValidator = new VehicleValidator(this);</span>
+<span class="fc" id="L48">    this.insuranceValidator = new InsuranceValidator(this);</span>
+<span class="fc" id="L49">    this.historyValidator = new HistoryValidator(new DmvRecords(), this);</span>
+<span class="fc" id="L50">  }</span>
+
+  /**
+   * Sets driver name.
+   *
+   * @param firstName the first name
+   * @param lastName the last name
+   */
+  public void setDriverName(String firstName, String lastName) throws Exception {
+<span class="nc" id="L59">    this.driver.setName(firstName, lastName);</span>
+<span class="nc" id="L60">  }</span>
+
+  /**
+   * Sets driver birthday.
+   *
+   * @param date the date
+   */
+  public void setDriverBirthday(LocalDate date) throws Exception {
+<span class="nc" id="L68">    this.driver.setBirthday(date);</span>
+<span class="nc" id="L69">  }</span>
+
+  /**
+   * Sets driver license.
+   *
+   * @param license the license
+   */
+  public void setDriverLicense(License license) throws Exception {
+<span class="nc" id="L77">    this.driver.setLicense(license);</span>
+<span class="nc" id="L78">  }</span>
+
+  /**
+   * Sets insurance.
+   *
+   * @param insurance the insurance
+   */
+  public void setInsurance(Insurance insurance) {
+<span class="nc" id="L86">    this.insurance = insurance;</span>
+<span class="nc" id="L87">  }</span>
+
+  /**
+   * Sets vehicle.
+   *
+   * @param vehicle the vehicle
+   */
+  public void setVehicle(Vehicle vehicle) {
+<span class="nc" id="L95">    this.vehicle = vehicle;</span>
+<span class="nc" id="L96">  }</span>
+
+  /**
+   * Sets the person in driver seat.
+   *
+   * @param newDriver the new driver
+   */
+  public void setPersonInDriverSeat(Driver newDriver) {
+<span class="nc" id="L104">    this.vehicle.setPersonInDriverSeat(newDriver);</span>
+<span class="nc" id="L105">  }</span>
+
+  /**
+   * Gets driver.
+   *
+   * @return the driver
+   */
+  public Driver getDriver() {
+<span class="fc" id="L113">    return driver;</span>
+  }
+
+  /**
+   * Gets insurance.
+   *
+   * @return the insurance
+   */
+  public Insurance getInsurance() {
+<span class="fc" id="L122">    return insurance;</span>
+  }
+
+  /**
+   * Gets vehicle.
+   *
+   * @return the vehicle
+   */
+  public Vehicle getVehicle() {
+<span class="fc" id="L131">    return vehicle;</span>
+  }
+
+  /**
+   * Concludes all the validation results for this registration, returns true if all validations are
+   * passes, return false if otherwise.
+   *
+   * @return the boolean
+   */
+  public Boolean validateRegistration() {
+<span class="nc bnc" id="L141" title="All 2 branches missed.">    if (driverValidator.masterValidator(this)</span>
+<span class="nc bnc" id="L142" title="All 2 branches missed.">        &amp;&amp; vehicleValidator.masterValidator(this)</span>
+<span class="nc bnc" id="L143" title="All 2 branches missed.">        &amp;&amp; insuranceValidator.masterValidator(this)</span>
+<span class="nc bnc" id="L144" title="All 2 branches missed.">        &amp;&amp; historyValidator.masterValidator(this)) {</span>
+<span class="nc" id="L145">      return true;</span>
+    } else {
+<span class="nc" id="L147">      return false;</span>
+    }
+  }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

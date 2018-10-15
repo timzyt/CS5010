@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>AttributeList.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">assignment1.problem3</a> &gt; <span class="el_source">AttributeList.java</span></div><h1>AttributeList.java</h1><pre class="source lang-java linenums">package assignment1.problem3;
+
+import java.util.Date;
+import java.util.Objects;
+
+public class AttributeList {
+
+  private Integer index;
+  private Date date;
+  private String itemName;
+  private String description;
+
+  /**
+   * constructs and instantiates an item instance to be listed in the attribute list.
+   *
+   * @param idx index of this item.
+   * @param date date of this item.
+   * @param name name of this item.
+   * @param content content of this item.
+   */
+<span class="fc" id="L21">  public AttributeList(Integer idx, Date date, String name, String content) {</span>
+<span class="fc" id="L22">    this.index = idx;</span>
+<span class="fc" id="L23">    setDate(date);</span>
+<span class="fc" id="L24">    this.itemName = name;</span>
+<span class="fc" id="L25">    this.description = content;</span>
+<span class="fc" id="L26">  }</span>
+
+  /**
+   * Set the index of this item.
+   *
+   * @return index index of this data entry.
+   */
+  public Integer getIndex() {
+<span class="fc" id="L34">    return index;</span>
+  }
+
+  /**
+   * @param index index of this data entry.
+   */
+  public void setIndex(Integer index) {
+<span class="fc" id="L41">    this.index = index;</span>
+<span class="fc" id="L42">  }</span>
+
+  /**
+   * @return date of this data entry.
+   */
+  public Date getDate() {
+<span class="fc" id="L48">    return new Date(this.date.getTime());</span>
+  }
+
+  /**
+   * set the date of this data entry.
+   *
+   * @param date date of this data entry.
+   */
+  public void setDate(Date date) {
+<span class="fc" id="L57">    this.date = new Date(date.getTime());</span>
+<span class="fc" id="L58">  }</span>
+
+  /**
+   * @return itemName name of this data entry.
+   */
+  public String getItemName() {
+<span class="fc" id="L64">    return itemName;</span>
+  }
+
+  /**
+   * set the name of this data entry.
+   *
+   * @param itemName name of this data entry.
+   */
+  public void setItemName(String itemName) {
+<span class="fc" id="L73">    this.itemName = itemName;</span>
+<span class="fc" id="L74">  }</span>
+
+  /**
+   * @return description of this data entry.
+   */
+  public String getDescription() {
+<span class="fc" id="L80">    return description;</span>
+  }
+
+  /**
+   * set the description of this data entry.
+   *
+   * @param description description of this data entry.
+   */
+  public void setDescription(String description) {
+<span class="fc" id="L89">    this.description = description;</span>
+<span class="fc" id="L90">  }</span>
+
+  /**********************************************************************************************
+   * equals and hashCode methods.
+   * @param obj object.
+   * @return boolean.
+   */
+  @Override
+  public boolean equals(Object obj) {
+<span class="nc bnc" id="L99" title="All 2 branches missed.">    if (this == obj) {</span>
+<span class="nc" id="L100">      return true;</span>
+    }
+<span class="nc bnc" id="L102" title="All 4 branches missed.">    if (obj == null || getClass() != obj.getClass()) {</span>
+<span class="nc" id="L103">      return false;</span>
+    }
+<span class="nc" id="L105">    AttributeList that = (AttributeList) obj;</span>
+<span class="nc bnc" id="L106" title="All 2 branches missed.">    return Objects.equals(index, that.index)</span>
+<span class="nc bnc" id="L107" title="All 2 branches missed.">        &amp;&amp; Objects.equals(date, that.date)</span>
+<span class="nc bnc" id="L108" title="All 2 branches missed.">        &amp;&amp; Objects.equals(itemName, that.itemName)</span>
+<span class="nc bnc" id="L109" title="All 2 branches missed.">        &amp;&amp; Objects.equals(description, that.description);</span>
+  }
+
+  @Override
+  public int hashCode() {
+<span class="nc" id="L114">    return Objects.hash(index, date, itemName, description);</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

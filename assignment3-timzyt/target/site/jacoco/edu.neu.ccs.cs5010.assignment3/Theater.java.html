@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Theater.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment3</a> &gt; <span class="el_source">Theater.java</span></div><h1>Theater.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment3;
+
+
+import java.util.ArrayList;
+import java.util.HashSet;
+
+/**
+ * The class Theater.
+ *
+ * @author timzyt. created on 2018/10/01.
+ */
+public class Theater {
+
+  private String name;
+  private Integer numOfRow;
+  private Integer numOfSeat;
+  private HashSet&lt;Integer&gt; accessibility;
+  private ArrayList&lt;Row&gt; theaterMap;
+
+  /**
+   * Instantiates a new Theater.
+   *
+   * @param name the theater name.
+   * @param nrow the number of rows.
+   * @param nseat the number of seats.
+   * @param accessibility the indexes of accessible rows.
+   * @throws Exception the exception.
+   */
+  public Theater(String name, Integer nrow, Integer nseat, HashSet&lt;Integer&gt; accessibility)
+<span class="fc" id="L30">      throws Exception {</span>
+<span class="pc bpc" id="L31" title="2 of 6 branches missed.">    if (name == null || nrow == null || nseat == 0) {</span>
+<span class="fc" id="L32">      throw new NullValueException(&quot;Provided theater name or number of row is null.&quot;);</span>
+    }
+<span class="pc bpc" id="L34" title="2 of 6 branches missed.">    if (name.length() == 0 || nrow &lt;= 0 || nseat &lt;= 0) {</span>
+<span class="fc" id="L35">      throw new InvalidConstructorArgumentException(</span>
+          &quot;Provided theater name or number of row is invalid.&quot;);
+    }
+<span class="fc" id="L38">    this.name = name;</span>
+<span class="fc" id="L39">    this.numOfRow = nrow;</span>
+<span class="fc" id="L40">    this.numOfSeat = nseat;</span>
+<span class="fc" id="L41">    this.theaterMap = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L42" title="All 2 branches covered.">    for (int i = 0; i &lt; this.numOfRow; i++) {</span>
+<span class="fc" id="L43">      this.theaterMap.add(new Row(i + 1, this.numOfSeat));</span>
+    }
+<span class="fc bfc" id="L45" title="All 2 branches covered.">    if (accessibility.size() &gt; this.numOfRow) {</span>
+<span class="fc" id="L46">      throw new InvalidConstructorArgumentException(&quot;Provided list of accessible rows is invalid.&quot;);</span>
+    } else {
+<span class="fc" id="L48">      this.accessibility = accessibility;</span>
+<span class="fc bfc" id="L49" title="All 2 branches covered.">      for (Integer index : accessibility) {</span>
+<span class="fc bfc" id="L50" title="All 2 branches covered.">        if (index &gt; numOfRow) {</span>
+<span class="fc" id="L51">          throw new InvalidConstructorArgumentException(</span>
+              &quot;Provided list of accessible rows is invalid.&quot;);
+        } else {
+<span class="fc" id="L54">          this.theaterMap.get(index - 1).setIsAccessible(true);</span>
+        }
+<span class="fc" id="L56">      }</span>
+    }
+
+<span class="fc" id="L59">  }</span>
+
+  //  public ArrayList&lt;ArrayList&lt;Seat&gt;&gt; buildTheater(Integer nRow, Integer nSeat) {
+  //    List&lt;Row&gt; aTheater = new ArrayList&lt;&gt;(nRow);
+  //    ArrayList&lt;ArrayList&lt;Seat&gt;&gt; seatMap = new ArrayList&lt;&gt;(nRow);
+  //    for (int i = 0; i &lt; nRow; i++) {
+  //      seatMap.add(aTheater.get(i).buildRow(nSeat));
+  //    }
+  //    return seatMap;
+  //  }
+
+  /**
+   * Getter for field name.
+   *
+   * @return the name.
+   */
+  public String getName() {
+<span class="fc" id="L76">    return this.name;</span>
+  }
+
+  //  /**
+  //   * Sets name.
+  //   *
+  //   * @param newName the new name
+  //   */
+  //  public void setName(String newName) {
+  //    if (newName == null) {
+  //      throw new NullValueException(&quot;Provided name is null.&quot;);
+  //    }
+  //    if (newName.length() == 0) {
+  //      throw new InvalidConstructorArgumentException(&quot;Provided name is invalid.&quot;);
+  //    }
+  //    this.name = newName;
+  //  }
+
+  /**
+   * Getter for field numOfRow.
+   *
+   * @return the numOfRow.
+   */
+  public Integer getNumOfRow() {
+<span class="fc" id="L100">    return this.numOfRow;</span>
+  }
+
+  //  public ArrayList&lt;ArrayList&lt;Seat&gt;&gt; buildTheaterMap(Integer mSeat) {
+  //    for(int i = 0; i &lt; mSeat; i++) {
+  //      this.getTheaterMap().get(i).add(new Seat);
+  //
+  //    }
+  //  }
+
+  /**
+   * Getter for field theaterMap.
+   *
+   * @return the theaterMap.
+   */
+  public ArrayList&lt;Row&gt; getTheaterMap() {
+<span class="fc" id="L116">    return this.theaterMap;</span>
+  }
+
+  /**
+   * Getter, return an sorted Integer list of the accessible rows.
+   */
+  public HashSet&lt;Integer&gt; getAccessibleRows() {
+    //    Integer[] accessibleRows = new Integer[this.accessibility.size()];
+    //    int index = 0;
+    //    for (Integer integer : accessibility) {
+    //      accessibleRows[index++] = integer;
+    //    }
+    //    Arrays.sort(accessibleRows);
+    //    return accessibleRows;
+<span class="fc" id="L130">    return this.accessibility;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

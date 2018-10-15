@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>CardOwner.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">assignment1.problem1</a> &gt; <span class="el_source">CardOwner.java</span></div><h1>CardOwner.java</h1><pre class="source lang-java linenums">package assignment1.problem1;
+
+import java.util.Objects;
+
+/**
+ * Created by timzyt on 9/9/2018. CardOwner class uses for storing person information
+ */
+public class CardOwner {
+
+  private String firstName;
+  private String lastName;
+  private String address;
+  private String emailAddress;
+
+  /**
+   * Constructs and initiates a CardOwner with firstName, lastName, address and emailAddress.
+   *
+   * @param firstName CardOwner's first name
+   * @param lastName CardOwner's last name
+   * @param address CardOwner's address
+   * @param emailAddress CardOwner's email address
+   */
+<span class="fc" id="L23">  public CardOwner(String firstName, String lastName, String address, String emailAddress) {</span>
+<span class="fc" id="L24">    this.firstName = firstName;</span>
+<span class="fc" id="L25">    this.lastName = lastName;</span>
+<span class="fc" id="L26">    this.address = address;</span>
+<span class="fc" id="L27">    this.emailAddress = emailAddress;</span>
+<span class="fc" id="L28">  }</span>
+
+  //getter
+
+  /**
+   * @return firstName first name of this card owner.
+   */
+  public String getFirstName() {
+<span class="fc" id="L36">    return firstName;</span>
+  }
+
+  /**
+   * @return lastName last name of this card owner.
+   */
+  public String getLastName() {
+<span class="fc" id="L43">    return lastName;</span>
+  }
+
+  //setter
+
+  /**
+   * @param fname first name of this card user.
+   */
+  public void setFirstName(String fname) {
+<span class="fc" id="L52">    this.firstName = fname;</span>
+<span class="fc" id="L53">  }</span>
+
+  /**
+   * @param lname last name of this card user.
+   */
+  public void setLastname(String lname) {
+<span class="fc" id="L59">    this.lastName = lname;</span>
+<span class="fc" id="L60">  }</span>
+
+  /**
+   * @return address address of this owner.
+   */
+  public String getAddress() {
+<span class="fc" id="L66">    return address;</span>
+  }
+
+  /**
+   * set the address of this owner.
+   *
+   * @param address address of this owner.
+   */
+  public void setAddress(String address) {
+<span class="fc" id="L75">    this.address = address;</span>
+<span class="fc" id="L76">  }</span>
+
+  /**
+   * @return emailAddress email address of this owner.
+   */
+  public String getEmailAddress() {
+<span class="fc" id="L82">    return emailAddress;</span>
+  }
+
+  /**
+   * set the email address of this owner.
+   *
+   * @param emailAddress email address of this owner.
+   */
+  public void setEmailAddress(String emailAddress) {
+<span class="fc" id="L91">    this.emailAddress = emailAddress;</span>
+<span class="fc" id="L92">  }</span>
+
+
+  /****************************************************************************
+   * equals and hashCode methods.
+   *
+   * @param object object.
+   * @return boolean.
+   */
+  @Override
+  public boolean equals(Object object) {
+<span class="pc bpc" id="L103" title="1 of 2 branches missed.">    if (this == object) {</span>
+<span class="fc" id="L104">      return true;</span>
+    }
+<span class="nc bnc" id="L106" title="All 4 branches missed.">    if (object == null || getClass() != object.getClass()) {</span>
+<span class="nc" id="L107">      return false;</span>
+    }
+<span class="nc" id="L109">    CardOwner cardOwner = (CardOwner) object;</span>
+<span class="nc bnc" id="L110" title="All 2 branches missed.">    return Objects.equals(firstName, cardOwner.firstName)</span>
+<span class="nc bnc" id="L111" title="All 2 branches missed.">        &amp;&amp; Objects.equals(lastName, cardOwner.lastName)</span>
+<span class="nc bnc" id="L112" title="All 2 branches missed.">        &amp;&amp; Objects.equals(address, cardOwner.address)</span>
+<span class="nc bnc" id="L113" title="All 2 branches missed.">        &amp;&amp; Objects.equals(emailAddress, cardOwner.emailAddress);</span>
+  }
+
+  @Override
+  public int hashCode() {
+<span class="nc" id="L118">    return Objects.hash(firstName, lastName, address, emailAddress);</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

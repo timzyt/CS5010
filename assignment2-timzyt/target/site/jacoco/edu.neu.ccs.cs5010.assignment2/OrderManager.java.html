@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>OrderManager.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment2</a> &gt; <span class="el_source">OrderManager.java</span></div><h1>OrderManager.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment2;
+
+import java.util.HashMap;
+
+
+/**
+ * The class Order manager.
+ */
+<span class="fc" id="L9">public class OrderManager {</span>
+
+<span class="fc" id="L11">  private HashMap&lt;String, Integer&gt; order = new HashMap&lt;String, Integer&gt;();</span>
+  private StockService theStockService;
+
+  /**
+   * Getter for field order.
+   *
+   * @return the order in this order manager.
+   */
+  public HashMap&lt;String, Integer&gt; getOrder() {
+<span class="fc" id="L20">    return this.order;</span>
+  }
+
+  /**
+   * Setter for field order.
+   *
+   * @param order an order.
+   */
+  public void setOrder(HashMap&lt;String, Integer&gt; order) {
+<span class="fc" id="L29">    this.order = order;</span>
+<span class="fc" id="L30">  }</span>
+
+  /**
+   * Setter for field theStockService.
+   *
+   * @param newStockService a new stock service.
+   */
+  public void setStockService(StockService newStockService) {
+<span class="fc" id="L38">    this.theStockService = newStockService;</span>
+<span class="fc" id="L39">  }</span>
+
+  /**
+   * take a SKU# as an argument and add that item to the current order if that item is in stock. It
+   * should give useful feedback by standard output indicating whether the item was added to the
+   * order (a SKU# that is not in stock should not be added, and the user should be informed of the
+   * issue).
+   *
+   * @param newSku the new sku
+   */
+  public void addToOrder(String newSku) {
+<span class="fc bfc" id="L50" title="All 2 branches covered.">    if (newSku == null) {</span>
+<span class="fc" id="L51">      throw new NullValueException(&quot;Provided SKU# is null.&quot;);</span>
+    }
+<span class="fc bfc" id="L53" title="All 2 branches covered.">    if (newSku.length() == 0) {</span>
+<span class="fc" id="L54">      throw new InvalidConstructorArgumentsException(&quot;Provided SKU# is invalid.&quot;);</span>
+    }
+
+<span class="fc bfc" id="L57" title="All 2 branches covered.">    if (theStockService.getStock().containsKey(newSku)) {</span>
+<span class="pc bpc" id="L58" title="1 of 4 branches missed.">      if (this.order.containsKey(newSku) || this.order.get(newSku) != null) {</span>
+<span class="fc" id="L59">        Integer newCount = Integer.valueOf(this.order.get(newSku).intValue() + 1);</span>
+<span class="fc" id="L60">        this.order.put(newSku, newCount);</span>
+<span class="fc" id="L61">      } else {</span>
+<span class="fc" id="L62">        this.order.put(newSku, 1);</span>
+      }
+<span class="fc" id="L64">      System.out.println(</span>
+<span class="fc" id="L65">          theStockService.getStock().get(newSku).getCategory() + &quot; SKU# &quot; + newSku</span>
+              + &quot; is added to the order.&quot;);
+    } else {
+<span class="fc" id="L68">      System.out.println(</span>
+          &quot;Provided item with SKU# &quot; + newSku + &quot; is not in stock, cannot be added to the order.&quot;);
+    }
+<span class="fc" id="L71">  }</span>
+
+  /**
+   * take a SKU# as an argument and remove one instance of that item from the current order. It
+   * should give useful feedback via standard output as to whether the item was removed.
+   *
+   * @param newSku the new sku
+   */
+  public void removeOneFromOrder(String newSku) {
+<span class="fc bfc" id="L80" title="All 2 branches covered.">    if (newSku == null) {</span>
+<span class="fc" id="L81">      throw new NullValueException(&quot;Provided SKU# is null.&quot;);</span>
+    }
+<span class="fc bfc" id="L83" title="All 2 branches covered.">    if (newSku.length() == 0) {</span>
+<span class="fc" id="L84">      throw new InvalidConstructorArgumentsException(&quot;Provided SKU# is invalid.&quot;);</span>
+    }
+<span class="fc bfc" id="L86" title="All 2 branches covered.">    if (!order.containsKey(newSku)) {</span>
+<span class="fc" id="L87">      System.out.println(&quot;No item in the order matches provided SKU#.&quot;);</span>
+    } else {
+<span class="fc" id="L89">      Integer newCount = Integer.valueOf(order.get(newSku).intValue() - 1);</span>
+<span class="fc" id="L90">      this.order.put(newSku, newCount);</span>
+<span class="fc" id="L91">      System.out.println(&quot;One item by SKU# &quot; + newSku + &quot; is removed from the order, &quot; + newCount</span>
+          + &quot; of such item is left in the order.&quot;);
+<span class="pc bpc" id="L93" title="1 of 2 branches missed.">      if (newCount == 0) {</span>
+<span class="fc" id="L94">        order.remove(newSku);</span>
+      } 
+    }
+<span class="fc" id="L97">  }</span>
+
+  /**
+   * confirm that all items in the current order conform to the same measurement system. It should
+   * return a Boolean value (&quot;true&quot; if all items conform and &quot;false&quot; if the order includes mixed
+   * measurement systems). It should also print a report to the standard output giving useful
+   * information about the measurements (it is up to you to decide what this method should report).
+   *
+   * @return the boolean
+   */
+  public boolean validateMeasurementSystem() {
+<span class="fc bfc" id="L108" title="All 2 branches covered.">    if (this.order == null) {</span>
+<span class="fc" id="L109">      throw new NullValueException(&quot;Provided order is empty.&quot;);</span>
+    }
+<span class="fc bfc" id="L111" title="All 2 branches covered.">    if (order.isEmpty()) {</span>
+<span class="fc" id="L112">      throw new InvalidHashMapKeyException(&quot;Provided order is empty.&quot;);</span>
+    }
+<span class="fc" id="L114">    Boolean result = false;</span>
+<span class="fc" id="L115">    String[] keyArray = this.order.keySet().toArray(new String[0]);</span>
+<span class="fc" id="L116">    String firstMmeasurementSystem = this.theStockService.getStock().get(keyArray[0]).getSom()</span>
+<span class="fc" id="L117">        .name();</span>
+<span class="fc bfc" id="L118" title="All 2 branches covered.">    for (String nextKey : keyArray) {</span>
+<span class="fc" id="L119">      if (!firstMmeasurementSystem</span>
+<span class="fc bfc" id="L120" title="All 2 branches covered.">          .contentEquals(theStockService.getStock().get(nextKey).getSom().name())) {</span>
+<span class="fc" id="L121">        result = false;</span>
+      } else {
+<span class="fc" id="L123">        result = true;</span>
+      }
+    }
+<span class="fc bfc" id="L126" title="All 2 branches covered.">    if (result) {</span>
+<span class="fc" id="L127">      System.out</span>
+<span class="fc" id="L128">          .println(&quot;This order contains items only in &quot; + firstMmeasurementSystem + &quot; system.&quot;);</span>
+    } else {
+<span class="fc" id="L130">      System.out.println(&quot;This order contains items of mixed measurement system.&quot;);</span>
+    }
+<span class="fc" id="L132">    return result;</span>
+  }
+
+  /**
+   * take a measurement system (metric or standard) as an argument and delete all items in the order
+   * that do not conform to that measurement system, leaving only those items in the order that do
+   * conform to the measurement system.
+   *
+   * @param measurementSystem the measurement system
+   */
+  public void filterByMeasurementSystem(String measurementSystem) {
+<span class="fc bfc" id="L143" title="All 2 branches covered.">    if (this.order == null) {</span>
+<span class="fc" id="L144">      throw new NullValueException(&quot;Provided order is null.&quot;);</span>
+    }
+<span class="fc bfc" id="L146" title="All 2 branches covered.">    if (measurementSystem == null) {</span>
+<span class="fc" id="L147">      throw new NullValueException(&quot;Provided measurement system input is null.&quot;);</span>
+    }
+<span class="fc bfc" id="L149" title="All 2 branches covered.">    if (measurementSystem.length() == 0) {</span>
+<span class="fc" id="L150">      throw new InvalidConstructorArgumentsException(&quot;Provided measurement system is invalid.&quot;);</span>
+    }
+<span class="fc" id="L152">    String[] keyArray = this.order.keySet().toArray(new String[0]);</span>
+<span class="fc bfc" id="L153" title="All 2 branches covered.">    for (String nextKey : keyArray) {</span>
+<span class="fc" id="L154">      if (!theStockService.getStock().get(nextKey).getSom().name()</span>
+<span class="fc bfc" id="L155" title="All 2 branches covered.">          .contentEquals(measurementSystem)) {</span>
+<span class="fc" id="L156">        order.remove(nextKey);</span>
+      }
+    }
+<span class="fc" id="L159">  }</span>
+
+  /**
+   * check each item in the order for its category (e.g. &quot;Precision Ball Bearings&quot;) and return the
+   * category if all items  share the same category, and return &quot;Mixed&quot; if the order contains items
+   * of different categories.
+   *
+   * @return the string
+   */
+  public String orderCategory() {
+<span class="fc bfc" id="L169" title="All 2 branches covered.">    if (this.order == null) {</span>
+<span class="fc" id="L170">      throw new NullValueException(&quot;Provided order is null.&quot;);</span>
+    }
+<span class="fc bfc" id="L172" title="All 2 branches covered.">    if (order.isEmpty()) {</span>
+<span class="fc" id="L173">      throw new InvalidHashMapKeyException(&quot;Provided order is empty.&quot;);</span>
+    }
+<span class="fc" id="L175">    String[] keyArray = order.keySet().toArray(new String[0]);</span>
+<span class="fc" id="L176">    String firstItemCategory = theStockService.getStock().get(keyArray[0]).getCategory();</span>
+<span class="fc bfc" id="L177" title="All 2 branches covered.">    for (String nextKey : keyArray) {</span>
+<span class="fc" id="L178">      if (!firstItemCategory</span>
+<span class="fc bfc" id="L179" title="All 2 branches covered.">          .contentEquals(theStockService.getStock().get(nextKey).getCategory())) {</span>
+<span class="fc" id="L180">        return &quot;Mixed&quot;;</span>
+      }
+    }
+<span class="fc" id="L183">    return firstItemCategory;</span>
+  }
+
+  /**
+   * print out (to standard output) a tabulated report of the current order listing the category,
+   * SKU#, and price of each item in the order, with the total cost at the bottom of the report.
+   */
+  public void printDocket() {
+<span class="fc" id="L191">    Integer totalPriceInCent = 0;</span>
+<span class="fc bfc" id="L192" title="All 2 branches covered.">    if (this.order == null) {</span>
+<span class="fc" id="L193">      throw new NullValueException(&quot;Provided order is null.&quot;);</span>
+    }
+<span class="fc bfc" id="L195" title="All 2 branches covered.">    if (order.isEmpty()) {</span>
+<span class="fc" id="L196">      throw new InvalidHashMapKeyException(&quot;Provided order is empty.&quot;);</span>
+    }
+<span class="fc" id="L198">    String[] keyArray = order.keySet().toArray(new String[0]);</span>
+<span class="fc bfc" id="L199" title="All 2 branches covered.">    for (String nextKey : keyArray) {</span>
+<span class="fc" id="L200">      System.out.println(</span>
+<span class="fc" id="L201">          theStockService.getStock().get(nextKey).getCategory() + &quot; &quot; + nextKey + &quot; &quot;</span>
+<span class="fc" id="L202">              + theStockService.getStock().get(nextKey).getPrice().printPrice());</span>
+<span class="fc" id="L203">      totalPriceInCent += theStockService.getStock().get(nextKey).getPrice().getPriceInCent();</span>
+    }
+<span class="fc" id="L205">    StringBuffer strbdr = new StringBuffer()</span>
+<span class="fc" id="L206">        .append(theStockService.getStock().get(keyArray[0]).getPrice().getCurrency())</span>
+<span class="fc" id="L207">        .append(((double) totalPriceInCent / 100.00));</span>
+<span class="fc" id="L208">    System.out.print(strbdr.toString());</span>
+<span class="fc" id="L209">  }</span>
+
+  /**
+   * take two arbitrary stock item SKU#s and determine whether they represent a shaft/shaft-mounted
+   * pair of items for which the diameter of the shaft matches the &quot;for shaft diameter&quot; value of the
+   * shaft-mounted part. It should return a Boolean value representing whether the two items fit
+   * each other. If so, it should print a report to standard output following the given format.
+   *
+   * @param sku1 the sku 1
+   * @param sku2 the sku 2
+   * @return the boolean
+   */
+  public boolean checkFit(String sku1, String sku2) {
+    String category1;
+    String category2;
+    SystemOfMeasurement som1;
+    SystemOfMeasurement som2;
+<span class="fc bfc" id="L226" title="All 4 branches covered.">    if (sku1 == null || sku2 == null) {</span>
+<span class="fc" id="L227">      throw new NullValueException(&quot;Provided SKU# is null.&quot;);</span>
+    }
+<span class="fc bfc" id="L229" title="All 4 branches covered.">    if (sku1.length() == 0 || sku2.length() == 0) {</span>
+<span class="fc" id="L230">      throw new InvalidConstructorArgumentsException(&quot;Provided SKU# is invalid.&quot;);</span>
+    }
+<span class="fc bfc" id="L232" title="All 2 branches covered.">    if (!theStockService.getStock().containsKey(sku1) &amp;&amp; !theStockService.getStock()</span>
+<span class="fc bfc" id="L233" title="All 2 branches covered.">        .containsKey(sku2)) {</span>
+<span class="fc" id="L234">      StringBuilder errorMsg3 = new StringBuilder();</span>
+<span class="fc" id="L235">      errorMsg3.append(&quot;No item in the stock matches provided SKU# &quot;).append(sku1).append(&quot; and &quot;)</span>
+<span class="fc" id="L236">          .append(sku2).append(&quot;.&quot;);</span>
+<span class="fc" id="L237">      System.out.println(errorMsg3.toString());</span>
+<span class="fc bfc" id="L238" title="All 2 branches covered.">    } else if (!theStockService.getStock().containsKey(sku1)) {</span>
+<span class="fc" id="L239">      StringBuilder errorMsg1 = new StringBuilder();</span>
+<span class="fc" id="L240">      errorMsg1.append(&quot;No item in the stock matches provided SKU# &quot;).append(sku1).append(&quot;.&quot;);</span>
+<span class="fc" id="L241">      System.out.println(errorMsg1.toString());</span>
+<span class="fc bfc" id="L242" title="All 2 branches covered.">    } else if (!theStockService.getStock().containsKey(sku2)) {</span>
+<span class="fc" id="L243">      StringBuilder errorMsg2 = new StringBuilder();</span>
+<span class="fc" id="L244">      errorMsg2.append(&quot;No item in the stock matches provided SKU# &quot;).append(sku2).append(&quot;.&quot;);</span>
+<span class="fc" id="L245">      System.out.println(errorMsg2.toString());</span>
+<span class="fc" id="L246">    } else {</span>
+<span class="fc" id="L247">      category1 = theStockService.getStock().get(sku1).getCategory();</span>
+<span class="fc" id="L248">      category2 = theStockService.getStock().get(sku2).getCategory();</span>
+<span class="fc" id="L249">      som1 = theStockService.getStock().get(sku1).getSom();</span>
+<span class="fc" id="L250">      som2 = theStockService.getStock().get(sku2).getSom();</span>
+<span class="fc bfc" id="L251" title="All 2 branches covered.">      if ((!category1.contains(&quot;Rotary Shaft&quot;) &amp;&amp; !category2</span>
+<span class="pc bpc" id="L252" title="1 of 2 branches missed.">          .contains(&quot;Rotary Shaft&quot;)) || (</span>
+<span class="pc bpc" id="L253" title="1 of 4 branches missed.">          category1.contains(&quot;Rotary Shaft&quot;) &amp;&amp; category2.contains(&quot;Rotary Shaft&quot;))) {</span>
+<span class="fc" id="L254">        System.out.println(&quot;Not a shaft/shaft-mounted pair.&quot;);</span>
+<span class="fc bfc" id="L255" title="All 2 branches covered.">      } else if (!som1.equals(som2)) {</span>
+<span class="fc" id="L256">        System.out.println(&quot;System of Measurement don't match.&quot;);</span>
+<span class="pc bpc" id="L257" title="1 of 2 branches missed.">      } else if (category1.contains(&quot;Rotary Shaft&quot;)) {</span>
+<span class="fc" id="L258">        if (theStockService.getStock().get(sku1).getShaft()</span>
+<span class="fc bfc" id="L259" title="All 2 branches covered.">            .equals(theStockService.getStock().get(sku2).getShaft())) {</span>
+<span class="fc" id="L260">          StringBuilder resMsg1 = new StringBuilder();</span>
+<span class="fc" id="L261">          resMsg1.append(theStockService.getStock().get(sku2).getCategory()).append(&quot; SKU# &quot;)</span>
+<span class="fc" id="L262">              .append(sku2).append(&quot; for &quot;)</span>
+<span class="fc" id="L263">              .append(theStockService.getStock().get(sku2).getShaft().printMeasurement())</span>
+<span class="fc" id="L264">              .append(&quot; shaft fits on Rotary Shafts SKU# &quot;).append(sku1);</span>
+<span class="fc" id="L265">          System.out.println(resMsg1.toString());</span>
+<span class="fc" id="L266">          return true;</span>
+        } else {
+<span class="fc" id="L268">          StringBuilder resMsg2 = new StringBuilder();</span>
+<span class="fc" id="L269">          resMsg2.append(theStockService.getStock().get(sku2).getCategory()).append(&quot; SKU# &quot;)</span>
+<span class="fc" id="L270">              .append(sku2).append(&quot; for &quot;)</span>
+<span class="fc" id="L271">              .append(theStockService.getStock().get(sku2).getShaft().printMeasurement())</span>
+<span class="fc" id="L272">              .append(&quot; shaft does not fit on Rotary Shafts SKU# &quot;).append(sku1);</span>
+<span class="fc" id="L273">          System.out.println(resMsg2);</span>
+<span class="fc" id="L274">          return false;</span>
+        }
+      }
+    }
+<span class="fc" id="L278">    return false;</span>
+  }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

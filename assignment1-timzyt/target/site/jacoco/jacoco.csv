@@ -1,0 +1,25 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Assignment for class CS5010,assignment1.problem1,CardBalance,42,50,10,6,6,16,7,8,1,6
+Assignment for class CS5010,assignment1.problem1,CardOwner,64,48,13,1,8,20,8,10,1,10
+Assignment for class CS5010,assignment1.problem1,Deposit,96,125,35,21,13,27,28,11,2,9
+Assignment for class CS5010,assignment1.problem1,TransitCard,63,109,14,4,10,21,10,9,2,8
+Assignment for class CS5010,assignment1.problem3,Genre,9,79,0,0,0,2,2,2,2,2
+Assignment for class CS5010,assignment1.problem3,AttributeList,69,51,14,0,10,18,9,9,2,9
+Assignment for class CS5010,assignment1.problem3,Name,47,23,10,0,8,10,7,5,2,5
+Assignment for class CS5010,assignment1.problem3,Artist,166,119,39,11,23,32,26,14,4,11
+Assignment for class CS5010,assignment1.problem2,Resistance,0,11,0,0,0,3,0,1,0,1
+Assignment for class CS5010,assignment1.problem2,StarDestroyer,0,14,0,0,0,4,0,1,0,1
+Assignment for class CS5010,assignment1.problem2,AbstractStarship,121,184,26,12,18,47,18,20,2,17
+Assignment for class CS5010,assignment1.problem2,XWingFighter,0,14,0,0,0,4,0,1,0,1
+Assignment for class CS5010,assignment1.problem2,GenRandomNumber,0,14,0,0,0,5,0,2,0,2
+Assignment for class CS5010,assignment1.problem2,AWingFighter,0,14,0,0,0,4,0,1,0,1
+Assignment for class CS5010,assignment1.problem2,FirstOrder,0,11,0,0,0,3,0,1,0,1
+Assignment for class CS5010,assignment1.problem2,Side,9,29,0,0,0,2,2,2,2,2
+Assignment for class CS5010,assignment1.problem2,TieFighter,0,14,0,0,0,4,0,1,0,1
+Assignment for class CS5010,assignment1.problem4,GenRandomNumber,0,25,0,0,0,4,0,2,0,2
+Assignment for class CS5010,assignment1.problem4,AllowedDirections,0,13,0,0,0,3,0,2,0,2
+Assignment for class CS5010,assignment1.problem4,Vehicle.new Object() {...},4,29,0,0,0,1,0,1,0,1
+Assignment for class CS5010,assignment1.problem4,AllowedDirections.new HashMap() {...},0,26,0,0,0,6,0,1,0,1
+Assignment for class CS5010,assignment1.problem4,VehicleType,5,53,0,0,0,2,1,3,1,3
+Assignment for class CS5010,assignment1.problem4,Direction,9,49,0,0,0,2,2,2,2,2
+Assignment for class CS5010,assignment1.problem4,Vehicle,153,246,30,9,25,63,20,29,2,26

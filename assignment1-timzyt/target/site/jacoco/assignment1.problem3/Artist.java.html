@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Artist.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">assignment1.problem3</a> &gt; <span class="el_source">Artist.java</span></div><h1>Artist.java</h1><pre class="source lang-java linenums">package assignment1.problem3;
+
+import java.util.ArrayList;
+import java.util.Objects;
+
+/**
+ * Created by timzyt on 9/13/2018. Artists class uses for construct and store information for
+ * artist.
+ */
+public class Artist {
+
+  private String artistid;
+  private Name name;
+  private Integer age;
+  private Genre genre;
+  private ArrayList&lt;AttributeList&gt; awards;
+  private ArrayList&lt;AttributeList&gt; movies;
+  private ArrayList&lt;AttributeList&gt; tvSeries;
+  private ArrayList&lt;AttributeList&gt; otherMedia;
+
+<span class="fc" id="L21">  public Artist(String newid) throws IllegalArgumentException {</span>
+<span class="fc" id="L22">    this.artistid = newid;</span>
+<span class="fc" id="L23">    this.awards = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L24">  }</span>
+
+  /**
+   * @return artistid.
+   */
+  public String getArtistid() {
+<span class="fc" id="L30">    return artistid;</span>
+  }
+
+  /**
+   * set the id for this artist.
+   *
+   * @param artistid artist id.
+   */
+  public void setArtistid(String artistid) {
+<span class="fc" id="L39">    this.artistid = artistid;</span>
+<span class="fc" id="L40">  }</span>
+
+  /**
+   * @return name.
+   */
+  public Name getName() {
+<span class="fc" id="L46">    return name;</span>
+  }
+
+  /**
+   * set the name of this artist.
+   *
+   * @param name name of this artist.
+   */
+  public void setName(Name name) {
+<span class="fc" id="L55">    this.name = name;</span>
+<span class="fc" id="L56">  }</span>
+
+  /**
+   * @return age age of this artist.
+   */
+  public Integer getAge() {
+<span class="fc" id="L62">    return age;</span>
+  }
+
+  /**
+   * set the age of this artist.
+   *
+   * @param age age of this artist.
+   */
+  public void setAge(Integer age) {
+<span class="pc bpc" id="L71" title="1 of 4 branches missed.">    if (age &lt;= 0 || age &gt; 128) {</span>
+<span class="fc" id="L72">      throw new IllegalArgumentException(&quot;age of this artist is out of range.&quot;);</span>
+    } else {
+<span class="fc" id="L74">      this.age = age;</span>
+    }
+<span class="fc" id="L76">  }</span>
+
+  /**
+   * @return genre genre of this artist.
+   */
+  public Genre getGenre() {
+<span class="fc" id="L82">    return genre;</span>
+  }
+
+  /**
+   * set the genre of this artist.
+   *
+   * @param genre genre of this artist.
+   */
+  public void setGenre(Genre genre) {
+<span class="fc" id="L91">    this.genre = genre;</span>
+<span class="pc bpc" id="L92" title="1 of 4 branches missed.">    if (this.genre.equals(Genre.Actor) || this.genre.equals(Genre.Filmmaker)</span>
+<span class="pc bpc" id="L93" title="1 of 2 branches missed.">        || this.genre.equals(Genre.Dancer)) {</span>
+<span class="fc" id="L94">      movies = new ArrayList&lt;AttributeList&gt;();</span>
+<span class="fc" id="L95">      tvSeries = new ArrayList&lt;AttributeList&gt;();</span>
+<span class="fc" id="L96">      otherMedia = new ArrayList&lt;AttributeList&gt;();</span>
+    } else {
+<span class="fc" id="L98">      this.movies = null;</span>
+<span class="fc" id="L99">      this.tvSeries = null;</span>
+<span class="fc" id="L100">      this.otherMedia = null;</span>
+    }
+<span class="fc" id="L102">  }</span>
+
+  /**
+   * @return list of movies that this artist is in.
+   */
+  public ArrayList&lt;AttributeList&gt; getMovieList() {
+<span class="fc" id="L108">    return this.movies;</span>
+  }
+
+  /**
+   * add instance into the list of movies that this artist is in.
+   *
+   * @param movie one movie that this artist is in.
+   */
+  public void setMovieList(AttributeList movie) throws IllegalArgumentException {
+<span class="pc bpc" id="L117" title="1 of 4 branches missed.">    if (this.genre.equals(Genre.Actor) || this.genre.equals(Genre.Filmmaker) || this.genre</span>
+<span class="pc bpc" id="L118" title="1 of 2 branches missed.">        .equals(Genre.Dancer)) {</span>
+<span class="fc" id="L119">      this.movies.add(movie);</span>
+    } else {
+<span class="fc" id="L121">      System.out.println(&quot;This artist does not have a movie record.&quot;);</span>
+    }
+<span class="fc" id="L123">  }</span>
+
+  /**
+   * add instance into the list of TV series that this artist is in.
+   *
+   * @param tvSeries one TV series that this artist is in.
+   */
+  public void settvList(AttributeList tvSeries) throws IllegalArgumentException {
+<span class="nc bnc" id="L131" title="All 4 branches missed.">    if (this.genre.equals(Genre.Actor) || this.genre.equals(Genre.Filmmaker) || this.genre</span>
+<span class="nc bnc" id="L132" title="All 2 branches missed.">        .equals(Genre.Dancer)) {</span>
+<span class="nc" id="L133">      this.tvSeries.add(tvSeries);</span>
+    } else {
+<span class="nc" id="L135">      throw new IllegalArgumentException(&quot;This artist does not have a TV series record.&quot;);</span>
+    }
+<span class="nc" id="L137">  }</span>
+
+  /**
+   * add instance into the list of other multimedia that this artist is in.
+   *
+   * @param otherMedia one other multimedia that this artist is in.
+   */
+  public void setOtherMedia(AttributeList otherMedia) throws IllegalArgumentException {
+<span class="nc bnc" id="L145" title="All 4 branches missed.">    if (this.genre.equals(Genre.Actor) || this.genre.equals(Genre.Filmmaker) || this.genre</span>
+<span class="nc bnc" id="L146" title="All 2 branches missed.">        .equals(Genre.Dancer)) {</span>
+<span class="nc" id="L147">      this.otherMedia.add(otherMedia);</span>
+    } else {
+<span class="nc" id="L149">      throw new IllegalArgumentException(</span>
+          &quot;This artist does not have a record for other multimedia.&quot;);
+    }
+<span class="nc" id="L152">  }</span>
+
+  /**********************************************************************************************
+   * equals and hashCode methods.
+   * @param object object.
+   * @return object.
+   */
+  @Override
+  public boolean equals(Object object) {
+<span class="nc bnc" id="L161" title="All 2 branches missed.">    if (this == object) {</span>
+<span class="nc" id="L162">      return true;</span>
+    }
+<span class="nc bnc" id="L164" title="All 4 branches missed.">    if (object == null || getClass() != object.getClass()) {</span>
+<span class="nc" id="L165">      return false;</span>
+    }
+<span class="nc" id="L167">    Artist artist = (Artist) object;</span>
+<span class="nc bnc" id="L168" title="All 2 branches missed.">    return Objects.equals(artistid, artist.artistid)</span>
+<span class="nc bnc" id="L169" title="All 2 branches missed.">        &amp;&amp; Objects.equals(name, artist.name)</span>
+<span class="nc bnc" id="L170" title="All 4 branches missed.">        &amp;&amp; Objects.equals(age, artist.age)</span>
+        &amp;&amp; genre == artist.genre
+<span class="nc bnc" id="L172" title="All 2 branches missed.">        &amp;&amp; Objects.equals(awards, artist.awards)</span>
+<span class="nc bnc" id="L173" title="All 2 branches missed.">        &amp;&amp; Objects.equals(movies, artist.movies)</span>
+<span class="nc bnc" id="L174" title="All 2 branches missed.">        &amp;&amp; Objects.equals(tvSeries, artist.tvSeries)</span>
+<span class="nc bnc" id="L175" title="All 2 branches missed.">        &amp;&amp; Objects.equals(otherMedia, artist.otherMedia);</span>
+  }
+
+  @Override
+  public int hashCode() {
+<span class="nc" id="L180">    return Objects.hash(artistid, name, age, genre, awards, movies, tvSeries, otherMedia);</span>
+  }
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>StockServiceTest xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../../../testapidocs/edu/neu/ccs/cs5010/assignment2/StockServiceTest.html">View Javadoc</a></div><pre>
+<a class="jxr_linenumber" name="L1" href="#L1">1</a>   <strong class="jxr_keyword">package</strong> edu.neu.ccs.cs5010.assignment2;
+<a class="jxr_linenumber" name="L2" href="#L2">2</a>   
+<a class="jxr_linenumber" name="L3" href="#L3">3</a>   <strong class="jxr_keyword">import</strong> java.util.HashMap;
+<a class="jxr_linenumber" name="L4" href="#L4">4</a>   <strong class="jxr_keyword">import</strong> org.junit.Before;
+<a class="jxr_linenumber" name="L5" href="#L5">5</a>   <strong class="jxr_keyword">import</strong> org.junit.Test;
+<a class="jxr_linenumber" name="L6" href="#L6">6</a>   
+<a class="jxr_linenumber" name="L7" href="#L7">7</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/StockServiceTest.html">StockServiceTest</a> {
+<a class="jxr_linenumber" name="L8" href="#L8">8</a>     <strong class="jxr_keyword">private</strong> HashMap&lt;String, AbstractStockItem&gt; stock;
+<a class="jxr_linenumber" name="L9" href="#L9">9</a>     <strong class="jxr_keyword">private</strong> StockService ss1 = <strong class="jxr_keyword">new</strong> StockService();
+<a class="jxr_linenumber" name="L10" href="#L10">10</a>  
+<a class="jxr_linenumber" name="L11" href="#L11">11</a>    <strong class="jxr_keyword">public</strong> <a href="../../../../../edu/neu/ccs/cs5010/assignment2/StockServiceTest.html">StockServiceTest</a>() <strong class="jxr_keyword">throws</strong> Exception {
+<a class="jxr_linenumber" name="L12" href="#L12">12</a>    }
+<a class="jxr_linenumber" name="L13" href="#L13">13</a>  
+<a class="jxr_linenumber" name="L14" href="#L14">14</a>    @Before
+<a class="jxr_linenumber" name="L15" href="#L15">15</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setUp() <strong class="jxr_keyword">throws</strong> Exception {
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>      stock = <strong class="jxr_keyword">new</strong> HashMap&lt;String, AbstractStockItem&gt;();
+<a class="jxr_linenumber" name="L17" href="#L17">17</a>  
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>      stock.put(<span class="jxr_string">"2302K53"</span>, <strong class="jxr_keyword">new</strong> SprocketForMetricRollerChain(<span class="jxr_string">"2302K53"</span>, 3111, <span class="jxr_string">"Metric"</span>, 30,
+<a class="jxr_linenumber" name="L19" href="#L19">19</a>          <strong class="jxr_keyword">new</strong> Measurement(<strong class="jxr_keyword">new</strong> Fraction(8, 0, 0), SystemOfMeasurement.Metric)));
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>      stock.put(<span class="jxr_string">"6280K443"</span>, <strong class="jxr_keyword">new</strong> SprocketForansiRollerChain(<span class="jxr_string">"6280K443"</span>, 2492, <span class="jxr_string">"Inch"</span>, 22,
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>          <strong class="jxr_keyword">new</strong> Measurement(<strong class="jxr_keyword">new</strong> Fraction(1, 0, 0), SystemOfMeasurement.Inch)));
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>      stock.put(<span class="jxr_string">"6280K524"</span>, <strong class="jxr_keyword">new</strong> SprocketForansiRollerChain(<span class="jxr_string">"6280K524"</span>, 2654, <span class="jxr_string">"Inch"</span>, 23,
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>          <strong class="jxr_keyword">new</strong> Measurement(<strong class="jxr_keyword">new</strong> Fraction(0, 1, 2), SystemOfMeasurement.Inch)));
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>      stock.put(<span class="jxr_string">"6661K13"</span>, <strong class="jxr_keyword">new</strong> PrecisionBallBearing(<span class="jxr_string">"6661K13"</span>, 1598, <span class="jxr_string">"Metric"</span>, <span class="jxr_string">"Shielded"</span>,
+<a class="jxr_linenumber" name="L25" href="#L25">25</a>          <strong class="jxr_keyword">new</strong> Measurement(<strong class="jxr_keyword">new</strong> Fraction(8, 0, 0), SystemOfMeasurement.Metric),
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>          <strong class="jxr_keyword">new</strong> Measurement(<strong class="jxr_keyword">new</strong> Fraction(1, 0, 0), SystemOfMeasurement.Metric)));
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>      stock.put(<span class="jxr_string">"1482K17"</span>, <strong class="jxr_keyword">new</strong> RotaryShaft(<span class="jxr_string">"1482K17"</span>, 3572, <span class="jxr_string">"Metric"</span>,
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>          <strong class="jxr_keyword">new</strong> Measurement(<strong class="jxr_keyword">new</strong> Fraction(2000, 0, 0), SystemOfMeasurement.Metric),
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>          <strong class="jxr_keyword">new</strong> Measurement(<strong class="jxr_keyword">new</strong> Fraction(10, 0, 0), SystemOfMeasurement.Metric)));
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>    }
+<a class="jxr_linenumber" name="L31" href="#L31">31</a>  
+<a class="jxr_linenumber" name="L32" href="#L32">32</a>    @Test
+<a class="jxr_linenumber" name="L33" href="#L33">33</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> getStock() {
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>      ss1.getStock();
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>    }
+<a class="jxr_linenumber" name="L36" href="#L36">36</a>  }
+</pre>
+<hr/>
+<div id="footer">Copyright &#169; 2018. All rights reserved.</div>
+</body>
+</html>

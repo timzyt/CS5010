@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>StockService.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment2</a> &gt; <span class="el_source">StockService.java</span></div><h1>StockService.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment2;
+
+import java.util.HashMap;
+
+/**
+ * The class Stock service.
+ */
+public class StockService {
+
+  private HashMap&lt;String, AbstractStockItem&gt; stock;
+
+  /**
+   * Instantiates a new Stock service.
+   */
+<span class="fc" id="L15">  public StockService() throws Exception {</span>
+
+<span class="fc" id="L17">    stock = new HashMap&lt;String, AbstractStockItem&gt;();</span>
+
+<span class="fc" id="L19">    stock.put(&quot;2302K53&quot;, new SprocketForMetricRollerChain(&quot;2302K53&quot;, 3111, &quot;Metric&quot;, 30,</span>
+        new Measurement(new Fraction(8, 0, 0), SystemOfMeasurement.Metric)));
+<span class="fc" id="L21">    stock.put(&quot;6280K443&quot;, new SprocketForansiRollerChain(&quot;6280K443&quot;, 2492, &quot;Inch&quot;, 22,</span>
+        new Measurement(new Fraction(1, 0, 0), SystemOfMeasurement.Inch)));
+<span class="fc" id="L23">    stock.put(&quot;6280K524&quot;, new SprocketForansiRollerChain(&quot;6280K524&quot;, 2654, &quot;Inch&quot;, 23,</span>
+        new Measurement(new Fraction(0, 1, 2), SystemOfMeasurement.Inch)));
+<span class="fc" id="L25">    stock.put(&quot;6661K13&quot;, new PrecisionBallBearing(&quot;6661K13&quot;, 1598, &quot;Metric&quot;, &quot;Shielded&quot;,</span>
+        new Measurement(new Fraction(8, 0, 0), SystemOfMeasurement.Metric),
+        new Measurement(new Fraction(1, 0, 0), SystemOfMeasurement.Metric)));
+<span class="fc" id="L28">    stock.put(&quot;1482K17&quot;, new RotaryShaft(&quot;1482K17&quot;, 3572, &quot;Metric&quot;,</span>
+        new Measurement(new Fraction(2000, 0, 0), SystemOfMeasurement.Metric),
+        new Measurement(new Fraction(10, 0, 0), SystemOfMeasurement.Metric)));
+
+<span class="fc" id="L32">  }</span>
+
+  /**
+   * Gets stock.
+   *
+   * @return the stock
+   */
+  public HashMap&lt;String, AbstractStockItem&gt; getStock() {
+<span class="fc" id="L40">    return this.stock;</span>
+  }
+
+  //  public AbstractStockItem getStockItem(String newSku) {
+  //    if (!this.stock.containsKey(newSku)) {
+  //      throw new InvalidHashMapKeyException(&quot;Provided HashMap key is invalid.&quot;);
+  //    }
+  //    return this.stock.get(newSku);
+  //  }
+
+  /**
+   * Sets stock.
+   *
+   * @param newStock the new stock
+   */
+  public void setStock(HashMap&lt;String, AbstractStockItem&gt; newStock) {
+<span class="fc" id="L56">    this.stock = newStock;</span>
+<span class="fc" id="L57">  }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

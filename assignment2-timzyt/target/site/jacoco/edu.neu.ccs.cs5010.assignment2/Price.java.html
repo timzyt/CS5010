@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Price.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment2</a> &gt; <span class="el_source">Price.java</span></div><h1>Price.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment2;
+
+/**
+ * The class Price.
+ *
+ * @author timzyt. created on 2018/09/21.
+ */
+public class Price {
+
+  private String currency;
+  private Integer priceInCent;
+<span class="fc" id="L12">  private Integer priceMin = 0;</span>
+
+  /**
+   * Constructs and instantiates Price.
+   *
+   * @param usd currency value of the priceInCent.
+   * @param newPriceInCent priceInCent value in cents.
+   */
+<span class="fc" id="L20">  public Price(String usd, Integer newPriceInCent) {</span>
+<span class="pc bpc" id="L21" title="1 of 4 branches missed.">    if (usd == null || newPriceInCent == null) {</span>
+<span class="fc" id="L22">      throw new NullValueException(&quot;Provided input is null.&quot;);</span>
+    }
+<span class="pc bpc" id="L24" title="1 of 4 branches missed.">    if (usd.length() == 0 || newPriceInCent &lt; priceMin) {</span>
+<span class="fc" id="L25">      throw new InvalidConstructorArgumentsException(</span>
+          &quot;Provided priceInCent information is invalid.&quot;);
+    }
+<span class="fc" id="L28">    this.currency = usd;</span>
+<span class="fc" id="L29">    this.priceInCent = newPriceInCent;</span>
+<span class="fc" id="L30">  }</span>
+
+  /**
+   * Print price string.
+   *
+   * @return the string
+   */
+  public String printPrice() {
+<span class="fc" id="L38">    StringBuffer priceInString = new StringBuffer().append(currency)</span>
+<span class="fc" id="L39">        .append(((double) priceInCent / 100.00));</span>
+<span class="fc" id="L40">    return priceInString.toString();</span>
+  }
+
+  /**
+   * Getter for field 'currency'.
+   *
+   * @return currency value of this priceInCent.
+   */
+  public String getCurrency() {
+<span class="fc" id="L49">    return currency;</span>
+  }
+
+  /**
+   * Setter for field 'currency'.
+   *
+   * @param newCurrency new currency value for this priceInCent.
+   */
+  public void setCurrency(String newCurrency) {
+<span class="fc bfc" id="L58" title="All 2 branches covered.">    if (newCurrency == null) {</span>
+<span class="fc" id="L59">      throw new NullValueException(&quot;Provided input is null.&quot;);</span>
+    }
+<span class="fc bfc" id="L61" title="All 2 branches covered.">    if (newCurrency.length() == 0) {</span>
+<span class="fc" id="L62">      throw new InvalidConstructorArgumentsException(</span>
+          &quot;Provided currency information is invalid.&quot;);
+    }
+<span class="fc" id="L65">    this.currency = newCurrency;</span>
+<span class="fc" id="L66">  }</span>
+
+  /**
+   * Getter for field 'priceInCent'.
+   *
+   * @return price value in cent.
+   */
+  public Integer getPriceInCent() {
+<span class="fc" id="L74">    return this.priceInCent;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f0300451-357a-48e2-8aba-08b4288b8451" name="Default Changelist" comment="added a few more tests in problem1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment2-timzyt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2-timzyt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment2-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/OrderManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/OrderManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment2-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment2/problem1/StockService.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/../../Assignments/assignment1/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/assignment1$CardBalanceTest_getDollar.ic" NAME="CardBalanceTest.getDollar Coverage Results" MODIFIED="1537588584858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>assignment1.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment1$CardBalanceTest_getCent.ic" NAME="CardBalanceTest.getCent Coverage Results" MODIFIED="1537588560589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>assignment1.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment1$CardBalanceTest_setDollar2.ic" NAME="CardBalanceTest.setDollar2 Coverage Results" MODIFIED="1537588598353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>assignment1.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment1$CardBalanceTest.ic" NAME="CardBalanceTest Coverage Results" MODIFIED="1537589254182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>assignment1.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment1$TransitCardTest_getCardID.ic" NAME="TransitCardTest.getCardID Coverage Results" MODIFIED="1537588501876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>assignment1.problem1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment1$TransitCardTest_depositMoney.ic" NAME="TransitCardTest.depositMoney Coverage Results" MODIFIED="1537588521429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>assignment1.problem1.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myElementSize" value="165" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Assignments\assignment1" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1701003138">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Artist" value="1" />
+          <entry key="ArtistTest" value="1" />
+          <entry key="DepositTest" value="1" />
+          <entry key="JavaScript-modules-diagram/C:/Users/Tim Zhu/Documents/Yitian Zhu/NEU/2018_Fall/CS5010 PDP/Student_repo_timzyt/assignment1-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment1/problem1" value="1" />
+          <entry key="class" value="1" />
+          <entry key="java" value="323" />
+          <entry key="problem1" value="2" />
+          <entry key="problem2" value="1" />
+          <entry key="problem3" value="2" />
+          <entry key="problem4" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="323" />
+          <entry key="UML" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="33" />
+          <entry key="java" value="39427" />
+          <entry key="txt" value="62" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="39427" />
+          <entry key="PLAIN_TEXT" value="95" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem1/CardBalanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1349">
+              <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem1/CardBalance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem1/TransitCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1387">
+              <caret line="83" column="22" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="22" />
+              <folding>
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1713#1714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cent is</find>
+      <find>dollar of this deposit is out of range</find>
+      <find>.deposit</find>
+      <find>balanceDollar</find>
+      <find>msg</find>
+      <find>decelerationFactor out of range</find>
+      <find>equals</find>
+      <find>isdestr</find>
+      <find>AA-589</find>
+      <find>getshipid</find>
+      <find>setmaxAttack</find>
+      <find>setmaxatta</find>
+      <find>set</find>
+      <find>maxAttackPower</find>
+      <find>setmax</find>
+      <find>getmaxAttackPower</find>
+      <find>maxAttack</find>
+      <find>testGenAtta</find>
+      <find>TieFighter</find>
+      <find>TieFigh</find>
+      <find>StarDestroyerMaxAttackPower</find>
+      <find>util.</find>
+      <find>setage</find>
+      <find>gettvLi</find>
+      <find>artistid</find>
+      <find>getage</find>
+      <find>velocity</find>
+      <find>cardid</find>
+      <find>setDollar</find>
+      <find>setdate</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem2/StarshipTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem1/CardBalanceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem1/DepositTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem1/CardOwnerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem1/TransitCardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem4/VehicleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem1/CardBalance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem1/Deposit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem1/TransitCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem1/CardOwner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/genRandomNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/genrandomnumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/GenRandomNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/FirstOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/Resistance.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem2/XWingFighterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem2/AWingFighterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem2/TieFighterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem2/StarDestroyerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/TieFighter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/StarDestroyer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/Starship.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem3/Genre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem4/AllowedDirections.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem4/genRandomNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem4/GenRandomNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/AWingFighter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/XWingFighter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem3/Name.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem3/Artist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem4/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem3/AttributeList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem3/ArtistTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment1/problem4/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment1/problem4/VehicleType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment1/problem3/Genre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment1/problem1/TransitCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment1/problem2/Starship.java" />
+        <option value="$PROJECT_DIR$/src/test/java/assignment1/problem2/XWingFighterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/assignment1/problem2/TieFighterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/assignment1/problem2/StarDestroyerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/assignment1/problem2/AWingFighterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/assignment1/problem1/DepositTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/assignment1/problem4/VehicleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment1/problem1/Deposit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment1/problem2/abstractStarship.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment1/problem2/AbstractStarship.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment1/problem3/Artist.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assignment1/problem3/AttributeList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/assignment1/problem3/AttributeListTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/assignment1/problem1/CardBalanceTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Assignment for class CS5010" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-18" />
+    <option name="width" value="1629" />
+    <option name="height" value="1728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="problem1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="problem2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="problem3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="problem1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="problem2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="problem3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment1" type="462c0819:PsiDirectoryNode" />
+              <item name="problem4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment1-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537589252247" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.neu.ccs.cs5010.assignment1.problem3" />
+      <recent name="edu.neu.ccs.cs5010.assignment1.problem2" />
+      <recent name="edu.neu.ccs.cs5010.assignment1.problem1" />
+      <recent name="edu.neu.ccs.cs5010.assignment1.problem4" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="assignment1.problem4" />
+      <recent name="assignment1.problem1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.neu.ccs.cs5010.assignment1.problem4" />
+      <recent name="edu.neu.ccs.cs5010.assignment1.problem2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment1-timzyt\src" />
+      <recent name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment1-timzyt\src\main\java\assignment1\problem4" />
+      <recent name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment1-timzyt\src\main\java\assignment1\problem1\problem1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CardBalanceTest">
+    <configuration name="CardBalanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment1.problem1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignment1.problem1" />
+      <option name="MAIN_CLASS_NAME" value="assignment1.problem1.CardBalanceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardBalanceTest.getCent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment1.problem1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignment1.problem1" />
+      <option name="MAIN_CLASS_NAME" value="assignment1.problem1.CardBalanceTest" />
+      <option name="METHOD_NAME" value="getCent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardBalanceTest.getDollar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment1.problem1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignment1.problem1" />
+      <option name="MAIN_CLASS_NAME" value="assignment1.problem1.CardBalanceTest" />
+      <option name="METHOD_NAME" value="getDollar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardBalanceTest.setDollar2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment1.problem1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignment1.problem1" />
+      <option name="MAIN_CLASS_NAME" value="assignment1.problem1.CardBalanceTest" />
+      <option name="METHOD_NAME" value="setDollar2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransitCardTest.depositMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment1.problem1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignment1.problem1" />
+      <option name="MAIN_CLASS_NAME" value="assignment1.problem1.TransitCardTest" />
+      <option name="METHOD_NAME" value="depositMoney" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TransitCardTest.depositMoney" />
+      <item itemvalue="JUnit.CardBalanceTest.getCent" />
+      <item itemvalue="JUnit.CardBalanceTest.getDollar" />
+      <item itemvalue="JUnit.CardBalanceTest.setDollar2" />
+      <item itemvalue="JUnit.CardBalanceTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CardBalanceTest" />
+        <item itemvalue="JUnit.CardBalanceTest.setDollar2" />
+        <item itemvalue="JUnit.CardBalanceTest.getDollar" />
+        <item itemvalue="JUnit.CardBalanceTest.getCent" />
+        <item itemvalue="JUnit.TransitCardTest.depositMoney" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f0300451-357a-48e2-8aba-08b4288b8451" name="Default Changelist" comment="" />
+      <created>1536770428851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536770428851</updated>
+      <workItem from="1536770432735" duration="65000" />
+      <workItem from="1536770620778" duration="298000" />
+      <workItem from="1536774074456" duration="24200000" />
+      <workItem from="1536866472291" duration="4253000" />
+      <workItem from="1536871061133" duration="10060000" />
+      <workItem from="1536940025582" duration="1533000" />
+      <workItem from="1536947205459" duration="8241000" />
+      <workItem from="1536963081945" duration="19717000" />
+      <workItem from="1537031348994" duration="24862000" />
+      <workItem from="1537072146668" duration="9374000" />
+      <workItem from="1537117145307" duration="16719000" />
+      <workItem from="1537223842527" duration="729000" />
+      <workItem from="1537236836830" duration="510000" />
+      <workItem from="1537308302254" duration="1614000" />
+      <workItem from="1537310747605" duration="7127000" />
+      <workItem from="1537378273214" duration="462000" />
+      <workItem from="1537573991145" duration="976000" />
+      <workItem from="1537588477902" duration="782000" />
+      <workItem from="1537589429604" duration="136000" />
+      <workItem from="1537891792470" duration="804000" />
+    </task>
+    <task id="LOCAL-00001" summary="added a few more tests in TransitCardTest">
+      <created>1537065032258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1537065032258</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added a few more tests in TransitCardTest">
+      <created>1537076351516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537076351516</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added a few more tests in problem1">
+      <created>1537076866201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537076866201</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TransitCardTest_depositMoney - 2018.09.21 at 20h 55m 24s.xml">
+      <configuration name="TransitCardTest.depositMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardBalanceTest_getCent - 2018.09.21 at 20h 55m 51s.xml">
+      <configuration name="CardBalanceTest.getCent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardBalanceTest_getCent - 2018.09.21 at 20h 56m 02s.xml">
+      <configuration name="CardBalanceTest.getCent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardBalanceTest_getDollar - 2018.09.21 at 20h 56m 27s.xml">
+      <configuration name="CardBalanceTest.getDollar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardBalanceTest_setDollar2 - 2018.09.21 at 20h 56m 40s.xml">
+      <configuration name="CardBalanceTest.setDollar2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardBalanceTest - 2018.09.21 at 20h 57m 24s.xml">
+      <configuration name="CardBalanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardBalanceTest - 2018.09.21 at 21h 00m 32s.xml">
+      <configuration name="CardBalanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardBalanceTest - 2018.09.21 at 21h 02m 56s.xml">
+      <configuration name="CardBalanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardBalanceTest - 2018.09.21 at 21h 04m 57s.xml">
+      <configuration name="CardBalanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardBalanceTest - 2018.09.21 at 21h 07m 36s.xml">
+      <configuration name="CardBalanceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="132462000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2617839" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866043" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39719626" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32866043" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32866043" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32866043" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="PlantUML" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.49844238" visible="true" weight="0.30456853" />
+      <window_info anchor="right" x="94" y="94" width="1235" height="572" id="Byte Code Viewer" order="10" type="FLOATING" />
+      <window_info active="true" anchor="right" id="Coverage" order="11" sideWeight="0.50155765" side_tool="true" visible="true" weight="0.30456853" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added a few more tests in TransitCardTest" />
+    <MESSAGE value="added a few more tests in problem1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a few more tests in problem1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/RandomNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem2/ResistanceStarship.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem2/FirstOrderTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem2/ResistanceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem3/GenreTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem4/AccelerationFactor.java" />
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment1.problem3.Artist">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment1.problem3.Artist</OriginalElement>
+          <nodes>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem3.Artist</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="38.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem4/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment1/problem2/StarshipTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem3/NameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem2/GenRandomNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem2/Side.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem2/Resistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem2/FirstOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem2/StarDestroyer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem2/TieFighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem4/GenRandomNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment1.problem1.DepositTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment1.problem1.DepositTest</OriginalElement>
+          <nodes>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem1.DepositTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="55.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment1.problem3.ArtistTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment1.problem3.ArtistTest</OriginalElement>
+          <nodes>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem3.ArtistTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="48.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Tim Zhu/Documents/Yitian Zhu/NEU/2018_Fall/CS5010 PDP/Student_repo_timzyt/assignment1-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment1/problem1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment1/problem1</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="428.0" y="190.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment1.problem2">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment1.problem2</OriginalElement>
+          <nodes>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.AWingFighter</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.GenRandomNumber</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.FirstOrder</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.Starship</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.XWingFighter</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.TieFighter</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.XWingFighterTest</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.Side</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.TieFighterTest</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.AWingFighterTest</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.StarDestroyer</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.Resistance</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem2.StarDestroyerTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5777126099706745" x="713.0" y="501.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment1.problem1">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment1.problem1</OriginalElement>
+          <nodes>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem1.DepositTest</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem1.CardOwner</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem1.CardBalance</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem1.TransitCard</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem1.CardBalanceTest</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem1.Deposit</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem1.CardOwnerTest</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem1.TransitCardTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7224938875305623" x="496.0" y="399.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment1.problem4">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment1.problem4</OriginalElement>
+          <nodes>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem4.VehicleType</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem4.AllowedDirections</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem4.Vehicle</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem4.GenRandomNumber</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem4.VehicleTest</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem4.Direction</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5139130434782608" x="350.0" y="565.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment1.problem3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment1.problem3</OriginalElement>
+          <nodes>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem3.Artist</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem3.ArtistTest</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem3.Genre</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem3.AttributeList</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem3.AttributeListTest</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem3.Name</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment1.problem3.NameTest</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6149843912591051" x="336.0" y="471.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem4/VehicleType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem4/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2337">
+          <caret line="162" column="25" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem4/AllowedDirections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem1/CardOwner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem2/AWingFighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem2/XWingFighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem3/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem1/CardOwnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="66" column="54" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem3/AttributeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem3/Artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem2/AbstractStarship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem1/Deposit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-753">
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem2/AWingFighterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem2/StarDestroyerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem2/TieFighterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem2/XWingFighterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem1/DepositTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1002">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem1/TransitCardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-524">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem3/AttributeListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem3/ArtistTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem4/VehicleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="150" column="67" selection-start-line="150" selection-start-column="67" selection-end-line="150" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem3/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/assignment1/problem1/CardBalanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem1/CardBalance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem1/TransitCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="22" />
+          <folding>
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>assignment1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

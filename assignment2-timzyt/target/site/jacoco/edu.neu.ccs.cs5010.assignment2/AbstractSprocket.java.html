@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>AbstractSprocket.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment2</a> &gt; <span class="el_source">AbstractSprocket.java</span></div><h1>AbstractSprocket.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment2;
+
+
+/**
+ * The Abstract class sprocket.
+ *
+ * @author timzyt. created on 2018/09/21.
+ */
+public abstract class AbstractSprocket extends AbstractStockItem implements FitsShaft {
+
+  private Measurement forShaftDiameter;
+  private Integer numOfTeeth;
+
+  /**
+   * Constructs and instantiates a sprocket.
+   *
+   * @param newSku new SKU number for this item.
+   * @param newPriceInCent price in cent value for this item.
+   * @param asom system of measurement for this item.
+   * @param newNumOfTeeth new number of teeth value for this item.
+   * @param newForShaftDiameterVal new for shaft diameter value for this item.
+   */
+  public AbstractSprocket(String newSku, Integer newPriceInCent, String asom,
+      Integer newNumOfTeeth, Measurement newForShaftDiameterVal) {
+<span class="fc" id="L25">    super(newSku, newPriceInCent, asom);</span>
+<span class="fc" id="L26">    this.numOfTeeth = newNumOfTeeth;</span>
+<span class="fc" id="L27">    this.forShaftDiameter = newForShaftDiameterVal;</span>
+<span class="fc" id="L28">  }</span>
+
+  /**
+   * Getter for field 'numOfTeeth'.
+   *
+   * @return number of teeth on this item.
+   */
+  public Integer getNumOfTeeth() {
+<span class="fc" id="L36">    return numOfTeeth;</span>
+  }
+
+  /**
+   * return the forShaftDiameter value for this item.
+   *
+   * @return the forShaftDiameter value for this item.
+   */
+  public Measurement getForShaftDiameter() {
+<span class="fc" id="L45">    return this.forShaftDiameter;</span>
+  }
+
+  /**
+   * return whether the provided RotaryShaft may fit this item.
+   *
+   * @return boolean.
+   */
+  public boolean fitsShaft(AbstractRotaryShaft abstractRotaryShaft) {
+<span class="fc bfc" id="L54" title="All 2 branches covered.">    if (abstractRotaryShaft == null) {</span>
+<span class="fc" id="L55">      throw new NullValueException(&quot;Provided input is null.&quot;);</span>
+    }
+<span class="fc bfc" id="L57" title="All 2 branches covered.">    if (this.forShaftDiameter.equals(abstractRotaryShaft.getDiameter())) {</span>
+<span class="fc" id="L58">      return true;</span>
+    } else {
+<span class="fc" id="L60">      return false;</span>
+    }
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

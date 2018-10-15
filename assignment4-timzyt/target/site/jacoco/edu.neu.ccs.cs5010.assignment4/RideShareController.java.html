@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>RideShareController.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment4</a> &gt; <span class="el_source">RideShareController.java</span></div><h1>RideShareController.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment4;
+
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.Insurance;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle;
+import edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record;
+
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+/**
+ * The rideshare controller class.
+ */
+public class RideShareController {
+
+  private Registration registration;
+  private DriverPool driverPool;
+  private DmvRecords dmvRecords;
+  private RiderShareView view;
+
+  /**
+   * Instantiates a new Ride share controller.
+   *
+   * @param registration the registration
+   * @param driverPool the driver pool
+   * @param dmvRecords the dmv records
+   * @param view the view
+   */
+  public RideShareController(Registration registration, DriverPool driverPool,
+<span class="nc" id="L36">      DmvRecords dmvRecords, RiderShareView view) {</span>
+<span class="nc" id="L37">    this.registration = registration;</span>
+<span class="nc" id="L38">    this.driverPool = driverPool;</span>
+<span class="nc" id="L39">    this.dmvRecords = dmvRecords;</span>
+<span class="nc" id="L40">    this.view = view;</span>
+<span class="nc" id="L41">  }</span>
+
+  /**
+   * Sets driver name.
+   *
+   * @param firstName the first name
+   * @param lastName the last name
+   */
+  public void setDriverName(String firstName, String lastName) throws Exception {
+<span class="nc" id="L50">    this.registration.setDriverName(firstName, lastName);</span>
+<span class="nc" id="L51">  }</span>
+
+  /**
+   * Sets driver birthday.
+   *
+   * @param date the date
+   */
+  public void setDriverBirthday(LocalDate date) throws Exception {
+<span class="nc" id="L59">    this.registration.setDriverBirthday(date);</span>
+<span class="nc" id="L60">  }</span>
+
+  /**
+   * Sets driver license.
+   *
+   * @param license the license
+   */
+  public void setDriverLicense(License license) throws Exception {
+<span class="nc" id="L68">    this.registration.setDriverLicense(license);</span>
+<span class="nc" id="L69">  }</span>
+
+  /**
+   * Sets insurance.
+   *
+   * @param insurance the insurance
+   */
+  public void setInsurance(Insurance insurance) {
+<span class="nc" id="L77">    this.registration.setInsurance(insurance);</span>
+<span class="nc" id="L78">  }</span>
+
+  /**
+   * Sets vehicle.
+   *
+   * @param vehicle the vehicle
+   */
+  public void setVehicle(Vehicle vehicle) {
+<span class="nc" id="L86">    this.registration.setVehicle(vehicle);</span>
+<span class="nc" id="L87">  }</span>
+
+  /**
+   * Gets driver.
+   */
+  public Driver getDriver() {
+<span class="nc" id="L93">    return this.registration.getDriver();</span>
+  }
+
+  /**
+   * Gets vehicle.
+   */
+  public Vehicle getVehicle() {
+<span class="nc" id="L100">    return this.registration.getVehicle();</span>
+  }
+
+  /**
+   * Gets insurance.
+   */
+  public Insurance getInsurance() {
+<span class="nc" id="L107">    return this.registration.getInsurance();</span>
+  }
+
+  /**
+   * Gets driver Record.
+   *
+   * @param newDriver the new driver
+   */
+  public HashSet&lt;Record&gt; getDriverRecord(Driver newDriver) {
+<span class="nc" id="L116">    return this.dmvRecords.getAllRecordsByDriver(newDriver);</span>
+  }
+
+  /**
+   * Gets vehicle Record.
+   *
+   * @param newVehicle the new vehicle
+   */
+  public HashSet&lt;Record&gt; getVehicleRecord(Vehicle newVehicle) {
+<span class="nc" id="L125">    return this.dmvRecords.getAllRecordsByVehicle(newVehicle);</span>
+  }
+
+  /**
+   * Add new driver.
+   *
+   * @param registration the registration
+   */
+  public void addNewDriver(Registration registration) {
+<span class="nc" id="L134">    this.driverPool.masterValidator(registration);</span>
+<span class="nc" id="L135">  }</span>
+
+  /**
+   * Provide driver info.
+   *
+   * @param lastName the last name
+   */
+  public void provideDriverInfo(String lastName) {
+<span class="nc" id="L143">    ArrayList&lt;Driver&gt; driverList = this.driverPool.findDriverList(lastName);</span>
+<span class="nc" id="L144">    HashMap&lt;Driver, HashSet&lt;Vehicle&gt;&gt; fullList = this.driverPool.findFullList(driverList);</span>
+<span class="nc" id="L145">    HashMap&lt;Driver, HashSet&lt;Record&gt;&gt; fullRecordForMultipleDrivers = this.dmvRecords</span>
+<span class="nc" id="L146">        .getAllRecordsForMultipleDrivers(driverList);</span>
+<span class="nc" id="L147">    view.printQueryResult(driverList, fullList, fullRecordForMultipleDrivers);</span>
+<span class="nc" id="L148">  }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>ReservationsService.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment3</a> &gt; <span class="el_source">ReservationsService.java</span></div><h1>ReservationsService.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment3;
+
+/**
+ * The class Reservation Service.
+ *
+ * @author timzyt. created on 2018/10/01.
+ */
+public class ReservationsService {
+
+  private Theater theater;
+
+  /**
+   * Instantiates a new reservations service.
+   *
+   * @param atheater a theater.
+   */
+<span class="fc" id="L17">  public ReservationsService(Theater atheater) {</span>
+<span class="fc" id="L18">    this.theater = atheater;</span>
+<span class="fc" id="L19">  }</span>
+
+  /**
+   * Find best row integer.
+   *
+   * @param groupSize the group size.
+   * @return Integer the row number of the best row.
+   */
+  public Integer findBestRow(Integer groupSize, Boolean needAccessible) {
+<span class="fc bfc" id="L28" title="All 2 branches covered.">    if (groupSize &lt; 0) {</span>
+<span class="fc" id="L29">      throw new InvalidConstructorArgumentException(&quot;Provided group size is invalid.&quot;);</span>
+    }
+    Integer midRowNumber;
+<span class="fc bfc" id="L32" title="All 2 branches covered.">    if (needAccessible) {</span>
+<span class="fc bfc" id="L33" title="All 2 branches covered.">      if (this.theater.getNumOfRow() % 2 == 0) {</span>
+<span class="fc" id="L34">        midRowNumber = this.theater.getNumOfRow() / 2 - 1;</span>
+<span class="pc bpc" id="L35" title="1 of 2 branches missed.">        for (int i = 0; i &lt;= (this.theater.getNumOfRow() / 2 - 1); i++) {</span>
+<span class="fc bfc" id="L36" title="All 2 branches covered.">          if (this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber - i + 1))</span>
+<span class="pc bpc" id="L37" title="1 of 2 branches missed.">              &amp;&amp; this.theater.getTheaterMap().get(midRowNumber - i).getEmptySeat() &gt;= groupSize) {</span>
+            //return the actual reserved row number as oppose to index of the row.
+<span class="fc" id="L39">            return midRowNumber - i + 1;</span>
+<span class="fc" id="L40">          } else if (</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">              this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber + 1 + i + 1))</span>
+<span class="fc" id="L42">                  &amp;&amp; this.theater.getTheaterMap().get(midRowNumber + 1 + i).getEmptySeat()</span>
+<span class="fc bfc" id="L43" title="All 2 branches covered.">                  &gt;= groupSize) {</span>
+<span class="fc" id="L44">            return midRowNumber + 1 + i + 1;</span>
+          } else {
+            continue;
+          }
+        }
+      } else {
+<span class="fc" id="L50">        midRowNumber = this.theater.getNumOfRow() / 2;</span>
+<span class="fc bfc" id="L51" title="All 2 branches covered.">        if (this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber + 1))</span>
+<span class="fc bfc" id="L52" title="All 2 branches covered.">            &amp;&amp; this.theater.getTheaterMap().get(midRowNumber).getEmptySeat() &gt;= groupSize) {</span>
+          //return the actual reserved row number as oppose to index of the row.
+<span class="fc" id="L54">          return midRowNumber + 1;</span>
+        } else {
+<span class="fc bfc" id="L56" title="All 2 branches covered.">          for (int i = 0; i &lt;= this.theater.getNumOfRow() / 2; i++) {</span>
+<span class="fc bfc" id="L57" title="All 2 branches covered.">            if (this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber - i + 1))</span>
+<span class="fc bfc" id="L58" title="All 2 branches covered.">                &amp;&amp; this.theater.getTheaterMap().get(midRowNumber - i).getEmptySeat() &gt;= groupSize) {</span>
+<span class="fc" id="L59">              return midRowNumber - i + 1;</span>
+<span class="fc" id="L60">            } else if (</span>
+<span class="fc bfc" id="L61" title="All 2 branches covered.">                this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber + i + 1))</span>
+<span class="fc" id="L62">                    &amp;&amp; this.theater.getTheaterMap().get(midRowNumber + i).getEmptySeat()</span>
+<span class="fc bfc" id="L63" title="All 2 branches covered.">                    &gt;= groupSize) {</span>
+<span class="fc" id="L64">              return midRowNumber + i + 1;</span>
+            } else {
+              continue;
+            }
+          }
+        }
+      }
+<span class="fc" id="L71">      return null;</span>
+    } else {
+<span class="fc bfc" id="L73" title="All 2 branches covered.">      if (this.theater.getNumOfRow() % 2 == 0) {</span>
+<span class="fc" id="L74">        midRowNumber = this.theater.getNumOfRow() / 2 - 1;</span>
+<span class="fc bfc" id="L75" title="All 2 branches covered.">        for (int i = 0; i &lt;= (this.theater.getNumOfRow() / 2 - 1); i++) {</span>
+<span class="fc bfc" id="L76" title="All 2 branches covered.">          if (!this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber - i + 1))</span>
+<span class="fc bfc" id="L77" title="All 2 branches covered.">              &amp;&amp; this.theater.getTheaterMap().get(midRowNumber - i).getEmptySeat() &gt;= groupSize) {</span>
+            //return the actual reserved row number as oppose to index of the row.
+<span class="fc" id="L79">            return midRowNumber - i + 1;</span>
+<span class="fc" id="L80">          } else if (</span>
+<span class="fc bfc" id="L81" title="All 2 branches covered.">              !this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber + 1 + i + 1))</span>
+<span class="fc" id="L82">                  &amp;&amp; this.theater.getTheaterMap().get(midRowNumber + 1 + i).getEmptySeat()</span>
+<span class="fc bfc" id="L83" title="All 2 branches covered.">                  &gt;= groupSize) {</span>
+<span class="fc" id="L84">            return midRowNumber + 1 + i + 1;</span>
+          } else {
+            continue;
+          }
+        }
+<span class="fc bfc" id="L89" title="All 2 branches covered.">        for (int i = 0; i &lt;= (this.theater.getNumOfRow() / 2 - 1); i++) {</span>
+<span class="fc bfc" id="L90" title="All 2 branches covered.">          if (this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber - i + 1))</span>
+<span class="fc bfc" id="L91" title="All 2 branches covered.">              &amp;&amp; this.theater.getTheaterMap().get(midRowNumber - i).getEmptySeat() &gt;= groupSize) {</span>
+            //return the actual reserved row number as oppose to index of the row.
+<span class="fc" id="L93">            return midRowNumber - i + 1;</span>
+<span class="fc" id="L94">          } else if (</span>
+<span class="fc bfc" id="L95" title="All 2 branches covered.">              this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber + 1 + i + 1))</span>
+<span class="fc" id="L96">                  &amp;&amp; this.theater.getTheaterMap().get(midRowNumber + 1 + i).getEmptySeat()</span>
+<span class="fc bfc" id="L97" title="All 2 branches covered.">                  &gt;= groupSize) {</span>
+<span class="fc" id="L98">            return midRowNumber + 1 + i + 1;</span>
+          } else {
+            continue;
+          }
+        }
+      } else {
+<span class="fc" id="L104">        midRowNumber = this.theater.getNumOfRow() / 2;</span>
+<span class="pc bpc" id="L105" title="1 of 2 branches missed.">        if (!this.theater.getAccessibleRows().contains(midRowNumber)</span>
+<span class="fc bfc" id="L106" title="All 2 branches covered.">            &amp;&amp; this.theater.getTheaterMap().get(midRowNumber).getEmptySeat() &gt;= groupSize) {</span>
+          //return the actual reserved row number as oppose to index of the row.
+<span class="fc" id="L108">          return midRowNumber + 1;</span>
+        } else {
+<span class="fc bfc" id="L110" title="All 2 branches covered.">          for (int i = 0; i &lt;= this.theater.getNumOfRow() / 2; i++) {</span>
+<span class="fc bfc" id="L111" title="All 2 branches covered.">            if (!this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber - i + 1))</span>
+<span class="fc bfc" id="L112" title="All 2 branches covered.">                &amp;&amp; this.theater.getTheaterMap().get(midRowNumber - i).getEmptySeat() &gt;= groupSize) {</span>
+<span class="fc" id="L113">              return midRowNumber - i + 1;</span>
+<span class="fc" id="L114">            } else if (</span>
+<span class="fc bfc" id="L115" title="All 2 branches covered.">                !this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber + i + 1))</span>
+<span class="fc" id="L116">                    &amp;&amp; this.theater.getTheaterMap().get(midRowNumber + i).getEmptySeat()</span>
+<span class="fc bfc" id="L117" title="All 2 branches covered.">                    &gt;= groupSize) {</span>
+<span class="fc" id="L118">              return midRowNumber + i + 1;</span>
+            } else {
+              continue;
+            }
+          }
+        }
+<span class="pc bpc" id="L124" title="1 of 2 branches missed.">        if (this.theater.getAccessibleRows().contains(midRowNumber)</span>
+<span class="nc bnc" id="L125" title="All 2 branches missed.">            &amp;&amp; this.theater.getTheaterMap().get(midRowNumber).getEmptySeat() &gt;= groupSize) {</span>
+          //return the actual reserved row number as oppose to index of the row.
+<span class="nc" id="L127">          return midRowNumber + 1;</span>
+        } else {
+<span class="fc bfc" id="L129" title="All 2 branches covered.">          for (int i = 0; i &lt;= this.theater.getNumOfRow() / 2; i++) {</span>
+<span class="fc bfc" id="L130" title="All 2 branches covered.">            if (this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber - i + 1))</span>
+<span class="pc bpc" id="L131" title="1 of 2 branches missed.">                &amp;&amp; this.theater.getTheaterMap().get(midRowNumber - i).getEmptySeat() &gt;= groupSize) {</span>
+<span class="nc" id="L132">              return midRowNumber - i + 1;</span>
+<span class="fc" id="L133">            } else if (</span>
+<span class="fc bfc" id="L134" title="All 2 branches covered.">                this.theater.getAccessibleRows().contains(Integer.valueOf(midRowNumber + i + 1))</span>
+<span class="fc" id="L135">                    &amp;&amp; this.theater.getTheaterMap().get(midRowNumber + i).getEmptySeat()</span>
+<span class="fc bfc" id="L136" title="All 2 branches covered.">                    &gt;= groupSize) {</span>
+<span class="fc" id="L137">              return midRowNumber + i + 1;</span>
+            } else {
+              continue;
+            }
+          }
+        }
+      }
+<span class="fc" id="L144">      return null;</span>
+    }
+  }
+
+  /**
+   * Reserve seats for the client by name at the found best row.
+   *
+   * @param clientName the name of the booker client.
+   * @param foundRowNum the actual row number as oppose to the index of the row.
+   * @param groupSize the group size.
+   * @throws Exception the exception.
+   */
+  public void reserveSeats(String clientName, Integer foundRowNum, Integer groupSize)
+      throws Exception {
+<span class="fc" id="L158">    Row reservedRow = this.theater.getTheaterMap().get(foundRowNum - 1);</span>
+<span class="fc" id="L159">    Integer seatStart = reservedRow.getNumOfSeat() - reservedRow.getEmptySeat();</span>
+<span class="fc bfc" id="L160" title="All 2 branches covered.">    for (int i = seatStart; i &lt; seatStart + groupSize; i++) {</span>
+<span class="fc" id="L161">      reservedRow.getRowMap().get(i).setReservedFor(clientName);</span>
+    }
+<span class="fc" id="L163">  }</span>
+
+  /**
+   * Show map.
+   *
+   * @return print the seating map.
+   */
+  public String showMap() {
+<span class="fc" id="L171">    Integer numOfRow = this.theater.getNumOfRow();</span>
+<span class="fc" id="L172">    Integer numOfSeat = this.theater.getTheaterMap().get(0).getNumOfSeat();</span>
+<span class="fc" id="L173">    StringBuilder map = new StringBuilder();</span>
+<span class="fc bfc" id="L174" title="All 2 branches covered.">    for (int i = 0; i &lt; numOfRow; i++) {</span>
+<span class="fc" id="L175">      map.append(i + 1);</span>
+<span class="fc bfc" id="L176" title="All 2 branches covered.">      for (int j = 0; j &lt; numOfSeat; j++) {</span>
+<span class="fc" id="L177">        if (this.theater.getTheaterMap().get(i).getRowMap().get(j).getReservedFor()</span>
+<span class="fc bfc" id="L178" title="All 2 branches covered.">            .contentEquals(&quot;&quot;)) {</span>
+<span class="fc bfc" id="L179" title="All 2 branches covered.">          if (this.theater.getAccessibleRows().contains(Integer.valueOf(i + 1))) {</span>
+<span class="fc" id="L180">            map.append(&quot; =&quot;);</span>
+          } else {
+<span class="fc" id="L182">            map.append(&quot; _&quot;);</span>
+          }
+        } else {
+<span class="fc" id="L185">          map.append(&quot; X&quot;);</span>
+        }
+      }
+<span class="fc" id="L188">      map.append(&quot;\n&quot;);</span>
+    }
+<span class="fc" id="L190">    return map.toString();</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

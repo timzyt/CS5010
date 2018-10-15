@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Rectangle.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.lab1</a> &gt; <span class="el_source">Rectangle.java</span></div><h1>Rectangle.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.lab1;
+
+import java.util.Objects;
+
+/**
+ * This class represents a rectangle.  It defines all the operations mandated by the Shape
+ * interface
+ */
+public class Rectangle extends AbstractShape {
+
+  private double width;
+  private double height;
+
+  /**
+   * Constructs a rectangle object with the given location of its lower-left corner and dimensions.
+   *
+   * @param xcord x coordinate of the lower-left corner of this rectangle
+   * @param ycord y coordinate of the lower-left corner of this rectangle
+   * @param width width of this rectangle
+   * @param height height of this rectangle
+   */
+  public Rectangle(double xcord, double ycord, double width, double height) {
+<span class="fc" id="L23">    super(new Point2D(xcord, ycord));</span>
+<span class="fc" id="L24">    this.width = width;</span>
+<span class="fc" id="L25">    this.height = height;</span>
+<span class="fc" id="L26">  }</span>
+
+  @Override
+  public double area() {
+<span class="fc" id="L30">    return this.width * this.height;</span>
+  }
+
+  @Override
+  public double perimeter() {
+<span class="fc" id="L35">    return 2 * (this.width + this.height);</span>
+  }
+
+  @Override
+  public Shape resize(double factor) {
+<span class="fc" id="L40">    double sqrtFactor = Math.sqrt(factor);</span>
+<span class="fc" id="L41">    return new Rectangle(</span>
+<span class="fc" id="L42">        this.reference.getX(),</span>
+<span class="fc" id="L43">        this.reference.getY(), sqrtFactor * this.width,</span>
+        sqrtFactor * this.height);
+  }
+
+  /**
+   * Return String description of the rectangle's coordinates and its width and length.
+   *
+   * @return String description of the rectangle's coordinates and its width and length.
+   */
+  @Override
+  public String toString() {
+<span class="fc" id="L54">    return String.format(&quot;Rectangle: LL corner (%.3f,%.3f) width %.3f height &quot; + &quot;%.3f&quot;,</span>
+<span class="fc" id="L55">        this.reference.getX(), this.reference.getY(), this.width, this</span>
+            .height);
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+<span class="pc bpc" id="L61" title="1 of 2 branches missed.">    if (this == obj) {</span>
+<span class="nc" id="L62">      return true;</span>
+    }
+<span class="pc bpc" id="L64" title="2 of 4 branches missed.">    if (obj == null || getClass() != obj.getClass()) {</span>
+<span class="nc" id="L65">      return false;</span>
+    }
+<span class="fc" id="L67">    Rectangle rectangle = (Rectangle) obj;</span>
+<span class="pc bpc" id="L68" title="1 of 2 branches missed.">    return Double.compare(rectangle.width, width) == 0</span>
+<span class="pc bnc" id="L69" title="All 2 branches missed.">        &amp;&amp; Double.compare(rectangle.height, height) == 0;</span>
+  }
+
+  @Override
+  public int hashCode() {
+<span class="nc" id="L74">    return Objects.hash(width, height);</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>
