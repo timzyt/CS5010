@@ -65,17 +65,17 @@
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testNegativeRecordId" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testGetViolationType" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testIsMovingViolation" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testGetDriver" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testBothNullViolationTypeAndCrashType" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testGetVehicle" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testGetDriver" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testToString" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testEquals" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testHashCode" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testNullVehicle" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testBothNullViolationTypeAndCrashType" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testNullDriver" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testNullDate" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testNullRecordId" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testGetRecordID" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testGetCrashType" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testGetDate" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testNullDate" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testNullVehicle" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest" name="testNullDriver" time="0"/>
 </testsuite>

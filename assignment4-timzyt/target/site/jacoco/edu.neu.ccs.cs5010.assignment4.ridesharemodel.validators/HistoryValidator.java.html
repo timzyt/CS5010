@@ -19,6 +19,7 @@ public class HistoryValidator implements MasterValidator {
   private Registration registration;
   private TimeCalculator timeCalculator;
 <span class="fc" id="L21">  private Integer legalViolationRecordTime = 6;</span>
+<span class="fc" id="L22">  private Integer zero = 0;</span>
 
   /**
    * Instantiates a new History validator.
@@ -27,62 +28,72 @@ public class HistoryValidator implements MasterValidator {
    * @param registration the registration
    */
   public HistoryValidator(
-<span class="fc" id="L30">      DmvRecords dmvRecords, Registration registration) {</span>
-<span class="fc" id="L31">    timeCalculator = new TimeCalculator();</span>
-<span class="fc" id="L32">    this.dmvRecords = dmvRecords;</span>
-<span class="fc" id="L33">    this.registration = registration;</span>
-<span class="fc" id="L34">  }</span>
+<span class="fc" id="L31">      DmvRecords dmvRecords, Registration registration) {</span>
+<span class="fc" id="L32">    timeCalculator = new TimeCalculator();</span>
+<span class="fc" id="L33">    this.dmvRecords = dmvRecords;</span>
+<span class="fc" id="L34">    this.registration = registration;</span>
+<span class="fc" id="L35">  }</span>
 
   /**
-   * Validates if the driver has any moving violation Record. If yes return false, and the
-   * prospective driver should not be accepted as a driver. If the driver doesn't have any violation
-   * Record, or the violation isn't one of the few specified violation types, the driver can be
-   * accepted as a driver.
+   * Validates if the driver is free of any moving violation Record.
+   * If the driver has no moving
+   * violation record then return true, and the driver can be accepted as a driver.
+   * If the driver
+   * does have any moving violation record,
+   * AND being one of the below four specified violation
+   * types,
+   * - Reckless Driving
+   * - Speeding
+   * - DUI
+   * - Driving with a valid license/insurance
+   * then return false, and prospective driver should not be accepted as a driver.
    *
    * @param driver the prospective driver.
    * @return the boolean.
    */
   public Boolean validateDriverHistory(Driver driver) {
-<span class="nc bnc" id="L46" title="All 2 branches missed.">    if (this.dmvRecords.isDriverInDmvRecord(driver)) {</span>
+<span class="fc bfc" id="L55" title="All 2 branches covered.">    if (this.dmvRecords.isDriverInDmvRecord(driver)) {</span>
       for (Record record
-<span class="nc bnc" id="L48" title="All 2 branches missed.">          : this.dmvRecords.getAllRecordsByDriver(driver)) {</span>
-<span class="nc bnc" id="L49" title="All 2 branches missed.">        if (record.isMovingViolationTrue()) {</span>
-<span class="nc" id="L50">          ViolationTypes driverViolation = record.getViolationType();</span>
-<span class="nc bnc" id="L51" title="All 2 branches missed.">          if (driverViolation.equals(ViolationTypes.Reckless_driving)</span>
-<span class="nc bnc" id="L52" title="All 2 branches missed.">              || driverViolation.equals(ViolationTypes.Speeding)</span>
-<span class="nc bnc" id="L53" title="All 2 branches missed.">              || driverViolation.equals(ViolationTypes.Driving_under_influence)</span>
+<span class="fc bfc" id="L57" title="All 2 branches covered.">          : this.dmvRecords.getAllRecordsByDriver(driver)) {</span>
+<span class="fc bfc" id="L58" title="All 2 branches covered.">        if (record.isMovingViolationTrue()) {</span>
+<span class="fc" id="L59">          ViolationTypes driverViolation = record.getViolationType();</span>
+<span class="fc bfc" id="L60" title="All 2 branches covered.">          if (driverViolation.equals(ViolationTypes.Reckless_driving)</span>
+<span class="fc bfc" id="L61" title="All 2 branches covered.">              || driverViolation.equals(ViolationTypes.Speeding)</span>
+<span class="fc bfc" id="L62" title="All 2 branches covered.">              || driverViolation.equals(ViolationTypes.Driving_under_influence)</span>
               || driverViolation
-<span class="nc bnc" id="L55" title="All 2 branches missed.">              .equals(ViolationTypes.Driving_without_a_valid_license_and_or_insurance)) {</span>
-<span class="nc" id="L56">            return false;</span>
+<span class="pc bpc" id="L64" title="1 of 2 branches missed.">              .equals(ViolationTypes.Driving_without_a_valid_license_and_or_insurance)) {</span>
+<span class="fc" id="L65">            return false;</span>
           }
         }
-<span class="nc" id="L59">      }</span>
+<span class="fc" id="L68">      }</span>
     }
-<span class="nc" id="L61">    return true;</span>
+<span class="fc" id="L70">    return true;</span>
   }
 
   /**
-   * Validates if the vehicle provided by the prospective driver has any crash Record. If yes return
-   * false, and the prospective driver should not be accepted as a driver, otherwise the driver can
-   * be accepted as a driver.
+   * Validates if the vehicle provided by the prospective driver has any crash Record within last
+   * six months.
+   * If yes return false, and the prospective driver should not be accepted as a driver,
+   * otherwise return true, and the driver can be accepted as a driver.
    *
    * @param vehicle the vehicle.
    * @return the boolean.
    */
   public Boolean validateVehicleHistory(Vehicle vehicle) {
-<span class="nc bnc" id="L73" title="All 2 branches missed.">    if (this.dmvRecords.isVehicleInDmvRecord(vehicle)) {</span>
+<span class="fc bfc" id="L83" title="All 2 branches covered.">    if (this.dmvRecords.isVehicleInDmvRecord(vehicle)) {</span>
       for (Record record
-<span class="nc bnc" id="L75" title="All 2 branches missed.">          : this.dmvRecords.getAllRecordsByVehicle(vehicle)) {</span>
-<span class="nc" id="L76">        LocalDate incidentDate = record.getDate();</span>
-<span class="nc" id="L77">        CrashTypes crash = record.getCrashType();</span>
-<span class="nc" id="L78">        Boolean isMovingViolation = record.isMovingViolationTrue();</span>
-<span class="nc bnc" id="L79" title="All 4 branches missed.">        if (timeCalculator.calculateMonth(incidentDate) &lt;= legalViolationRecordTime</span>
-<span class="nc bnc" id="L80" title="All 2 branches missed.">            &amp;&amp; (crash != null || isMovingViolation)) {</span>
-<span class="nc" id="L81">          return false;</span>
+<span class="fc bfc" id="L85" title="All 2 branches covered.">          : this.dmvRecords.getAllRecordsByVehicle(vehicle)) {</span>
+<span class="fc" id="L86">        LocalDate incidentDate = record.getDate();</span>
+<span class="fc" id="L87">        CrashTypes crash = record.getCrashType();</span>
+<span class="fc" id="L88">        Boolean isMovingViolation = record.isMovingViolationTrue();</span>
+<span class="fc bfc" id="L89" title="All 2 branches covered.">        if ((timeCalculator.calculateYear(incidentDate) == zero</span>
+<span class="pc bpc" id="L90" title="1 of 4 branches missed.">            &amp;&amp; timeCalculator.calculateMonth(incidentDate) &lt;= legalViolationRecordTime)</span>
+<span class="pc bpc" id="L91" title="1 of 2 branches missed.">            &amp;&amp; (crash != null || isMovingViolation)) {</span>
+<span class="fc" id="L92">          return false;</span>
         }
-<span class="nc" id="L83">      }</span>
+<span class="fc" id="L94">      }</span>
     }
-<span class="nc" id="L85">    return true;</span>
+<span class="fc" id="L96">    return true;</span>
   }
 
   //  /**
@@ -111,8 +122,8 @@ public class HistoryValidator implements MasterValidator {
 
   @Override
   public boolean masterValidator(Registration registration) {
-<span class="nc bnc" id="L114" title="All 2 branches missed.">    return this.validateDriverHistory(this.registration.getDriver())</span>
-<span class="nc bnc" id="L115" title="All 2 branches missed.">        &amp;&amp; this.validateVehicleHistory(this.registration.getVehicle());</span>
+<span class="fc bfc" id="L125" title="All 2 branches covered.">    return this.validateDriverHistory(this.registration.getDriver())</span>
+<span class="pc bpc" id="L126" title="1 of 2 branches missed.">        &amp;&amp; this.validateVehicleHistory(this.registration.getVehicle());</span>
   }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

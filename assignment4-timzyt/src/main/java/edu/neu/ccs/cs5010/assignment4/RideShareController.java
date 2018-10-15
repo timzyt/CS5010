@@ -73,7 +73,7 @@ public class RideShareController {
    *
    * @param insurance the insurance
    */
-  public void setInsurance(Insurance insurance) {
+  public void setInsurance(Insurance insurance) throws Exception {
     this.registration.setInsurance(insurance);
   }
 
@@ -82,7 +82,7 @@ public class RideShareController {
    *
    * @param vehicle the vehicle
    */
-  public void setVehicle(Vehicle vehicle) {
+  public void setVehicle(Vehicle vehicle) throws Exception {
     this.registration.setVehicle(vehicle);
   }
 

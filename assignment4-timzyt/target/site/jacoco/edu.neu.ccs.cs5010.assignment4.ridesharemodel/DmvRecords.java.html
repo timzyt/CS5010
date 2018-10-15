@@ -28,7 +28,7 @@ public class DmvRecords {
    * @return the dmv records
    */
   public HashSet&lt;Record&gt; getDmvRecords() {
-<span class="nc" id="L31">    return this.dmvRecordDatebase;</span>
+<span class="fc" id="L31">    return this.dmvRecordDatebase;</span>
   }
 
   /**
@@ -37,8 +37,8 @@ public class DmvRecords {
    * @param record the Record
    */
   public void addRecord(Record record) {
-<span class="nc" id="L40">    this.dmvRecordDatebase.add(record);</span>
-<span class="nc" id="L41">  }</span>
+<span class="fc" id="L40">    this.dmvRecordDatebase.add(record);</span>
+<span class="fc" id="L41">  }</span>
 
 
   /**
@@ -50,12 +50,12 @@ public class DmvRecords {
    */
   public Boolean isDriverInDmvRecord(Driver driver) {
     for (Record record
-<span class="nc bnc" id="L53" title="All 2 branches missed.">        : this.getDmvRecords()) {</span>
-<span class="nc bnc" id="L54" title="All 2 branches missed.">      if (record.getDriver().equals(driver)) {</span>
-<span class="nc" id="L55">        return true;</span>
+<span class="fc bfc" id="L53" title="All 2 branches covered.">        : this.getDmvRecords()) {</span>
+<span class="fc bfc" id="L54" title="All 2 branches covered.">      if (record.getDriver().equals(driver)) {</span>
+<span class="fc" id="L55">        return true;</span>
       }
-<span class="nc" id="L57">    }</span>
-<span class="nc" id="L58">    return false;</span>
+<span class="fc" id="L57">    }</span>
+<span class="fc" id="L58">    return false;</span>
   }
 
   /**
@@ -67,12 +67,12 @@ public class DmvRecords {
    */
   public Boolean isVehicleInDmvRecord(Vehicle vehicle) {
     for (Record record
-<span class="nc bnc" id="L70" title="All 2 branches missed.">        : this.getDmvRecords()) {</span>
-<span class="nc bnc" id="L71" title="All 2 branches missed.">      if (record.getVehicle().equals(vehicle)) {</span>
-<span class="nc" id="L72">        return true;</span>
+<span class="fc bfc" id="L70" title="All 2 branches covered.">        : this.getDmvRecords()) {</span>
+<span class="pc bpc" id="L71" title="1 of 2 branches missed.">      if (record.getVehicle().equals(vehicle)) {</span>
+<span class="fc" id="L72">        return true;</span>
       }
 <span class="nc" id="L74">    }</span>
-<span class="nc" id="L75">    return false;</span>
+<span class="fc" id="L75">    return false;</span>
   }
 
   /**
@@ -82,16 +82,16 @@ public class DmvRecords {
    * @return the all records
    */
   public HashSet&lt;Record&gt; getAllRecordsByDriver(Driver driver) {
-<span class="nc" id="L85">    HashSet&lt;Record&gt; fullRecordList = new HashSet&lt;Record&gt;();</span>
-<span class="nc bnc" id="L86" title="All 2 branches missed.">    if (this.isDriverInDmvRecord(driver)) {</span>
+<span class="fc" id="L85">    HashSet&lt;Record&gt; fullRecordList = new HashSet&lt;Record&gt;();</span>
+<span class="fc bfc" id="L86" title="All 2 branches covered.">    if (this.isDriverInDmvRecord(driver)) {</span>
       for (Record record
-<span class="nc bnc" id="L88" title="All 2 branches missed.">          : this.getDmvRecords()) {</span>
-<span class="nc bnc" id="L89" title="All 2 branches missed.">        if (record.getDriver().equals(driver)) {</span>
-<span class="nc" id="L90">          fullRecordList.add(record);</span>
+<span class="fc bfc" id="L88" title="All 2 branches covered.">          : this.getDmvRecords()) {</span>
+<span class="pc bpc" id="L89" title="1 of 2 branches missed.">        if (record.getDriver().equals(driver)) {</span>
+<span class="fc" id="L90">          fullRecordList.add(record);</span>
         }
-<span class="nc" id="L92">      }</span>
+<span class="fc" id="L92">      }</span>
     }
-<span class="nc" id="L94">    return fullRecordList;</span>
+<span class="fc" id="L94">    return fullRecordList;</span>
   }
 
   /**
@@ -102,13 +102,13 @@ public class DmvRecords {
    */
   public HashMap&lt;Driver, HashSet&lt;Record&gt;&gt; getAllRecordsForMultipleDrivers(
       ArrayList&lt;Driver&gt; driverList) {
-<span class="nc" id="L105">    HashMap&lt;Driver, HashSet&lt;Record&gt;&gt; fullRecordForMultipleDrivers = new HashMap&lt;&gt;();</span>
-<span class="nc bnc" id="L106" title="All 2 branches missed.">    for (Driver driver : driverList) {</span>
-<span class="nc bnc" id="L107" title="All 2 branches missed.">      if (getAllRecordsByDriver((driver)) != null) {</span>
-<span class="nc" id="L108">        fullRecordForMultipleDrivers.put(driver, getAllRecordsByDriver(driver));</span>
+<span class="fc" id="L105">    HashMap&lt;Driver, HashSet&lt;Record&gt;&gt; fullRecordForMultipleDrivers = new HashMap&lt;&gt;();</span>
+<span class="fc bfc" id="L106" title="All 2 branches covered.">    for (Driver driver : driverList) {</span>
+<span class="pc bpc" id="L107" title="1 of 2 branches missed.">      if (getAllRecordsByDriver((driver)) != null) {</span>
+<span class="fc" id="L108">        fullRecordForMultipleDrivers.put(driver, getAllRecordsByDriver(driver));</span>
       }
-<span class="nc" id="L110">    }</span>
-<span class="nc" id="L111">    return fullRecordForMultipleDrivers;</span>
+<span class="fc" id="L110">    }</span>
+<span class="fc" id="L111">    return fullRecordForMultipleDrivers;</span>
   }
 
   /**
@@ -118,16 +118,16 @@ public class DmvRecords {
    * @return the all records
    */
   public HashSet&lt;Record&gt; getAllRecordsByVehicle(Vehicle vehicle) {
-<span class="nc" id="L121">    HashSet&lt;Record&gt; fullRecordList = new HashSet&lt;Record&gt;();</span>
-<span class="nc bnc" id="L122" title="All 2 branches missed.">    if (this.isVehicleInDmvRecord(vehicle)) {</span>
+<span class="fc" id="L121">    HashSet&lt;Record&gt; fullRecordList = new HashSet&lt;Record&gt;();</span>
+<span class="pc bpc" id="L122" title="1 of 2 branches missed.">    if (this.isVehicleInDmvRecord(vehicle)) {</span>
       for (Record record
-<span class="nc bnc" id="L124" title="All 2 branches missed.">          : this.getDmvRecords()) {</span>
-<span class="nc bnc" id="L125" title="All 2 branches missed.">        if (record.getVehicle().equals(vehicle)) {</span>
-<span class="nc" id="L126">          fullRecordList.add(record);</span>
+<span class="fc bfc" id="L124" title="All 2 branches covered.">          : this.getDmvRecords()) {</span>
+<span class="pc bpc" id="L125" title="1 of 2 branches missed.">        if (record.getVehicle().equals(vehicle)) {</span>
+<span class="fc" id="L126">          fullRecordList.add(record);</span>
         }
-<span class="nc" id="L128">      }</span>
+<span class="fc" id="L128">      }</span>
     }
-<span class="nc" id="L130">    return fullRecordList;</span>
+<span class="fc" id="L130">    return fullRecordList;</span>
   }
 
 

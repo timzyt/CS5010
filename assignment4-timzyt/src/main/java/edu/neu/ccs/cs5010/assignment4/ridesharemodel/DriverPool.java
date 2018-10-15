@@ -9,6 +9,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Objects;
 
 /**
  * Driver pool class. Serves as one of the ridershare models.
@@ -74,7 +76,7 @@ public class DriverPool {
    * @param registration the registration
    */
   public void masterValidator(Registration registration) {
-    if (this.validateRegistrationInPool(registration)
+    if (this.driverPoolValidator.masterValidator(registration)
         && registration.validateRegistration()) {
       this.addDriverVehicle(registration);
       System.out.println("This driver is successfully added into the existing driver pool.");
@@ -121,5 +123,43 @@ public class DriverPool {
       }
     }
     return fullList;
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    if (this == obj) {
+      return true;
+    }
+    if (obj == null || getClass() != obj.getClass()) {
+      return false;
+    }
+    DriverPool that = (DriverPool) obj;
+    return Objects.equals(driverPoolDatabase, that.driverPoolDatabase);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(driverPoolDatabase);
+  }
+
+  @Override
+  public String toString() {
+    if (this.driverPoolDatabase.isEmpty()) {
+      return "This driver pool is empty.";
+    }
+    Integer driverCount = this.driverPoolDatabase.keySet().size();
+    HashSet<Vehicle> vehicleList = new HashSet<>();
+    for (Driver oneDriver : this.driverPoolDatabase.keySet()) {
+      Iterator<Vehicle> vehicleIterator = this.getDriverPoolDatabase().get(oneDriver).iterator();
+      while (vehicleIterator.hasNext()) {
+        Vehicle ve = vehicleIterator.next();
+        if (ve != null && !vehicleList.contains(ve)) {
+          vehicleList.add(ve);
+        }
+      }
+    }
+    Integer vehicleCount = vehicleList.size();
+    return "This driver pool has " + driverCount + " drivers, and " + vehicleCount
+        + " unique vehicles.";
   }
 }

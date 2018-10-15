@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="26" failures="0" name="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="26" failures="0" name="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.2.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,30 +62,30 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetLicensePlate" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testSetNullLicensePlate" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testSetEmptyLicensePlate" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetPersonInDriverSeat" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testSetPersonInDriverSeat" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testEmptyLicesePlate" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testSetLicensePlate" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullLicensePlate" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testInvalidYear1" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testInvalidYear2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullOwner" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testToString" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testEquals" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testHashCode" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testInvalidYear1" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetColor" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullModel" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullColor" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetOwner" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testInvalidYear2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetMake" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullOwner" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetModel" time="0.001"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testEmptyModel" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testEmptyMake" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullMake" time="0.001"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testEmptyColor" time="0.001"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetYear" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullYear" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullLicensePlate" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testEmptyLicesePlate" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetLicensePlate" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testSetLicensePlate" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testSetPersonInDriverSeat" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetPersonInDriverSeat" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testSetEmptyLicensePlate" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testSetNullLicensePlate" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testEmptyMake" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullModel" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testEmptyModel" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullMake" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testHashCode" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetMake" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetColor" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetOwner" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetModel" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testNullColor" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testEmptyColor" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest" name="testGetYear" time="0"/>
 </testsuite>

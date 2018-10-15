@@ -143,7 +143,7 @@ public class DriverPoolValidatorTest {
     record = new Record(recordId, vehicle, driver, Speeding, Fender_bender, recordDate);
 
     registration = new Registration(driver, insurance, vehicle);
-    registration2 = new Registration(driver2, insurance2, vehicle2);
+    registration2 = new Registration(driver, insurance2, vehicle2);
     newDMVRecords = new DmvRecords();
     newDriverPool = new DriverPool();
 
@@ -197,46 +197,34 @@ public class DriverPoolValidatorTest {
   @Test
   public void testFindDriverFromVehicleSet() throws Exception {
     Vehicle vehicle1 = new Vehicle(driver, year, make, model, color, licensePlate);
-    Vehicle vehicle2 = new Vehicle(driver, year, make, model, color, licensePlate);
     vehicle1.setPersonInDriverSeat(driver);
-    vehicle2.setPersonInDriverSeat(driver2);
     HashSet<Vehicle> vehicleSet = new HashSet<>();
     vehicleSet.add(vehicle1);
-    vehicleSet.add(vehicle2);
     Vehicle vehicle3 = new Vehicle(driver, year, make, model, color, licensePlate);
-    ArrayList<Driver> driverCheckList = new ArrayList<>();
-    driverCheckList.add(driver2);
-    driverCheckList.add(driver);
-    assertEquals(vehicle1, vehicle2);
     System.out.println(vehicle1);
-    System.out.println(vehicle2);
-    for (Driver driver : driverCheckList) {
-      assertTrue(
-          newDriverPoolValidator.findDriverFromVehicleSet(vehicleSet, vehicle3).contains(driver));
-    }
+    assertTrue(
+          newDriverPoolValidator.findDriverFromVehicleSet(vehicleSet, vehicle3).equals(driver));
   }
 
   @Test
   public void testFindDriverFromVehicleSet2() throws Exception {
     Vehicle vehicle1 = new Vehicle(driver, year, make, model, color, licensePlate);
-    Vehicle vehicle2 = new Vehicle(driver, year, make, model, color, licensePlate);
+    Vehicle vehicle2 = new Vehicle(driver2, year, make, model, color, licensePlate);
     vehicle1.setPersonInDriverSeat(driver);
     vehicle2.setPersonInDriverSeat(driver2);
     HashSet<Vehicle> vehicleSet = new HashSet<>();
     vehicleSet.add(vehicle1);
-    vehicleSet.add(vehicle2);
-    Vehicle vehicle3 = new Vehicle(driver, year, make, model, color, licensePlate);
-    vehicle3.setPersonInDriverSeat(driver);
-    ArrayList<Driver> driverCheckList = new ArrayList<>();
-    driverCheckList.add(driver2);
-    driverCheckList.add(driver);
-    assertEquals(vehicle1, vehicle2);
-    System.out.println(vehicle1);
-    System.out.println(vehicle2);
-    for (Driver obj : driverCheckList) {
-      assertTrue(
-          newDriverPoolValidator.findDriverFromVehicleSet(vehicleSet, vehicle3).contains(obj));
-    }
+//    Driver driver3 = new Driver(new Name(firstName, lastName2),birthday,license);
+//    Vehicle vehicle3 = new Vehicle(driver3, year, make, model, color, licensePlate);
+////    vehicle3.setPersonInDriverSeat(driver3);
+//    ArrayList<Driver> driverCheckList = new ArrayList<>();
+//    driverCheckList.add(driver2);
+//    driverCheckList.add(driver);
+//    assertEquals(vehicle1, vehicle2);
+//    System.out.println(vehicle1);
+//    System.out.println(vehicle2);
+    assertTrue(
+        newDriverPoolValidator.findDriverFromVehicleSet(vehicleSet, vehicle2) == null);
   }
 
   /**
@@ -244,7 +232,34 @@ public class DriverPoolValidatorTest {
    */
   @Test
   public void testValidateSharedVehicle() throws Exception {
-//TODO: Test goes here... 
+    Vehicle testVehicle = new Vehicle(driver, year, make, model, color, licensePlate);
+    Vehicle testVehicle2 = new Vehicle(driver, year, make, model, color, licensePlate);
+    Registration registration0 = new Registration(driver, insurance, testVehicle);
+    registration2 = new Registration(driver2, insurance, testVehicle2);
+    registration0.getVehicle().setPersonInDriverSeat(driver);
+    registration2.getVehicle().setPersonInDriverSeat(driver2);
+    newDriverPool.addDriverVehicle(registration0);
+
+//    newDriverPool.addDriverVehicle(registration);
+//    for (Vehicle ve :newDriverPool.getDriverPoolDatabase().get(registration0.getDriver())) {
+//      assertTrue(ve.equals(registration2.getVehicle()));
+//    }
+//    assertTrue(newDriverPool.getDriverPoolDatabase().get(registration0.getDriver()).contains(registration2.getVehicle()));
+//    assertTrue(registration2.getVehicle().getPersonInDriverSeat() == null);
+//
+    assertTrue(newDriverPoolValidator.validateSharedVehicle(registration2));
+  }
+
+  @Test
+  public void testValidateSharedVehicle2() throws Exception {
+    Vehicle testVehicle = new Vehicle(driver, year, make, model, color, licensePlate);
+    Vehicle testVehicle2 = new Vehicle(driver, year, make, model, color, licensePlate);
+    Registration registration0 = new Registration(driver, insurance, testVehicle);
+    registration2 = new Registration(driver2, insurance, testVehicle2);
+    registration0.getVehicle().setPersonInDriverSeat(driver);
+    registration2.getVehicle().setPersonInDriverSeat(driver);
+    newDriverPool.addDriverVehicle(registration0);
+    assertFalse(newDriverPoolValidator.validateSharedVehicle(registration2));
   }
 
   /**
@@ -252,7 +267,17 @@ public class DriverPoolValidatorTest {
    */
   @Test
   public void testMasterValidator() throws Exception {
-//TODO: Test goes here... 
+    Vehicle testVehicle = new Vehicle(driver, year, make, model, color, licensePlate);
+    Vehicle testVehicle2 = new Vehicle(driver, year, make, model, color, licensePlate);
+    Registration registration0 = new Registration(driver, insurance, testVehicle);
+    registration2 = new Registration(driver2, insurance, testVehicle2);
+    registration0.getVehicle().setPersonInDriverSeat(driver);
+    registration2.getVehicle().setPersonInDriverSeat(driver2);
+    newDriverPool.addDriverVehicle(registration0);
+    assertTrue(newDriverPoolValidator.validateUniqueness(registration2));
+    assertTrue(newDriverPoolValidator.validateDriverWithMultipleVehicles(registration2));
+    assertTrue(newDriverPoolValidator.validateSharedVehicle(registration2));
+    assertTrue(newDriverPoolValidator.masterValidator(registration2));
   }
 
 

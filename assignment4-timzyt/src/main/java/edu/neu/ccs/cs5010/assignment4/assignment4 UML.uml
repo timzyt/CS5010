@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1382.0" y="999.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.Insurance</node>
+    <node x="1422.0" y="748.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator</node>
+    <node x="1424.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.TimeCalculator</node>
+    <node x="1698.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Country</node>
+    <node x="905.0" y="999.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool</node>
+    <node x="346.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Name</node>
+    <node x="297.0" y="0.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration</node>
+    <node x="406.0" y="737.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator</node>
+    <node x="795.5" y="559.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator</node>
+    <node x="0.0" y="726.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator</node>
+    <node x="0.0" y="0.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle</node>
+    <node x="351.0" y="999.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License</node>
+    <node x="642.0" y="999.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver</node>
+    <node x="0.0" y="999.0">edu.neu.ccs.cs5010.assignment4.RideShareController</node>
+    <node x="756.0" y="660.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator</node>
+    <node x="0.0" y="1721.0">edu.neu.ccs.cs5010.assignment4.RiderShareView</node>
+    <node x="1182.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.CrashTypes</node>
+    <node x="594.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords</node>
+    <node x="610.0" y="0.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record</node>
+    <node x="0.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.ViolationTypes</node>
+    <node x="1124.0" y="704.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
+      <point x="0.0" y="-70.0" />
+      <point x="571.0" y="640.0" />
+      <point x="876.2" y="640.0" />
+      <point x="-53.799999999999955" y="25.5" />
+    </edge>
+    <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
+      <point x="0.0" y="-147.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
+      <point x="0.0" y="-103.0" />
+      <point x="1263.0" y="640.0" />
+      <point x="983.8" y="640.0" />
+      <point x="53.799999999999955" y="25.5" />
+    </edge>
+    <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
+      <point x="0.0" y="-59.0" />
+      <point x="1565.0" y="630.0" />
+      <point x="1037.6000000000001" y="630.0" />
+      <point x="107.60000000000014" y="25.5" />
+    </edge>
+    <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
+      <point x="0.0" y="-81.0" />
+      <point x="193.0" y="630.0" />
+      <point x="822.4" y="630.0" />
+      <point x="-107.60000000000002" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="1699.8831168831157" y="298.2792207792207" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

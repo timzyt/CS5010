@@ -11,6 +11,7 @@ import edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator
 import edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 
 /**
@@ -56,6 +57,12 @@ public class Registration {
    * @param lastName the last name
    */
   public void setDriverName(String firstName, String lastName) throws Exception {
+    if (firstName == null) {
+      throw new InvalidConstructorArgumentException();
+    }
+    if (lastName == null) {
+      throw new InvalidConstructorArgumentException();
+    }
     this.driver.setName(firstName, lastName);
   }
 
@@ -65,6 +72,9 @@ public class Registration {
    * @param date the date
    */
   public void setDriverBirthday(LocalDate date) throws Exception {
+    if (date == null) {
+      throw new InvalidConstructorArgumentException();
+    }
     this.driver.setBirthday(date);
   }
 
@@ -74,6 +84,9 @@ public class Registration {
    * @param license the license
    */
   public void setDriverLicense(License license) throws Exception {
+    if (license == null) {
+      throw new InvalidConstructorArgumentException();
+    }
     this.driver.setLicense(license);
   }
 
@@ -82,7 +95,10 @@ public class Registration {
    *
    * @param insurance the insurance
    */
-  public void setInsurance(Insurance insurance) {
+  public void setInsurance(Insurance insurance) throws Exception {
+    if (insurance == null) {
+      throw new InvalidConstructorArgumentException();
+    }
     this.insurance = insurance;
   }
 
@@ -148,4 +164,34 @@ public class Registration {
     }
   }
 
+  @Override
+  public boolean equals(Object obj) {
+    if (this == obj) {
+      return true;
+    }
+    if (obj == null || getClass() != obj.getClass()) {
+      return false;
+    }
+    Registration that = (Registration) obj;
+    return Objects.equals(driver, that.driver)
+        && Objects.equals(vehicle, that.vehicle)
+        && Objects.equals(insurance, that.insurance);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects
+        .hash(driver, vehicle, insurance);
+  }
+
+
+  @Override
+  public String toString() {
+    return "new registration{"
+        + "\nowner = " + driver.getName().getFirstName() + " " + driver.getName().getLastName()
+        + ",\nvehicle = " + vehicle.getColor() + " " + vehicle.getYear() + " " + vehicle.getMake()
+        + " " + vehicle.getModel()
+        + ",\ninsurance = expiration date: " + insurance.getExpirationDate()
+        + " }";
+  }
 }

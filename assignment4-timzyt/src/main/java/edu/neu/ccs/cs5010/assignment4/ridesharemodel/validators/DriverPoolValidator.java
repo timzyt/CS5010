@@ -5,7 +5,6 @@ import edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration;
 import edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver;
 import edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 
 /**
@@ -51,14 +50,17 @@ public class DriverPoolValidator implements MasterValidator {
    */
   public Boolean validateDriverWithMultipleVehicles(Registration registration) {
     Driver newDriver = registration.getDriver();
+    Driver newPersonInDriverSeat = registration.getVehicle().getPersonInDriverSeat();
     HashSet<Driver> driverCheckSet = new HashSet<>();
     //check if registered driver has no vehicle, if so return true;
-    if (this.driverPool.getDriverPoolDatabase().get(newDriver).isEmpty()) {
+    if (this.driverPool.getDriverPoolDatabase().get(newDriver) == null
+        || this.driverPool.getDriverPoolDatabase().get(newDriver).isEmpty()
+        || newPersonInDriverSeat == null) {
       return true;
     } else {
       for (Vehicle e : driverPool.getDriverPoolDatabase().get(newDriver)) {
-        driverCheckSet.add(newDriver);
-        if (driverCheckSet.contains(e.getPersonInDriverSeat())) {
+        if ((e.getPersonInDriverSeat().equals(newDriver))
+            || driverCheckSet.contains(e.getPersonInDriverSeat())) {
           return false;
         } else {
           //if the personInDriverSeat is null, meaning nobody is driving this vehicle,
@@ -81,20 +83,14 @@ public class DriverPoolValidator implements MasterValidator {
    * @return the driver
    */
   //helper method to iterate through the vehicle set, and return the specific vehicle in the set
-  public ArrayList<Driver> findDriverFromVehicleSet(HashSet<Vehicle> vehicleSet, Vehicle vehicle) {
-    ArrayList<Driver> personInSeatList = new ArrayList<>();
-    if (vehicle.getPersonInDriverSeat() != null) {
-      personInSeatList.add(vehicle.getPersonInDriverSeat());
-    }
+  public Driver findDriverFromVehicleSet(HashSet<Vehicle> vehicleSet, Vehicle vehicle) {
     for (Vehicle v : vehicleSet) {
       if (v.equals(vehicle)) {
-        if (v.getPersonInDriverSeat() != null) {
-          personInSeatList.add(v.getPersonInDriverSeat());
-        }
+        return v.getPersonInDriverSeat();
       }
     }
     //if no identical vehicle is found in the set, return null.
-    return personInSeatList;
+    return null;
   }
 
   /**
@@ -107,18 +103,17 @@ public class DriverPoolValidator implements MasterValidator {
    */
   public Boolean validateSharedVehicle(Registration registration) {
     Vehicle newVehicle = registration.getVehicle();
-
-    for (Driver d : driverPool.getDriverPoolDatabase().keySet()) {
-      //check if the existing driverPool contains the newVehicle,
-      // if not, no chance of having multiple driver in it, so return true.
-      if (!driverPool.getDriverPoolDatabase().get(d).contains(newVehicle)) {
-        return true;
-      } else {
-        for (Vehicle v : driverPool.getDriverPoolDatabase().get(d)) {
-          if (v.getPersonInDriverSeat().equals(newVehicle.getPersonInDriverSeat())) {
-            return false;
-          }
-        }
+    Driver newPersonInDriverSeat = registration.getVehicle().getPersonInDriverSeat();
+    if (newVehicle ==  null || newPersonInDriverSeat == null) {
+      return true;
+    }
+    for (Driver driver : driverPool.getDriverPoolDatabase().keySet()) {
+      //use findDriverFromVehicleSet to find same vehicle
+      if (findDriverFromVehicleSet(this.driverPool.getDriverPoolDatabase()
+          .get(driver),newVehicle) != null
+          && findDriverFromVehicleSet(this.driverPool.getDriverPoolDatabase()
+          .get(driver),newVehicle).equals(newPersonInDriverSeat)) {
+        return false;
       }
     }
     return true;

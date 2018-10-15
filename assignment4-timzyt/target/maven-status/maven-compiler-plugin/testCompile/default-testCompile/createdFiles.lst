@@ -1,4 +1,6 @@
+edu\neu\ccs\cs5010\assignment4\RiderShareViewTest.class
 edu\neu\ccs\cs5010\assignment4\ridesharemodel\driver\ridersharemodel\driver\CountryTest.class
+edu\neu\ccs\cs5010\assignment4\ridesharemodel\DriverPoolTest.class
 edu\neu\ccs\cs5010\assignment4\ridesharemodel\driver\ridersharemodel\vehicle\VehicleTest.class
 edu\neu\ccs\cs5010\assignment4\ridesharemodel\RegistrationTest.class
 edu\neu\ccs\cs5010\assignment4\RideShareControllerTest.class
@@ -12,7 +14,6 @@ edu\neu\ccs\cs5010\assignment4\ridesharemodel\driver\ridersharemodel\driver\Lice
 edu\neu\ccs\cs5010\assignment4\ridesharemodel\insurance\InsuranceTest.class
 edu\neu\ccs\cs5010\assignment4\ridesharemodel\validators\HistoryValidatorTest.class
 edu\neu\ccs\cs5010\assignment4\ridesharemodel\driver\ridersharemodel\validators\TimeCalculatorTest.class
-edu\neu\ccs\cs5010\assignment4\ridesharemodel\driver\ridersharemodel\RiderShareViewTest.class
 edu\neu\ccs\cs5010\assignment4\ridesharemodel\validators\InsuranceValidatorTest.class
 edu\neu\ccs\cs5010\assignment4\ridesharemodel\validators\DriverValidatorTest.class
 edu\neu\ccs\cs5010\assignment4\ridesharemodel\violationrecords\recordTest.class

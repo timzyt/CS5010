@@ -1,8 +1,8 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel,DmvRecords,147,8,24,0,33,3,19,1,7,1
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel,DriverPool.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel,DriverPool,105,47,13,3,22,14,11,4,4,3
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel,Registration,55,60,8,4,18,16,11,6,7,4
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel,DmvRecords,1,154,5,19,1,35,5,15,0,8
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel,DriverPool.new Comparator() {...},0,14,0,0,0,2,0,2,0,2
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel,DriverPool,10,248,5,27,2,55,5,21,0,10
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel,Registration,0,254,6,28,0,59,6,25,0,14
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords,ViolationTypes.new Object() {...},9,59,0,0,0,1,0,1,0,1
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords,ViolationTypes,0,165,1,9,0,31,1,13,0,5
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords,Record,0,299,7,41,0,61,7,28,0,11
@@ -13,11 +13,11 @@ Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicl
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators,VehicleValidator,0,37,0,2,0,9,0,4,0,3
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators,InsuranceValidator,2,52,3,5,0,10,3,5,0,4
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators,TimeCalculator,0,47,0,0,0,11,0,4,0,4
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators,HistoryValidator,115,18,28,0,23,6,17,1,3,1
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators,DriverPoolValidator,76,127,18,16,13,30,13,10,2,4
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators,HistoryValidator,0,145,4,26,0,31,4,15,0,4
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators,DriverPoolValidator,0,198,7,31,0,43,7,18,0,6
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators,DriverValidator,5,150,9,13,0,29,9,10,0,8
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4,RiderShareView,112,0,12,0,20,0,8,0,2,0
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4,RideShareController,90,0,0,0,29,0,13,0,13,0
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4,RiderShareView,4,128,4,12,1,21,4,6,0,2
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4,RideShareController,0,90,0,0,0,29,0,13,0,13
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.exceptions,InvalidVehicleYearException,0,4,0,0,0,2,0,1,0,1
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.exceptions,InvalidConstructorArgumentException,0,4,0,0,0,2,0,1,0,1
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver,Driver,0,180,2,18,0,40,2,18,0,10

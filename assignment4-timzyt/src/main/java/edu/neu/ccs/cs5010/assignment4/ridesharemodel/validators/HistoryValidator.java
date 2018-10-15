@@ -19,6 +19,7 @@ public class HistoryValidator implements MasterValidator {
   private Registration registration;
   private TimeCalculator timeCalculator;
   private Integer legalViolationRecordTime = 6;
+  private Integer zero = 0;
 
   /**
    * Instantiates a new History validator.
@@ -34,10 +35,18 @@ public class HistoryValidator implements MasterValidator {
   }
 
   /**
-   * Validates if the driver has any moving violation Record. If yes return false, and the
-   * prospective driver should not be accepted as a driver. If the driver doesn't have any violation
-   * Record, or the violation isn't one of the few specified violation types, the driver can be
-   * accepted as a driver.
+   * Validates if the driver is free of any moving violation Record.
+   * If the driver has no moving
+   * violation record then return true, and the driver can be accepted as a driver.
+   * If the driver
+   * does have any moving violation record,
+   * AND being one of the below four specified violation
+   * types,
+   * - Reckless Driving
+   * - Speeding
+   * - DUI
+   * - Driving with a valid license/insurance
+   * then return false, and prospective driver should not be accepted as a driver.
    *
    * @param driver the prospective driver.
    * @return the boolean.
@@ -62,9 +71,10 @@ public class HistoryValidator implements MasterValidator {
   }
 
   /**
-   * Validates if the vehicle provided by the prospective driver has any crash Record. If yes return
-   * false, and the prospective driver should not be accepted as a driver, otherwise the driver can
-   * be accepted as a driver.
+   * Validates if the vehicle provided by the prospective driver has any crash Record within last
+   * six months.
+   * If yes return false, and the prospective driver should not be accepted as a driver,
+   * otherwise return true, and the driver can be accepted as a driver.
    *
    * @param vehicle the vehicle.
    * @return the boolean.
@@ -76,7 +86,8 @@ public class HistoryValidator implements MasterValidator {
         LocalDate incidentDate = record.getDate();
         CrashTypes crash = record.getCrashType();
         Boolean isMovingViolation = record.isMovingViolationTrue();
-        if (timeCalculator.calculateMonth(incidentDate) <= legalViolationRecordTime
+        if ((timeCalculator.calculateYear(incidentDate) == zero
+            && timeCalculator.calculateMonth(incidentDate) <= legalViolationRecordTime)
             && (crash != null || isMovingViolation)) {
           return false;
         }

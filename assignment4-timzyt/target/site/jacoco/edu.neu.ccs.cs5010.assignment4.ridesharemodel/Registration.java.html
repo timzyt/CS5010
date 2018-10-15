@@ -11,6 +11,7 @@ import edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator
 import edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle;
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 
 /**
@@ -33,21 +34,21 @@ public class Registration {
    * @param insurance the insurance
    * @param vehicle the vehicle
    */
-<span class="fc" id="L36">  public Registration(Driver driver, Insurance insurance, Vehicle vehicle) throws Exception {</span>
-<span class="fc bfc" id="L37" title="All 2 branches covered.">    if (driver == null) {</span>
-<span class="fc" id="L38">      throw new InvalidConstructorArgumentException();</span>
+<span class="fc" id="L37">  public Registration(Driver driver, Insurance insurance, Vehicle vehicle) throws Exception {</span>
+<span class="fc bfc" id="L38" title="All 2 branches covered.">    if (driver == null) {</span>
+<span class="fc" id="L39">      throw new InvalidConstructorArgumentException();</span>
     }
-<span class="fc bfc" id="L40" title="All 2 branches covered.">    if (insurance == null) {</span>
-<span class="fc" id="L41">      throw new InvalidConstructorArgumentException();</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">    if (insurance == null) {</span>
+<span class="fc" id="L42">      throw new InvalidConstructorArgumentException();</span>
     }
-<span class="fc" id="L43">    this.driver = driver;</span>
-<span class="fc" id="L44">    this.insurance = insurance;</span>
-<span class="fc" id="L45">    this.vehicle = vehicle;</span>
-<span class="fc" id="L46">    this.driverValidator = new DriverValidator(this);</span>
-<span class="fc" id="L47">    this.vehicleValidator = new VehicleValidator(this);</span>
-<span class="fc" id="L48">    this.insuranceValidator = new InsuranceValidator(this);</span>
-<span class="fc" id="L49">    this.historyValidator = new HistoryValidator(new DmvRecords(), this);</span>
-<span class="fc" id="L50">  }</span>
+<span class="fc" id="L44">    this.driver = driver;</span>
+<span class="fc" id="L45">    this.insurance = insurance;</span>
+<span class="fc" id="L46">    this.vehicle = vehicle;</span>
+<span class="fc" id="L47">    this.driverValidator = new DriverValidator(this);</span>
+<span class="fc" id="L48">    this.vehicleValidator = new VehicleValidator(this);</span>
+<span class="fc" id="L49">    this.insuranceValidator = new InsuranceValidator(this);</span>
+<span class="fc" id="L50">    this.historyValidator = new HistoryValidator(new DmvRecords(), this);</span>
+<span class="fc" id="L51">  }</span>
 
   /**
    * Sets driver name.
@@ -56,8 +57,14 @@ public class Registration {
    * @param lastName the last name
    */
   public void setDriverName(String firstName, String lastName) throws Exception {
-<span class="nc" id="L59">    this.driver.setName(firstName, lastName);</span>
-<span class="nc" id="L60">  }</span>
+<span class="fc bfc" id="L60" title="All 2 branches covered.">    if (firstName == null) {</span>
+<span class="fc" id="L61">      throw new InvalidConstructorArgumentException();</span>
+    }
+<span class="fc bfc" id="L63" title="All 2 branches covered.">    if (lastName == null) {</span>
+<span class="fc" id="L64">      throw new InvalidConstructorArgumentException();</span>
+    }
+<span class="fc" id="L66">    this.driver.setName(firstName, lastName);</span>
+<span class="fc" id="L67">  }</span>
 
   /**
    * Sets driver birthday.
@@ -65,8 +72,11 @@ public class Registration {
    * @param date the date
    */
   public void setDriverBirthday(LocalDate date) throws Exception {
-<span class="nc" id="L68">    this.driver.setBirthday(date);</span>
-<span class="nc" id="L69">  }</span>
+<span class="fc bfc" id="L75" title="All 2 branches covered.">    if (date == null) {</span>
+<span class="fc" id="L76">      throw new InvalidConstructorArgumentException();</span>
+    }
+<span class="fc" id="L78">    this.driver.setBirthday(date);</span>
+<span class="fc" id="L79">  }</span>
 
   /**
    * Sets driver license.
@@ -74,17 +84,23 @@ public class Registration {
    * @param license the license
    */
   public void setDriverLicense(License license) throws Exception {
-<span class="nc" id="L77">    this.driver.setLicense(license);</span>
-<span class="nc" id="L78">  }</span>
+<span class="fc bfc" id="L87" title="All 2 branches covered.">    if (license == null) {</span>
+<span class="fc" id="L88">      throw new InvalidConstructorArgumentException();</span>
+    }
+<span class="fc" id="L90">    this.driver.setLicense(license);</span>
+<span class="fc" id="L91">  }</span>
 
   /**
    * Sets insurance.
    *
    * @param insurance the insurance
    */
-  public void setInsurance(Insurance insurance) {
-<span class="nc" id="L86">    this.insurance = insurance;</span>
-<span class="nc" id="L87">  }</span>
+  public void setInsurance(Insurance insurance) throws Exception {
+<span class="fc bfc" id="L99" title="All 2 branches covered.">    if (insurance == null) {</span>
+<span class="fc" id="L100">      throw new InvalidConstructorArgumentException();</span>
+    }
+<span class="fc" id="L102">    this.insurance = insurance;</span>
+<span class="fc" id="L103">  }</span>
 
   /**
    * Sets vehicle.
@@ -92,8 +108,8 @@ public class Registration {
    * @param vehicle the vehicle
    */
   public void setVehicle(Vehicle vehicle) {
-<span class="nc" id="L95">    this.vehicle = vehicle;</span>
-<span class="nc" id="L96">  }</span>
+<span class="fc" id="L111">    this.vehicle = vehicle;</span>
+<span class="fc" id="L112">  }</span>
 
   /**
    * Sets the person in driver seat.
@@ -101,8 +117,8 @@ public class Registration {
    * @param newDriver the new driver
    */
   public void setPersonInDriverSeat(Driver newDriver) {
-<span class="nc" id="L104">    this.vehicle.setPersonInDriverSeat(newDriver);</span>
-<span class="nc" id="L105">  }</span>
+<span class="fc" id="L120">    this.vehicle.setPersonInDriverSeat(newDriver);</span>
+<span class="fc" id="L121">  }</span>
 
   /**
    * Gets driver.
@@ -110,7 +126,7 @@ public class Registration {
    * @return the driver
    */
   public Driver getDriver() {
-<span class="fc" id="L113">    return driver;</span>
+<span class="fc" id="L129">    return driver;</span>
   }
 
   /**
@@ -119,7 +135,7 @@ public class Registration {
    * @return the insurance
    */
   public Insurance getInsurance() {
-<span class="fc" id="L122">    return insurance;</span>
+<span class="fc" id="L138">    return insurance;</span>
   }
 
   /**
@@ -128,7 +144,7 @@ public class Registration {
    * @return the vehicle
    */
   public Vehicle getVehicle() {
-<span class="fc" id="L131">    return vehicle;</span>
+<span class="fc" id="L147">    return vehicle;</span>
   }
 
   /**
@@ -138,15 +154,45 @@ public class Registration {
    * @return the boolean
    */
   public Boolean validateRegistration() {
-<span class="nc bnc" id="L141" title="All 2 branches missed.">    if (driverValidator.masterValidator(this)</span>
-<span class="nc bnc" id="L142" title="All 2 branches missed.">        &amp;&amp; vehicleValidator.masterValidator(this)</span>
-<span class="nc bnc" id="L143" title="All 2 branches missed.">        &amp;&amp; insuranceValidator.masterValidator(this)</span>
-<span class="nc bnc" id="L144" title="All 2 branches missed.">        &amp;&amp; historyValidator.masterValidator(this)) {</span>
-<span class="nc" id="L145">      return true;</span>
+<span class="pc bpc" id="L157" title="1 of 2 branches missed.">    if (driverValidator.masterValidator(this)</span>
+<span class="fc bfc" id="L158" title="All 2 branches covered.">        &amp;&amp; vehicleValidator.masterValidator(this)</span>
+<span class="pc bpc" id="L159" title="1 of 2 branches missed.">        &amp;&amp; insuranceValidator.masterValidator(this)</span>
+<span class="pc bpc" id="L160" title="1 of 2 branches missed.">        &amp;&amp; historyValidator.masterValidator(this)) {</span>
+<span class="fc" id="L161">      return true;</span>
     } else {
-<span class="nc" id="L147">      return false;</span>
+<span class="fc" id="L163">      return false;</span>
     }
   }
 
+  @Override
+  public boolean equals(Object obj) {
+<span class="fc bfc" id="L169" title="All 2 branches covered.">    if (this == obj) {</span>
+<span class="fc" id="L170">      return true;</span>
+    }
+<span class="pc bpc" id="L172" title="1 of 4 branches missed.">    if (obj == null || getClass() != obj.getClass()) {</span>
+<span class="fc" id="L173">      return false;</span>
+    }
+<span class="fc" id="L175">    Registration that = (Registration) obj;</span>
+<span class="fc bfc" id="L176" title="All 2 branches covered.">    return Objects.equals(driver, that.driver)</span>
+<span class="pc bpc" id="L177" title="1 of 2 branches missed.">        &amp;&amp; Objects.equals(vehicle, that.vehicle)</span>
+<span class="pc bpc" id="L178" title="1 of 2 branches missed.">        &amp;&amp; Objects.equals(insurance, that.insurance);</span>
+  }
+
+  @Override
+  public int hashCode() {
+<span class="fc" id="L183">    return Objects</span>
+<span class="fc" id="L184">        .hash(driver, vehicle, insurance);</span>
+  }
+
+
+  @Override
+  public String toString() {
+<span class="fc" id="L190">    return &quot;new registration{&quot;</span>
+<span class="fc" id="L191">        + &quot;\nowner = &quot; + driver.getName().getFirstName() + &quot; &quot; + driver.getName().getLastName()</span>
+<span class="fc" id="L192">        + &quot;,\nvehicle = &quot; + vehicle.getColor() + &quot; &quot; + vehicle.getYear() + &quot; &quot; + vehicle.getMake()</span>
+<span class="fc" id="L193">        + &quot; &quot; + vehicle.getModel()</span>
+<span class="fc" id="L194">        + &quot;,\ninsurance = expiration date: &quot; + insurance.getExpirationDate()</span>
+        + &quot; }&quot;;
+  }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

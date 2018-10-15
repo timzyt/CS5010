@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="14" failures="0" name="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="14" failures="0" name="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.2.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,18 +62,18 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testGetLicense" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testToString" time="0.001"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testSetName" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testNullName" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testGetName" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testSetBirthday" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testSetLicense" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testNullLicense" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testSetBirthday2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testSetLicense2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testNullBirthday" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testEquals" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testGetBirthday" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testNullLicense" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testSetLicense" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testGetLicense" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testNullBirthday" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testToString" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testGetName" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testSetLicense2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testEquals" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testSetBirthday2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testSetBirthday" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testHashCode" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest" name="testSetName" time="0"/>
 </testsuite>

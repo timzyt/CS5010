@@ -24,7 +24,8 @@ public class RiderShareView {
   public void printQueryResult(ArrayList<Driver> driverList,
       HashMap<Driver, HashSet<Vehicle>> fullList,
       HashMap<Driver, HashSet<Record>> fullRecordForMultipleDrivers) {
-    if (driverList == null) {
+    HashSet<Record> recordList = new HashSet<Record>();
+    if (driverList == null || driverList.size() == 0) {
       System.out.println("No registered driver found.");
     } else {
       //when diverList isn't null,
@@ -43,11 +44,12 @@ public class RiderShareView {
           }
         }
         //when the Record isn't null, print each driver violation
-        if (fullRecordForMultipleDrivers.get(driver) != null) {
+        if (fullRecordForMultipleDrivers.get(driver) != null
+            && !fullRecordForMultipleDrivers.get(driver).isEmpty()) {
           System.out.println("     Driving violations:");
           for (Record record
               : fullRecordForMultipleDrivers.get(driver)) {
-            System.out.println(record.getViolationType().toString());
+            System.out.println("          " + record.getViolationType().toString());
           }
         }
       }
