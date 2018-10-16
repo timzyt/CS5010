@@ -1,13 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.3.5" timestamp="2018-10-15T16:04:24.333">
-<file name="D:\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment4-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment4\RiderShareView.java">
-<violation beginline="27" endline="27" begincolumn="21" endcolumn="30" rule="UnusedLocalVariable" ruleset="Unused Code" package="edu.neu.ccs.cs5010.assignment4" class="RiderShareView" method="printQueryResult" variable="recordList" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/unusedcode.html#UnusedLocalVariable" priority="3">
-Avoid unused local variables such as 'recordList'.
-</violation>
-</file>
-<file name="D:\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment4-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment4\ridesharemodel\DriverPool.java">
-<violation beginline="155" endline="155" begincolumn="17" endcolumn="18" rule="ShortVariable" ruleset="Naming" package="edu.neu.ccs.cs5010.assignment4.ridesharemodel" class="DriverPool" method="toString" variable="ve" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
-Avoid variables with short names like ve
-</violation>
-</file>
+<pmd version="5.3.5" timestamp="2018-10-15T23:35:13.809">
 </pmd>

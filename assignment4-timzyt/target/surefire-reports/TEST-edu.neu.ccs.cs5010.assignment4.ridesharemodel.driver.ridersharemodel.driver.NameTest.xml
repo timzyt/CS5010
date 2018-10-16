@@ -62,19 +62,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testEmptyFirstName" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testNullFirstName" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testSetFirstName2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testSetFirstName3" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testEmptyLastName" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testSetFirstName" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testSetLastName" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testSetLastName3" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testGetFirstName" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testGetLastName" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testNullLastName" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testSetLastName2" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testToString" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testEquals" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testNullLastName" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testSetFirstName" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testGetLastName" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testSetLastName2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testGetFirstName" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testHashCode" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testEmptyFirstName" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testSetFirstName3" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testNullFirstName" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testEmptyLastName" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest" name="testSetFirstName2" time="0"/>
 </testsuite>

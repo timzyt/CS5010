@@ -160,9 +160,9 @@
 <a class="jxr_linenumber" name="L152" href="#L152">152</a>     <strong class="jxr_keyword">for</strong> (Driver oneDriver : <strong class="jxr_keyword">this</strong>.driverPoolDatabase.keySet()) {
 <a class="jxr_linenumber" name="L153" href="#L153">153</a>       Iterator&lt;Vehicle&gt; vehicleIterator = <strong class="jxr_keyword">this</strong>.getDriverPoolDatabase().get(oneDriver).iterator();
 <a class="jxr_linenumber" name="L154" href="#L154">154</a>       <strong class="jxr_keyword">while</strong> (vehicleIterator.hasNext()) {
-<a class="jxr_linenumber" name="L155" href="#L155">155</a>         <a href="../../../../../../edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.html">Vehicle</a> ve = vehicleIterator.next();
-<a class="jxr_linenumber" name="L156" href="#L156">156</a>         <strong class="jxr_keyword">if</strong> (ve != <strong class="jxr_keyword">null</strong> &amp;&amp; !vehicleList.contains(ve)) {
-<a class="jxr_linenumber" name="L157" href="#L157">157</a>           vehicleList.add(ve);
+<a class="jxr_linenumber" name="L155" href="#L155">155</a>         <a href="../../../../../../edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.html">Vehicle</a> vehicle = vehicleIterator.next();
+<a class="jxr_linenumber" name="L156" href="#L156">156</a>         <strong class="jxr_keyword">if</strong> (vehicle != <strong class="jxr_keyword">null</strong> &amp;&amp; !vehicleList.contains(vehicle)) {
+<a class="jxr_linenumber" name="L157" href="#L157">157</a>           vehicleList.add(vehicle);
 <a class="jxr_linenumber" name="L158" href="#L158">158</a>         }
 <a class="jxr_linenumber" name="L159" href="#L159">159</a>       }
 <a class="jxr_linenumber" name="L160" href="#L160">160</a>     }

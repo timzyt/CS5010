@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" time="0.093" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" time="0.082" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.2.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,16 +62,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testGetDriverRecord" time="0.078"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testGetVehicleRecord" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testSetDriverName" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testSetDriverBirthday" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testProvideDriverInfo" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testSetDriverLicense" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testSetVehicle" time="0.073"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testSetInsurance" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testGetVehicle" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testSetVehicle" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testGetDriver" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testGetInsurance" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testAddNewDriver" time="0.015"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testGetVehicle" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testAddNewDriver" time="0.004"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testSetDriverBirthday" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testSetDriverLicense" time="0.001"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testProvideDriverInfo" time="0.003"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testGetVehicleRecord" time="0.001"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testSetDriverName" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.RideShareControllerTest" name="testGetDriverRecord" time="0"/>
 </testsuite>

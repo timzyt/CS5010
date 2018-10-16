@@ -1,6 +1,7 @@
 package edu.neu.ccs.cs5010.assignment4;
 
 
+import edu.neu.ccs.cs5010.assignment4.extracredit.DriverPoolWatchDogs;
 import edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver;
 import edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle;
 import edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record;
@@ -8,11 +9,14 @@ import edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * The ridershare view class.
  */
-public class RiderShareView {
+public class RiderShareView implements Observer {
+
 
   /**
    * Print query result from the query based on provided last name.
@@ -24,7 +28,7 @@ public class RiderShareView {
   public void printQueryResult(ArrayList<Driver> driverList,
       HashMap<Driver, HashSet<Vehicle>> fullList,
       HashMap<Driver, HashSet<Record>> fullRecordForMultipleDrivers) {
-    HashSet<Record> recordList = new HashSet<Record>();
+    //    HashSet<Record> recordList = new HashSet<Record>();
     if (driverList == null || driverList.size() == 0) {
       System.out.println("No registered driver found.");
     } else {
@@ -58,4 +62,11 @@ public class RiderShareView {
   }
 
 
+  @Override
+  public void update(Observable obsvbl, Object arg) {
+    if (obsvbl instanceof DriverPoolWatchDogs && arg instanceof String) {
+      // if arg is instanceof HashSet, meaning the arg is sharedVehicleWatchList
+      System.out.print(arg);
+    }
+  }
 }

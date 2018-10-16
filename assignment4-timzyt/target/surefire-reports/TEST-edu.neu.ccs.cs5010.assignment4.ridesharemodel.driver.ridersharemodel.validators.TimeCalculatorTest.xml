@@ -62,7 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.validators.TimeCalculatorTest" name="testCalculateMonth" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.validators.TimeCalculatorTest" name="testNotPast" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.validators.TimeCalculatorTest" name="testCalculateAge" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.validators.TimeCalculatorTest" name="testNotPast" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.validators.TimeCalculatorTest" name="testCalculateMonth" time="0"/>
 </testsuite>

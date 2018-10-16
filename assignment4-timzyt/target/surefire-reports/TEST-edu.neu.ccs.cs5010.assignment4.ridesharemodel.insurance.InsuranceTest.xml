@@ -62,15 +62,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testGetExpirationDate" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testNullExpirationDate" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testGetInsuredDrivers" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testGetVehicle" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testToString2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testNullVehicle" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testNullOwner" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testGetOwner" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testToString" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testEquals" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testHashCode" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testNullVehicle" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testGetOwner" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testToString2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testGetVehicle" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testGetInsuredDrivers" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testNullExpirationDate" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest" name="testGetExpirationDate" time="0"/>
 </testsuite>

@@ -3,35 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3d522e47-8ad3-4f46-a70f-b58762b2aac8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RideShareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RideShareController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RiderShareView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RiderShareView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/RideShareControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/RideShareControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/RiderShareViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/RiderShareViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-checker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/RideShareController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/RideShareController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/RiderShareView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/RiderShareView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/Registration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/findbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/findbugsXml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/rules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
@@ -120,55 +101,13 @@
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/package-list" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/css/maven-base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/print.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/css/print.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/distribution-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/distribution-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/findbugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/findbugs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/findbugs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/findbugs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/integration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/issue-tracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/issue-tracking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/.resources/prettify.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/.resources/prettify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/.resources/report.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/.resources/sort.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.exceptions/InvalidConstructorArgumentException.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.exceptions/InvalidConstructorArgumentException.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.exceptions/InvalidVehicleYearException.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.exceptions/InvalidVehicleYearException.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver/Country.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver/Country.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver/Driver.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver/Driver.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver/License.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver/License.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver/Name.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver/Name.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance/Insurance.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance/Insurance.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/DriverPoolValidator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/DriverPoolValidator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/DriverPoolValidator.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/DriverPoolValidator.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/DriverValidator.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/DriverValidator.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/HistoryValidator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/HistoryValidator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/HistoryValidator.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/HistoryValidator.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/InsuranceValidator.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/InsuranceValidator.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/TimeCalculator.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/TimeCalculator.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/VehicleValidator.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/VehicleValidator.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle/CrashTypes.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle/CrashTypes.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle/Vehicle.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle/Vehicle.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords/Record.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords/Record.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords/ViolationTypes.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords/ViolationTypes.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/DmvRecords.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/DmvRecords.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/DmvRecords.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/DmvRecords.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/DriverPool$1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/DriverPool$1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/DriverPool.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/DriverPool.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/DriverPool.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/DriverPool.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/Registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/Registration.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/Registration.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4.ridesharemodel/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4/RideShareController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4/RideShareController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4/RideShareController.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4/RideShareController.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4/RiderShareView.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4/RiderShareView.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4/RiderShareView.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4/RiderShareView.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment4/index.html" afterDir="false" />
@@ -176,81 +115,19 @@
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/license.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/license.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/mail-lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/mail-lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/pmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/pmd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/source-repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/source-repository.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/team-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/team-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/RideShareControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/RideShareControllerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/RiderShareViewTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/RiderShareViewTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/RegistrationTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/RegistrationTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/driver/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/driver/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/driver/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/driver/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/validators/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/validators/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/validators/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/validators/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/vehicle/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/vehicle/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/vehicle/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/vehicle/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/violationrecords/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/violationrecords/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/violationrecords/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/violationrecords/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/insurance/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/insurance/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/insurance/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/insurance/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidatorTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidatorTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/RideShareController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/RideShareController.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/RiderShareView.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/RiderShareView.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/exceptions/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/exceptions/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/exceptions/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/exceptions/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/Registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/insurance/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/insurance/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/insurance/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/insurance/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/overview-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.RideShareControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.RideShareControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.RiderShareViewTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.RiderShareViewTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPoolTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPoolTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.RiderShareViewTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.CountryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.CountryTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.LicenseTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.LicenseTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.validators.TimeCalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.validators.TimeCalculatorTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.CrashTypesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.CrashTypesTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.ViolationTypesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.ViolationTypesTest.xml" afterDir="false" />
@@ -262,28 +139,13 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidatorTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.RideShareControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.RideShareControllerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.RiderShareViewTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.CountryTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.CountryTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.RiderShareViewTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.RiderShareViewTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.DriverTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.LicenseTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.LicenseTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.driver.NameTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.validators.TimeCalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.validators.TimeCalculatorTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.CrashTypesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.CrashTypesTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.VehicleTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.ViolationTypesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.ViolationTypesTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.InsuranceTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidatorTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidatorTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidatorTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidatorTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.recordTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment4/RideShareControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment4/RideShareControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/RegistrationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/RiderShareViewTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidatorTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -656,16 +518,16 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="assignment4" value="1" />
-          <entry key="html" value="3" />
-          <entry key="java" value="153" />
+          <entry key="html" value="4" />
+          <entry key="java" value="162" />
           <entry key="png" value="2" />
           <entry key="ridesharemodel" value="1" />
           <entry key="uml" value="3" />
@@ -673,20 +535,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="4" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="153" />
+          <entry key="JAVA" value="162" />
           <entry key="UML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15892" />
+          <entry key="java" value="20946" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15892" />
+          <entry key="JAVA" value="20946" />
         </counts>
       </usages-collector>
     </session>
@@ -705,490 +567,77 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DmvRecords.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="551">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/assignment4 UML.uml">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="2873.4904208998564" y="1825.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.Insurance</node>
-                <node x="2268.2500000000005" y="2668.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator</node>
-                <node x="1580.070981091759" y="2339.5">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.TimeCalculator</node>
-                <node x="2494.8859810917593" y="77.5">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Country</node>
-                <node x="2754.1864019916147" y="3786.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool</node>
-                <node x="2639.2609810917593" y="0.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Name</node>
-                <node x="1876.8754208998557" y="3034.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration</node>
-                <node x="1550.25" y="2657.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator</node>
-                <node x="2288.7920875665222" y="2361.5">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator</node>
-                <node x="2664.895000000001" y="3554.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator</node>
-                <node x="2490.050420899856" y="1114.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle</node>
-                <node x="2509.6359810917593" y="278.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License</node>
-                <node x="2611.2609810917593" y="710.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver</node>
-                <node x="1785.3754208998557" y="4148.0">edu.neu.ccs.cs5010.assignment4.RideShareController</node>
-                <node x="1900.2500000000002" y="2580.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator</node>
-                <node x="21.5" y="2361.5">edu.neu.ccs.cs5010.assignment4.RiderShareView</node>
-                <node x="787.6714019916144" y="1312.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.CrashTypes</node>
-                <node x="776.9000000000001" y="2284.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords</node>
-                <node x="862.2087542331888" y="1748.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record</node>
-                <node x="1004.6714019916145" y="1246.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.ViolationTypes</node>
-                <node x="1251.25" y="2624.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords">
-                  <point x="-117.92000000000007" y="-235.0" />
-                  <point x="1892.9554208998557" y="3004.0" />
-                  <point x="1048.4" y="3004.0" />
-                  <point x="0.0" y="103.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration">
-                  <point x="43.5" y="147.0" />
-                  <point x="2117.7500000000005" y="2904.0" />
-                  <point x="2021.595420899856" y="2904.0" />
-                  <point x="10.720000000000027" y="-235.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Country">
-                  <point x="-30.75" y="-191.0" />
-                  <point x="2601.8859810917593" y="253.0" />
-                  <point x="2570.7193144250923" y="253.0" />
-                  <point x="30.333333333333258" y="36.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration">
-                  <point x="-192.0" y="-136.0" />
-                  <point x="2778.1864019916147" y="3766.0" />
-                  <point x="2654.395000000001" y="3766.0" />
-                  <point x="2654.395000000001" y="3534.0" />
-                  <point x="2044.3754208998557" y="3534.0" />
-                  <point x="33.5" y="235.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Name">
-                  <point x="92.25" y="-191.0" />
-                  <point x="2724.8859810917593" y="253.0" />
-                  <point x="2715.3859810917593" y="253.0" />
-                  <point x="-25.375" y="114.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.TimeCalculator">
-                  <point x="-110.0" y="-70.0" />
-                  <point x="1605.25" y="2530.0" />
-                  <point x="1675.4876477584257" y="2530.0" />
-                  <point x="-19.083333333333258" y="47.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration">
-                  <point x="67.25" y="25.5" />
-                  <point x="2490.5420875665222" y="2560.0" />
-                  <point x="2564.75" y="2560.0" />
-                  <point x="2564.75" y="2964.0" />
-                  <point x="2085.9154208998557" y="2964.0" />
-                  <point x="75.03999999999996" y="-235.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver">
-                  <point x="13.899999999999977" y="-103.0" />
-                  <point x="1404.15" y="2560.0" />
-                  <point x="1401.4626477584256" y="2560.0" />
-                  <point x="1401.4626477584256" y="1064.0" />
-                  <point x="2672.5734810917593" y="1064.0" />
-                  <point x="-47.6875" y="147.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RideShareController" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration">
-                  <point x="23.538461538461434" y="-191.0" />
-                  <point x="1961.9138824383172" y="4128.0" />
-                  <point x="1949.3754208998557" y="4128.0" />
-                  <point x="1949.3754208998557" y="3534.0" />
-                  <point x="1977.3754208998557" y="3534.0" />
-                  <point x="-33.5" y="235.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration">
-                  <point x="41.25" y="70.0" />
-                  <point x="1756.5" y="2924.0" />
-                  <point x="1978.7154208998559" y="2924.0" />
-                  <point x="-32.159999999999854" y="-235.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.ViolationTypes">
-                  <point x="-13.900000000000091" y="-103.0" />
-                  <point x="1376.35" y="2560.0" />
-                  <point x="1390.4626477584256" y="2560.0" />
-                  <point x="1390.4626477584256" y="1648.0" />
-                  <point x="1255.504735324948" y="1648.0" />
-                  <point x="100.33333333333326" y="125.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator">
-                  <point x="-107.20000000000005" y="-235.0" />
-                  <point x="1903.675420899856" y="2994.0" />
-                  <point x="1286.0" y="2994.0" />
-                  <point x="-104.25" y="103.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RideShareController" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver">
-                  <point x="141.23076923076906" y="-191.0" />
-                  <point x="2079.606190130625" y="4128.0" />
-                  <point x="3247.2404208998564" y="4128.0" />
-                  <point x="3247.2404208998564" y="1024.0" />
-                  <point x="2822.4484810917593" y="1024.0" />
-                  <point x="102.1875" y="147.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle">
-                  <point x="48.25" y="-81.0" />
-                  <point x="2906.145000000001" y="3534.0" />
-                  <point x="2862.9904208998564" y="3534.0" />
-                  <point x="2862.9904208998564" y="1728.0" />
-                  <point x="2654.819651669087" y="1728.0" />
-                  <point x="38.76923076923072" y="257.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration">
-                  <point x="-144.75" y="-81.0" />
-                  <point x="2713.145000000001" y="3524.0" />
-                  <point x="2111.3754208998557" y="3524.0" />
-                  <point x="100.5" y="235.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle">
-                  <point x="217.20000000000005" y="-103.0" />
-                  <point x="1265.6000000000001" y="2264.0" />
-                  <point x="1327.1714019916144" y="2264.0" />
-                  <point x="1327.1714019916144" y="1718.0" />
-                  <point x="2557.8965747460097" y="1718.0" />
-                  <point x="-58.15384615384619" y="257.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords">
-                  <point x="-97.30000000000007" y="-103.0" />
-                  <point x="1292.9499999999998" y="2550.0" />
-                  <point x="1265.6000000000001" y="2550.0" />
-                  <point x="217.20000000000005" y="103.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool">
-                  <point x="48.25" y="81.0" />
-                  <point x="2906.145000000001" y="3766.0" />
-                  <point x="2922.1864019916147" y="3766.0" />
-                  <point x="-48.0" y="-136.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record">
-                  <point x="-69.5" y="-103.0" />
-                  <point x="1320.75" y="2560.0" />
-                  <point x="1330.4" y="2560.0" />
-                  <point x="1330.4" y="2234.0" />
-                  <point x="1089.5420875665222" y="2234.0" />
-                  <point x="103.33333333333337" y="213.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
-                  <point x="110.0" y="-70.0" />
-                  <point x="1825.25" y="2550.0" />
-                  <point x="2356.0420875665222" y="2550.0" />
-                  <point x="-67.25" y="25.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.Insurance" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle">
-                  <point x="-104.79999999999995" y="-136.0" />
-                  <point x="2899.6904208998567" y="1718.0" />
-                  <point x="2674.204267053702" y="1718.0" />
-                  <point x="58.15384615384619" y="257.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RideShareController" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords">
-                  <point x="-23.538461538461434" y="-191.0" />
-                  <point x="1914.8369593613943" y="4078.0" />
-                  <point x="403.4214019916144" y="4078.0" />
-                  <point x="403.4214019916144" y="2560.0" />
-                  <point x="939.8000000000001" y="2560.0" />
-                  <point x="-108.60000000000002" y="103.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle">
-                  <point x="108.5" y="-213.0" />
-                  <point x="1094.7087542331888" y="1698.0" />
-                  <point x="2519.1273439767792" y="1698.0" />
-                  <point x="-96.9230769230769" y="257.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration">
-                  <point x="35.75" y="59.0" />
-                  <point x="2447.0000000000005" y="2944.0" />
-                  <point x="2064.4754208998556" y="2944.0" />
-                  <point x="53.59999999999991" y="-235.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle">
-                  <point x="96.48000000000002" y="-235.0" />
-                  <point x="2107.3554208998557" y="2984.0" />
-                  <point x="2599.830420899856" y="2984.0" />
-                  <point x="2599.830420899856" y="1728.0" />
-                  <point x="2616.050420899856" y="1728.0" />
-                  <point x="0.0" y="257.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator">
-                  <point x="-96.0" y="-136.0" />
-                  <point x="2874.1864019916147" y="3746.0" />
-                  <point x="2809.645000000001" y="3746.0" />
-                  <point x="-48.25" y="81.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
-                  <point x="130.5" y="-147.0" />
-                  <point x="2204.7500000000005" y="2560.0" />
-                  <point x="2400.8754208998557" y="2560.0" />
-                  <point x="-22.41666666666663" y="25.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration">
-                  <point x="34.75" y="103.0" />
-                  <point x="1425.0" y="2974.0" />
-                  <point x="1925.115420899856" y="2974.0" />
-                  <point x="-85.75999999999999" y="-235.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator">
-                  <point x="42.88000000000011" y="-235.0" />
-                  <point x="2053.755420899856" y="2934.0" />
-                  <point x="2375.5000000000005" y="2934.0" />
-                  <point x="-35.75" y="59.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
-                  <point x="125.10000000000002" y="-103.0" />
-                  <point x="1515.35" y="2540.0" />
-                  <point x="2311.208754233189" y="2540.0" />
-                  <point x="-112.08333333333337" y="25.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RideShareController" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.Insurance">
-                  <point x="117.69230769230762" y="-191.0" />
-                  <point x="2056.0677285921633" y="4118.0" />
-                  <point x="3236.2404208998564" y="4118.0" />
-                  <point x="3236.2404208998564" y="2264.0" />
-                  <point x="3091.82375423319" y="2264.0" />
-                  <point x="87.33333333333348" y="136.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RiderShareView" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle">
-                  <point x="232.66666666666652" y="-25.5" />
-                  <point x="603.1666666666665" y="2244.0" />
-                  <point x="1182.25" y="2244.0" />
-                  <point x="1182.25" y="1708.0" />
-                  <point x="2538.5119593613945" y="1708.0" />
-                  <point x="-77.53846153846143" y="257.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record">
-                  <point x="0.0" y="-103.0" />
-                  <point x="62.0" y="213.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle">
-                  <point x="41.700000000000045" y="-103.0" />
-                  <point x="1431.95" y="2560.0" />
-                  <point x="1435.3176890824054" y="2560.0" />
-                  <point x="1435.3176890824054" y="1728.0" />
-                  <point x="2577.281190130625" y="1728.0" />
-                  <point x="-38.76923076923072" y="257.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
-                  <point x="0.0" y="-59.0" />
-                  <point x="2411.2500000000005" y="2560.0" />
-                  <point x="2445.708754233189" y="2560.0" />
-                  <point x="22.416666666666742" y="25.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RideShareController" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool">
-                  <point x="70.61538461538453" y="-191.0" />
-                  <point x="2008.9908055152403" y="4098.0" />
-                  <point x="2862.1864019916147" y="4098.0" />
-                  <point x="-108.0" y="136.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RideShareController" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License">
-                  <point x="-141.23076923076928" y="-191.0" />
-                  <point x="1797.1446516690864" y="4128.0" />
-                  <point x="0.0" y="4128.0" />
-                  <point x="0.0" y="680.0" />
-                  <point x="2540.3859810917593" y="680.0" />
-                  <point x="-92.25" y="191.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RiderShareView" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record">
-                  <point x="0.0" y="-25.5" />
-                  <point x="370.5" y="2214.0" />
-                  <point x="924.2087542331888" y="2214.0" />
-                  <point x="-62.0" y="213.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RideShareController" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle">
-                  <point x="47.076923076923094" y="-191.0" />
-                  <point x="1985.4523439767788" y="4088.0" />
-                  <point x="2643.395000000001" y="4088.0" />
-                  <point x="2643.395000000001" y="1728.0" />
-                  <point x="2635.4350362844716" y="1728.0" />
-                  <point x="19.384615384615472" y="257.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle">
-                  <point x="48.0" y="-136.0" />
-                  <point x="3018.1864019916147" y="3736.0" />
-                  <point x="3156.9904208998564" y="3736.0" />
-                  <point x="3156.9904208998564" y="1698.0" />
-                  <point x="2712.9734978229326" y="1698.0" />
-                  <point x="96.9230769230769" y="257.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.Insurance">
-                  <point x="117.92000000000007" y="-235.0" />
-                  <point x="2128.795420899856" y="3004.0" />
-                  <point x="2621.2704208998566" y="3004.0" />
-                  <point x="2621.2704208998566" y="2254.0" />
-                  <point x="2917.157087566523" y="2254.0" />
-                  <point x="-87.33333333333326" y="136.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.ViolationTypes">
-                  <point x="15.5" y="-213.0" />
-                  <point x="1001.7087542331888" y="1668.0" />
-                  <point x="1054.8380686582811" y="1668.0" />
-                  <point x="-100.33333333333331" y="125.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RideShareController" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record">
-                  <point x="-117.69230769230762" y="-191.0" />
-                  <point x="1820.683113207548" y="4118.0" />
-                  <point x="11.0" y="4118.0" />
-                  <point x="11.0" y="2204.0" />
-                  <point x="882.8754208998553" y="2204.0" />
-                  <point x="-103.33333333333348" y="213.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
-                  <point x="-48.25" y="-81.0" />
-                  <point x="2809.645000000001" y="3534.0" />
-                  <point x="2851.9904208998564" y="3534.0" />
-                  <point x="2851.9904208998564" y="2550.0" />
-                  <point x="2535.3754208998557" y="2550.0" />
-                  <point x="112.08333333333337" y="25.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RiderShareView" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver">
-                  <point x="-232.66666666666652" y="-25.5" />
-                  <point x="137.83333333333348" y="2194.0" />
-                  <point x="151.37931442509262" y="2194.0" />
-                  <point x="151.37931442509262" y="1024.0" />
-                  <point x="2618.0734810917593" y="1024.0" />
-                  <point x="-102.1875" y="147.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator">
-                  <point x="-42.87999999999988" y="-235.0" />
-                  <point x="1967.995420899856" y="2934.0" />
-                  <point x="1674.0" y="2934.0" />
-                  <point x="-41.25" y="70.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Name">
-                  <point x="81.75" y="-147.0" />
-                  <point x="2802.0109810917593" y="690.0" />
-                  <point x="2777.1359810917593" y="690.0" />
-                  <point x="2777.1359810917593" y="253.0" />
-                  <point x="2816.8859810917593" y="253.0" />
-                  <point x="76.125" y="114.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver">
-                  <point x="144.75" y="-81.0" />
-                  <point x="3002.645000000001" y="3534.0" />
-                  <point x="3145.9904208998564" y="3534.0" />
-                  <point x="3145.9904208998564" y="1054.0" />
-                  <point x="2781.5734810917593" y="1054.0" />
-                  <point x="61.3125" y="147.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.RideShareController" target="edu.neu.ccs.cs5010.assignment4.RiderShareView">
-                  <point x="-94.15384615384619" y="-191.0" />
-                  <point x="1844.2215747460095" y="4108.0" />
-                  <point x="294.4214019916144" y="4108.0" />
-                  <point x="294.4214019916144" y="2560.0" />
-                  <point x="196.0" y="2560.0" />
-                  <point x="-174.5" y="25.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License">
-                  <point x="-128.63999999999987" y="-235.0" />
-                  <point x="1882.2354208998559" y="3014.0" />
-                  <point x="730.0" y="3014.0" />
-                  <point x="730.0" y="690.0" />
-                  <point x="2601.8859810917593" y="690.0" />
-                  <point x="-30.75" y="191.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator">
-                  <point x="0.0" y="-235.0" />
-                  <point x="2010.8754208998557" y="2894.0" />
-                  <point x="2030.7500000000002" y="2894.0" />
-                  <point x="-43.5" y="147.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.CrashTypes">
-                  <point x="-46.5" y="-213.0" />
-                  <point x="939.7087542331888" y="1708.0" />
-                  <point x="820.5047353249479" y="1708.0" />
-                  <point x="-65.66666666666663" y="59.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver">
-                  <point x="108.60000000000002" y="-103.0" />
-                  <point x="1157.0" y="2254.0" />
-                  <point x="1316.1714019916144" y="2254.0" />
-                  <point x="1316.1714019916144" y="1054.0" />
-                  <point x="2658.9484810917593" y="1054.0" />
-                  <point x="-61.3125" y="147.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.CrashTypes">
-                  <point x="-41.700000000000045" y="-103.0" />
-                  <point x="1348.55" y="2550.0" />
-                  <point x="1379.4626477584256" y="2550.0" />
-                  <point x="1379.4626477584256" y="1658.0" />
-                  <point x="951.8380686582811" y="1658.0" />
-                  <point x="65.66666666666674" y="59.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver">
-                  <point x="-77.5" y="-213.0" />
-                  <point x="908.7087542331888" y="1718.0" />
-                  <point x="756.1254208998557" y="1718.0" />
-                  <point x="756.1254208998557" y="1044.0" />
-                  <point x="2645.3234810917593" y="1044.0" />
-                  <point x="-74.9375" y="147.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Country">
-                  <point x="43.5" y="-147.0" />
-                  <point x="2117.7500000000005" y="253.0" />
-                  <point x="2510.052647758426" y="253.0" />
-                  <point x="-30.333333333333258" y="36.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License">
-                  <point x="-27.25" y="-147.0" />
-                  <point x="2693.0109810917593" y="690.0" />
-                  <point x="2724.8859810917593" y="690.0" />
-                  <point x="92.25" y="191.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.TimeCalculator">
-                  <point x="-43.5" y="-147.0" />
-                  <point x="2030.7500000000002" y="2520.0" />
-                  <point x="1789.9876477584257" y="2520.0" />
-                  <point x="95.41666666666674" y="47.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.TimeCalculator">
-                  <point x="69.5" y="-103.0" />
-                  <point x="1459.75" y="2510.0" />
-                  <point x="1599.1543144250923" y="2510.0" />
-                  <point x="-95.41666666666674" y="47.5" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver">
-                  <point x="-64.31999999999994" y="-235.0" />
-                  <point x="1946.555420899856" y="2954.0" />
-                  <point x="1539.75" y="2954.0" />
-                  <point x="1539.75" y="1074.0" />
-                  <point x="2686.1984810917593" y="1074.0" />
-                  <point x="-34.0625" y="147.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.Insurance" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver">
-                  <point x="52.40000000000009" y="-136.0" />
-                  <point x="3056.8904208998565" y="1728.0" />
-                  <point x="3044.82602241574" y="1728.0" />
-                  <point x="3044.82602241574" y="1074.0" />
-                  <point x="2754.3234810917593" y="1074.0" />
-                  <point x="34.0625" y="147.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver">
-                  <point x="63.0" y="-257.0" />
-                  <point x="2679.050420899856" y="1094.0" />
-                  <point x="2713.4484810917593" y="1094.0" />
-                  <point x="-6.8125" y="147.0" />
-                </edge>
-                <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver">
-                  <point x="192.0" y="-136.0" />
-                  <point x="3162.1864019916147" y="3766.0" />
-                  <point x="3189.9904208998564" y="3766.0" />
-                  <point x="3189.9904208998564" y="1034.0" />
-                  <point x="2808.8234810917593" y="1034.0" />
-                  <point x="88.5625" y="147.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.1" x="1161.909090909091" y="1757.090909090909" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/extracredit/DriverPoolWatchDogs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RiderShareView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2230">
+              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/site/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RideShareController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="146" column="55" selection-start-line="146" selection-start-column="55" selection-end-line="146" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="147" column="42" lean-forward="true" selection-start-line="147" selection-start-column="42" selection-end-line="147" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/Record.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -1207,8 +656,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getD</find>
-      <find>record</find>
       <find>pool</find>
       <find>getIs</find>
       <find>setlastName</find>
@@ -1237,6 +684,8 @@
       <find>setV</find>
       <find>driverPoolValidator</find>
       <find>fullRecordForMultipleDrivers</find>
+      <find>string</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>LocalDate</replace>
@@ -1251,8 +700,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ride_share_model/violationrecords/ViolationTypes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/dmvRecords.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DMVrecords.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/dmvrecords.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DmvRecords.java" />
@@ -1296,12 +743,14 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/Registration.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPoolTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/DriverPoolValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/RideShareControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RiderShareView.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/RiderShareViewTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ExtraCredit/DriverPoolWatchDogs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RiderShareView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/extracredit/DriverPoolWatchDogs.java" />
       </list>
     </option>
   </component>
@@ -1324,7 +773,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1874" />
@@ -1362,8 +811,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1404,6 +853,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="assignment4" type="462c0819:PsiDirectoryNode" />
+              <item name="extracredit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment4-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
               <item name="ridesharemodel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1414,7 +872,28 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="assignment4" type="462c0819:PsiDirectoryNode" />
               <item name="ridesharemodel" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment4-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
+              <item name="ridesharemodel" type="462c0819:PsiDirectoryNode" />
               <item name="violationrecords" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment4-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment4-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1428,7 +907,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539646567640" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539671728335" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment4 UML.png" />
@@ -1469,7 +948,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HistoryValidatorTest.testValidateVehicleHistory3">
+  <component name="RunManager" selected="Application.DriverPoolWatchDogs">
+    <configuration name="DriverPoolWatchDogs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment4.extracredit.DriverPoolWatchDogs" />
+      <module name="hometest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment4.extracredit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HistoryValidatorTest.testValidateDriverHistory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hometest" />
       <extension name="coverage">
@@ -1518,22 +1010,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HistoryValidatorTest.testValidateDriverHistory4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hometest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" />
-      <option name="METHOD_NAME" value="testValidateDriverHistory4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HistoryValidatorTest.testValidateVehicleHistory3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hometest" />
       <extension name="coverage">
@@ -1551,19 +1027,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory4" />
       <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory3" />
       <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory2" />
       <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory" />
       <item itemvalue="JUnit.HistoryValidatorTest.testValidateVehicleHistory3" />
+      <item itemvalue="Application.DriverPoolWatchDogs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DriverPoolWatchDogs" />
         <item itemvalue="JUnit.HistoryValidatorTest.testValidateVehicleHistory3" />
         <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory" />
         <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory2" />
         <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory3" />
-        <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory4" />
       </list>
     </recent_temporary>
   </component>
@@ -1596,6 +1072,7 @@
       <workItem from="1539642281684" duration="2951000" />
       <workItem from="1539645275355" duration="403000" />
       <workItem from="1539645696820" duration="682000" />
+      <workItem from="1539659458428" duration="11707000" />
     </task>
     <servers />
   </component>
@@ -1632,23 +1109,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122812000" />
+    <option name="totallyTimeSpent" value="134519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="simpleUML" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22271223" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22491731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
+      <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32848233" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.03950104" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33264032" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3970894" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1665,7 +1142,7 @@
       <window_info anchor="right" id="PlantUML" order="3" weight="0.3296582" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.48856547" weight="0.088202864" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.48856547" visible="true" weight="0.14222713" />
       <window_info anchor="right" id="SciView" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
@@ -1712,8 +1189,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/driver/CountryTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/driver/LicenseTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/driver/NameTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/validators/TimeCalculatorTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/insurance/InsuranceTest.java" />
@@ -1775,13 +1250,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../assignment3-timzyt/src/test/java/edu/neu/ccs/cs5010/assignment3/TheaterTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/ViolationTypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -1859,24 +1327,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/License.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="39" column="7" selection-start-line="38" selection-start-column="6" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1894,31 +1348,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RideShareController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="146" column="55" selection-start-line="146" selection-start-column="55" selection-end-line="146" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPoolTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RiderShareView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -2225,89 +1658,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment4 UML.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="0.0" y="748.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator</node>
-            <node x="1382.0" y="999.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.insurance.Insurance</node>
-            <node x="1424.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.TimeCalculator</node>
-            <node x="1698.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Country</node>
-            <node x="1039.0" y="1721.0">edu.neu.ccs.cs5010.assignment4.exceptions.InvalidVehicleYearException</node>
-            <node x="743.0" y="1721.0">edu.neu.ccs.cs5010.assignment4.exceptions.InvalidConstructorArgumentException</node>
-            <node x="905.0" y="999.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.DriverPool</node>
-            <node x="346.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Name</node>
-            <node x="297.0" y="0.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.Registration</node>
-            <node x="712.0" y="737.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator</node>
-            <node x="742.5" y="559.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator</node>
-            <node x="306.0" y="726.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator</node>
-            <node x="0.0" y="0.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle</node>
-            <node x="351.0" y="999.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.License</node>
-            <node x="642.0" y="999.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver</node>
-            <node x="0.0" y="999.0">edu.neu.ccs.cs5010.assignment4.RideShareController</node>
-            <node x="1062.0" y="660.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator</node>
-            <node x="0.0" y="1721.0">edu.neu.ccs.cs5010.assignment4.RiderShareView</node>
-            <node x="1182.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.CrashTypes</node>
-            <node x="594.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.DmvRecords</node>
-            <node x="610.0" y="0.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record</node>
-            <node x="0.0" y="1426.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.ViolationTypes</node>
-            <node x="1430.0" y="704.0">edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.InsuranceValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
-              <point x="0.0" y="-70.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
-              <point x="0.0" y="-147.0" />
-              <point x="1236.0" y="640.0" />
-              <point x="930.8" y="640.0" />
-              <point x="53.799999999999955" y="25.5" />
-            </edge>
-            <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
-              <point x="0.0" y="-103.0" />
-              <point x="1569.0" y="630.0" />
-              <point x="984.6" y="630.0" />
-              <point x="107.60000000000002" y="25.5" />
-            </edge>
-            <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
-              <point x="0.0" y="-59.0" />
-              <point x="143.0" y="630.0" />
-              <point x="769.4" y="630.0" />
-              <point x="-107.60000000000002" y="25.5" />
-            </edge>
-            <edge source="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.DriverPoolValidator" target="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.MasterValidator">
-              <point x="0.0" y="-81.0" />
-              <point x="499.0" y="640.0" />
-              <point x="823.2" y="640.0" />
-              <point x="-53.799999999999955" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.1930493748675567" x="-716.7102085620197" y="1233.205268935236" />
-          <SelectedNodes>
-            <node>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.VehicleValidator</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment4 UML.uml" />
     <entry file="file://$PROJECT_DIR$/assignment4 UML.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DmvRecords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/assignment4 UML.uml">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -2778,7 +2131,7 @@
               <point x="88.5625" y="147.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.1" x="1161.909090909091" y="1757.090909090909" />
+          <settings layout="Hierarchic Group" zoom="1.1" x="1162.0" y="1757.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -2786,6 +2139,75 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DmvRecords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/violationrecords/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RideShareController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="146" column="55" selection-start-line="146" selection-start-column="55" selection-end-line="146" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="95" column="7" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2230">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/RiderShareView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="67" column="64" lean-forward="true" selection-start-line="67" selection-start-column="64" selection-end-line="67" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/DriverPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="147" column="42" lean-forward="true" selection-start-line="147" selection-start-column="42" selection-end-line="147" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/extracredit/DriverPoolWatchDogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

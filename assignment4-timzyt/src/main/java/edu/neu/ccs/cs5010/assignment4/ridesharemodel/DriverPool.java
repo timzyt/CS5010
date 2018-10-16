@@ -152,9 +152,9 @@ public class DriverPool {
     for (Driver oneDriver : this.driverPoolDatabase.keySet()) {
       Iterator<Vehicle> vehicleIterator = this.getDriverPoolDatabase().get(oneDriver).iterator();
       while (vehicleIterator.hasNext()) {
-        Vehicle ve = vehicleIterator.next();
-        if (ve != null && !vehicleList.contains(ve)) {
-          vehicleList.add(ve);
+        Vehicle vehicle = vehicleIterator.next();
+        if (vehicle != null && !vehicleList.contains(vehicle)) {
+          vehicleList.add(vehicle);
         }
       }
     }

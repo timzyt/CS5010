@@ -62,25 +62,25 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetPersonInDriverSeat" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverName" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverBirthday" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverLicense" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverBirthday2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetInsurance2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverName3" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testValidateRegistration" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testValidateRegistration2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverLicense2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testRegistrationConstructor2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverName2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testRegistrationConstructor" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetInsurance" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testGetVehicle" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetVehicle" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testGetDriver" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testGetInsurance" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testToString" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testEquals" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testHashCode" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetVehicle" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetInsurance" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testGetDriver" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testGetInsurance" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testGetVehicle" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testRegistrationConstructor" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testValidateRegistration2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetInsurance2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverName2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testValidateRegistration" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetPersonInDriverSeat" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverName3" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverLicense2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testRegistrationConstructor2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverBirthday2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverBirthday" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverLicense" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.RegistrationTest" name="testSetDriverName" time="0"/>
 </testsuite>

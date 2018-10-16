@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>RiderShareView.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment4</a> &gt; <span class="el_source">RiderShareView.java</span></div><h1>RiderShareView.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment4;
 
 
+import edu.neu.ccs.cs5010.assignment4.extracredit.DriverPoolWatchDogs;
 import edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.Driver;
 import edu.neu.ccs.cs5010.assignment4.ridesharemodel.vehicle.Vehicle;
 import edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record;
@@ -8,11 +9,14 @@ import edu.neu.ccs.cs5010.assignment4.ridesharemodel.violationrecords.Record;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Observable;
+import java.util.Observer;
 
 /**
  * The ridershare view class.
  */
-<span class="fc" id="L15">public class RiderShareView {</span>
+<span class="fc" id="L18">public class RiderShareView implements Observer {</span>
+
 
   /**
    * Print query result from the query based on provided last name.
@@ -24,39 +28,46 @@ import java.util.HashSet;
   public void printQueryResult(ArrayList&lt;Driver&gt; driverList,
       HashMap&lt;Driver, HashSet&lt;Vehicle&gt;&gt; fullList,
       HashMap&lt;Driver, HashSet&lt;Record&gt;&gt; fullRecordForMultipleDrivers) {
-<span class="fc" id="L27">    HashSet&lt;Record&gt; recordList = new HashSet&lt;Record&gt;();</span>
-<span class="pc bpc" id="L28" title="2 of 4 branches missed.">    if (driverList == null || driverList.size() == 0) {</span>
-<span class="nc" id="L29">      System.out.println(&quot;No registered driver found.&quot;);</span>
+    //    HashSet&lt;Record&gt; recordList = new HashSet&lt;Record&gt;();
+<span class="pc bpc" id="L32" title="2 of 4 branches missed.">    if (driverList == null || driverList.size() == 0) {</span>
+<span class="nc" id="L33">      System.out.println(&quot;No registered driver found.&quot;);</span>
     } else {
       //when diverList isn't null,
       // print each driver's last name and then first name such as &quot;Smith, Anne&quot;
-<span class="fc bfc" id="L33" title="All 2 branches covered.">      for (Driver driver : driverList) {</span>
-<span class="fc" id="L34">        System.out</span>
-<span class="fc" id="L35">            .println(driver.getName().getLastName()</span>
-<span class="fc" id="L36">                + &quot;, &quot; + driver.getName().getFirstName());</span>
+<span class="fc bfc" id="L37" title="All 2 branches covered.">      for (Driver driver : driverList) {</span>
+<span class="fc" id="L38">        System.out</span>
+<span class="fc" id="L39">            .println(driver.getName().getLastName()</span>
+<span class="fc" id="L40">                + &quot;, &quot; + driver.getName().getFirstName());</span>
         //when fullList isn't null, print each driver's vehicle's information,
         // in the order of year, color, make, model, licensePlate
-<span class="pc bpc" id="L39" title="1 of 2 branches missed.">        if (fullList.get(driver) != null) {</span>
-<span class="fc bfc" id="L40" title="All 2 branches covered.">          for (Vehicle vehicle : fullList.get(driver)) {</span>
-<span class="fc" id="L41">            System.out.println(</span>
-<span class="fc" id="L42">                &quot;     &quot; + vehicle.getYear() + &quot; &quot; + vehicle.getColor() + &quot; &quot; + vehicle.getMake()</span>
-<span class="fc" id="L43">                    + &quot; &quot; + vehicle.getModel() + &quot;, &quot; + vehicle.getLicensePlate());</span>
-<span class="fc" id="L44">          }</span>
+<span class="pc bpc" id="L43" title="1 of 2 branches missed.">        if (fullList.get(driver) != null) {</span>
+<span class="fc bfc" id="L44" title="All 2 branches covered.">          for (Vehicle vehicle : fullList.get(driver)) {</span>
+<span class="fc" id="L45">            System.out.println(</span>
+<span class="fc" id="L46">                &quot;     &quot; + vehicle.getYear() + &quot; &quot; + vehicle.getColor() + &quot; &quot; + vehicle.getMake()</span>
+<span class="fc" id="L47">                    + &quot; &quot; + vehicle.getModel() + &quot;, &quot; + vehicle.getLicensePlate());</span>
+<span class="fc" id="L48">          }</span>
         }
         //when the Record isn't null, print each driver violation
-<span class="pc bpc" id="L47" title="1 of 2 branches missed.">        if (fullRecordForMultipleDrivers.get(driver) != null</span>
-<span class="fc bfc" id="L48" title="All 2 branches covered.">            &amp;&amp; !fullRecordForMultipleDrivers.get(driver).isEmpty()) {</span>
-<span class="fc" id="L49">          System.out.println(&quot;     Driving violations:&quot;);</span>
+<span class="pc bpc" id="L51" title="1 of 2 branches missed.">        if (fullRecordForMultipleDrivers.get(driver) != null</span>
+<span class="fc bfc" id="L52" title="All 2 branches covered.">            &amp;&amp; !fullRecordForMultipleDrivers.get(driver).isEmpty()) {</span>
+<span class="fc" id="L53">          System.out.println(&quot;     Driving violations:&quot;);</span>
           for (Record record
-<span class="fc bfc" id="L51" title="All 2 branches covered.">              : fullRecordForMultipleDrivers.get(driver)) {</span>
-<span class="fc" id="L52">            System.out.println(&quot;          &quot; + record.getViolationType().toString());</span>
-<span class="fc" id="L53">          }</span>
+<span class="fc bfc" id="L55" title="All 2 branches covered.">              : fullRecordForMultipleDrivers.get(driver)) {</span>
+<span class="fc" id="L56">            System.out.println(&quot;          &quot; + record.getViolationType().toString());</span>
+<span class="fc" id="L57">          }</span>
         }
-<span class="fc" id="L55">      }</span>
+<span class="fc" id="L59">      }</span>
     }
 
-<span class="fc" id="L58">  }</span>
+<span class="fc" id="L62">  }</span>
 
 
+  @Override
+  public void update(Observable obsvbl, Object arg) {
+<span class="nc bnc" id="L67" title="All 4 branches missed.">    if (obsvbl instanceof DriverPoolWatchDogs &amp;&amp; arg instanceof String) {</span>
+      // if arg is instanceof HashSet, meaning the arg is sharedVehicleWatchList
+<span class="nc" id="L69">      System.out.print(arg);</span>
+    }
+<span class="nc" id="L71">  }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

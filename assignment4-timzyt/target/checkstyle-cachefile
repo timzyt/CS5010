@@ -1,12 +1,13 @@
-#Mon Oct 15 16:04:31 PDT 2018
+#Mon Oct 15 23:35:19 PDT 2018
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\vehicle\\Vehicle.java=1539596219187
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\driver\\Country.java=1539596219172
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\exceptions\\InvalidConstructorArgumentException.java=1539596219172
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\validators\\DriverPoolValidator.java=1539641665131
+D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\extracredit\\DriverPoolWatchDogs.java=1539671698277
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\RideShareController.java=1539627865093
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\validators\\TimeCalculator.java=1539596219187
-D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\validators\\DriverValidator.java=1539596219187
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\validators\\InsuranceValidator.java=1539596219187
+D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\validators\\DriverValidator.java=1539596219187
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\insurance\\Insurance.java=1539596219187
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\vehicle\\CrashTypes.java=1539596219187
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\Registration.java=1539636077918
@@ -14,8 +15,8 @@ D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\a
 configuration*?=E1F3B7B6D86AF1B3BDB65F4730A7A2F87FBF8076
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\validators\\VehicleValidator.java=1539596219187
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\violationrecords\\ViolationTypes.java=1539596219203
-D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\DriverPool.java=1539641665100
-D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\RiderShareView.java=1539644067050
+D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\DriverPool.java=1539671443044
+D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\RiderShareView.java=1539671402068
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\driver\\Name.java=1539596219187
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\driver\\License.java=1539596219187
 D\:\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment4-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment4\\ridesharemodel\\validators\\MasterValidator.java=1539596219187

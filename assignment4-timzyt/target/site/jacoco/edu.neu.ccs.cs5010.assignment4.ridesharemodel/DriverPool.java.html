@@ -152,9 +152,9 @@ public class DriverPool {
 <span class="fc bfc" id="L152" title="All 2 branches covered.">    for (Driver oneDriver : this.driverPoolDatabase.keySet()) {</span>
 <span class="fc" id="L153">      Iterator&lt;Vehicle&gt; vehicleIterator = this.getDriverPoolDatabase().get(oneDriver).iterator();</span>
 <span class="fc bfc" id="L154" title="All 2 branches covered.">      while (vehicleIterator.hasNext()) {</span>
-<span class="fc" id="L155">        Vehicle ve = vehicleIterator.next();</span>
-<span class="pc bpc" id="L156" title="2 of 4 branches missed.">        if (ve != null &amp;&amp; !vehicleList.contains(ve)) {</span>
-<span class="fc" id="L157">          vehicleList.add(ve);</span>
+<span class="fc" id="L155">        Vehicle vehicle = vehicleIterator.next();</span>
+<span class="pc bpc" id="L156" title="2 of 4 branches missed.">        if (vehicle != null &amp;&amp; !vehicleList.contains(vehicle)) {</span>
+<span class="fc" id="L157">          vehicleList.add(vehicle);</span>
         }
 <span class="fc" id="L159">      }</span>
 <span class="fc" id="L160">    }</span>

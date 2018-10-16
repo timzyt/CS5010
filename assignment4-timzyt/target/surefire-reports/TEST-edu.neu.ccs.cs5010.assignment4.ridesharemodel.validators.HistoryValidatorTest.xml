@@ -62,14 +62,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateVehicleHistory" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateDriverHistory2" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateDriverHistory4" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateDriverHistory" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateDriverHistory5" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateVehicleHistory3" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateDriverHistory3" time="0"/>
-  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateVehicleHistory2" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testMasterValidator2" time="0"/>
   <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testMasterValidator" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateDriverHistory4" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateDriverHistory5" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateDriverHistory" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateVehicleHistory2" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateVehicleHistory" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateVehicleHistory3" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateDriverHistory3" time="0"/>
+  <testcase classname="edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.HistoryValidatorTest" name="testValidateDriverHistory2" time="0"/>
 </testsuite>
