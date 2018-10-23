@@ -199,6 +199,6 @@ public class Vehicle {
 
   @Override
   public int hashCode() {
-    return Objects.hash(owner, year, make, model, color, licensePlate, personInDriverSeat);
+    return Objects.hash(owner, year, make, model, color, licensePlate);
   }
 }

@@ -2,82 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d759e0a-599c-4c11-a5ad-58fdd5d53f7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../assignment2-timzyt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment2-timzyt/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment3/ReservationSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment3/ReservationSystem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/findbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/findbugsXml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidConstructorArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidConstructorArgumentException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidNumberOfSeatException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidNumberOfSeatException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidUserInputException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/InvalidUserInputException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/NullValueException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/NullValueException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationsService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/ReservationsService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Row.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Row.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Seat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Seat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Theater.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/Theater.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidConstructorArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidConstructorArgumentException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidNumberOfSeatException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidNumberOfSeatException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidUserInputException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/InvalidUserInputException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/NullValueException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/NullValueException.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationSystem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationsService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/ReservationsService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Row.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Row.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Seat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Seat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Theater.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/class-use/Theater.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment3/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/distribution-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/distribution-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/findbugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/findbugs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/integration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/issue-tracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/issue-tracking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/ReservationSystem.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment3/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/license.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/license.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/mail-lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/mail-lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/pmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/pmd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/source-repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/source-repository.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/team-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/team-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment3/ReservationSystem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.RowTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.RowTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.SeatTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.SeatTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.TheaterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment3.TheaterTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationSystemTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.ReservationsServiceTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.RowTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.RowTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.SeatTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.SeatTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.TheaterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment3.TheaterTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment4-timzyt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment4-timzyt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment4-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment4-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -214,7 +141,7 @@
     <SUITE FILE_PATH="coverage/assignment3$TheaterTest_testTheaterConstructor3.ic" NAME="TheaterTest.testTheaterConstructor3 Coverage Results" MODIFIED="1538902199576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/assignment3$ReservationSystem.ic" NAME="ReservationSystem Coverage Results" MODIFIED="1538801282494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/assignment3$ReservationSystem.ic" NAME="ReservationSystem Coverage Results" MODIFIED="1540165220430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment3.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/assignment3$ReservationsServiceTest_testShowMap.ic" NAME="ReservationsServiceTest.testShowMap Coverage Results" MODIFIED="1538852859699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -231,15 +158,17 @@
     <session id="-932182020">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="4" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -248,14 +177,14 @@
           <entry key="MODULES/mdl-assignment3-timzyt" value="1" />
           <entry key="assignment3" value="1" />
           <entry key="html" value="1" />
-          <entry key="java" value="129" />
+          <entry key="java" value="131" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="129" />
+          <entry key="JAVA" value="131" />
           <entry key="UML" value="5" />
           <entry key="XML" value="3" />
         </counts>
@@ -284,7 +213,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/Seat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="170">
               <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="e#608#609#0" expanded="true" />
@@ -297,8 +226,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            <state relative-caret-position="117">
+              <caret line="34" column="55" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -309,7 +238,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/ReservationSystemTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
+            <state relative-caret-position="527">
               <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
             </state>
           </provider>
@@ -327,7 +256,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getSeatName</find>
       <find>em</find>
       <find>emptyList</find>
       <find>new Scanner</find>
@@ -357,6 +285,7 @@
       <find>scannerGroupSize</find>
       <find>scann</find>
       <find>.next()</find>
+      <find>System.in</find>
     </findStrings>
     <replaceStrings>
       <replace>midRowNumber</replace>
@@ -421,6 +350,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -491,7 +421,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,10 +429,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539138075062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540165740123" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lecture 7/lecture codes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -534,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReservationSystemTest">
+  <component name="RunManager" selected="Application.ReservationSystem">
     <configuration name="ReservationSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment3.ReservationSystem" />
       <module name="assignment3-timzyt" />
@@ -617,8 +546,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReservationSystemTest" />
         <item itemvalue="Application.ReservationSystem" />
+        <item itemvalue="JUnit.ReservationSystemTest" />
         <item itemvalue="JUnit.ReservationsServiceTest.testFindBestRow15" />
         <item itemvalue="JUnit.ReservationsServiceTest" />
         <item itemvalue="JUnit.ReservationsServiceTest.testFindBestRow14" />
@@ -652,6 +581,9 @@
       <workItem from="1539122611636" duration="1066000" />
       <workItem from="1539125276943" duration="4115000" />
       <workItem from="1539243720655" duration="447000" />
+      <workItem from="1540158317797" duration="2193000" />
+      <workItem from="1540229525297" duration="590000" />
+      <workItem from="1540270386426" duration="620000" />
     </task>
     <servers />
   </component>
@@ -688,7 +620,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96631000" />
+    <option name="totallyTimeSpent" value="100034000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,9 +633,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4988399" visible="true" weight="0.20014504" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4988399" visible="true" weight="0.20884699" />
       <window_info id="Structure" order="1" sideWeight="0.5011601" side_tool="true" weight="0.28788978" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -712,7 +643,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5011601" side_tool="true" weight="0.28788978" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32866043" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26791278" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -722,6 +653,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32866043" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32866043" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -731,7 +663,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="PlantUML" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.4906542" visible="true" weight="0.30239305" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="9" sideWeight="0.4906542" visible="true" weight="0.20739667" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.50934577" side_tool="true" visible="true" weight="0.30239305" />
       <window_info anchor="right" id="SciView" order="11" />
     </layout>
@@ -843,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="178" column="77" selection-start-line="178" selection-start-column="77" selection-end-line="178" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/ReservationsServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -952,9 +877,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="178" column="77" selection-start-line="178" selection-start-column="77" selection-end-line="178" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/Seat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="170">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
             <element signature="e#608#609#0" expanded="true" />
@@ -965,15 +897,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment3/ReservationSystemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
+        <state relative-caret-position="527">
           <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment3/ReservationSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="117">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
