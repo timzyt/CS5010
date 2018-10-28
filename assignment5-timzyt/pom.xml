@@ -96,7 +96,7 @@
             </plugin>
 
             <!--
-               -Uncomment to getKeys PMD and fail compilation
+               -Uncomment to run PMD and fail compilation
                -->
             <!--<plugin>-->
                 <!--<groupId>org.apache.maven.plugins</groupId>-->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.3.5" timestamp="2018-10-24T18:59:14.713">
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\MailGenerator.java">
+<violation beginline="55" endline="55" begincolumn="19" endcolumn="19" rule="ShortVariable" ruleset="Naming" package="edu.neu.ccs.cs5010.assignment5.model" class="MailGenerator" method="run" variable="m" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like m
+</violation>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\view\userview.java">
+<violation beginline="3" endline="5" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Naming" package="edu.neu.ccs.cs5010.assignment5.view" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/naming.html#ClassNamingConventions" priority="1">
+Class names should begin with an uppercase character
+</violation>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\test\edu\neu\ccs\cs5010\assignment5\model\TemplateReaderTest.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="42" rule="UnusedImports" ruleset="Import Statements" package="test.edu.neu.ccs.cs5010.assignment5.model" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.junit.Assert.assertTrue'
+</violation>
+</file>
+</pmd>

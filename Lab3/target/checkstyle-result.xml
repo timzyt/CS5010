@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\Add.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="8" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="9" severity="warning" message="At-clause should have a non-empty description." source="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+<error line="10" severity="warning" message="At-clause should have a non-empty description." source="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+<error line="16" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\BinOp.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="12" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="24" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="37" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="70" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\Context.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\CtxHashMap.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="17" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="25" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="33" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\Define.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="12" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="13" severity="warning" message="At-clause should have a non-empty description." source="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+<error line="14" severity="warning" message="At-clause should have a non-empty description." source="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+<error line="23" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\Diff.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="8" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="9" severity="warning" message="At-clause should have a non-empty description." source="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+<error line="10" severity="warning" message="At-clause should have a non-empty description." source="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+<error line="16" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\Expression.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="8" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\Main.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="8" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="9" severity="warning" message="At-clause should have a non-empty description." source="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\Num.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="10" column="15" severity="warning" message="Parameter name &apos;n&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="14" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="22" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="33" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="58" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="66" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\Op.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\Val.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="8" column="12" severity="warning" message="&apos;public&apos; modifier out of order with the JLS suggestions." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Lab3\src\main\java\edu\neu\ccs\cs5010\simpleCalculator\Var.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;edu.neu.ccs.cs5010.simpleCalculator&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="11" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="12" severity="warning" message="At-clause should have a non-empty description." source="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+<error line="18" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="29" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="54" severity="warning" message="First sentence of Javadoc is incomplete (period is missing) or not present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+</checkstyle>

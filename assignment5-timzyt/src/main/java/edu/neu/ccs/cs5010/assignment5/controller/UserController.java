@@ -1,21 +1,20 @@
 package edu.neu.ccs.cs5010.assignment5.controller;
 
-import java.io.File;
 import edu.neu.ccs.cs5010.assignment5.model.CmdProcessor;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Scanner;
 import picocli.CommandLine;
-import picocli.CommandLine.Help;
 
+/**
+ * The User controller class.
+ */
 public class UserController {
 
+  /**
+   * The main class, entry point of application.
+   *
+   * @param args the input arguments from user input.
+   */
   public static void main(String[] args) {
     String email = "--email";
     String letter = "--letter";
@@ -51,7 +50,7 @@ public class UserController {
       }
       for (String key : cmdPairs.keySet()) {
         if (newCmdInputStr.contains(key) && !newCmdInputStr.contains(cmdPairs.get(key))) {
-          System.out.printf("Error: %s provided but no %s was given.\r\n\r\n\t", key,
+          System.out.printf("Error: %s provided but no %s was given.\r\n\r\n", key,
               cmdPairs.get(key));
           checkInput = true;
 
@@ -64,15 +63,15 @@ public class UserController {
       //args = new String[] {"--email", "--email-template", "email-template.txt","--output-dir", "emails", "--csv-file", "customer.csv"};
       new CommandLine(newCmdProcessor).parse(newCmdInput);
       newCmdProcessor.runMailGenerator();
-//      assert !newCmdProcessor.helpRequest;
-//      assert newCmdProcessor.createEmail;
-//      assert newCmdProcessor.emailTemplate.equals("email-template.txt");
-//      assert newCmdProcessor.outputDir.equals("emails");
-//      assert newCmdProcessor.csvFile.equals("insurance-company-customer.csv");
+  //      assert !newCmdProcessor.helpRequest;
+  //      assert newCmdProcessor.createEmail;
+  //      assert newCmdProcessor.emailTemplate.equals("email-template.txt");
+  //      assert newCmdProcessor.outputDir.equals("emails");
+  //      assert newCmdProcessor.csvFile.equals("insurance-company-customer.csv");
 
-//      System.out.println(newCmdProcessor.emailTemplate);
-//      System.out.println(newCmdProcessor.csvFile);
-//      System.out.println(newCmdProcessor.outputDir);
+  //      System.out.println(newCmdProcessor.emailTemplate);
+  //      System.out.println(newCmdProcessor.csvFile);
+  //      System.out.println(newCmdProcessor.outputDir);
 
 
     } catch (Exception e) {

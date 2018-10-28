@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f7cce0e-c62d-4691-897d-e15a7e4581bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../assignment3-timzyt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment3-timzyt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment4-timzyt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment4-timzyt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment4-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment4-timzyt/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/CsvReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/cmdoperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/LineParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/MailGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/TemplateReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/TemplateReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/CsvReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/CsvReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/LineParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/LineParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/cmdoperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,56 +41,75 @@
     <SUITE FILE_PATH="coverage/assignment5_timzyt$usercontroller.ic" NAME="usercontroller Coverage Results" MODIFIED="1540165170106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.controller.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/assignment5_timzyt$CsvReaderTest_testGetKeys.ic" NAME="CsvReaderTest.testGetKeys Coverage Results" MODIFIED="1540769449882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment5_timzyt$CsvReaderTest.ic" NAME="CsvReaderTest Coverage Results" MODIFIED="1540769503425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="55" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1414884661">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.64" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="32" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="46" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="32" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="46" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="9659" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="10959" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9659" />
+          <entry key="JAVA" value="10959" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="330">
+              <caret line="52" column="76" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,11 +120,100 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="251">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/CsvReaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="71" selection-start-line="71" selection-end-line="89" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="75" column="49" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1751#1752#0" expanded="true" />
+                <element signature="e#1807#1808#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="730">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/view/userview.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/MailGeneratorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/TemplateReaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -110,10 +238,16 @@
       <find>output</find>
       <find>originmal</find>
       <find>limit</find>
-      <find>group0</find>
       <find>outputFile</find>
       <find>.run</find>
       <find>CmdProcessor</find>
+      <find>outputDir</find>
+      <find>{</find>
+      <find>array</find>
+      <find>Array</find>
+      <find>group0</find>
+      <find>csvReader</find>
+      <find>firstLine</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -128,7 +262,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/gettemplate.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/Iusetemplate.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/UseEmailTemplate.java" />
@@ -142,17 +275,19 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/patternmatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/templateReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/iterator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/TemplateReaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/patternMatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/TemplateReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/CsvReaderTest.java" />
       </list>
     </option>
   </component>
@@ -189,7 +324,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,49 +353,6 @@
               <item name="assignment5-timzyt" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment5-timzyt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignment5-timzyt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment5-timzyt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignment5-timzyt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment5-timzyt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignment5-timzyt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment5-timzyt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignment5-timzyt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment5-timzyt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignment5-timzyt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment5-timzyt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -270,11 +361,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment5-timzyt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cs5010" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,14 +383,19 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540283428758" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../assignment3-timzyt" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540769769945" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.neu.ccs.cs5010" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -304,7 +409,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserController">
+  <component name="RunManager" selected="JUnit.CsvReaderTest">
     <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.controller.UserController" />
       <module name="assignment5-timzyt" />
@@ -318,17 +423,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CsvReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment5-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.CsvReaderTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CsvReaderTest.testGetKeys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment5-timzyt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.edu.neu.ccs.cs5010.assignment5.model.*" />
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.edu.neu.ccs.cs5010.assignment5.model" />
-      <option name="MAIN_CLASS_NAME" value="test.edu.neu.ccs.cs5010.assignment5.model.CsvReaderTest" />
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.CsvReaderTest" />
       <option name="METHOD_NAME" value="testGetKeys" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LineParserTest.testParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment5-timzyt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.LineParserTest" />
+      <option name="METHOD_NAME" value="testParse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,60 +473,30 @@
       <module name="assignment5-timzyt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.edu.neu.ccs.cs5010.assignment5.model.*" />
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.edu.neu.ccs.cs5010.assignment5.model" />
-      <option name="MAIN_CLASS_NAME" value="test.edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplateReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment5-timzyt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.edu.neu.ccs.cs5010.assignment5.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.edu.neu.ccs.cs5010.assignment5.model" />
-      <option name="MAIN_CLASS_NAME" value="test.edu.neu.ccs.cs5010.assignment5.model.TemplateReaderTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplateReaderTest.testRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment5-timzyt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.edu.neu.ccs.cs5010.assignment5.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.edu.neu.ccs.cs5010.assignment5.model" />
-      <option name="MAIN_CLASS_NAME" value="test.edu.neu.ccs.cs5010.assignment5.model.TemplateReaderTest" />
-      <option name="METHOD_NAME" value="testRun" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.MailGeneratorTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.MailGeneratorTest" />
-      <item itemvalue="JUnit.TemplateReaderTest.testRun" />
-      <item itemvalue="JUnit.CsvReaderTest.testGetKeys" />
-      <item itemvalue="JUnit.TemplateReaderTest" />
       <item itemvalue="Application.UserController" />
+      <item itemvalue="JUnit.LineParserTest.testParse" />
+      <item itemvalue="JUnit.CsvReaderTest.testGetKeys" />
+      <item itemvalue="JUnit.CsvReaderTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserController" />
-        <item itemvalue="JUnit.MailGeneratorTest" />
-        <item itemvalue="JUnit.TemplateReaderTest" />
-        <item itemvalue="JUnit.TemplateReaderTest.testRun" />
+        <item itemvalue="JUnit.CsvReaderTest" />
         <item itemvalue="JUnit.CsvReaderTest.testGetKeys" />
+        <item itemvalue="Application.UserController" />
+        <item itemvalue="JUnit.LineParserTest.testParse" />
+        <item itemvalue="JUnit.MailGeneratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -408,50 +513,61 @@
       <workItem from="1540144224290" duration="462000" />
       <workItem from="1540144789965" duration="15220000" />
       <workItem from="1540229493909" duration="23422000" />
-      <workItem from="1540270388741" duration="6545000" />
+      <workItem from="1540270388741" duration="6948000" />
+      <workItem from="1540331674203" duration="22000" />
+      <workItem from="1540357591754" duration="795000" />
+      <workItem from="1540405414909" duration="587000" />
+      <workItem from="1540431030419" duration="2870000" />
+      <workItem from="1540526139491" duration="1861000" />
+      <workItem from="1540585648003" duration="1620000" />
+      <workItem from="1540592750700" duration="598000" />
+      <workItem from="1540605807972" duration="1460000" />
+      <workItem from="1540624709704" duration="184000" />
+      <workItem from="1540624941425" duration="710000" />
+      <workItem from="1540671114101" duration="770000" />
+      <workItem from="1540760416800" duration="6761000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MailGeneratorTest - 2018.10.23 at 01h 04m 03s.xml">
-      <configuration name="MailGeneratorTest" configurationId="JUnit" />
+    <history-entry file="CsvReaderTest_testGetKeys - 2018.10.28 at 16h 23m 15s.xml">
+      <configuration name="CsvReaderTest.testGetKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest - 2018.10.23 at 01h 08m 02s.xml">
-      <configuration name="MailGeneratorTest" configurationId="JUnit" />
+    <history-entry file="CsvReaderTest_testGetKeys - 2018.10.28 at 16h 24m 24s.xml">
+      <configuration name="CsvReaderTest.testGetKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest - 2018.10.23 at 01h 08m 41s.xml">
-      <configuration name="MailGeneratorTest" configurationId="JUnit" />
+    <history-entry file="CsvReaderTest_testGetKeys - 2018.10.28 at 16h 25m 02s.xml">
+      <configuration name="CsvReaderTest.testGetKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest - 2018.10.23 at 01h 09m 20s.xml">
-      <configuration name="MailGeneratorTest" configurationId="JUnit" />
+    <history-entry file="CsvReaderTest_testGetKeys - 2018.10.28 at 16h 26m 54s.xml">
+      <configuration name="CsvReaderTest.testGetKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest - 2018.10.23 at 01h 10m 03s.xml">
-      <configuration name="MailGeneratorTest" configurationId="JUnit" />
+    <history-entry file="CsvReaderTest_testGetKeys - 2018.10.28 at 16h 28m 32s.xml">
+      <configuration name="CsvReaderTest.testGetKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest - 2018.10.23 at 01h 10m 46s.xml">
-      <configuration name="MailGeneratorTest" configurationId="JUnit" />
+    <history-entry file="CsvReaderTest_testGetKeys - 2018.10.28 at 16h 28m 51s.xml">
+      <configuration name="CsvReaderTest.testGetKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest - 2018.10.23 at 01h 12m 22s.xml">
-      <configuration name="MailGeneratorTest" configurationId="JUnit" />
+    <history-entry file="CsvReaderTest_testGetKeys - 2018.10.28 at 16h 29m 08s.xml">
+      <configuration name="CsvReaderTest.testGetKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest - 2018.10.23 at 01h 12m 52s.xml">
-      <configuration name="MailGeneratorTest" configurationId="JUnit" />
+    <history-entry file="CsvReaderTest_testGetKeys - 2018.10.28 at 16h 30m 42s.xml">
+      <configuration name="CsvReaderTest.testGetKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest - 2018.10.23 at 01h 13m 50s.xml">
-      <configuration name="MailGeneratorTest" configurationId="JUnit" />
+    <history-entry file="CsvReaderTest_testGetKeys - 2018.10.28 at 16h 30m 52s.xml">
+      <configuration name="CsvReaderTest.testGetKeys" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest - 2018.10.23 at 01h 14m 13s.xml">
-      <configuration name="MailGeneratorTest" configurationId="JUnit" />
+    <history-entry file="CsvReaderTest - 2018.10.28 at 16h 31m 45s.xml">
+      <configuration name="CsvReaderTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45649000" />
+    <option name="totallyTimeSpent" value="64290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26033357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2733865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -460,13 +576,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31464174" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3847352" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.54672897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.2024922" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32866043" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -477,12 +593,12 @@
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32994923" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.17331399" />
       <window_info anchor="right" id="SciView" order="7" weight="0.32994923" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32994923" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" visible="true" weight="0.20884699" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1955">
@@ -530,27 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/UsageHelp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/EmailTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/view/userview.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/UseEmailTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/UseLetterTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/UseEmailTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/UseLetterTemplate.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/info/picocli/picocli/3.7.0/picocli-3.7.0.jar!/picocli/CommandLine.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -565,27 +655,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/patternMatcher.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/cmdoperations.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+        <state relative-caret-position="289">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/patternMatcher.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/LineParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="646">
+          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/MailGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/TemplateReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/view/userview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="52" column="76" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="251">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -594,76 +734,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="517">
+          <caret line="75" column="49" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/CsvReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/TemplateReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/cmdoperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="371">
+          <caret line="71" selection-start-line="71" selection-end-line="89" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
