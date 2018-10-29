@@ -2,7 +2,6 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.controller,UserController,200,0,24,0,41,0,14,0,2,0
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,LineParser,0,18,0,0,0,5,0,2,0,2
 Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,MailGenerator,29,206,0,6,6,37,0,5,0,2
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,CmdProcessor,40,0,4,0,11,0,4,0,2,0
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,CsvReader,44,102,7,7,3,21,5,6,0,4
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,TemplateReader,69,102,7,9,6,20,5,7,0,4
-Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.view,userview,3,0,0,0,1,0,1,0,1,0
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,CmdProcessor,7,33,0,4,3,8,0,4,0,2
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,CsvReader,15,119,4,8,0,23,4,6,0,4
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,TemplateReader,15,126,4,10,0,23,4,7,0,4

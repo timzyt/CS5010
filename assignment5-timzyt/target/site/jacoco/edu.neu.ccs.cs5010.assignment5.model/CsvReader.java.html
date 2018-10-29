@@ -38,42 +38,41 @@ public class CsvReader {
   public List&lt;String&gt; getKeys(String csvFileName) {
 <span class="fc" id="L39">    System.out.println(System.getProperty(&quot;user.dir&quot;));</span>
 
-<span class="pc" id="L41">    try (BufferedReader inputFile = new BufferedReader(new FileReader(csvFileName))) {</span>
+<span class="fc" id="L41">    try (BufferedReader inputFile = new BufferedReader(new FileReader(csvFileName))) {</span>
 
       String line;
 
-<span class="pc bpc" id="L45" title="1 of 2 branches missed.">      if ((line = inputFile.readLine()) != null) {</span>
-<span class="fc" id="L46">        System.out.println(&quot;Read : &quot; + line);</span>
-<span class="fc" id="L47">        readCsvByLine = lineParser.parse(line);</span>
-      }
+<span class="fc" id="L45">      line = inputFile.readLine();</span>
+<span class="fc" id="L46">      readCsvByLine = lineParser.parse(line);</span>
 
 
 
-<span class="pc bpc" id="L52" title="6 of 8 branches missed.">    } catch (FileNotFoundException fnfe) {</span>
-<span class="fc" id="L53">      System.out.println(&quot;*** OUPS! A file was not found : &quot; + fnfe.getMessage());</span>
-<span class="fc" id="L54">      fnfe.printStackTrace();</span>
-<span class="nc" id="L55">    } catch (IOException ioe) {</span>
-<span class="nc" id="L56">      System.out.println(&quot;Something went wrong! : &quot; + ioe.getMessage());</span>
-<span class="nc" id="L57">      ioe.printStackTrace();</span>
-<span class="fc" id="L58">    }</span>
-<span class="fc" id="L59">    return readCsvByLine;</span>
+
+<span class="pc bpc" id="L51" title="4 of 8 branches missed.">    } catch (FileNotFoundException fnfe) {</span>
+<span class="fc" id="L52">      System.out.println(&quot;*** OUPS! A file was not found : &quot; + fnfe.getMessage());</span>
+<span class="fc" id="L53">      fnfe.printStackTrace();</span>
+<span class="fc" id="L54">    } catch (IOException ioe) {</span>
+<span class="fc" id="L55">      System.out.println(&quot;Something went wrong! : &quot; + ioe.getMessage());</span>
+<span class="fc" id="L56">      ioe.printStackTrace();</span>
+<span class="fc" id="L57">    }</span>
+<span class="fc" id="L58">    return readCsvByLine;</span>
   }
 
   @Override
   public boolean equals(Object obj) {
-<span class="fc bfc" id="L64" title="All 2 branches covered.">    if (this == obj) {</span>
-<span class="fc" id="L65">      return true;</span>
+<span class="fc bfc" id="L63" title="All 2 branches covered.">    if (this == obj) {</span>
+<span class="fc" id="L64">      return true;</span>
     }
-<span class="fc bfc" id="L67" title="All 2 branches covered.">    if (!(obj instanceof CsvReader)) {</span>
-<span class="fc" id="L68">      return false;</span>
+<span class="fc bfc" id="L66" title="All 2 branches covered.">    if (!(obj instanceof CsvReader)) {</span>
+<span class="fc" id="L67">      return false;</span>
     }
-<span class="fc" id="L70">    CsvReader csvReader = (CsvReader) obj;</span>
-<span class="fc" id="L71">    return Objects.equals(readCsvByLine, csvReader.readCsvByLine);</span>
+<span class="fc" id="L69">    CsvReader csvReader = (CsvReader) obj;</span>
+<span class="fc" id="L70">    return Objects.equals(readCsvByLine, csvReader.readCsvByLine);</span>
   }
 
   @Override
   public int hashCode() {
-<span class="fc" id="L76">    return Objects.hash(readCsvByLine);</span>
+<span class="fc" id="L75">    return Objects.hash(readCsvByLine);</span>
   }
 
 

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>UserController.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment5.controller</a> &gt; <span class="el_source">UserController.java</span></div><h1>UserController.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment5.controller;
 
 import edu.neu.ccs.cs5010.assignment5.model.CmdProcessor;
+
 import java.util.HashMap;
 import java.util.Scanner;
+
 import picocli.CommandLine;
 
 /**
  * The User controller class.
  */
-<span class="nc" id="L11">public class UserController {</span>
+<span class="nc" id="L13">public class UserController {</span>
 
   /**
    * The main class, entry point of application.
@@ -16,23 +18,21 @@ import picocli.CommandLine;
    * @param args the input arguments from user input.
    */
   public static void main(String[] args) {
-<span class="nc" id="L19">    String email = &quot;--email&quot;;</span>
-<span class="nc" id="L20">    String letter = &quot;--letter&quot;;</span>
-<span class="nc" id="L21">    String emailTemplate = &quot;--email-template&quot;;</span>
-<span class="nc" id="L22">    String letterTemplate = &quot;--letter-template&quot;;</span>
-<span class="nc" id="L23">    String outputDir = &quot;--output-dir&quot;;</span>
-<span class="nc" id="L24">    String csvFile = &quot;--csv-file&quot;;</span>
+<span class="nc" id="L21">    String email = &quot;--email&quot;;</span>
+<span class="nc" id="L22">    String letter = &quot;--letter&quot;;</span>
+<span class="nc" id="L23">    String emailTemplate = &quot;--email-template&quot;;</span>
+<span class="nc" id="L24">    String letterTemplate = &quot;--letter-template&quot;;</span>
+<span class="nc" id="L25">    String outputDir = &quot;--output-dir&quot;;</span>
+<span class="nc" id="L26">    String csvFile = &quot;--csv-file&quot;;</span>
 
+<span class="nc" id="L28">    HashMap&lt;String, String&gt; cmdPairs = new HashMap&lt;&gt;();</span>
+<span class="nc" id="L29">    cmdPairs.put(email, emailTemplate);</span>
+<span class="nc" id="L30">    cmdPairs.put(letter, letterTemplate);</span>
 
-<span class="nc" id="L27">    HashMap&lt;String, String&gt; cmdPairs = new HashMap&lt;&gt;();</span>
-<span class="nc" id="L28">    cmdPairs.put(email, emailTemplate);</span>
-<span class="nc" id="L29">    cmdPairs.put(letter, letterTemplate);</span>
+<span class="nc" id="L32">    System.out.println(System.getProperty(&quot;user.dir&quot;));</span>
 
-<span class="nc" id="L31">    System.out.println(System.getProperty(&quot;user.dir&quot;));</span>
-
-<span class="nc" id="L33">    try (</span>
-<span class="nc" id="L34">        Scanner cmdInput = new Scanner(System.in, &quot;UTF-8&quot;);</span>
-        /*BufferedReader cmdInput = new BufferedReader(new InputStreamReader(System.in))*/){
+<span class="nc" id="L34">    try (</span>
+<span class="nc" id="L35">        Scanner cmdInput = new Scanner(System.in, &quot;UTF-8&quot;)) {</span>
 <span class="nc" id="L36">      boolean checkInput = false;</span>
 <span class="nc" id="L37">      String newCmdInputStr = cmdInput.nextLine();</span>
 <span class="nc" id="L38">      String[] newCmdInput = newCmdInputStr.split(&quot; &quot;);</span>
@@ -60,24 +60,15 @@ import picocli.CommandLine;
 <span class="nc" id="L60">        CommandLine.usage(newCmdProcessor, System.out);</span>
 <span class="nc" id="L61">        System.exit(0);</span>
       }
-      //args = new String[] {&quot;--email&quot;, &quot;--email-template&quot;, &quot;email-template.txt&quot;,&quot;--output-dir&quot;, &quot;emails&quot;, &quot;--csv-file&quot;, &quot;customer.csv&quot;};
+
 <span class="nc" id="L64">      new CommandLine(newCmdProcessor).parse(newCmdInput);</span>
 <span class="nc" id="L65">      newCmdProcessor.runMailGenerator();</span>
-  //      assert !newCmdProcessor.helpRequest;
-  //      assert newCmdProcessor.createEmail;
-  //      assert newCmdProcessor.emailTemplate.equals(&quot;email-template.txt&quot;);
-  //      assert newCmdProcessor.outputDir.equals(&quot;emails&quot;);
-  //      assert newCmdProcessor.csvFile.equals(&quot;insurance-company-customer.csv&quot;);
-
-  //      System.out.println(newCmdProcessor.emailTemplate);
-  //      System.out.println(newCmdProcessor.csvFile);
-  //      System.out.println(newCmdProcessor.outputDir);
 
 
-<span class="nc bnc" id="L77" title="All 8 branches missed.">    } catch (Exception e) {</span>
-<span class="nc" id="L78">      System.out.println(e.getMessage());</span>
-<span class="nc" id="L79">      e.printStackTrace();</span>
-<span class="nc" id="L80">    }</span>
-<span class="nc" id="L81">  }</span>
+<span class="nc bnc" id="L68" title="All 8 branches missed.">    } catch (Exception e) {</span>
+<span class="nc" id="L69">      System.out.println(e.getMessage());</span>
+<span class="nc" id="L70">      e.printStackTrace();</span>
+<span class="nc" id="L71">    }</span>
+<span class="nc" id="L72">  }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

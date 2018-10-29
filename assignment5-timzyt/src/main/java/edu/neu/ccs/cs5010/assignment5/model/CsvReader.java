@@ -42,10 +42,9 @@ public class CsvReader {
 
       String line;
 
-      if ((line = inputFile.readLine()) != null) {
-        System.out.println("Read : " + line);
-        readCsvByLine = lineParser.parse(line);
-      }
+      line = inputFile.readLine();
+      readCsvByLine = lineParser.parse(line);
+
 
 
 

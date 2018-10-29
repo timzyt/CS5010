@@ -1,8 +1,8 @@
 package edu.neu.ccs.cs5010.assignment5.model;
 
-import java.io.File;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -53,9 +53,10 @@ public class MailGenerator {
    * @param outputDir the output dir
    * @throws IOException the io exception
    */
-  public void run(String mailType, String templateName, String csvFileName, String outputDir) throws IOException {
-  //    String cachedTemplate = newTemplateReader.run(templateName);
-  //    System.out.println(cachedTemplate);
+  public void run(String mailType, String templateName, String csvFileName, String outputDir)
+      throws IOException {
+    //    String cachedTemplate = newTemplateReader.run(templateName);
+    //    System.out.println(cachedTemplate);
     keys = newCsvReader.getKeys(csvFileName);
     System.out.println(keys.get(0));
     System.out.println(System.getProperty("user.dir"));
@@ -70,10 +71,10 @@ public class MailGenerator {
         System.out.println("Read : " + csvLine);
         currCsvLine = newLineParser.parse(csvLine);
 
-  //          for (String value : currCsvLine) {
-  //            System.out.println("value in currVsvLine is: " + value);
-  //          }
-          // reset outputFileName to the base case
+        //          for (String value : currCsvLine) {
+        //            System.out.println("value in currVsvLine is: " + value);
+        //          }
+        // reset outputFileName to the base case
         String outputFileName = mailType;
         StringBuilder group0 = new StringBuilder();
         Pattern re0;

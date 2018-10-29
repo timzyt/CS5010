@@ -33,7 +33,7 @@ public class LineParser {
    * @return the list
    */
   public List&lt;String&gt; parse(String line) {
-//    Pattern csvPattern1 = Pattern.compile(&quot;,(?=(?:[^\&quot;]*\&quot;[^\&quot;]*\&quot;)*[^\&quot;]*$)&quot;);
+    //Pattern csvPattern1 = Pattern.compile(&quot;,(?=(?:[^\&quot;]*\&quot;[^\&quot;]*\&quot;)*[^\&quot;]*$)&quot;);
 <span class="fc" id="L37">    tokens = line.split(&quot;,(?=(?:[^\\\&quot;]*\\\&quot;[^\\\&quot;]*\\\&quot;)*[^\\\&quot;]*$)&quot;, -1);</span>
 <span class="fc" id="L38">    List&lt;String&gt; arrayTokens = new ArrayList&lt;String&gt;(Arrays.asList(tokens));</span>
 <span class="fc" id="L39">    return arrayTokens;</span>

@@ -41,7 +41,7 @@ public class TemplateReader {
         //need to flush the StringBuilder object cachedTemplate
 
         cachedTemplate.append(line).append("\r\n");
-        System.out.println("Read : " + line);
+        //System.out.println("Read : " + line);
       }
 
     } catch (FileNotFoundException fnfe) {
@@ -52,9 +52,9 @@ public class TemplateReader {
       ioe.printStackTrace();
     }
 
-    while (cachedTemplate.charAt(cachedTemplate.length() - 1) == ' ') {
-      cachedTemplate.deleteCharAt(cachedTemplate.length() - 1);
-    }
+    //    while (cachedTemplate.charAt(cachedTemplate.length() - 1) == ' ') {
+    //      cachedTemplate.deleteCharAt(cachedTemplate.length() - 1);
+    //    }
     return cachedTemplate.toString();
   }
 

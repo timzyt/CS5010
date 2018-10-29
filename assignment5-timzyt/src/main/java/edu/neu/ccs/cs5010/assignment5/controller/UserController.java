@@ -1,8 +1,10 @@
 package edu.neu.ccs.cs5010.assignment5.controller;
 
 import edu.neu.ccs.cs5010.assignment5.model.CmdProcessor;
+
 import java.util.HashMap;
 import java.util.Scanner;
+
 import picocli.CommandLine;
 
 /**
@@ -23,7 +25,6 @@ public class UserController {
     String outputDir = "--output-dir";
     String csvFile = "--csv-file";
 
-
     HashMap<String, String> cmdPairs = new HashMap<>();
     cmdPairs.put(email, emailTemplate);
     cmdPairs.put(letter, letterTemplate);
@@ -31,8 +32,7 @@ public class UserController {
     System.out.println(System.getProperty("user.dir"));
 
     try (
-        Scanner cmdInput = new Scanner(System.in, "UTF-8");
-        /*BufferedReader cmdInput = new BufferedReader(new InputStreamReader(System.in))*/){
+        Scanner cmdInput = new Scanner(System.in, "UTF-8")) {
       boolean checkInput = false;
       String newCmdInputStr = cmdInput.nextLine();
       String[] newCmdInput = newCmdInputStr.split(" ");
@@ -60,18 +60,9 @@ public class UserController {
         CommandLine.usage(newCmdProcessor, System.out);
         System.exit(0);
       }
-      //args = new String[] {"--email", "--email-template", "email-template.txt","--output-dir", "emails", "--csv-file", "customer.csv"};
+
       new CommandLine(newCmdProcessor).parse(newCmdInput);
       newCmdProcessor.runMailGenerator();
-  //      assert !newCmdProcessor.helpRequest;
-  //      assert newCmdProcessor.createEmail;
-  //      assert newCmdProcessor.emailTemplate.equals("email-template.txt");
-  //      assert newCmdProcessor.outputDir.equals("emails");
-  //      assert newCmdProcessor.csvFile.equals("insurance-company-customer.csv");
-
-  //      System.out.println(newCmdProcessor.emailTemplate);
-  //      System.out.println(newCmdProcessor.csvFile);
-  //      System.out.println(newCmdProcessor.outputDir);
 
 
     } catch (Exception e) {

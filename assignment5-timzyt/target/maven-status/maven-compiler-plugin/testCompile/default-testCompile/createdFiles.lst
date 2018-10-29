@@ -1,4 +1,5 @@
-edu\neu\ccs\cs5010\TemplateReaderTest.class
-edu\neu\ccs\cs5010\MailGeneratorTest.class
-edu\neu\ccs\cs5010\LineParserTest.class
-edu\neu\ccs\cs5010\CsvReaderTest.class
+edu\neu\ccs\cs5010\assignment5\model\LineParserTest.class
+edu\neu\ccs\cs5010\assignment5\model\TemplateReaderTest.class
+edu\neu\ccs\cs5010\assignment5\model\CmdProcessorTest.class
+edu\neu\ccs\cs5010\assignment5\model\MailGeneratorTest.class
+edu\neu\ccs\cs5010\assignment5\model\CsvReaderTest.class
