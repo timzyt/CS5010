@@ -73,7 +73,7 @@ public class CsvReader {
 
   @Override
   public int hashCode() {
-    return Objects.hash(readCsvByLine, lineParser);
+    return Objects.hash(readCsvByLine);
   }
 
 

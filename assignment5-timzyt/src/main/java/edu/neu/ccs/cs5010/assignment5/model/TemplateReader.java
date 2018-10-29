@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Objects;
 
 /**
  * The type Template reader.
@@ -55,6 +56,23 @@ public class TemplateReader {
       cachedTemplate.deleteCharAt(cachedTemplate.length() - 1);
     }
     return cachedTemplate.toString();
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    if (this == obj) {
+      return true;
+    }
+    if (!(obj instanceof TemplateReader)) {
+      return false;
+    }
+    TemplateReader that = (TemplateReader) obj;
+    return Objects.equals(cachedTemplate.toString(), that.cachedTemplate.toString());
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cachedTemplate.toString());
   }
 }
 

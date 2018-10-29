@@ -1,11 +1,7 @@
 edu\neu\ccs\cs5010\assignment5\view\userview.class
-test\edu\neu\ccs\cs5010\assignment5\model\LineParserTest.class
 edu\neu\ccs\cs5010\assignment5\controller\UserController.class
 edu\neu\ccs\cs5010\assignment5\model\LineParser.class
-test\edu\neu\ccs\cs5010\assignment5\model\MailGeneratorTest.class
 edu\neu\ccs\cs5010\assignment5\model\TemplateReader.class
-test\edu\neu\ccs\cs5010\assignment5\model\TemplateReaderTest.class
 edu\neu\ccs\cs5010\assignment5\model\CmdProcessor.class
 edu\neu\ccs\cs5010\assignment5\model\MailGenerator.class
-test\edu\neu\ccs\cs5010\assignment5\model\CsvReaderTest.class
 edu\neu\ccs\cs5010\assignment5\model\CsvReader.class
