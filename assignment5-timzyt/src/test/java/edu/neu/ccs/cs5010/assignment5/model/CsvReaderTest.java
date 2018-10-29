@@ -2,6 +2,7 @@ package edu.neu.ccs.cs5010.assignment5.model;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
 import edu.neu.ccs.cs5010.assignment5.model.CsvReader;
@@ -37,10 +38,12 @@ public class CsvReaderTest {
   LineParser lineParser;
   String csvFileName;
   String badFileName;
-  String nullFile;
+  String testFileName;
+  String nullLine;
   String csvFirstLine;
   CsvReader newCsvReader;
-  List<String> CsvReadResult;
+  List<String> nullOutput;
+
 
 
   @Before
@@ -50,6 +53,7 @@ public class CsvReaderTest {
     csvFileName = "insurance-company-members_test.csv";
     newCsvReader = new CsvReader();
     badFileName = "noSuchFile.csv";
+    testFileName = "testFile.csv";
   }
 
   @After
@@ -79,14 +83,15 @@ public class CsvReaderTest {
    */
   @Test //(expected = FileNotFoundException.class)
   public void testFileNotFound() throws Exception {
-    try (BufferedReader inputFile = new BufferedReader(new FileReader(badFileName))) {
-      csvFirstLine = inputFile.readLine();
-      readCsvByLine = lineParser.parse(badFileName);
-    } catch (FileNotFoundException fnfe) {
-      String message = "noSuchFile.csv (The system cannot find the file specified)";
-      //fnfe.printStackTrace();
-      assertEquals(message, fnfe.getMessage());
-    }
+    newCsvReader.getKeys(badFileName);
+//    try (BufferedReader inputFile = new BufferedReader(new FileReader(badFileName))) {
+//      csvFirstLine = inputFile.readLine();
+//      readCsvByLine = lineParser.parse(badFileName);
+//    } catch (FileNotFoundException fnfe) {
+//      String message = "noSuchFile.csv (The system cannot find the file specified)";
+//      //fnfe.printStackTrace();
+//      assertEquals(message, fnfe.getMessage());
+//    }
   }
 
   /**
@@ -97,15 +102,46 @@ public class CsvReaderTest {
   public void testNullFile() throws Exception {
 
     System.getProperty("user.dir");
-    FileWriter newFileWriter = new FileWriter("testFile.csv");
+    FileWriter newFileWriter = new FileWriter(testFileName);
+    newFileWriter.append(nullLine);
     newFileWriter.close();
-    try (BufferedReader inputFile = new BufferedReader(new FileReader("testFile.csv"))) {
-      csvFirstLine = inputFile.readLine();
-      readCsvByLine = lineParser.parse("testFile.csv");
-    } catch (FileNotFoundException fnfe) {
-      String message = "noSuchFile.csv (The system cannot find the file specified)";
-      assertEquals(message, fnfe.getMessage());
-    }
+    newCsvReader.getKeys(testFileName);
+//    assertNull(newCsvReader.getKeys(testFileName));
+    System.out.println("contente is:" + newCsvReader.getKeys(testFileName).toString());
+//    try (BufferedReader inputFile = new BufferedReader(new FileReader("testFile.csv"))) {
+//      csvFirstLine = inputFile.readLine();
+//      readCsvByLine = lineParser.parse("testFile.csv");
+//    } catch (FileNotFoundException fnfe) {
+//      String message = "noSuchFile.csv (The system cannot find the file specified)";
+//      //System.out.println("asdfasc" + fnfe.getMessage());
+//      assertEquals(message, fnfe.getMessage());
+//
+//    }
+  }
+
+  /**
+   * test when input file is null.
+   * @throws Exception
+   */
+  @Test //(expected = NullPointerException.class)
+  public void testNullOutput() throws Exception {
+    newCsvReader.readCsvByLine = nullOutput;
+    newCsvReader.getKeys(badFileName);
+//    System.getProperty("user.dir");
+//    FileWriter newFileWriter = new FileWriter(nullLine);
+//    newFileWriter.append(nullLine);
+//    newFileWriter.close();
+//    newCsvReader.getKeys(testFileName);
+//    System.out.println("contente is:" + newCsvReader.getKeys(testFileName).toString());
+//    try (BufferedReader inputFile = new BufferedReader(new FileReader("testFile.csv"))) {
+//      csvFirstLine = inputFile.readLine();
+//      readCsvByLine = lineParser.parse("testFile.csv");
+//    } catch (FileNotFoundException fnfe) {
+//      String message = "noSuchFile.csv (The system cannot find the file specified)";
+//      //System.out.println("asdfasc" + fnfe.getMessage());
+//      assertEquals(message, fnfe.getMessage());
+//
+//    }
   }
 
   /**
@@ -117,7 +153,7 @@ public class CsvReaderTest {
     final RandomAccessFile raFile =  new RandomAccessFile(csvFileName, "rw");
     raFile.getChannel().lock();
     newCsvReader.getKeys(csvFileName);
-//    raFile.getChannel().lock().close();
+    //   raFile.getChannel().lock().close();
     //    try (BufferedReader inputFile = new BufferedReader(new FileReader(csvFileName))) {
     //      final RandomAccessFile raFile =  new RandomAccessFile(csvFileName, "rw");
     //      raFile.getChannel().lock();

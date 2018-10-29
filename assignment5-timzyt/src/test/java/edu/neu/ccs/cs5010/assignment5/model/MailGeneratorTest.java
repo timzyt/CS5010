@@ -6,6 +6,9 @@ import edu.neu.ccs.cs5010.assignment5.model.MailGenerator;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.RandomAccessFile;
 import org.junit.Test;
 import org.junit.Before;
 import org.junit.After;
@@ -50,13 +53,42 @@ public class MailGeneratorTest {
 
   @Test
   public void testFNFE() throws Exception {
-    try {
-      newMailGenerator.run(mailType, emailTemplate, badFileName, outputDir);
-    } catch (Exception e) {
-      String message = "Index: 0, Size: 0";
-      assertEquals(message, e.getMessage());
-    }
+    newMailGenerator.run(mailType, emailTemplate, badFileName, outputDir);
+//    FileWriter newFileWriter = new FileWriter("testFile.csv");
+//    newFileWriter.close();
+//    try {
+//
+//    } catch (FileNotFoundException fnfe) {
+//      String message = "Index: 0, Size: 0";
+//      System.out.println("fnfe exception message is " + fnfe.toString());
+//
+//      //assertEquals(message, e.getMessage());
+//    } catch (IOException ioe) {
+//      System.out.println("ioe exception message is " + ioe.toString());
+//    } catch (Exception e) {
+//      System.out.println("general exception message is " + e.toString());
+//    }
   }
+
+  @Test
+  public void testIOException() throws Exception {
+    final RandomAccessFile raFile =  new RandomAccessFile(csvFileName, "rw");
+    raFile.getChannel().lock();
+    newMailGenerator.run(mailType, emailTemplate, csvFileName, outputDir);
+//    try {
+//      newMailGenerator.run(mailType, emailTemplate, badFileName, outputDir);
+//    } catch (FileNotFoundException fnfe) {
+//      String message = "Index: 0, Size: 0";
+//      System.out.println("fnfe exception message is " + fnfe.toString());
+//
+//      //assertEquals(message, e.getMessage());
+//    } catch (IOException ioe) {
+//      System.out.println("ioe exception message is " + ioe.toString());
+//    } catch (Exception e) {
+//      System.out.println("general exception message is " + e.toString());
+//    }
+  }
+
 
 
 } 

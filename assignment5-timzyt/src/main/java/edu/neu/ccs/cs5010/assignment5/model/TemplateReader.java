@@ -1,9 +1,10 @@
 package edu.neu.ccs.cs5010.assignment5.model;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Objects;
 
 /**
@@ -33,15 +34,21 @@ public class TemplateReader {
   public String run(String templateName) {
     System.out.println(System.getProperty("user.dir"));
 
-    try (BufferedReader inputFile = new BufferedReader(new FileReader(templateName))) {
+    try (BufferedReader inputFile = new BufferedReader(
+        new InputStreamReader(new FileInputStream(templateName), "UTF8"))) {
 
       String line;
       cachedTemplate.setLength(0);
+
       while ((line = inputFile.readLine()) != null) {
+        if ("".equals(line)) {
+          break;
+        }
         //need to flush the StringBuilder object cachedTemplate
 
         cachedTemplate.append(line).append("\r\n");
         //System.out.println("Read : " + line);
+
       }
 
     } catch (FileNotFoundException fnfe) {

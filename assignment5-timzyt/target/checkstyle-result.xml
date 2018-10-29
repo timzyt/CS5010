@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.11.2">
-<file name="D:\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\desktopRepo\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\controller\UserController.java">
-<error line="8" severity="warning" message="Import statement for &apos;picocli.CommandLine&apos; is in the wrong order. Should be in the &apos;THIRD_PARTY_PACKAGE&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="38" severity="warning" message="Distance between variable &apos;newCmdInput&apos; declaration and its first usage is 6, but allowed 3.  Consider to make that variable as final if you still need to store its value in advance (before method calls that might do side effect on original value)." source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\controller\UserController.java">
 </file>
-<file name="D:\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\desktopRepo\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\CmdProcessor.java">
-<error line="5" severity="warning" message="Import statement for &apos;picocli.CommandLine.Command&apos; is in the wrong order. Should be in the &apos;THIRD_PARTY_PACKAGE&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="6" severity="warning" message="Import statement for &apos;picocli.CommandLine.Option&apos; is in the wrong order. Should be in the &apos;THIRD_PARTY_PACKAGE&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
-<error line="16" column="52" severity="warning" message="&apos;+&apos; should be on a new line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
-<error line="31" severity="warning" message="Line is longer than 100 characters (found 105)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
-<error line="44" severity="warning" message="Line is longer than 100 characters (found 107)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\CmdProcessor.java">
 </file>
-<file name="D:\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\desktopRepo\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\CsvReader.java">
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\CsvReader.java">
 </file>
-<file name="D:\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\desktopRepo\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\LineParser.java">
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\LineParser.java">
 </file>
-<file name="D:\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\desktopRepo\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\MailGenerator.java">
-<error line="78" severity="warning" message="Distance between variable &apos;outputFileName&apos; declaration and its first usage is 4, but allowed 3.  Consider to make that variable as final if you still need to store its value in advance (before method calls that might do side effect on original value)." source="com.puppycrawl.tools.checkstyle.checks.coding.VariableDeclarationUsageDistanceCheck"/>
-<error line="86" column="19" severity="warning" message="Local variable name &apos;m&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\MailGenerator.java">
 </file>
-<file name="D:\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\desktopRepo\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\TemplateReader.java">
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\TemplateReader.java">
 </file>
 </checkstyle>

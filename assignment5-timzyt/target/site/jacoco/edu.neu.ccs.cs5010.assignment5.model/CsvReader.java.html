@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>CsvReader.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment5.model</a> &gt; <span class="el_source">CsvReader.java</span></div><h1>CsvReader.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment5.model;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
@@ -16,18 +17,18 @@ public class CsvReader {
   /**
    * The list to store splitted one line from the csv file.
    */
-<span class="fc" id="L19">  List&lt;String&gt; readCsvByLine = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L20">  List&lt;String&gt; readCsvByLine = new ArrayList&lt;&gt;();</span>
   /**
    * The Line parser.
    */
-<span class="fc" id="L23">  LineParser lineParser = new LineParser();</span>
+<span class="fc" id="L24">  LineParser lineParser = new LineParser();</span>
 
   /**
    * Instantiates a new Csv reader.
    */
-<span class="fc" id="L28">  public CsvReader() {</span>
+<span class="fc" id="L29">  public CsvReader() {</span>
 
-<span class="fc" id="L30">  }</span>
+<span class="fc" id="L31">  }</span>
 
   /**
    * Gets keys.
@@ -36,18 +37,17 @@ public class CsvReader {
    * @return the keys
    */
   public List&lt;String&gt; getKeys(String csvFileName) {
-<span class="fc" id="L39">    System.out.println(System.getProperty(&quot;user.dir&quot;));</span>
+<span class="fc" id="L40">    System.out.println(System.getProperty(&quot;user.dir&quot;));</span>
 
-<span class="fc" id="L41">    try (BufferedReader inputFile = new BufferedReader(new FileReader(csvFileName))) {</span>
+<span class="fc" id="L42">    try (BufferedReader inputFile = new BufferedReader(</span>
+        new InputStreamReader(new FileInputStream(csvFileName), &quot;UTF8&quot;))) {
 
       String line;
 
-<span class="fc" id="L45">      line = inputFile.readLine();</span>
-<span class="fc" id="L46">      readCsvByLine = lineParser.parse(line);</span>
-
-
-
-
+<span class="pc bpc" id="L47" title="1 of 2 branches missed.">      if ((line = inputFile.readLine()) != null) {</span>
+<span class="fc" id="L48">        readCsvByLine = lineParser.parse(line);</span>
+      }
+      //line = inputFile.readLine();
 <span class="pc bpc" id="L51" title="4 of 8 branches missed.">    } catch (FileNotFoundException fnfe) {</span>
 <span class="fc" id="L52">      System.out.println(&quot;*** OUPS! A file was not found : &quot; + fnfe.getMessage());</span>
 <span class="fc" id="L53">      fnfe.printStackTrace();</span>

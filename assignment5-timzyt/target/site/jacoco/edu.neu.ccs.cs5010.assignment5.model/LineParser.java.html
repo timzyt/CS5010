@@ -17,7 +17,7 @@ public class LineParser {
   /**
    * The Csv pattern 1.
    */
-  Pattern csvPattern1;
+  //Pattern csvPattern1;
 
   /**
    * Instantiates a new Line parser.

@@ -1,9 +1,9 @@
 package edu.neu.ccs.cs5010.assignment5.model;
 
-
-import java.io.IOException;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
+
+import java.io.IOException;
 
 /**
  * The command line argument processor.
@@ -13,8 +13,8 @@ import picocli.CommandLine.Option;
     headerHeading = "Usage:\r\n",
     descriptionHeading = "%nExamples:%n%n",
     description = "\t\t--email --email-template email-template.txt --output-dir\r\n"
-        + "emails --csv-file customer.csv\r\n\r\n" +
-        "\t\t--letter --letter-template letter-template.txt --output-\r\n"
+        + "emails --csv-file customer.csv\r\n\r\n"
+        + "\t\t--letter --letter-template letter-template.txt --output-\r\n"
         + "dir letters --csv-file customer.csv\r\n")
 public class CmdProcessor {
 
@@ -28,7 +28,8 @@ public class CmdProcessor {
    * The email template option. Receives a string as the file name.
    */
   @Option(arity = "1", names = "--email-template", paramLabel = "email template",
-      description = "accept a filename that holds the email template.\r\n\tRequired if --email is used.")
+      description = "accept a filename that holds the email template.\r\n\t"
+          + "Required if --email is used.")
   public String emailTemplate;
 
   /**
@@ -41,7 +42,8 @@ public class CmdProcessor {
    * The letter template option. Receives a string as the letter template name.
    */
   @Option(arity = "1", names = "--letter-template", paramLabel = "letter template",
-      description = "accept a filename that holds the letter template.\r\n\tRequired if --letter is used.")
+      description = "accept a filename that holds the letter template.\r\n\t"
+          + "Required if --letter is used.")
   public String letterTemplate;
 
   /**
