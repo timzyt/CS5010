@@ -41,20 +41,6 @@ public class CsvReaderTest {
     csvFileName = "insurance-company-members_test.csv";
     newCsvReader = new CsvReader();
     badFileName = "noSuchFile.csv";
-//    CsvReadResult = new ArrayList<String>();
-//    CsvReadResult.add("first_name");
-//    CsvReadResult.add("last_name");
-//    CsvReadResult.add("company_name");
-//    CsvReadResult.add("address");
-//    CsvReadResult.add("city");
-//    CsvReadResult.add("county");
-//    CsvReadResult.add("state");
-//    CsvReadResult.add("zip");
-//    CsvReadResult.add("phone1");
-//    CsvReadResult.add("phone2");
-//    CsvReadResult.add("email");
-//    CsvReadResult.add("web");
-
   }
 
   @After
