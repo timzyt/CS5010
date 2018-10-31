@@ -1,5 +1,10 @@
-Chang, Carolyn Esq.
-Lezlie Craghead
-749 W 18th St #45, Smithfield,
-Johnston, NC, 27577
-(lezlie.craghead@craghead.org)
+From:insuranceCompany@ic.com
+To:lezlie.craghead@craghead.org
+Subject: Insurance company – information about recent data breach
+Dear Lezlie Craghead,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

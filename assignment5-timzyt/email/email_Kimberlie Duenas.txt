@@ -1,5 +1,10 @@
-Mid Contntl Rlty & Prop Mgmt.
-Kimberlie Duenas
-8100 Jacksonville Rd #7, Hays,
-Ellis, KS, 67601
-(kimberlie_duenas@yahoo.com)
+From:insuranceCompany@ic.com
+To:kimberlie_duenas@yahoo.com
+Subject: Insurance company – information about recent data breach
+Dear Kimberlie Duenas,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

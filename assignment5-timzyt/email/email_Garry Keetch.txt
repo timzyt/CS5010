@@ -1,5 +1,10 @@
-Italian Express Franchise Corp.
-Garry Keetch
-5 Green Pond Rd #4, Southampton,
-Bucks, PA, 18966
-(garry_keetch@hotmail.com)
+From:insuranceCompany@ic.com
+To:garry_keetch@hotmail.com
+Subject: Insurance company – information about recent data breach
+Dear Garry Keetch,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.3.5" timestamp="2018-10-29T16:05:03.040">
+<pmd version="5.3.5" timestamp="2018-10-29T16:54:55.751">
 <file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\LineParser.java">
 <violation beginline="6" endline="6" begincolumn="1" endcolumn="31" rule="UnusedImports" ruleset="Import Statements" package="edu.neu.ccs.cs5010.assignment5.model" externalInfoUrl="https://pmd.github.io/pmd-5.3.5/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
 Avoid unused imports such as 'java.util.regex.Pattern'

@@ -1,5 +1,10 @@
-Branford Wire & Mfg Co.
-Amber Monarrez
-14288 Foster Ave #4121, Jenkintown,
-Montgomery, PA, 19046
-(amber_monarrez@monarrez.org)
+From:insuranceCompany@ic.com
+To:amber_monarrez@monarrez.org
+Subject: Insurance company – information about recent data breach
+Dear Amber Monarrez,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

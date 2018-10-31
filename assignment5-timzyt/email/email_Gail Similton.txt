@@ -1,5 +1,10 @@
-Johnson, Wes Esq.
-Gail Similton
-62 Monroe St, Thousand Palms,
-Riverside, CA, 92276
-(gail_similton@similton.com)
+From:insuranceCompany@ic.com
+To:gail_similton@similton.com
+Subject: Insurance company – information about recent data breach
+Dear Gail Similton,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

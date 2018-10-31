@@ -1,5 +1,10 @@
-Irving Foot Center.
-Gary Nunlee
-2 W Mount Royal Ave, Fortville,
-Hancock, IN, 46040
-(gary_nunlee@nunlee.org)
+From:insuranceCompany@ic.com
+To:gary_nunlee@nunlee.org
+Subject: Insurance company – information about recent data breach
+Dear Gary Nunlee,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

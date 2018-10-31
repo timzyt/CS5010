@@ -1,5 +1,10 @@
-Dentalaw Divsn Hlth Care.
-Kayleigh Lace
-43 Huey P Long Ave, Lafayette,
-Lafayette, LA, 70508
-(kayleigh.lace@yahoo.com)
+From:insuranceCompany@ic.com
+To:kayleigh.lace@yahoo.com
+Subject: Insurance company – information about recent data breach
+Dear Kayleigh Lace,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

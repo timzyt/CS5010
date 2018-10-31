@@ -1,5 +1,10 @@
-Warehouse Office & Paper Prod.
-Jani Biddy
-61556 W 20th Ave, Seattle,
-King, WA, 98104
-(jbiddy@yahoo.com)
+From:insuranceCompany@ic.com
+To:jbiddy@yahoo.com
+Subject: Insurance company – information about recent data breach
+Dear Jani Biddy,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

@@ -1,5 +1,10 @@
-20 20 Printing Inc.
-Merilyn Bayless
-195 13n N, Santa Clara,
-Santa Clara, CA, 95054
-(merilyn_bayless@cox.net)
+From:insuranceCompany@ic.com
+To:merilyn_bayless@cox.net
+Subject: Insurance company – information about recent data breach
+Dear Merilyn Bayless,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

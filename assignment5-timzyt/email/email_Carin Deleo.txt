@@ -1,5 +1,10 @@
-Redeker, Debbie.
-Carin Deleo
-1844 Southern Blvd, Little Rock,
-Pulaski, AR, 72202
-(cdeleo@deleo.com)
+From:insuranceCompany@ic.com
+To:cdeleo@deleo.com
+Subject: Insurance company – information about recent data breach
+Dear Carin Deleo,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

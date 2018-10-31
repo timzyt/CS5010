@@ -42,16 +42,16 @@ public class UserController {
       final String[] newCmdInput = newCmdInputStr.split(" ");
       if (!newCmdInputStr.contains(email) && !newCmdInputStr.contains(letter)) {
         System.err.printf("Error: Missing command %s or %s.%n%n", email, letter);
-        System.exit(0);
+        checkInput = true;
       }
       if (!newCmdInputStr.contains(outputDir)) {
         System.err.printf("Error: Missing command %s.%n%n", outputDir);
-        System.exit(0);
+        checkInput = true;
       }
       if (!newCmdInputStr.contains(csvFile)) {
         System.err.printf("Error: Missing command %s.%n%n", csvFile);
         checkInput = true;
-        System.exit(0);
+
       }
       for (Map.Entry<String, String> entry : cmdPairs.entrySet()) {
         String key = entry.getKey();
@@ -65,7 +65,6 @@ public class UserController {
       if (newCmdInputStr.contains(email) && newCmdInputStr.contains(letter)) {
         System.err.println("Error: Conflicting command line argument was provided.%n%n");
         checkInput = true;
-        System.exit(0);
       }
       if (checkInput) {
         CommandLine.usage(newCmdProcessor, System.out);

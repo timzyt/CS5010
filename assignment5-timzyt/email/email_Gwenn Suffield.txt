@@ -1,5 +1,10 @@
-Deltam Systems Inc.
-Gwenn Suffield
-3270 Dequindre Rd, Deer Park,
-Suffolk, NY, 11729
-(gwenn_suffield@suffield.org)
+From:insuranceCompany@ic.com
+To:gwenn_suffield@suffield.org
+Subject: Insurance company – information about recent data breach
+Dear Gwenn Suffield,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

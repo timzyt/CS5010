@@ -1,5 +1,10 @@
-American Speedy Printing Ctrs.
-Felix Hirpara
-7563 Cornwall Rd #4462, Denver,
-Lancaster, PA, 17517
-(felix_hirpara@cox.net)
+From:insuranceCompany@ic.com
+To:felix_hirpara@cox.net
+Subject: Insurance company – information about recent data breach
+Dear Felix Hirpara,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

@@ -1,5 +1,10 @@
-White Sign Div Ctrl Equip Co.
-Paz Sahagun
-919 Wall Blvd, Meridian,
-Lauderdale, MS, 39307
-(paz_sahagun@cox.net)
+From:insuranceCompany@ic.com
+To:paz_sahagun@cox.net
+Subject: Insurance company – information about recent data breach
+Dear Paz Sahagun,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

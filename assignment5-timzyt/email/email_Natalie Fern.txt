@@ -1,5 +1,10 @@
-Kelly, Charles G Esq.
-Natalie Fern
-7140 University Ave, Rock Springs,
-Sweetwater, WY, 82901
-(natalie.fern@hotmail.com)
+From:insuranceCompany@ic.com
+To:natalie.fern@hotmail.com
+Subject: Insurance company – information about recent data breach
+Dear Natalie Fern,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

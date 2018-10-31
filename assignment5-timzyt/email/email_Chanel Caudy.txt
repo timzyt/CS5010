@@ -1,5 +1,10 @@
-Professional Image Inc.
-Chanel Caudy
-86 Nw 66th St #8673, Shawnee,
-Johnson, KS, 66218
-(chanel.caudy@caudy.org)
+From:insuranceCompany@ic.com
+To:chanel.caudy@caudy.org
+Subject: Insurance company – information about recent data breach
+Dear Chanel Caudy,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

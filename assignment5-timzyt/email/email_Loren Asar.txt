@@ -1,5 +1,10 @@
-Olsen Payne & Company.
-Loren Asar
-6 Ridgewood Center Dr, Old Forge,
-Lackawanna, PA, 18518
-(loren.asar@aol.com)
+From:insuranceCompany@ic.com
+To:loren.asar@aol.com
+Subject: Insurance company – information about recent data breach
+Dear Loren Asar,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

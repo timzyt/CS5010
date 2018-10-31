@@ -1,4 +1,4 @@
-package edu.neu.ccs.cs5010.simpleCalculator;
+package edu.neu.ccs.cs5010.simpleCalculator.Model;
 
 import java.util.HashMap;
 import java.util.Map;

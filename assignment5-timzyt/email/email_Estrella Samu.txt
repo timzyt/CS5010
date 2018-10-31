@@ -1,5 +1,10 @@
-Marking Devices Pubg Co.
-Estrella Samu
-64 Lakeview Ave, Beloit,
-Rock, WI, 53511
-(estrella@aol.com)
+From:insuranceCompany@ic.com
+To:estrella@aol.com
+Subject: Insurance company – information about recent data breach
+Dear Estrella Samu,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

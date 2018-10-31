@@ -1,5 +1,10 @@
-Dimmock, Thomas J Esq.
-Lonna Diestel
-1482 College Ave, Fayetteville,
-Cumberland, NC, 28301
-(lonna_diestel@gmail.com)
+From:insuranceCompany@ic.com
+To:lonna_diestel@gmail.com
+Subject: Insurance company – information about recent data breach
+Dear Lonna Diestel,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

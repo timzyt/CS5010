@@ -1,5 +1,10 @@
-Rossi, Michael M.
-Karl Klonowski
-76 Brooks St #9, Flemington,
-Hunterdon, NJ, 08822
-(karl_klonowski@yahoo.com)
+From:insuranceCompany@ic.com
+To:karl_klonowski@yahoo.com
+Subject: Insurance company – information about recent data breach
+Dear Karl Klonowski,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

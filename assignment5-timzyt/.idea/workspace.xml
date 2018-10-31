@@ -34,7 +34,6 @@
       <change beforePath="$PROJECT_DIR$/email/email_Arlene Klusman.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Arlene Klusman.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Arlette Honeywell.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Arlette Honeywell.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Arminda Parvis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Arminda Parvis.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email/email_Art Venere.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Art Venere.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Arthur Farrow.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Arthur Farrow.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Ashlyn Pinilla.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Ashlyn Pinilla.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Audra Kohnert.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Audra Kohnert.txt" afterDir="false" />
@@ -217,7 +216,6 @@
       <change beforePath="$PROJECT_DIR$/email/email_Jacqueline Rowling.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Jacqueline Rowling.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Jade Farrar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Jade Farrar.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Jamal Vanausdal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Jamal Vanausdal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email/email_James Butt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_James Butt.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Janey Gabisi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Janey Gabisi.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Jani Biddy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Jani Biddy.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Janine Rhoden.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Janine Rhoden.txt" afterDir="false" />
@@ -241,7 +239,6 @@
       <change beforePath="$PROJECT_DIR$/email/email_Joni Breland.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Joni Breland.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Jose Stockham.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Jose Stockham.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Joseph Cryer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Joseph Cryer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email/email_Josephine Darakjy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Josephine Darakjy.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Josphine Villanueva.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Josphine Villanueva.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Jovita Oles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Jovita Oles.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Judy Aquas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Judy Aquas.txt" afterDir="false" />
@@ -293,7 +290,6 @@
       <change beforePath="$PROJECT_DIR$/email/email_Leatha Hagele.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Leatha Hagele.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Lemuel Latzke.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Lemuel Latzke.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Lenna Newville.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Lenna Newville.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email/email_Lenna Paprocki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Lenna Paprocki.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Leonida Gobern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Leonida Gobern.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Leonora Mauson.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Leonora Mauson.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/email_Leota Dilliard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/email_Leota Dilliard.txt" afterDir="false" />
@@ -507,25 +503,11 @@
       <change beforePath="$PROJECT_DIR$/email/letter_James Butt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/letter_James Butt.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/letter_Josephine Darakjy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/letter_Josephine Darakjy.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email/letter_Lenna Paprocki.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email/letter_Lenna Paprocki.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letter-template2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/letter-template2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-checker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/CsvReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/CsvReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/LineParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/LineParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/findbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/findbugsXml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
@@ -566,7 +548,6 @@
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/css/maven-base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/css/print.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/css/print.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
@@ -586,17 +567,11 @@
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/UserController.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/UserController.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CmdProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CmdProcessor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CmdProcessor.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CmdProcessor.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CsvReader.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CsvReader.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CsvReader.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CsvReader.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/LineParser.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/LineParser.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/MailGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/MailGenerator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/MailGenerator.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/MailGenerator.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/TemplateReader.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/TemplateReader.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/TemplateReader.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/TemplateReader.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/index.source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
@@ -612,7 +587,6 @@
       <change beforePath="$PROJECT_DIR$/target/site/team-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/team-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/allclasses-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/package-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/index.html" afterDir="false" />
@@ -623,11 +597,6 @@
       <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/controller/UserController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/controller/UserController.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/controller/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/controller/package-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/controller/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/CsvReader.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/CsvReader.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/LineParser.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/LineParser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/package-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/index.html" afterDir="false" />
@@ -639,14 +608,14 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.LineParserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.LineParserTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.TemplateReaderTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.TemplateReaderTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.UserControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.UserControllerTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.CmdProcessorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.CmdProcessorTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.CsvReaderTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.CsvReaderTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.LineParserTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.LineParserTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.TemplateReaderTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.TemplateReaderTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.UserControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.UserControllerTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testFile.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -705,7 +674,7 @@
     <SUITE FILE_PATH="coverage/assignment5_timzyt$UserControllerTest_testNoDirMain.ic" NAME="UserControllerTest.testNoDirMain Coverage Results" MODIFIED="1540849174373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/assignment5_timzyt$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1540849267070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/assignment5_timzyt$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1540857214853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/assignment5_timzyt$TemplateReaderTest_testTrimSpace.ic" NAME="TemplateReaderTest.testTrimSpace Coverage Results" MODIFIED="1540796755400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -738,7 +707,7 @@
     <SUITE FILE_PATH="coverage/assignment5_timzyt$MailGeneratorTest_testIOException.ic" NAME="MailGeneratorTest.testIOException Coverage Results" MODIFIED="1540851647209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/assignment5_timzyt$CsvReaderTest_testNullOutput.ic" NAME="CsvReaderTest.testNullOutput Coverage Results" MODIFIED="1540853849716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/assignment5_timzyt$CsvReaderTest_testNullOutput.ic" NAME="CsvReaderTest.testNullOutput Coverage Results" MODIFIED="1540856696286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/assignment5_timzyt$TemplateReaderTest_testNullFile.ic" NAME="TemplateReaderTest.testNullFile Coverage Results" MODIFIED="1540796944354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -764,7 +733,7 @@
     <session id="1414884661">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -773,16 +742,16 @@
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.64" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -790,7 +759,7 @@
           <entry key="checkstyle-cachefile" value="1" />
           <entry key="class" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="83" />
+          <entry key="java" value="89" />
           <entry key="rss" value="1" />
           <entry key="xml" value="6" />
         </counts>
@@ -799,7 +768,7 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="83" />
+          <entry key="JAVA" value="89" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="6" />
         </counts>
@@ -807,13 +776,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="14090" />
+          <entry key="java" value="14143" />
           <entry key="xml" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14090" />
+          <entry key="JAVA" value="14143" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="XML" value="81" />
         </counts>
@@ -860,7 +829,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="204">
               <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -869,11 +838,77 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="102" column="55" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1139">
+              <caret line="73" column="21" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/UserControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+            <state relative-caret-position="1751">
+              <caret line="126" column="2" selection-start-line="126" selection-start-column="2" selection-end-line="140" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -894,7 +929,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>outputFile</find>
       <find>.run</find>
       <find>CmdProcessor</find>
       <find>outputDir</find>
@@ -924,6 +958,7 @@
       <find>fi</find>
       <find>badFileName</find>
       <find>nullFile</find>
+      <find>insurance-company-members_test</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -966,11 +1001,11 @@
         <option value="$PROJECT_DIR$/target/checkstyle-checker.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/UserControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.java" />
       </list>
     </option>
@@ -1008,8 +1043,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1087,10 +1120,18 @@
               <item name="assignment5-timzyt" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="assignment5-timzyt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment5-timzyt" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1099,10 +1140,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540855173653" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540942440746" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/assignment5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -1134,17 +1175,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CsvReaderTest.testNullFile">
-    <configuration name="CsvReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.UserController">
+    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.controller.UserController" />
       <module name="assignment5-timzyt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment5.model.*" />
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment5.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment5.model" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.model.CsvReaderTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1197,7 +1237,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MailGeneratorTest.testFNFE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment5-timzyt" />
       <extension name="coverage">
         <pattern>
@@ -1206,27 +1246,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment5.model" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest" />
-      <option name="METHOD_NAME" value="testFNFE" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.model.UserControllerTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MailGeneratorTest.testFNFE" />
       <item itemvalue="JUnit.CsvReaderTest.testNullFile" />
       <item itemvalue="JUnit.CsvReaderTest.testNullOutput" />
-      <item itemvalue="JUnit.CsvReaderTest" />
       <item itemvalue="JUnit.CsvReaderTest.testFileNotFound" />
+      <item itemvalue="JUnit.UserControllerTest" />
+      <item itemvalue="Application.UserController" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserController" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.CsvReaderTest.testNullOutput" />
         <item itemvalue="JUnit.CsvReaderTest.testNullFile" />
         <item itemvalue="JUnit.CsvReaderTest.testFileNotFound" />
-        <item itemvalue="JUnit.CsvReaderTest" />
-        <item itemvalue="JUnit.CsvReaderTest.testNullOutput" />
-        <item itemvalue="JUnit.MailGeneratorTest.testFNFE" />
       </list>
     </recent_temporary>
   </component>
@@ -1263,32 +1301,13 @@
       <workItem from="1540832049913" duration="905000" />
       <workItem from="1540836376836" duration="389000" />
       <workItem from="1540836831643" duration="4098000" />
-      <workItem from="1540841638587" duration="12333000" />
+      <workItem from="1540841638587" duration="13940000" />
+      <workItem from="1540935882324" duration="2461000" />
+      <workItem from="1540948111712" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CsvReaderTest_testNullFile - 2018.10.29 at 15h 28m 44s.xml">
-      <configuration name="CsvReaderTest.testNullFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvReaderTest_testNullFile - 2018.10.29 at 15h 34m 35s.xml">
-      <configuration name="CsvReaderTest.testNullFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvReaderTest_testNullOutput - 2018.10.29 at 15h 57m 31s.xml">
-      <configuration name="CsvReaderTest.testNullOutput" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvReaderTest - 2018.10.29 at 15h 58m 56s.xml">
-      <configuration name="CsvReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvReaderTest_testNullFile - 2018.10.29 at 15h 59m 50s.xml">
-      <configuration name="CsvReaderTest.testNullFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvReaderTest_testNullFile - 2018.10.29 at 16h 01m 39s.xml">
-      <configuration name="CsvReaderTest.testNullFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvReaderTest_testNullFile - 2018.10.29 at 16h 02m 31s.xml">
-      <configuration name="CsvReaderTest.testNullFile" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CsvReaderTest_testFileNotFound - 2018.10.29 at 16h 03m 16s.xml">
       <configuration name="CsvReaderTest.testFileNotFound" configurationId="JUnit" />
     </history-entry>
@@ -1298,9 +1317,30 @@
     <history-entry file="CsvReaderTest_testNullFile - 2018.10.29 at 16h 04m 38s.xml">
       <configuration name="CsvReaderTest.testNullFile" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CsvReaderTest_testNullOutput - 2018.10.29 at 16h 44m 41s.xml">
+      <configuration name="CsvReaderTest.testNullOutput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvReaderTest_testNullOutput - 2018.10.29 at 16h 44m 59s.xml">
+      <configuration name="CsvReaderTest.testNullOutput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvReaderTest_testNullOutput - 2018.10.29 at 16h 45m 18s.xml">
+      <configuration name="CsvReaderTest.testNullOutput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CsvReaderTest_testNullOutput - 2018.10.29 at 16h 46m 10s.xml">
+      <configuration name="CsvReaderTest.testNullOutput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2018.10.29 at 16h 53m 38s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2018.10.29 at 16h 54m 25s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2018.10.29 at 16h 54m 32s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102467000" />
+    <option name="totallyTimeSpent" value="106569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1314,23 +1354,23 @@
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.20522118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.21102248" />
       <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.19128996" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.5014881" side_tool="true" weight="0.19128996" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="simpleUML" order="7" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="simpleUML" order="6" />
+      <window_info id="Favorites" order="7" sideWeight="0.5014881" weight="0.13052937" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3271028" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23676012" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.288162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.54573804" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.20093457" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3271028" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.1012461" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -1341,12 +1381,12 @@
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.49074075" visible="true" weight="0.27483684" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4906542" weight="0.21827412" />
       <window_info anchor="right" id="SciView" order="7" weight="0.32994923" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5092593" side_tool="true" visible="true" weight="0.27483684" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.50934577" side_tool="true" visible="true" weight="0.27483684" />
       <window_info anchor="right" x="459" y="92" width="1307" height="896" id="Byte Code Viewer" order="12" type="FLOATING" />
     </layout>
     <layout-to-restore>
@@ -1469,13 +1509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/checkstyle-checker.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -1490,57 +1523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1904">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="69" column="7" lean-forward="true" selection-start-line="56" selection-start-column="6" selection-end-line="69" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/UserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-969">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="104" column="36" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1556,8 +1542,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="204">
           <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="102" column="55" selection-start-line="102" selection-start-column="55" selection-end-line="102" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1566,11 +1599,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+        <state relative-caret-position="1751">
+          <caret line="126" column="2" selection-start-line="126" selection-start-column="2" selection-end-line="140" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
         </state>
       </provider>
     </entry>

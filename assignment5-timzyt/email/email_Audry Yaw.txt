@@ -1,5 +1,10 @@
-Mike Uchrin Htg & Air Cond Inc.
-Audry Yaw
-70295 Pioneer Ct, Brandon,
-Hillsborough, FL, 33511
-(audry.yaw@yaw.org)
+From:insuranceCompany@ic.com
+To:audry.yaw@yaw.org
+Subject: Insurance company – information about recent data breach
+Dear Audry Yaw,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

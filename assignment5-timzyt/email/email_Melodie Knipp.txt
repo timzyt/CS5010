@@ -1,5 +1,10 @@
-Fleetwood Building Block Inc.
-Melodie Knipp
-326 E Main St #6496, Thousand Oaks,
-Ventura, CA, 91362
-(mknipp@gmail.com)
+From:insuranceCompany@ic.com
+To:mknipp@gmail.com
+Subject: Insurance company – information about recent data breach
+Dear Melodie Knipp,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

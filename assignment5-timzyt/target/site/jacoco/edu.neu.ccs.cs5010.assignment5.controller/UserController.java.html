@@ -42,16 +42,16 @@ import java.util.Scanner;
 <span class="fc" id="L42">      final String[] newCmdInput = newCmdInputStr.split(&quot; &quot;);</span>
 <span class="pc bpc" id="L43" title="1 of 4 branches missed.">      if (!newCmdInputStr.contains(email) &amp;&amp; !newCmdInputStr.contains(letter)) {</span>
 <span class="fc" id="L44">        System.err.printf(&quot;Error: Missing command %s or %s.%n%n&quot;, email, letter);</span>
-<span class="nc" id="L45">        System.exit(0);</span>
+<span class="fc" id="L45">        checkInput = true;</span>
       }
 <span class="fc bfc" id="L47" title="All 2 branches covered.">      if (!newCmdInputStr.contains(outputDir)) {</span>
 <span class="fc" id="L48">        System.err.printf(&quot;Error: Missing command %s.%n%n&quot;, outputDir);</span>
-<span class="nc" id="L49">        System.exit(0);</span>
+<span class="fc" id="L49">        checkInput = true;</span>
       }
 <span class="fc bfc" id="L51" title="All 2 branches covered.">      if (!newCmdInputStr.contains(csvFile)) {</span>
 <span class="fc" id="L52">        System.err.printf(&quot;Error: Missing command %s.%n%n&quot;, csvFile);</span>
 <span class="fc" id="L53">        checkInput = true;</span>
-<span class="nc" id="L54">        System.exit(0);</span>
+
       }
 <span class="fc bfc" id="L56" title="All 2 branches covered.">      for (Map.Entry&lt;String, String&gt; entry : cmdPairs.entrySet()) {</span>
 <span class="fc" id="L57">        String key = entry.getKey();</span>
@@ -62,27 +62,26 @@ import java.util.Scanner;
 
         }
 <span class="fc" id="L64">      }</span>
-<span class="pc bpc" id="L65" title="1 of 4 branches missed.">      if (newCmdInputStr.contains(email) &amp;&amp; newCmdInputStr.contains(letter)) {</span>
+<span class="fc bfc" id="L65" title="All 4 branches covered.">      if (newCmdInputStr.contains(email) &amp;&amp; newCmdInputStr.contains(letter)) {</span>
 <span class="fc" id="L66">        System.err.println(&quot;Error: Conflicting command line argument was provided.%n%n&quot;);</span>
 <span class="fc" id="L67">        checkInput = true;</span>
-<span class="nc" id="L68">        System.exit(0);</span>
       }
-<span class="pc bpc" id="L70" title="1 of 2 branches missed.">      if (checkInput) {</span>
-<span class="nc" id="L71">        CommandLine.usage(newCmdProcessor, System.out);</span>
-<span class="nc" id="L72">        System.exit(0);</span>
+<span class="fc bfc" id="L69" title="All 2 branches covered.">      if (checkInput) {</span>
+<span class="fc" id="L70">        CommandLine.usage(newCmdProcessor, System.out);</span>
+<span class="nc" id="L71">        System.exit(0);</span>
       }
 
-<span class="fc" id="L75">      new CommandLine(newCmdProcessor).parse(newCmdInput);</span>
-<span class="fc" id="L76">      newCmdProcessor.runMailGenerator();</span>
+<span class="fc" id="L74">      new CommandLine(newCmdProcessor).parse(newCmdInput);</span>
+<span class="fc" id="L75">      newCmdProcessor.runMailGenerator();</span>
 
 
-<span class="pc bpc" id="L79" title="4 of 8 branches missed.">    } catch (RuntimeException rte) {</span>
-<span class="fc" id="L80">      System.out.println(rte.getMessage());</span>
-<span class="fc" id="L81">      rte.printStackTrace();</span>
-<span class="nc" id="L82">    } catch (Exception e) {</span>
-<span class="nc" id="L83">      System.out.println(e.getMessage());</span>
-<span class="nc" id="L84">      e.printStackTrace();</span>
-<span class="fc" id="L85">    }</span>
-<span class="fc" id="L86">  }</span>
+<span class="pc bpc" id="L78" title="4 of 8 branches missed.">    } catch (RuntimeException rte) {</span>
+<span class="fc" id="L79">      System.out.println(rte.getMessage());</span>
+<span class="fc" id="L80">      rte.printStackTrace();</span>
+<span class="nc" id="L81">    } catch (Exception e) {</span>
+<span class="nc" id="L82">      System.out.println(e.getMessage());</span>
+<span class="nc" id="L83">      e.printStackTrace();</span>
+<span class="fc" id="L84">    }</span>
+<span class="fc" id="L85">  }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

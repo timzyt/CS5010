@@ -1,5 +1,10 @@
-History Division Of State.
-Lonny Weglarz
-51120 State Route 18, Salt Lake City,
-Salt Lake, UT, 84115
-(lonny_weglarz@gmail.com)
+From:insuranceCompany@ic.com
+To:lonny_weglarz@gmail.com
+Subject: Insurance company – information about recent data breach
+Dear Lonny Weglarz,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

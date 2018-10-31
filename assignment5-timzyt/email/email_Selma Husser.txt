@@ -1,5 +1,10 @@
-Armon Communications.
-Selma Husser
-9 State Highway 57 #22, Jersey City,
-Hudson, NJ, 07306
-(selma.husser@cox.net)
+From:insuranceCompany@ic.com
+To:selma.husser@cox.net
+Subject: Insurance company – information about recent data breach
+Dear Selma Husser,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

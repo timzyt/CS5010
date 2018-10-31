@@ -1,5 +1,10 @@
-Santa Cruz Community Internet.
-Josphine Villanueva
-63 Smith Ln #8343, Moss,
-Clay, TN, 38575
-(josphine_villanueva@villanueva.com)
+From:insuranceCompany@ic.com
+To:josphine_villanueva@villanueva.com
+Subject: Insurance company – information about recent data breach
+Dear Josphine Villanueva,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

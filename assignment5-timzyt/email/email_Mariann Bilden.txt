@@ -1,5 +1,10 @@
-H P G Industrys Inc.
-Mariann Bilden
-3125 Packer Ave #9851, Austin,
-Travis, TX, 78753
-(mariann.bilden@aol.com)
+From:insuranceCompany@ic.com
+To:mariann.bilden@aol.com
+Subject: Insurance company – information about recent data breach
+Dear Mariann Bilden,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 

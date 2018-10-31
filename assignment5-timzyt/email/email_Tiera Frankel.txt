@@ -1,5 +1,10 @@
-Roland Ashcroft.
-Tiera Frankel
-87 Sierra Rd, El Monte,
-Los Angeles, CA, 91731
-(tfrankel@aol.com)
+From:insuranceCompany@ic.com
+To:tfrankel@aol.com
+Subject: Insurance company – information about recent data breach
+Dear Tiera Frankel,
+As you may have heard or read, last month we learned that criminals forced their way into our systems, 
+and stole information about our customers. Late last week, as part of our ongoing investigation, 
+we learned that the taken information includes names, mailing addresses, phone numbers or email addresses.
+ 
+I am writing to make you aware that your name, mailing address, phone number or email address may have been 
+taken during the intrusion. 
