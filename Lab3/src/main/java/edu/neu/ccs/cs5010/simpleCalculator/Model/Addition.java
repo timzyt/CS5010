@@ -3,7 +3,7 @@ package edu.neu.ccs.cs5010.simpleCalculator.Model;
 /**
  * The Addition operand.
  */
-public class Add extends BinOp {
+public class Addition extends BinOp {
 
   /**
    * Constructs and Instantiates a new Addition operand.
@@ -11,7 +11,7 @@ public class Add extends BinOp {
    * @param left the left
    * @param right the right
    */
-  public Add(Expression left, Expression right) {
+  public Addition(Expression left, Expression right) {
     super(left, right);
   }
 
@@ -24,4 +24,7 @@ public class Add extends BinOp {
     return new Num(this.left.eval(ctx).getVal() + this.right.eval(ctx).getVal());
   }
 
+  public String asString(Context ctx) {
+    return this.asString(ctx).replace("operand", "+");
+  }
 }

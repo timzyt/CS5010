@@ -3,7 +3,7 @@ package edu.neu.ccs.cs5010.simpleCalculator.Model;
 /**
  * The Subtraction class.
  */
-public class Diff extends BinOp {
+public class Subtraction extends BinOp {
 
   /**
    * Constructs and Instantiates a new Subtraction operand.
@@ -11,7 +11,7 @@ public class Diff extends BinOp {
    * @param left
    * @param right
    */
-  public Diff(Expression left, Expression right) {
+  public Subtraction(Expression left, Expression right) {
     super(left, right);
   }
 
@@ -21,6 +21,11 @@ public class Diff extends BinOp {
   @Override
   public Val eval(Context ctx) {
     return new Num(this.left.eval(ctx).getVal() - this.right.eval(ctx).getVal());
+  }
+
+  @Override
+  public String asString(Context ctx) {
+    return this.asString(ctx).replace("operand", "-");
   }
 
 }

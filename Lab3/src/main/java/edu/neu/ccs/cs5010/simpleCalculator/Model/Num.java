@@ -28,6 +28,12 @@ public class Num extends Val {
    * {@inheritDoc}
    */
   @Override
+  public String asString(Context ctx) {return this.val.toString();}
+
+  /**
+   * {@inheritDoc}
+   */
+  @Override
   public int hashCode() {
     final int prime = 31;
     int result = 1;

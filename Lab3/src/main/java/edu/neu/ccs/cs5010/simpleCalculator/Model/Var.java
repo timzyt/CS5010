@@ -15,6 +15,8 @@ public class Var extends Val {
     this.var = var;
   }
 
+
+
   /**
    * {@inheritDoc}
    */
@@ -62,6 +64,11 @@ public class Var extends Val {
   @Override
   public Val eval(Context ctx) {
     return ctx.get(this);
+  }
+
+  @Override
+  public String asString(Context ctx) {
+    return this.var.toString();
   }
 
 

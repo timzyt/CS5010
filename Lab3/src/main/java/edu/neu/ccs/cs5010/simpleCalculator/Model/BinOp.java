@@ -20,6 +20,23 @@ abstract class BinOp extends Op {
     this.right = right;
   }
 
+  /**
+   * For binary operations, need to check whether both sides of the operand are numbers. If either
+   * side of the operand is not a number. The asString output should append quotes to both ends.
+   *
+   * @return human readable string expression.
+   */
+  public String addQuotes(Context ctx) {
+    StringBuilder strBdr = new StringBuilder();
+    Expression leftExp = this.left;
+    Expression riteExp = this.right;
+    strBdr.append(leftExp.asString(ctx)).append(" operand ").append(riteExp.toString());
+    if (!(leftExp instanceof Num) || !(riteExp instanceof Num)) {
+      strBdr.insert(0, "( ");
+      strBdr.append(" )");
+    }
+    return strBdr.toString();
+  }
 
   /**
    * {@inheritDoc}

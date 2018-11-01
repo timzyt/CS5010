@@ -56,6 +56,7 @@
             </plugin>
 
             <plugin>
+
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
                 <version>0.7.6.201602180812</version>
@@ -96,7 +97,7 @@
             </plugin>
 
             <!--
-               -Uncomment to getKeys PMD and fail compilation
+               -Uncomment to run PMD and fail compilation
                -->
             <!--<plugin>-->
                 <!--<groupId>org.apache.maven.plugins</groupId>-->

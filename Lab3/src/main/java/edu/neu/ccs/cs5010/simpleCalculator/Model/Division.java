@@ -27,4 +27,9 @@ public class Division extends BinOp {
 
     return new Num(leftEval / rightEval);
   }
+
+  @Override
+  public String asString(Context ctx) {
+    return this.asString(ctx).replace("operand", "/");
+  }
 }

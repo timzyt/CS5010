@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d522e47-8ad3-4f46-a70f-b58762b2aac8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/Lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/Lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Diff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -302,7 +311,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="15" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="2" />
@@ -310,7 +319,7 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -561,10 +570,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="704" />
-    <option name="y" value="468" />
-    <option name="width" value="1881" />
-    <option name="height" value="1098" />
+    <option name="x" value="-14" />
+    <option name="y" value="-14" />
+    <option name="width" value="3229" />
+    <option name="height" value="1737" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -598,6 +607,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -615,31 +625,22 @@
               <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment4-timzyt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment4-timzyt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment4-timzyt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment4-timzyt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="extracredit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
@@ -656,7 +657,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -669,7 +669,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540144675440" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lecture 7/lecture codes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -839,6 +839,7 @@
       <workItem from="1539831503775" duration="1532000" />
       <workItem from="1540144059573" duration="622000" />
       <workItem from="1540145571795" duration="61000" />
+      <workItem from="1541060026962" duration="268000" />
     </task>
     <servers />
   </component>
@@ -875,12 +876,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139854000" />
+    <option name="totallyTimeSpent" value="140122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2501813" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2538071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />

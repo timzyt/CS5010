@@ -35,9 +35,14 @@ public class Multiply extends BinOp {
 //          new Multiply(new Num(absLeftEval), new Num(absRightEval))).eval(ctx).getVal());
 //    }
 //    while (absRightEval != zero) {
-//      product = new Add(new Num(absLeftEval), new Num(absLeftEval)).eval(ctx).getVal();
+//      product = new Addition(new Num(absLeftEval), new Num(absLeftEval)).eval(ctx).getVal();
 //      absRightEval -= 1;
 //    }
     return new Num(this.left.eval(ctx).getVal() - this.right.eval(ctx).getVal());
+  }
+
+  @Override
+  public String asString(Context ctx) {
+    return this.asString(ctx).replace("operand", "*");
   }
 }
