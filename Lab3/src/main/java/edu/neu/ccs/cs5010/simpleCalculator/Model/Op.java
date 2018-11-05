@@ -12,7 +12,14 @@ abstract class Op extends Observable implements Expression {
     visitor.visit(this);
   }
 
+  public Integer evaluate() {
+    CtxHashMap newCtx = new CtxHashMap();
+    Num newNum = new Num(this.eval(newCtx).getVal());
+    return newNum.getVal();
+  }
+
   public void setData(Expression exp) {
     setChanged();
+    notifyObservers(exp);
   }
 }

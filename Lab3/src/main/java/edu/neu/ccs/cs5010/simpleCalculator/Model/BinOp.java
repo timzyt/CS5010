@@ -37,11 +37,11 @@ abstract class BinOp extends Op {
     return strBdr.toString();
   }
 
-  public Integer evaluate() {
-    CtxHashMap newCtx = new CtxHashMap();
-    Num newNum = new Num(this.left.eval(newCtx).getVal() + this.right.eval(newCtx).getVal());
-    return newNum.getVal();
-  }
+//  public Integer evaluate() {
+//    CtxHashMap newCtx = new CtxHashMap();
+//    Num newNum = new Num(this.left.eval(newCtx).getVal() + this.right.eval(newCtx).getVal());
+//    return newNum.getVal();
+//  }
 
   /**
    * {@inheritDoc}

@@ -71,6 +71,16 @@ public class Var extends Val {
   }
 
   @Override
+  public Integer evaluate() {
+    return null;
+  }
+
+  @Override
+  public void accept(ExpressionVisitor visitor) {
+
+  }
+
+  @Override
   public Integer getVal() {
     throw new IllegalArgumentException("This is variable!");
   }

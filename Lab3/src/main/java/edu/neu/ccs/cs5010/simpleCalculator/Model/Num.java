@@ -21,6 +21,8 @@ public class Num extends Val {
    */
   @Override
   public Val eval(Context ctx) {
+//    System.out.println("visited Num eval! Exp now is " + this);
+//    System.out.println("expression now is: " + this.asString());
     return this;
   }
 
@@ -29,12 +31,19 @@ public class Num extends Val {
    */
   @Override
   public String asString() {
+//    System.out.println("visited Num as String! Exp now is " + this);
+//    System.out.println("expression now is: " + this.toString());
     return this.getVal().toString();
   }
 
   @Override
   public Integer evaluate() {
     return this.getVal();
+  }
+
+  @Override
+  public void trace(ExpressionVisitor visitor) {
+    visitor.visit(this);
   }
 
   @Override

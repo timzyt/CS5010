@@ -20,12 +20,14 @@ public class Addition extends BinOp {
    */
   @Override
   public Val eval(Context ctx) {
-    System.out.println("visited Add! leftExp now is " + this.left + ", rightExp now is " + this.right);
-    System.out.println("expression now is: " + this.asString());
+//    System.out.println("visited Add eval! leftExp now is " + this.left + ", rightExp now is " + this.right);
+//    System.out.println("expression now is: " + this.asString());
     return new Num(this.left.eval(ctx).getVal() + this.right.eval(ctx).getVal());
   }
 
   public String asString() {
+    System.out.println("visited Add asSting! leftExp now is " + this.left + ", rightExp now is " + this.right);
+    System.out.println("expression now is: " + this.toString());
     return this.addQuotes().replace("operand", "+");
   }
 }

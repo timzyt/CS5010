@@ -34,4 +34,14 @@ public class Define implements Expression {
     return null;
   }
 
+  @Override
+  public Integer evaluate() {
+    return null;
+  }
+
+  @Override
+  public void accept(ExpressionVisitor visitor) {
+
+  }
+
 }

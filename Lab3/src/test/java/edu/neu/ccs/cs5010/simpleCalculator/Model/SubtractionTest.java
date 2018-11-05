@@ -11,6 +11,7 @@ import org.junit.runner.RunWith;
 import static org.junit.Assert.*;
 
 public class SubtractionTest {
+
   private CtxHashMap newctx = new CtxHashMap();
   Expression left = new Multiply(new Num(2), new Num(5));
   Expression right = new Subtraction(new Num(3), new Num(4));
@@ -31,4 +32,13 @@ public class SubtractionTest {
   public void asString() {
     System.out.println(newAdditiona.asString());
   }
+
+  @Test
+  public void evaluate() {
+    ExpressionVisitor visitor = new ExpressionVisitorImpl();
+    newAdditiona.trace(visitor);
+//    System.out.println(newAdditiona.asString());
+  }
 }
+
+

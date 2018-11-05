@@ -24,6 +24,7 @@ public interface Expression {
    */
   Integer evaluate();
 
+
   void accept(ExpressionVisitor visitor);
 
 }
