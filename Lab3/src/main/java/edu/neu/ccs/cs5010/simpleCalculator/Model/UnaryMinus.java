@@ -20,4 +20,18 @@ public class UnaryMinus extends Op {
   public Val eval(Context ctx) {
     return new Num(-1 * this.exp.eval(ctx).getVal());
   }
+
+  @Override
+  public String asString() {
+    StringBuilder strBdr = new StringBuilder();
+    strBdr.append("-").append(this.exp.asString());
+    return strBdr.toString();
+  }
+
+  @Override
+  public Integer evaluate() {
+    CtxHashMap newCtx = new CtxHashMap();
+    Num newNum = new Num(-1 * this.exp.eval(newCtx).getVal());
+    return newNum.getVal();
+  }
 }

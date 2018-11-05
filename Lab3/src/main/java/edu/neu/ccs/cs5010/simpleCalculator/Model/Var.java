@@ -4,8 +4,8 @@ package edu.neu.ccs.cs5010.simpleCalculator.Model;
  *
  */
 public class Var extends Val {
-  private String var;
 
+  private String var;
 
 
   /**
@@ -14,7 +14,6 @@ public class Var extends Val {
   public Var(String var) {
     this.var = var;
   }
-
 
 
   /**
@@ -67,10 +66,9 @@ public class Var extends Val {
   }
 
   @Override
-  public String asString(Context ctx) {
+  public String asString() {
     return this.var.toString();
   }
-
 
   @Override
   public Integer getVal() {

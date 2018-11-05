@@ -29,4 +29,9 @@ public class Define implements Expression {
     return new Num(42);
   }
 
+  @Override
+  public String asString() {
+    return null;
+  }
+
 }

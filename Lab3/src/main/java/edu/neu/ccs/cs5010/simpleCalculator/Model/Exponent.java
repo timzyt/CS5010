@@ -20,4 +20,9 @@ public class Exponent extends BinOp{
 
     return new Num((int) Math.pow(this.left.eval(ctx).getVal(), this.right.eval(ctx).getVal()));
   }
+
+  @Override
+  public String asString() {
+    return this.addQuotes().replace(" operand ", "^");
+  }
 }

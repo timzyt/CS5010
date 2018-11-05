@@ -20,12 +20,14 @@ public class Subtraction extends BinOp {
    */
   @Override
   public Val eval(Context ctx) {
+    System.out.println("visited Sub! leftExp now is " + this.left + ", rightExp now is " + this.right);
+    System.out.println("expression now is: " + this.asString());
     return new Num(this.left.eval(ctx).getVal() - this.right.eval(ctx).getVal());
   }
 
   @Override
-  public String asString(Context ctx) {
-    return this.asString(ctx).replace("operand", "-");
+  public String asString() {
+    return this.addQuotes().replace("operand", "-");
   }
 
 }

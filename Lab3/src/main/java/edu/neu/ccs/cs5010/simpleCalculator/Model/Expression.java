@@ -14,9 +14,16 @@ public interface Expression {
 
   /**
    * Return the expression as a human readable string.
-   * @param ctx
    * @return human readable string for the expression.
    */
-  String asString(Context ctx);
+  String asString();
+
+  /**
+   * Return the answer of the expression's evaluation.
+   * @return the integer value of the answer.
+   */
+  Integer evaluate();
+
+  void accept(ExpressionVisitor visitor);
 
 }

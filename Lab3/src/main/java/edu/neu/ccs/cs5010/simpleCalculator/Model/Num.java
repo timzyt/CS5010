@@ -12,7 +12,7 @@ public class Num extends Val {
    *
    * @param num the only Integer argument.
    */
-  Num(Integer num) {
+  public Num(Integer num) {
     this.val = num;
   }
 
@@ -28,7 +28,19 @@ public class Num extends Val {
    * {@inheritDoc}
    */
   @Override
-  public String asString(Context ctx) {return this.val.toString();}
+  public String asString() {
+    return this.getVal().toString();
+  }
+
+  @Override
+  public Integer evaluate() {
+    return this.getVal();
+  }
+
+  @Override
+  public void accept(ExpressionVisitor visitor) {
+    visitor.visit(this);
+  }
 
   /**
    * {@inheritDoc}

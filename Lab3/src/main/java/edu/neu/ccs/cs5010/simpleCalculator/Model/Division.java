@@ -29,7 +29,7 @@ public class Division extends BinOp {
   }
 
   @Override
-  public String asString(Context ctx) {
-    return this.asString(ctx).replace("operand", "/");
+  public String asString() {
+    return this.addQuotes().replace("operand", "/");
   }
 }

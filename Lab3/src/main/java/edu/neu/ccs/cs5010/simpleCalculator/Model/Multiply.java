@@ -17,32 +17,14 @@ public class Multiply extends BinOp {
 
   @Override
   public Val eval(Context ctx) {
-//    Integer leftEval = this.left.eval(ctx).getVal();
-//    Integer rightEval = this.right.eval(ctx).getVal();
-//    Integer absLeftEval = Math.abs(leftEval);
-//    Integer absRightEval = Math.abs(rightEval);
-//    Integer product = zero;
-//
-//    if (leftEval == zero || rightEval == zero) {
-//      return new Num(product);
-//    }
-//    boolean isNegative = false;
-//    if ((leftEval < zero && rightEval > zero) || (leftEval > zero && rightEval < zero)) {
-//      isNegative = true;
-//    }
-//    if (isNegative) {
-//      return new Num(new UnaryMinus(
-//          new Multiply(new Num(absLeftEval), new Num(absRightEval))).eval(ctx).getVal());
-//    }
-//    while (absRightEval != zero) {
-//      product = new Addition(new Num(absLeftEval), new Num(absLeftEval)).eval(ctx).getVal();
-//      absRightEval -= 1;
-//    }
-    return new Num(this.left.eval(ctx).getVal() - this.right.eval(ctx).getVal());
+    System.out.println(
+        "visited Multiply! leftExp now is " + this.left + ", rightExp now is " + this.right);
+    System.out.println("expression now is: " + this.asString());
+    return new Num(this.left.eval(ctx).getVal() * this.right.eval(ctx).getVal());
   }
 
   @Override
-  public String asString(Context ctx) {
-    return this.asString(ctx).replace("operand", "*");
+  public String asString() {
+    return this.addQuotes().replace("operand", "*");
   }
 }

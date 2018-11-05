@@ -26,16 +26,21 @@ abstract class BinOp extends Op {
    *
    * @return human readable string expression.
    */
-  public String addQuotes(Context ctx) {
+  public String addQuotes() {
     StringBuilder strBdr = new StringBuilder();
     Expression leftExp = this.left;
     Expression riteExp = this.right;
-    strBdr.append(leftExp.asString(ctx)).append(" operand ").append(riteExp.toString());
-    if (!(leftExp instanceof Num) || !(riteExp instanceof Num)) {
-      strBdr.insert(0, "( ");
-      strBdr.append(" )");
+    if (this instanceof BinOp) {
+      strBdr.append("(").append(leftExp.asString()).append(" operand ").append(riteExp.asString())
+          .append(")");
     }
     return strBdr.toString();
+  }
+
+  public Integer evaluate() {
+    CtxHashMap newCtx = new CtxHashMap();
+    Num newNum = new Num(this.left.eval(newCtx).getVal() + this.right.eval(newCtx).getVal());
+    return newNum.getVal();
   }
 
   /**
