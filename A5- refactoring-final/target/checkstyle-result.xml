@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\controller\UserController.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\CmdProcessor.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\CsvReader.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\LineParser.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\MailGenerator.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\main\java\edu\neu\ccs\cs5010\assignment5\model\TemplateReader.java">
+</file>
+</checkstyle>

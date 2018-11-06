@@ -3,136 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ae3a82dc-0733-46da-b857-018d4a8fc4e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Exceptions/InvalidDenominatorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/exceptions/InvalidDenominatorException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/BinOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/CtxHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/CtxHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Define.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Exponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/ExpressionVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/ExpressionVisitorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Multiply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Num.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Op.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Subtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Tracer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Tracer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/UnaryMinus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Val.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Val.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Var.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/NumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/NumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/SubtractionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-checker.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Exceptions/InvalidDenominatorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Exceptions/InvalidDenominatorException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Context.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/CtxHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/CtxHashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Val.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Val.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/findbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/findbugsXml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/rules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/BinOp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Context.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/CtxHashMap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Define.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Diff.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Expression.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Num.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Op.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Val.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Var.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/BinOp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Context.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/CtxHashMap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Define.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Diff.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Expression.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Num.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Op.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Val.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Var.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/package-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/css/maven-base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/print.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/css/print.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/distribution-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/distribution-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/findbugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/findbugs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/findbugs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/findbugs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/integration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/issue-tracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/issue-tracking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/license.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/license.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/mail-lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/mail-lists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/pmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/pmd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-reports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/source-repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/source-repository.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/team-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/team-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/BinOp.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Context.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/CtxHashMap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Define.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Diff.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Expression.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Num.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Op.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Val.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Var.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/simpleCalculator/Model/NumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/simpleCalculator/Model/NumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -199,7 +69,7 @@
     <option name="myAddOrReplace" value="1" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="358" />
+    <option name="myElementSize" value="359" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="140661587">
@@ -224,7 +94,7 @@
     <session id="1582207207">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="1" />
@@ -266,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/BinOp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-748">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -301,8 +171,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/VarTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="255">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#921#922#0" expanded="true" />
@@ -595,7 +465,7 @@
     <property name="SearchEverywhereHistoryKey" value="context&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541489209179" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541489724694" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -823,14 +693,11 @@
       <workItem from="1541041677367" duration="9169000" />
       <workItem from="1541354805848" duration="1664000" />
       <workItem from="1541356573774" duration="12391000" />
-      <workItem from="1541437193278" duration="28975000" />
+      <workItem from="1541437193278" duration="29716000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinOpTest_testHashCode - 2018.11.05 at 23h 02m 19s.xml">
-      <configuration name="BinOpTest.testHashCode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinOpTest_testHashCode - 2018.11.05 at 23h 04m 19s.xml">
       <configuration name="BinOpTest.testHashCode" configurationId="JUnit" />
     </history-entry>
@@ -858,15 +725,18 @@
     <history-entry file="BinOpTest_testNotNullEqualsDifferentRight - 2018.11.05 at 23h 15m 07s.xml">
       <configuration name="BinOpTest.testNotNullEqualsDifferentRight" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VarTest_testDifferentClassHashCode - 2018.11.05 at 23h 26m 27s.xml">
+      <configuration name="VarTest.testDifferentClassHashCode" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67712000" />
+    <option name="totallyTimeSpent" value="68453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3192" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -875,12 +745,12 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23644252" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23644252" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2559653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22776572" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22776572" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
@@ -892,12 +762,12 @@
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4943182" visible="true" weight="0.32942432" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.49297753" visible="true" weight="0.32942432" />
       <window_info anchor="right" id="SciView" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5056818" side_tool="true" visible="true" weight="0.32942432" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5070225" side_tool="true" visible="true" weight="0.32942432" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
@@ -1192,7 +1062,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/BinOp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-748">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1223,8 +1093,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/VarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        <state relative-caret-position="255">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#921#922#0" expanded="true" />

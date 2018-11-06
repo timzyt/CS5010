@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.controller,UserController,27,211,5,23,5,44,6,10,1,1
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,LineParser,0,18,0,0,0,5,0,2,0,2
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,MailGenerator,6,231,0,6,0,42,0,5,0,2
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,CmdProcessor,7,33,0,4,3,8,0,4,0,2
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,CsvReader,15,125,5,9,0,23,5,6,0,4
+Assignment for class CS5010,edu.neu.ccs.cs5010.assignment5.model,TemplateReader,15,135,4,12,0,25,4,8,0,4
