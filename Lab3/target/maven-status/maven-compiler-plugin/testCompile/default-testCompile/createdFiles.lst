@@ -1,0 +1,6 @@
+edu\neu\ccs\cs5010\simplecalculator\model\BinOpTest.class
+edu\neu\ccs\cs5010\simplecalculator\model\NumTest.class
+edu\neu\ccs\cs5010\simplecalculator\model\SubtractionTest.class
+edu\neu\ccs\cs5010\simplecalculator\model\VarTest.class
+edu\neu\ccs\cs5010\simplecalculator\model\OpTest.class
+edu\neu\ccs\cs5010\simplecalculator\model\DivisionTest.class

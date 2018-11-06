@@ -3,29 +3,135 @@
   <component name="ChangeListManager">
     <list default="true" id="ae3a82dc-0733-46da-b857-018d4a8fc4e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Exceptions/InvalidDenominatorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/exceptions/InvalidDenominatorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/BinOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/CtxHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/CtxHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Define.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Exponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/ExpressionVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/ExpressionVisitorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Multiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Num.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Op.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Subtraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Tracer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Tracer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/UnaryMinus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Val.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Val.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Var.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/NumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/NumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/SubtractionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-checker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Exceptions/InvalidDenominatorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Exceptions/InvalidDenominatorException.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/CtxHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/CtxHashMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Val.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Val.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/findbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/findbugsXml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/BinOp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Context.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/CtxHashMap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Define.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Diff.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Expression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Num.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Op.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Val.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/Var.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/BinOp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Context.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/CtxHashMap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Define.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Diff.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Expression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Num.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Op.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Val.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/class-use/Var.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/simpleCalculator/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/css/maven-base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/css/print.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/css/print.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependency-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/distribution-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/distribution-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/findbugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/findbugs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/findbugs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/findbugs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/integration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/issue-tracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/issue-tracking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/license.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/license.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/mail-lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/mail-lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugin-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/pmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/pmd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/project-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/source-repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/source-repository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/team-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/team-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/BinOp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Context.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/CtxHashMap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Define.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Diff.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Expression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Num.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Op.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Val.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/Var.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/simpleCalculator/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/simpleCalculator/Model/NumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/simpleCalculator/Model/NumTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,10 +142,64 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Lab3$NumTest.ic" NAME="NumTest Coverage Results" MODIFIED="1541485782201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$NumTest_testEqualNull.ic" NAME="NumTest.testEqualNull Coverage Results" MODIFIED="1541487195560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$BinOpTest_testEqualsNull.ic" NAME="BinOpTest.testEqualsNull Coverage Results" MODIFIED="1541488144965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$NumTest_testInvalidHashCode.ic" NAME="NumTest.testInvalidHashCode Coverage Results" MODIFIED="1541486948224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$BinOpTest.ic" NAME="BinOpTest Coverage Results" MODIFIED="1541484258857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$NumTest_testNullValNumAndNotNullNum.ic" NAME="NumTest.testNullValNumAndNotNullNum Coverage Results" MODIFIED="1541487189625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$BinOpTest_testNotNullEqualsLeftNull.ic" NAME="BinOpTest.testNotNullEqualsLeftNull Coverage Results" MODIFIED="1541488138849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$VarTest_testDifferentClassHashCode.ic" NAME="VarTest.testDifferentClassHashCode Coverage Results" MODIFIED="1541489184238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simplecalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$BinOpTest_testHashCode.ic" NAME="BinOpTest.testHashCode Coverage Results" MODIFIED="1541487501370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$VarTest.ic" NAME="VarTest Coverage Results" MODIFIED="1541485335835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$VarTest_testNullVarAndNotNullVar.ic" NAME="VarTest.testNullVarAndNotNullVar Coverage Results" MODIFIED="1541487328106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$OpTest.ic" NAME="OpTest Coverage Results" MODIFIED="1541486113955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$VarTest_testNullHashCode.ic" NAME="VarTest.testNullHashCode Coverage Results" MODIFIED="1541487359863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Lab3$SubtractionTest_eval.ic" NAME="SubtractionTest.eval Coverage Results" MODIFIED="1541401696010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab3$SubtractionTest_evaluate.ic" NAME="SubtractionTest.evaluate Coverage Results" MODIFIED="1541478887546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.Model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$VarTest_testNotEqualSameTypeOfObject.ic" NAME="VarTest.testNotEqualSameTypeOfObject Coverage Results" MODIFIED="1541485306427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$BinOpTest_testNotNullEqualsDifferentRight.ic" NAME="BinOpTest.testNotNullEqualsDifferentRight Coverage Results" MODIFIED="1541488331596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Lab3$BinOpTest_testNotNullEqualsRightNull.ic" NAME="BinOpTest.testNotNullEqualsRightNull Coverage Results" MODIFIED="1541488228706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.simpleCalculator.model.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="203" />
+    <option name="myElementSize" value="358" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="140661587">
@@ -77,247 +237,158 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="java" value="107" />
+          <entry key="java" value="220" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="107" />
+          <entry key="JAVA" value="220" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="java" value="7115" />
+          <entry key="java" value="15336" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7115" />
+          <entry key="JAVA" value="15336" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4502277">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
-                  <caret line="79" selection-start-line="79" selection-end-line="79" />
-                  <folding>
-                    <element signature="e#1185#1186#0" expanded="true" />
-                    <element signature="e#1206#1207#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="697">
-                  <caret line="43" selection-start-line="43" selection-end-line="43" />
-                  <folding>
-                    <element signature="e#552#553#0" expanded="true" />
-                    <element signature="e#573#574#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/CtxHashMap.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#210#211#0" expanded="true" />
-                    <element signature="e#254#255#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="370">
-                  <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Context.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="268">
-                  <caret line="39" selection-start-line="39" selection-start-column="2" selection-end-line="43" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="22" selection-start-line="22" selection-end-line="22" />
-                  <folding>
-                    <element signature="e#285#286#0" expanded="true" />
-                    <element signature="e#307#308#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Tracer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="111">
-                  <caret line="24" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
-                  <folding>
-                    <element signature="e#902#903#0" expanded="true" />
-                    <element signature="e#931#932#0" expanded="true" />
-                    <element signature="e#636#637#0" expanded="true" />
-                    <element signature="e#665#666#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/NumTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="23" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="21" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#771#772#0" expanded="true" />
-                    <element signature="e#828#829#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Val.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/BinOp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-748">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/BinOpTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1463#1464#0" expanded="true" />
+                <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1359#1360#0" expanded="true" />
+                <element signature="e#1666#1667#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+                <element signature="e#1568#1569#0" expanded="true" />
+                <element signature="e#1618#1619#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/VarTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Var.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Addition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Op.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Tracer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Multiply.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -325,6 +396,7 @@
         <option value="Python Script" />
         <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -336,7 +408,16 @@
       <find>asString</find>
       <find>tostring</find>
       <find>getVal</find>
+      <find>accept</find>
+      <find>next</find>
+      <find>{@inheritDoc}</find>
+      <find>hashcode</find>
+      <find>hash</find>
+      <find>hashCode</find>
     </findStrings>
+    <replaceStrings>
+      <replace>{@inheritDoc}.</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -344,50 +425,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/BinOp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/UnaryMinus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Multiplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Num.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Add.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Subtract.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Diff.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Multiply.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Exceptions/InvalidDenominatorException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Division.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Exponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Add.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Util/ConString.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Util/ConStringUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Util/ConStringUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ConStringUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/AddQuotesUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/Model/AdditionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Exceptions/InvalidDenominatorExceptionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOpTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/java/edu/neu/ccs/cs5010/Model/BinOpTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ContextTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/AdditionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/simpleCalculator/Model/AdditionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SubtractionTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/NumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Val.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Tracer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Context.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Tracer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/BinOp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/CtxHashMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Exponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Expression.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/ExpressionVisitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Define.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Division.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/ExpressionVisitorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Multiply.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Num.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Op.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Subtraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/UnaryMinus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Val.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Var.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Addition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/model/OpTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/model/DivisionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/model/Tracer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/model/NumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/model/VarTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/model/BinOpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/ExpressionVisitorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Op.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Tracer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Addition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Var.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/BinOpTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/VarTest.java" />
       </list>
     </option>
   </component>
@@ -411,8 +499,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2384" />
-    <option name="y" value="-1088" />
+    <option name="x" value="3192" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -455,7 +543,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleCalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="simplecalculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lab3" type="b2602c69:ProjectViewProjectNode" />
@@ -463,8 +551,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="simplecalculator" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lab3" type="b2602c69:ProjectViewProjectNode" />
@@ -485,7 +573,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -502,9 +595,10 @@
     <property name="SearchEverywhereHistoryKey" value="context&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541442269397" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541489184127" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -516,6 +610,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.neu.ccs.cs5010.simpleCalculator.model" />
       <recent name="edu.neu.ccs.cs5010.simpleCalculator.Model" />
       <recent name="test.edu.neu.ccs.cs5010.simpleCalculator.Model" />
       <recent name="edu.neu.ccs.cs5010.simpleCalculator.Exceptions" />
@@ -550,70 +645,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubtractionTest.evaluate">
-    <configuration name="Addition.asString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.simpleCalculator.Model" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.simpleCalculator.Model.Addition" />
-      <option name="METHOD_NAME" value="asString" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumTest.eval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VarTest.testDifferentClassHashCode">
+    <configuration name="BinOpTest.testEqualsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hometest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.neu.ccs.cs5010.simpleCalculator.Model.*" />
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.simplecalculator.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.simpleCalculator.Model" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.simpleCalculator.Model.NumTest" />
-      <option name="METHOD_NAME" value="eval" />
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.simplecalculator.model" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.simplecalculator.model.BinOpTest" />
+      <option name="METHOD_NAME" value="testEqualsNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubtractionTest.asString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hometest" />
-      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.simpleCalculator.Model" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.simpleCalculator.Model.SubtractionTest" />
-      <option name="METHOD_NAME" value="asString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubtractionTest.eval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hometest" />
-      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.simpleCalculator.Model" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.simpleCalculator.Model.SubtractionTest" />
-      <option name="METHOD_NAME" value="eval" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubtractionTest.evaluate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinOpTest.testNotNullEqualsDifferentRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hometest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.neu.ccs.cs5010.simpleCalculator.Model.*" />
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.simplecalculator.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.simpleCalculator.Model" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.simpleCalculator.Model.SubtractionTest" />
-      <option name="METHOD_NAME" value="evaluate" />
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.simplecalculator.model" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.simplecalculator.model.BinOpTest" />
+      <option name="METHOD_NAME" value="testNotNullEqualsDifferentRight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinOpTest.testNotNullEqualsLeftNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hometest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.simplecalculator.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.simplecalculator.model" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.simplecalculator.model.BinOpTest" />
+      <option name="METHOD_NAME" value="testNotNullEqualsLeftNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinOpTest.testNotNullEqualsRightNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hometest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.simplecalculator.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.simplecalculator.model" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.simplecalculator.model.BinOpTest" />
+      <option name="METHOD_NAME" value="testNotNullEqualsRightNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VarTest.testDifferentClassHashCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hometest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.simplecalculator.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.simplecalculator.model" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.simplecalculator.model.VarTest" />
+      <option name="METHOD_NAME" value="testDifferentClassHashCode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -682,19 +789,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Addition.asString" />
-      <item itemvalue="JUnit.SubtractionTest.asString" />
-      <item itemvalue="JUnit.SubtractionTest.eval" />
-      <item itemvalue="JUnit.NumTest.eval" />
-      <item itemvalue="JUnit.SubtractionTest.evaluate" />
+      <item itemvalue="JUnit.BinOpTest.testNotNullEqualsLeftNull" />
+      <item itemvalue="JUnit.BinOpTest.testEqualsNull" />
+      <item itemvalue="JUnit.BinOpTest.testNotNullEqualsRightNull" />
+      <item itemvalue="JUnit.BinOpTest.testNotNullEqualsDifferentRight" />
+      <item itemvalue="JUnit.VarTest.testDifferentClassHashCode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SubtractionTest.evaluate" />
-        <item itemvalue="JUnit.SubtractionTest.asString" />
-        <item itemvalue="JUnit.NumTest.eval" />
-        <item itemvalue="JUnit.SubtractionTest.eval" />
-        <item itemvalue="JUnit.Addition.asString" />
+        <item itemvalue="JUnit.VarTest.testDifferentClassHashCode" />
+        <item itemvalue="JUnit.BinOpTest.testNotNullEqualsDifferentRight" />
+        <item itemvalue="JUnit.BinOpTest.testNotNullEqualsRightNull" />
+        <item itemvalue="JUnit.BinOpTest.testEqualsNull" />
+        <item itemvalue="JUnit.BinOpTest.testNotNullEqualsLeftNull" />
       </list>
     </recent_temporary>
   </component>
@@ -716,50 +823,50 @@
       <workItem from="1541041677367" duration="9169000" />
       <workItem from="1541354805848" duration="1664000" />
       <workItem from="1541356573774" duration="12391000" />
-      <workItem from="1541437193278" duration="4532000" />
+      <workItem from="1541437193278" duration="28975000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SubtractionTest_evaluate - 2018.11.05 at 09h 38m 33s.xml">
-      <configuration name="SubtractionTest.evaluate" configurationId="JUnit" />
+    <history-entry file="BinOpTest_testHashCode - 2018.11.05 at 23h 02m 19s.xml">
+      <configuration name="BinOpTest.testHashCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubtractionTest_evaluate - 2018.11.05 at 09h 39m 05s.xml">
-      <configuration name="SubtractionTest.evaluate" configurationId="JUnit" />
+    <history-entry file="BinOpTest_testHashCode - 2018.11.05 at 23h 04m 19s.xml">
+      <configuration name="BinOpTest.testHashCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubtractionTest_evaluate - 2018.11.05 at 09h 40m 27s.xml">
-      <configuration name="SubtractionTest.evaluate" configurationId="JUnit" />
+    <history-entry file="BinOpTest_testHashCode - 2018.11.05 at 23h 05m 12s.xml">
+      <configuration name="BinOpTest.testHashCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubtractionTest_evaluate - 2018.11.05 at 09h 43m 21s.xml">
-      <configuration name="SubtractionTest.evaluate" configurationId="JUnit" />
+    <history-entry file="BinOpTest_testHashCode - 2018.11.05 at 23h 05m 24s.xml">
+      <configuration name="BinOpTest.testHashCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubtractionTest_asString - 2018.11.05 at 09h 58m 17s.xml">
-      <configuration name="SubtractionTest.asString" configurationId="JUnit" />
+    <history-entry file="BinOpTest_testHashCode - 2018.11.05 at 23h 05m 44s.xml">
+      <configuration name="BinOpTest.testHashCode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubtractionTest_evaluate - 2018.11.05 at 10h 08m 13s.xml">
-      <configuration name="SubtractionTest.evaluate" configurationId="JUnit" />
+    <history-entry file="BinOpTest_testNotNullEqualsLeftNull - 2018.11.05 at 23h 09m 01s.xml">
+      <configuration name="BinOpTest.testNotNullEqualsLeftNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubtractionTest_evaluate - 2018.11.05 at 10h 10m 36s.xml">
-      <configuration name="SubtractionTest.evaluate" configurationId="JUnit" />
+    <history-entry file="BinOpTest_testEqualsNull - 2018.11.05 at 23h 09m 07s.xml">
+      <configuration name="BinOpTest.testEqualsNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubtractionTest_evaluate - 2018.11.05 at 10h 11m 38s.xml">
-      <configuration name="SubtractionTest.evaluate" configurationId="JUnit" />
+    <history-entry file="BinOpTest_testNotNullEqualsRightNull - 2018.11.05 at 23h 10m 31s.xml">
+      <configuration name="BinOpTest.testNotNullEqualsRightNull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubtractionTest_evaluate - 2018.11.05 at 10h 11m 45s.xml">
-      <configuration name="SubtractionTest.evaluate" configurationId="JUnit" />
+    <history-entry file="BinOpTest_testNotNullEqualsDifferentRight - 2018.11.05 at 23h 12m 14s.xml">
+      <configuration name="BinOpTest.testNotNullEqualsDifferentRight" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubtractionTest_evaluate - 2018.11.05 at 10h 17m 07s.xml">
-      <configuration name="SubtractionTest.evaluate" configurationId="JUnit" />
+    <history-entry file="BinOpTest_testNotNullEqualsDifferentRight - 2018.11.05 at 23h 15m 07s.xml">
+      <configuration name="BinOpTest.testNotNullEqualsDifferentRight" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43269000" />
+    <option name="totallyTimeSpent" value="67712000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2384" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="3192" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -768,8 +875,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39587852" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23644252" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2559653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -785,15 +892,15 @@
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32994923" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4943182" visible="true" weight="0.32942432" />
       <window_info anchor="right" id="SciView" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5007072" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5056818" side_tool="true" visible="true" weight="0.32942432" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -802,8 +909,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39587852" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23644252" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2559653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -819,12 +926,12 @@
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32994923" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.49573863" visible="true" weight="0.32942432" />
       <window_info anchor="right" id="SciView" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5007072" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="right" id="Coverage" order="11" sideWeight="0.5042614" side_tool="true" visible="true" weight="0.32942432" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -848,94 +955,19 @@
     <entry file="file://$PROJECT_DIR$/src/Model/BinOpTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ContextTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/AdditionTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Exceptions/InvalidDenominatorException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/exceptions/InvalidDenominatorException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/simpleCalculator/Model/AdditionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/Java.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/CtxHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/NumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Val.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="39" selection-start-line="39" selection-start-column="2" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -943,111 +975,263 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="161">
+          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="e#1185#1186#0" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="24" column="9" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/ExpressionVisitorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simpleCalculator/Model/SubtractionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Op.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Tracer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/SubtractionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/CtxHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Exponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Expression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/ExpressionVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Subtraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Val.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/OpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Define.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/UnaryMinus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Division.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/DivisionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Num.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="21" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/NumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/ExpressionVisitorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Op.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Tracer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Multiply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Addition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/Var.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/simplecalculator/model/BinOp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/BinOpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1666#1667#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1568#1569#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/simplecalculator/model/VarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

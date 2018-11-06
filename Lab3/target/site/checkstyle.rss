@@ -25,9 +25,9 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2018</copyright>
     <item>
-      <title>File: 12,
+      <title>File: 20,
              Errors: 0,
-             Warnings: 58,
+             Warnings: 0,
              Infos: 0
       </title>
             <link>${project.url}/checkstyle.html</link>
@@ -46,27 +46,13 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.Num.java">edu/neu/ccs/cs5010/simpleCalculator/Num.java</a>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.BinOp.java">edu/neu/ccs/cs5010/simplecalculator/model/BinOp.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  8
-                </td>
-                <td>
                   0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.Val.java">edu/neu/ccs/cs5010/simpleCalculator/Val.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  3
                 </td>
                 <td>
                   0
@@ -74,27 +60,13 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.Diff.java">edu/neu/ccs/cs5010/simpleCalculator/Diff.java</a>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Main.java">edu/neu/ccs/cs5010/simplecalculator/model/Main.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  6
-                </td>
-                <td>
                   0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.CtxHashMap.java">edu/neu/ccs/cs5010/simpleCalculator/CtxHashMap.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  5
                 </td>
                 <td>
                   0
@@ -102,27 +74,13 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.Add.java">edu/neu/ccs/cs5010/simpleCalculator/Add.java</a>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Addition.java">edu/neu/ccs/cs5010/simplecalculator/model/Addition.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  6
-                </td>
-                <td>
                   0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.Var.java">edu/neu/ccs/cs5010/simpleCalculator/Var.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  7
                 </td>
                 <td>
                   0
@@ -130,27 +88,13 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.Main.java">edu/neu/ccs/cs5010/simpleCalculator/Main.java</a>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Division.java">edu/neu/ccs/cs5010/simplecalculator/model/Division.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  4
-                </td>
-                <td>
                   0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.Op.java">edu/neu/ccs/cs5010/simpleCalculator/Op.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
                 </td>
                 <td>
                   0
@@ -158,27 +102,13 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.BinOp.java">edu/neu/ccs/cs5010/simpleCalculator/BinOp.java</a>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Tracer.java">edu/neu/ccs/cs5010/simplecalculator/model/Tracer.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  6
-                </td>
-                <td>
                   0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.Define.java">edu/neu/ccs/cs5010/simpleCalculator/Define.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
                 </td>
                 <td>
                   0
@@ -186,13 +116,13 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.Expression.java">edu/neu/ccs/cs5010/simpleCalculator/Expression.java</a>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.ExpressionVisitorImpl.java">edu/neu/ccs/cs5010/simplecalculator/model/ExpressionVisitorImpl.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  3
+                  0
                 </td>
                 <td>
                   0
@@ -200,13 +130,195 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simpleCalculator.Context.java">edu/neu/ccs/cs5010/simpleCalculator/Context.java</a>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Context.java">edu/neu/ccs/cs5010/simplecalculator/model/Context.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  2
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Num.java">edu/neu/ccs/cs5010/simplecalculator/model/Num.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.UnaryMinus.java">edu/neu/ccs/cs5010/simplecalculator/model/UnaryMinus.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Op.java">edu/neu/ccs/cs5010/simplecalculator/model/Op.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Subtraction.java">edu/neu/ccs/cs5010/simplecalculator/model/Subtraction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Val.java">edu/neu/ccs/cs5010/simplecalculator/model/Val.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Multiply.java">edu/neu/ccs/cs5010/simplecalculator/model/Multiply.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.ExpressionVisitor.java">edu/neu/ccs/cs5010/simplecalculator/model/ExpressionVisitor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Define.java">edu/neu/ccs/cs5010/simplecalculator/model/Define.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Var.java">edu/neu/ccs/cs5010/simplecalculator/model/Var.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Exponent.java">edu/neu/ccs/cs5010/simplecalculator/model/Exponent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.exceptions.InvalidDenominatorException.java">edu/neu/ccs/cs5010/simplecalculator/exceptions/InvalidDenominatorException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.CtxHashMap.java">edu/neu/ccs/cs5010/simplecalculator/model/CtxHashMap.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.simplecalculator.model.Expression.java">edu/neu/ccs/cs5010/simplecalculator/model/Expression.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
                 </td>
                 <td>
                   0
