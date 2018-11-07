@@ -2,14 +2,16 @@ package edu.neu.ccs.cs5010.assignment5.util;
 
 import edu.neu.ccs.cs5010.assignment5.exceptions.EmptyArgumentException;
 import edu.neu.ccs.cs5010.assignment5.exceptions.NullArgumentException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class PlaceholderFinderUtil {
-  String startQuote = "\\[\\[";
-  String endQuote = "\\]\\]";
-  List<Integer> startQuotePos;
-  List<Integer> endQuotePos;
-  List<Integer[]> placeholderPositions;
+
+  String startQuote = "[[";
+  String endQuote = "]]";
+  List<Integer> startQuotePos = new ArrayList<>();
+  List<Integer> endQuotePos = new ArrayList<>();
+  List<Integer[]> placeholderPositions = new ArrayList<>();
   Integer startPosition = 0;
   Integer endPosition = 1;
   Integer positionLength = 2;
@@ -27,9 +29,11 @@ public class PlaceholderFinderUtil {
     }
 
     for (int i = -1;
-        (i = mainContent.indexOf(endQuote, i + 1)) != -1; i++)  {
+        (i = mainContent.indexOf(endQuote, i + 1)) != -1; i++) {
       endQuotePos.add(i + endQuote.length());
     }
+
+    List<Integer[]> placeholderPositions = new ArrayList<>();
 
     for (int k = 0; k < startQuotePos.size(); k++) {
       Integer[] currQuotePos = new Integer[positionLength];

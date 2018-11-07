@@ -1,21 +1,16 @@
 package edu.neu.ccs.cs5010.assignment5.model;
 
 import edu.neu.ccs.cs5010.assignment5.util.FileCombineUtil;
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * The type Mail generator.
@@ -31,18 +26,7 @@ public class MailGenerator {
    * The New template reader.
    */
   TemplateProcessor newTemplateProcessor = new TemplateProcessor();
-  /**
-   * The New line parser.
-   */
-  LineParser newLineParser = new LineParser();
-  /**
-   * The Keys.
-   */
-  List<String> keys;
-  /**
-   * The Curr csv line.
-   */
-  List<String> currCsvLine;
+
   String baseOutputFileName;
   String outputSuffixKey = "\\[\\[email\\]\\]";
   Set<Map<String, String>> customerSet;
@@ -63,12 +47,15 @@ public class MailGenerator {
    */
   public void run(String mailType, String templateName, String csvFileName, String outputDir)
       throws Exception {
-
+    System.getProperty("user.dir");
+    customerSet = new HashSet<>();
+    wholeParsedTemplate = new HashMap<>();
+    placeholderKeys = new HashSet<>();
     customerSet = newCsvProcessor.loadCustomers(csvFileName);
     wholeParsedTemplate = newTemplateProcessor.getWholeParsedTemplate(templateName);
     placeholderKeys = newTemplateProcessor.getPlaceholderKeys(templateName);
     baseOutputFileName = mailType;
-    System.getProperty("user.dir");
+
 
     for (Map<String, String> customerMap : customerSet) {
       for (Integer index : placeholderKeys) {

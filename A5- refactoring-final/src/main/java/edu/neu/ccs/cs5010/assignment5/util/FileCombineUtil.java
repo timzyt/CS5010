@@ -7,14 +7,12 @@ import java.util.Map;
 
 public class FileCombineUtil {
 
-
-  String spacingNote;
-
   /**
    * Combine strings stored in a List into one complete string.
+   *
    * @param stringList List containing strings.
    * @return string value of combined strings.
-   * @throws Exception
+   * @throws Exception NullArgumentException
    */
   public String combineStringList(List<String> stringList) throws Exception {
     StringBuilder strBdr = new StringBuilder();
@@ -33,9 +31,10 @@ public class FileCombineUtil {
 
   /**
    * Combine strings stored in a Map into one complete string.
+   *
    * @param stringMap Map containing strings.
    * @return String value of combined strings.
-   * @throws Exception
+   * @throws Exception NullArgumentException
    */
   public String combineStringMap(Map<Integer, String> stringMap) throws Exception {
     StringBuilder strBdr = new StringBuilder();

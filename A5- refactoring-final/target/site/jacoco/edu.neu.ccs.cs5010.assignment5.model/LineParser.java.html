@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 /**
  * The type Line parser.
  */
-public class LineParser {
+<span class="nc" id="L11">public class LineParser {</span>
 
   /**
    * The Tokens.
@@ -17,14 +17,7 @@ public class LineParser {
   /**
    * The Csv pattern 1.
    */
-  //Pattern csvPattern1;
 
-  /**
-   * Instantiates a new Line parser.
-   */
-<span class="fc" id="L25">  public LineParser() {</span>
-
-<span class="fc" id="L27">  }</span>
 
   /**
    * Parse list.
@@ -34,9 +27,13 @@ public class LineParser {
    */
   public List&lt;String&gt; parse(String line) {
     //Pattern csvPattern1 = Pattern.compile(&quot;,(?=(?:[^\&quot;]*\&quot;[^\&quot;]*\&quot;)*[^\&quot;]*$)&quot;);
-<span class="fc" id="L37">    tokens = line.split(&quot;,(?=(?:[^\\\&quot;]*\\\&quot;[^\\\&quot;]*\\\&quot;)*[^\\\&quot;]*$)&quot;, -1);</span>
-<span class="fc" id="L38">    List&lt;String&gt; arrayTokens = new ArrayList&lt;String&gt;(Arrays.asList(tokens));</span>
-<span class="fc" id="L39">    return arrayTokens;</span>
+<span class="nc" id="L30">    tokens = line.split(&quot;,(?=(?:[^\\\&quot;]*\\\&quot;[^\\\&quot;]*\\\&quot;)*[^\\\&quot;]*$)&quot;, -1);</span>
+<span class="nc" id="L31">    List&lt;String&gt; arrayTokens = new ArrayList&lt;String&gt;(Arrays.asList(tokens));</span>
+    //trim the quotes for each string item
+<span class="nc bnc" id="L33" title="All 2 branches missed.">    for (String str : arrayTokens) {</span>
+<span class="nc" id="L34">      str.replace(&quot;\&quot;&quot;, &quot;&quot;);</span>
+<span class="nc" id="L35">    }</span>
+<span class="nc" id="L36">    return arrayTokens;</span>
   }
 
 }

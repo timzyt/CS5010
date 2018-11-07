@@ -1,8 +1,7 @@
-#Mon Oct 29 16:55:02 PDT 2018
-C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment5-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\model\\CsvReader.java=1540855287257
-C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment5-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\controller\\UserController.java=1540857269570
-C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment5-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\model\\TemplateReader.java=1540855287261
-C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment5-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\model\\MailGenerator.java=1540855287260
-C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment5-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\model\\CmdProcessor.java=1540855287256
-C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\assignment5-timzyt\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\model\\LineParser.java=1540855287258
-configuration*?=1FF3680953DEDA2FCD573942D33C65C9889E55C9
+#Tue Nov 06 21:57:17 PST 2018
+C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\A5-\ refactoring-final\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\controller\\UserController.java=1541489525040
+C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\A5-\ refactoring-final\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\exceptions\\EmptyArgumentException.java=1541560610326
+C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\A5-\ refactoring-final\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\model\\CmdProcessor.java=1540855287256
+C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\A5-\ refactoring-final\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\model\\LineParser.java=1541549591178
+C\:\\Users\\Tim\ Zhu\\Documents\\Yitian\ Zhu\\NEU\\2018_Fall\\CS5010\ PDP\\Student_repo_timzyt\\A5-\ refactoring-final\\src\\main\\java\\edu\\neu\\ccs\\cs5010\\assignment5\\exceptions\\NullArgumentException.java=1541560610310
+configuration*?=085D8E4A57E790748ED8E62E4DE30D584D3ACA18

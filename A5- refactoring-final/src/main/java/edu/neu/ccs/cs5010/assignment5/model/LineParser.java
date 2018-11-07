@@ -15,9 +15,9 @@ public class LineParser {
    */
   String[] tokens;
   /**
-   * The Csv pattern 1.
+   * List of String result.
    */
-
+  List<String> resultList;
 
   /**
    * Parse list.
@@ -28,12 +28,13 @@ public class LineParser {
   public List<String> parse(String line) {
     //Pattern csvPattern1 = Pattern.compile(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)");
     tokens = line.split(",(?=(?:[^\\\"]*\\\"[^\\\"]*\\\")*[^\\\"]*$)", -1);
-    List<String> arrayTokens = new ArrayList<String>(Arrays.asList(tokens));
+    List<String> tempArrayTokens = new ArrayList<String>(Arrays.asList(tokens));
     //trim the quotes for each string item
-    for (String str : arrayTokens) {
-      str.replace("\"", "");
+    resultList = new ArrayList<>();
+    for (String str : tempArrayTokens) {
+      resultList.add(str.replace("\"", ""));
     }
-    return arrayTokens;
+    return resultList;
   }
 
 }

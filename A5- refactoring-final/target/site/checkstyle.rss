@@ -25,9 +25,9 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2018</copyright>
     <item>
-      <title>File: 6,
+      <title>File: 11,
              Errors: 0,
-             Warnings: 0,
+             Warnings: 23,
              Infos: 0
       </title>
             <link>${project.url}/checkstyle.html</link>
@@ -46,13 +46,55 @@ under the License.
           <tbody>
                           <tr>
                 <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.model.CsvProcessor.java">edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.model.TemplateProcessor.java">edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  14
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.exceptions.NullArgumentException.java">edu/neu/ccs/cs5010/assignment5/exceptions/NullArgumentException.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.model.MailGenerator.java">edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  0
+                  1
                 </td>
                 <td>
                   0
@@ -60,13 +102,13 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.model.CsvReader.java">edu/neu/ccs/cs5010/assignment5/model/CsvReader.java</a>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.util.BufferredReaderUtil.java">edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  0
+                  1
                 </td>
                 <td>
                   0
@@ -74,13 +116,27 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.model.TemplateReader.java">edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java</a>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.util.FileCombineUtil.java">edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
+                  1
+                </td>
+                <td>
                   0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.util.PlaceholderFinderUtil.java">edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
                 </td>
                 <td>
                   0
@@ -103,6 +159,20 @@ under the License.
                           <tr>
                 <td>
                   <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.controller.UserController.java">edu/neu/ccs/cs5010/assignment5/controller/UserController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#edu.neu.ccs.cs5010.assignment5.exceptions.EmptyArgumentException.java">edu/neu/ccs/cs5010/assignment5/exceptions/EmptyArgumentException.java</a>
                 </td>
                 <td>
                   0

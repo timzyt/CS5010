@@ -1,6 +1,7 @@
-C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\test\java\edu\neu\ccs\cs5010\assignment5\model\LineParserTest.java
-C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\test\java\edu\neu\ccs\cs5010\assignment5\model\UserControllerTest.java
-C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\test\java\edu\neu\ccs\cs5010\assignment5\model\CmdProcessorTest.java
-C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\test\java\edu\neu\ccs\cs5010\assignment5\model\MailGeneratorTest.java
-C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\test\java\edu\neu\ccs\cs5010\assignment5\model\CsvReaderTest.java
-C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\assignment5-timzyt\src\test\java\edu\neu\ccs\cs5010\assignment5\model\TemplateReaderTest.java
+C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\A5- refactoring-final\src\test\java\edu\neu\ccs\cs5010\assignment5\model\CsvProcessorTest.java
+C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\A5- refactoring-final\src\test\java\edu\neu\ccs\cs5010\assignment5\model\TemplateProcessorTest.java
+C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\A5- refactoring-final\src\test\java\edu\neu\ccs\cs5010\assignment5\util\BufferredReaderUtilTest.java
+C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\A5- refactoring-final\src\test\java\edu\neu\ccs\cs5010\assignment5\model\CmdProcessorTest.java
+C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\A5- refactoring-final\src\test\java\edu\neu\ccs\cs5010\assignment5\model\LineParserTest.java
+C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\A5- refactoring-final\src\test\java\edu\neu\ccs\cs5010\assignment5\model\MailGeneratorTest.java
+C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\A5- refactoring-final\src\test\java\edu\neu\ccs\cs5010\assignment5\model\UserControllerTest.java

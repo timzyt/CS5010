@@ -14,7 +14,7 @@ import java.util.Set;
 /**
  * The type Template reader.
  */
-public class TemplateProcessor{
+public class TemplateProcessor {
 
   BufferredReaderUtil newBRU = new BufferredReaderUtil();
   List<String> rawTemplate;
@@ -31,9 +31,10 @@ public class TemplateProcessor{
 
   /**
    * Return the whole parsed template stored in HashMap
+   *
    * @param fileName String value of the template file name.
    * @return Map containing whole parsed template.
-   * @throws Exception
+   * @throws Exception NullArgumentException or EmptyArgumentException.
    */
   public Map<Integer, String> getWholeParsedTemplate(String fileName) throws Exception {
     if (fileName == null) {
@@ -60,9 +61,9 @@ public class TemplateProcessor{
 
   /**
    * Return a HashSet of all the keys for placeholders in tye whole parsed template HashMap.
+   *
    * @param fileName String value of the template file name.
-   * @return Set containing all the keys for placeholders.
-   * @throws Exception
+   * @throws Exception NullArgumentException
    */
   public void parseTemplate(String fileName) throws Exception {
     rawTemplate = newBRU.read(fileName);
@@ -71,12 +72,17 @@ public class TemplateProcessor{
 
     if (placeholderPositions.get(zero)[startingQuote] == zero) {
       wholeParsedTemplate.put(counter
-          , completeTemplate.substring(zero, placeholderPositions.get(zero)[startingQuote]));
-    } else {
-      wholeParsedTemplate.put(counter
           , completeTemplate.substring(placeholderPositions.get(zero)[startingQuote]
               , placeholderPositions.get(zero)[closingQuote]));
       placeholderKeys.add(zero);
+    } else {
+      wholeParsedTemplate.put(counter
+          , completeTemplate.substring(zero, placeholderPositions.get(zero)[startingQuote]));
+      counter++;
+      wholeParsedTemplate.put(counter
+          , completeTemplate.substring(placeholderPositions.get(zero)[startingQuote]
+              , placeholderPositions.get(zero)[closingQuote]));
+      placeholderKeys.add(counter);
     }
     counter++;
 
