@@ -43,5 +43,9 @@ public void testParse() throws Exception {
   }
 } 
 
+@Test
+public void testSystemLineSeparater() {
+  System.out.println(System.getProperty("line.separator"));
+}
 
 } 
