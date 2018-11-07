@@ -1,6 +1,7 @@
 package edu.neu.ccs.cs5010.assignment5.model;
 
 import edu.neu.ccs.cs5010.assignment5.util.FileCombineUtil;
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -8,7 +9,6 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -27,8 +27,7 @@ public class MailGenerator {
    */
   TemplateProcessor newTemplateProcessor = new TemplateProcessor();
 
-  String baseOutputFileName;
-  String outputSuffixKey = "\\[\\[email\\]\\]";
+  String outputSuffixKey = "[[email]]";
   Set<Map<String, String>> customerSet;
   Map<Integer, String> wholeParsedTemplate;
   Set<Integer> placeholderKeys;
@@ -51,20 +50,20 @@ public class MailGenerator {
     customerSet = new HashSet<>();
     wholeParsedTemplate = new HashMap<>();
     placeholderKeys = new HashSet<>();
+
     customerSet = newCsvProcessor.loadCustomers(csvFileName);
     wholeParsedTemplate = newTemplateProcessor.getWholeParsedTemplate(templateName);
     placeholderKeys = newTemplateProcessor.getPlaceholderKeys(templateName);
-    baseOutputFileName = mailType;
-
 
     for (Map<String, String> customerMap : customerSet) {
+      updatedTemplateMap = new HashMap<>(wholeParsedTemplate);
       for (Integer index : placeholderKeys) {
-        updatedTemplateMap = new HashMap<>(wholeParsedTemplate);
         String currPlaceholder = updatedTemplateMap.get(index);
         updatedTemplateMap.put(index, customerMap.get(currPlaceholder));
       }
       updatedTemplate = newFileCombine.combineStringMap(updatedTemplateMap);
-      String outputFileName = mailType + "_" + customerMap.get(outputSuffixKey);
+      String outputFileName = mailType + "_" + customerMap.get(outputSuffixKey)
+          + ".txt";
       BufferedWriter outputFile = new BufferedWriter(
           new OutputStreamWriter(
               new FileOutputStream(outputDir + File.separator + outputFileName), "UTF8"));

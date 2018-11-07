@@ -20,6 +20,7 @@ public class TemplateProcessorTest {
 
   private TemplateProcessor newTemplateProcessor;
   private String testEmailTemplate;
+  private String testEmailTemplate2;
   private String testLetterTemplate;
   private String nullFileName;
   private String emptyFileName;
@@ -32,6 +33,7 @@ public class TemplateProcessorTest {
     resultMap = new HashMap<>();
     resultSet = new HashSet<>();
     testEmailTemplate = "email-template.txt";
+    testEmailTemplate2 = "email-template2.txt";
     testLetterTemplate = "letter-template.txt";
     newTemplateProcessor = new TemplateProcessor();
     emptyFileName = "";
@@ -50,17 +52,22 @@ public class TemplateProcessorTest {
 
   @Test (expected = NullArgumentException.class)
   public void testNullFileNameInGetKeys() throws Exception {
-    resultMap = newTemplateProcessor.getWholeParsedTemplate(nullFileName);
+    resultSet = newTemplateProcessor.getPlaceholderKeys(nullFileName);
   }
 
   @Test (expected = EmptyArgumentException.class)
   public void testEmptyFileNameInGetKeys() throws Exception {
-    resultMap = newTemplateProcessor.getWholeParsedTemplate(emptyFileName);
+    resultSet = newTemplateProcessor.getPlaceholderKeys(emptyFileName);
   }
 
   @Test
   public void testParseTemplate() throws Exception {
-    System.out.println(newTemplateProcessor.getWholeParsedTemplate("letter-template.txt"));
+    System.out.println(newTemplateProcessor.getWholeParsedTemplate(testLetterTemplate));
+  }
+
+  @Test
+  public void testParseTemplateWithNoGapBetweenPlaceholders() throws Exception {
+    System.out.println(newTemplateProcessor.getWholeParsedTemplate(testEmailTemplate2));
   }
 
   @Test

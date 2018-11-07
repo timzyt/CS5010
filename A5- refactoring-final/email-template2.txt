@@ -13,7 +13,7 @@ Please verify the information below whether they are up to date, and please let 
 
 Phone number1: [[phone1]]
 Phone number2: [[phone2]]
-Mailing address: [[address]] [[city]] [[county]] [[state]] [[zip]]
+Mailing address: [[address]][[city]] [[county]] [[state]] [[zip]]
 Personal website: [[web]]
 Registered company: [[company]]
 

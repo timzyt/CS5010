@@ -2,30 +2,553 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f7cce0e-c62d-4691-897d-e15a7e4581bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/email/email_adelina_nabours@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_adell.lipkin@lipkin.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ahmed.angalich@angalich.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ahoneywell@honeywell.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_aja_gehrett@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ajeanty@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_alaine_bergesen@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_albina@glick.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_alease@buemi.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_alecia@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_alesia_hixenbaugh@hixenbaugh.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_alex@loader.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_alisha@slusarski.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_aliza@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_allene_iturbide@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_alpha@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_alyce@arias.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_amaclead@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_amber_monarrez@monarrez.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_amie.perigo@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ammie@corrio.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_an_fritz@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_andra@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_angella.cetta@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_annabelle.boord@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_annelle@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_annmarie_castros@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_aonofrio@onofrio.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_apinilla@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_arlene_klusman@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_arminda@parvis.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_art@venere.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_arthur.farrow@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_asergi@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_audra@kohnert.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_audry.yaw@yaw.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_avery@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_badkin@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_barrett.toyama@toyama.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_bbolognia@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_beatriz@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_beckie.silvestrini@silvestrini.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_becky.mirafuentes@mirafuentes.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_belen_strassner@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_benton.skursky@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_bernardine_rodefer@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_bette_nicka@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_bfigeroa@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_bgillaspie@gillaspie.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_billye_miro@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_bmalet@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_bok.isaacs@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_bpugh@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_brandon_callaro@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_brett.mccullan@mccullan.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_brhym@rhym.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_britt@galam.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_bsama@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_buddy.cloney@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_bulah_padilla@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_caitlin.julia@julia.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_calbares@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_candida_corbley@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_caprice@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_carey_dopico@dopico.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_carissa.batman@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_carlee.boulter@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_carma@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_carmelina_lindall@lindall.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_casie.good@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cassi.wildfong@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_catalina@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_catarina_gleich@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cathrine.pontoriero@pontoriero.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ccookey@cookey.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cdeleo@deleo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cecilia_colaizzo@colaizzo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cecily@hollack.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ceola.setter@setter.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cgoldammer@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_chanel.caudy@caudy.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_chantell@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_charlene.hamilton@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_chau@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_chauncey_motley@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_chaya@malvin.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cherry@lietz.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cheryl@haroldson.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_choa@hoa.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_christiane.eschberger@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ckorando@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_clapage@lapage.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_claribel_varriano@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_clorinda.heimann@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_colette.kardas@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cordelia_storment@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_corinne@loder.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cory.gibes@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cristal@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cristy@lother.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_csweigard@sweigard.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cventura@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_cyril_daufeldt@daufeldt.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dalene.riden@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dalene@schoeneck.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_danica_bruschke@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_daron_dinos@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dcomnick@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ddhamer@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dean_ketelsen@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_deandrea@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_deeanna_juhas@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_delisa.crupi@crupi.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_delmy.ahle@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_denise@patak.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_deonna_kippley@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_detra@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_devora_perez@perez.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_devorah@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dhidvegi@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_diane@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dick@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dkines@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_doldroyd@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dominque.dickerson@dickerson.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_donette.foller@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dorothy@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dottie@hellickson.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dperruzza@perruzza.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dulce_labreche@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dweirather@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_dyum@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_earleen_mai@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_eden_jayson@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_egwalthney@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_eladia@saulter.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_elke_sengbusch@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_elly_morocco@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_elvera.benimadho@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_elza@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_emclaird@mclaird.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_emerson.bowley@bowley.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_emiceli@miceli.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_erick.ferencz@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_erick_nievas@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_erinn.canlas@canlas.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ernest@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ernie_stenseth@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_estrella@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ettie.hoopengardner@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_eun@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_evangelina@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ezekiel@chui.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_fabiola.hauenstein@hauenstein.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_fannie.lungren@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_fausto_agramonte@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_felix_hirpara@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_femard@emard.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_fjillson@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_fletcher.flosi@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_flo.bookamer@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_fpoullion@poullion.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_france.buzick@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_francine_vocelka@vocelka.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_frederica_blunk@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_freeman_gochal@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_fsaylors@saylors.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ftawil@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gail@kitty.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gail_similton@similton.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_galen@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_garry_keetch@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gary_nunlee@nunlee.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gberray@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gearldine_gellinger@gellinger.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_geoffrey@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gertude.witten@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gilma_liukko@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gkulzer@kulzer.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gladys.rim@rim.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_glen_bartolet@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_glenna_slayton@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_glory@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gmontezuma@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_golda_kaniecki@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_goldie.schirpke@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gpawlowicz@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gracia@melnyk.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gruta@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gsarbacher@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gschnitzler@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_gwenn_suffield@suffield.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_hdemesa@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_hdenooyer@denooyer.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_heike@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_helene@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_helga_fredicks@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_hermila_thyberg@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_herminia@nicolozakes.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_hhalter@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_hhaufler@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_hillary.skulski@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_hoa@sarao.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_hpaulas@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_hubert@walthall.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_idewar@dewar.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ilene.eroman@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_iluminada.ohms@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_irma.wolfgramm@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_izetta.funnell@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jaclyn@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jacqueline.rowling@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jade.farrar@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jamal@vanausdal.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jamyot@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jaquas@aquas.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jbiddy@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jbrideau@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jbutt@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jeanice.claucherty@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jengelberg@engelberg.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jennie@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jerry.dallen@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jess.chaffins@chaffins.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jesusita.flister@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jfallick@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jferrario@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jgabisi@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jhanafan@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jina_briddick@briddick.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jmconnell@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jmugnolo@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_joanna_leinenbach@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_joesph_degonia@degonia.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_johnetta_abdallah@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jolene@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_joles@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_joni_breland@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jose@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_joseph_cryer@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_josephine_darakjy@darakjy.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_josphine_villanueva@villanueva.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jregusters@regusters.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jrhoden@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jshin@shin.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_junita@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_jzurcher@zurcher.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kaitlyn.ogg@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kallie.blackwood@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kanisha_waycott@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_karan_karpin@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_karl_klonowski@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kasandra_semidey@semidey.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kate_keneipp@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kati.rulapaugh@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_katina_polidori@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kattie@vonasek.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kayleigh.lace@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_keneth@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kenneth.grenet@grenet.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kerry.theodorov@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kiley.caldarera@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kimberlie_duenas@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kimbery_madarang@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kirk.herritt@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_krauser@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kris@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kristeen@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kristel.ehmann@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_kristofer.bennick@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lai.gato@gato.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lai@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_larae_gudroe@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lashandra@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lashon@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_latrice.tolfree@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_laurel@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_laurel_reitler@reitler.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lavonda@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lavonna.wolny@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lawrence.lorens@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_layla.springe@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lburnard@burnard.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lemuel.latzke@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_leonida@gobern.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_leonora@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_leota.ragel@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_leota@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_leslie@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lettie_isenhower@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_levi.munis@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lezlie.craghead@craghead.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lhagele@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lili.paskin@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lilli@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lindsey.dilello@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_linn_paa@paa.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lisha@centini.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lizbeth@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lizette.stem@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ljurney@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_llizama@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lmerced@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lnestle@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lnewville@newville.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lonna_diestel@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lonny_weglarz@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lorean.martabano@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_loren.asar@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_loreta.timenez@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lorrine.worlds@worlds.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_louisa@cronauer.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_louvenia.beech@beech.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lpaprocki@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lperin@perin.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lreiber@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lstuer@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lucina_lary@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lucy@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_lynelle_auber@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_malcolm_tromblay@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_malinda.hochard@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_margart_meisel@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_marge@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_marguerita.hiatt@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mari_lueckenbach@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mariann.bilden@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_markus@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_marti.maybury@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_martina_staback@staback.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mattie@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_maurine_yglesias@yglesias.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mdelasancha@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_meaghan@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_melissa@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_merilyn_bayless@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_merissa.tomblin@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_merlyn_lawler@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_micaela_rhymes@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_minna_amigon@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mireya.frerking@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mirta_mallett@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mitsue_tollner@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mitzie_hudnall@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mknipp@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mlayous@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mlinahan@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mmastella@mastella.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mmunns@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mneither@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mollie_mcdoniel@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_moon@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mpelkowski@pelkowski.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mraymo@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mroyster@royster.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_mscipione@scipione.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_my@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_nan@koppinger.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_nana@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_natalie.fern@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_nelida@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_nichelle_meteer@meteer.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_nickolas_juvera@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_nicolette_brossart@brossart.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_nieves_gotter@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_noah.kalafatis@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_nobuko.halsey@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_norah.waymire@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_novella_degroot@degroot.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_nu@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_olive@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_oretha_menter@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_oshealy@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_pamella.schmierer@schmierer.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_pamella@fortino.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_paris@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_paz_sahagun@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_pdubaldi@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_peggie@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_penney_weight@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_portia.stimmel@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_qbirkner@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_quentin_swayze@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_raina.brachle@brachle.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rasheeda@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_raymon.calvaresi@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_reena@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_refugia.jacobos@jacobos.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_regenia.kannady@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_reita.leto@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_renea@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ressie.auffrey@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rgesick@gesick.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rhea_aredondo@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rickie.plumer@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rikki@nayar.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rima@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rkampa@kampa.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rodolfo@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rolande.spickerman@spickerman.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rolland@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ronny.caiafa@caiafa.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_roosevelt.hoffis@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_roselle.estell@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rosio.cork@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_roslyn.chavous@chavous.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_roxane@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rozella.ostrosky@ostrosky.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rpapasergi@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_rupthegrove@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ruthann@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_ryan@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sabra@uyetake.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sage_wieser@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sarah.candlish@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sbourbon@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_scarlet.cartan@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_selma.husser@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_shalon@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sharee_maile@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sharika.eanes@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_shawna_palaspas@palaspas.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_shawnda.yori@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sheintzman@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_shenika@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sheridan.zane@zane.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sherita.saras@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sheron@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_shonda_greenbush@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_simona@morasca.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_skarpel@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_skye_fillingim@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_slacovara@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_solange@shinko.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_staci_schmaltz@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_stephaine@barfield.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_stephaine@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_stephane_myricks@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_stephen_emigh@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_stevie.westerbeck@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sue@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sylvia_cousey@cousey.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_sylvie@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_szagen@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_talia_riopelle@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tamar@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tankeny@ankeny.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tarra.nachor@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_taryn.moyd@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tasia_andreason@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tawna@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_teddy_pedrozo@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tegan.arceo@arceo.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tennaco@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_terrilyn.rodeigues@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tfeichtner@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tfrankel@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_theodora.restrepo@restrepo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_theola_frey@frey.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_thurman.manno@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tiffiny_steffensmeier@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_timothy_mulqueen@mulqueen.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tracey@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tresa_sweely@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_trinidad_mcrae@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tshields@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_tsmith@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_twana.felger@felger.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_twardrip@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_twenner@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_valentine_gillian@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_van.shire@shire.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_vberlanga@berlanga.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_venita_maillard@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_vincent.meinerding@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_vinouye@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_viola@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_virgina_tegarden@tegarden.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_viva.toelkes@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_vkiel@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_vklimek@klimek.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_vmondella@mondella.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_vrentfro@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_vzepp@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_wacuff@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_whitley.tomasulo@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_wilda@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_willard@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_willodean_konopacki@konopacki.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_winfred_brucato@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_wkusko@yahoo.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_wynell_dorshorst@dorshorst.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_xdiscipio@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_xuan@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_yoko@fishburne.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_yolando@cox.net.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_youlanda@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_yuki_whobrey@aol.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_yvonne.tjepkema@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/email_zona@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/letter_art@venere.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/letter_jbutt@gmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/letter_josephine_darakjy@darakjy.org.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/email/letter_lpaprocki@hotmail.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/package-frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtilTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtilTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.CmdProcessorTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.CsvProcessorTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.LineParserTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.TemplateProcessorTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.util.FileCombineUtilTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.util.PlaceholderFinderUtilTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.CmdProcessorTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.CsvProcessorTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.LineParserTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.TemplateProcessorTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.util.FileCombineUtilTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.util.PlaceholderFinderUtilTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/CmdProcessorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email-template2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/email-template2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CsvProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CsvProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-cachefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/checkstyle-result.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/LineParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/LineParser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/findbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/findbugsXml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/pmd.xml" afterDir="false" />
@@ -39,27 +562,45 @@
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/controller/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/controller/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/controller/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/controller/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/EmptyArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/EmptyArgumentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/NullArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/NullArgumentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/class-use/EmptyArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/class-use/EmptyArgumentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/class-use/NullArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/class-use/NullArgumentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/exceptions/package-use.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/CsvReader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/LineParser.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/LineParser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/CmdProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/CmdProcessor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/CsvReader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/CsvProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/CsvProcessor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/LineParser.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/LineParser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/MailGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/MailGenerator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/TemplateReader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/TemplateProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/class-use/TemplateProcessor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/package-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/package-tree.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/model/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/class-use/BufferredReaderUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/class-use/BufferredReaderUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/class-use/FileCombineUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/class-use/FileCombineUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/class-use/PlaceholderFinderUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/class-use/PlaceholderFinderUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/edu/neu/ccs/cs5010/assignment5/util/package-use.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/help-doc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index-all.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/apidocs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/apidocs/serialized-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/checkstyle.rss" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/checkstyle.rss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/dependencies.html" afterDir="false" />
@@ -71,22 +612,32 @@
       <change beforePath="$PROJECT_DIR$/target/site/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/integration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/issue-tracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/issue-tracking.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/UserController.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/UserController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/UserController.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/UserController.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.controller/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/EmptyArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/EmptyArgumentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/EmptyArgumentException.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/EmptyArgumentException.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/NullArgumentException.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/NullArgumentException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/NullArgumentException.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/NullArgumentException.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.exceptions/index.source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CmdProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CmdProcessor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CmdProcessor.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CmdProcessor.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CsvReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CsvReader.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CsvProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CsvProcessor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CsvProcessor.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/CsvProcessor.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/LineParser.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/LineParser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/LineParser.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/LineParser.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/MailGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/MailGenerator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/MailGenerator.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/MailGenerator.java.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/TemplateReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/TemplateReader.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/TemplateProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/TemplateProcessor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/TemplateProcessor.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/TemplateProcessor.java.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.model/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/BufferredReaderUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/BufferredReaderUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/BufferredReaderUtil.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/BufferredReaderUtil.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/FileCombineUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/FileCombineUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/FileCombineUtil.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/FileCombineUtil.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/PlaceholderFinderUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/PlaceholderFinderUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/PlaceholderFinderUtil.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/PlaceholderFinderUtil.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/edu.neu.ccs.cs5010.assignment5.util/index.source.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
@@ -102,44 +653,26 @@
       <change beforePath="$PROJECT_DIR$/target/site/team-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/team-list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/allclasses-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/CmdProcessorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/CmdProcessorTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/CsvProcessorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/CsvProcessorTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/TemplateReaderTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/UserControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/UserControllerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/util/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/util/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/util/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/edu/neu/ccs/cs5010/assignment5/util/package-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/overview-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref-test/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref-test/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/CsvReader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/LineParser.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/LineParser.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/xref/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.CmdProcessorTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.CsvReaderTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.LineParserTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.TemplateReaderTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.model.UserControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.CmdProcessorTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.CsvReaderTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.LineParserTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.TemplateReaderTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.model.UserControllerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/CmdProcessorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/CsvProcessorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/UserControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtilTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/xref/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.util.BufferredReaderUtilTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.neu.ccs.cs5010.assignment5.util.BufferredReaderUtilTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.util.BufferredReaderUtilTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.neu.ccs.cs5010.assignment5.util.BufferredReaderUtilTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtilTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -157,6 +690,9 @@
       <FILTER>edu.neu.ccs.cs5010.assignment5.util.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/assignment5_timzyt$CmdProcessorTest_runMailGenerator.ic" NAME="CmdProcessorTest.runMailGenerator Coverage Results" MODIFIED="1540793872702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/A5__refactoring_final$MailGeneratorTest.ic" NAME="MailGeneratorTest Coverage Results" MODIFIED="1541579214266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/assignment5_timzyt$CsvReaderTest_testHashCode.ic" NAME="CsvReaderTest.testHashCode Coverage Results" MODIFIED="1540782911525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -183,6 +719,9 @@
     <SUITE FILE_PATH="coverage/A5__refactoring_final$TemplateProcessorTest_testGetWholeParsedTemplateLetter.ic" NAME="TemplateProcessorTest.testGetWholeParsedTemplateLetter Coverage Results" MODIFIED="1541576093083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/A5__refactoring_final$FileCombineUtilTest_testCombineStringList.ic" NAME="FileCombineUtilTest.testCombineStringList Coverage Results" MODIFIED="1541577872500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment5.util.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/A5__refactoring_final$LineParserTest_testParse.ic" NAME="LineParserTest.testParse Coverage Results" MODIFIED="1541570780818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
@@ -192,10 +731,13 @@
     <SUITE FILE_PATH="coverage/assignment5_timzyt$UserControllerTest_testNoDirMain.ic" NAME="UserControllerTest.testNoDirMain Coverage Results" MODIFIED="1540849174373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/A5__refactoring_final$TemplateProcessorTest_testParseTemplateWithNoGapBetweenPlaceholders.ic" NAME="TemplateProcessorTest.testParseTemplateWithNoGapBetweenPlaceholders Coverage Results" MODIFIED="1541580576073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/A5__refactoring_final$FileCombineUtilTest_combineStringList.ic" NAME="FileCombineUtilTest.combineStringList Coverage Results" MODIFIED="1541574096953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.util.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/A5__refactoring_final$PlaceholderFinderUtilTest_testFindAllPlaceholdersPosition.ic" NAME="PlaceholderFinderUtilTest.testFindAllPlaceholdersPosition Coverage Results" MODIFIED="1541575280297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/A5__refactoring_final$PlaceholderFinderUtilTest_testFindAllPlaceholdersPosition.ic" NAME="PlaceholderFinderUtilTest.testFindAllPlaceholdersPosition Coverage Results" MODIFIED="1541578507677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.util.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/A5__refactoring_final$TemplateProcessorTest_testGetPlaceHolderKeysLetter.ic" NAME="TemplateProcessorTest.testGetPlaceHolderKeysLetter Coverage Results" MODIFIED="1541576105088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -216,6 +758,9 @@
     <SUITE FILE_PATH="coverage/assignment5_timzyt$edu_neu_ccs_cs5010_in_assignment5_timzyt.ic" NAME="edu.neu.ccs.cs5010 in assignment5-timzyt Coverage Results" MODIFIED="1540789228179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/A5__refactoring_final$BufferredReaderUtilTest_testLoadCustomers.ic" NAME="BufferredReaderUtilTest.testLoadCustomers Coverage Results" MODIFIED="1541577786447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment5.util.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/assignment5_timzyt$CsvReaderTest_testNullOutput.ic" NAME="CsvReaderTest.testNullOutput Coverage Results" MODIFIED="1540856696286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
@@ -231,7 +776,7 @@
     <SUITE FILE_PATH="coverage/assignment5_timzyt$CsvReaderTest_testFileNotFound.ic" NAME="CsvReaderTest.testFileNotFound Coverage Results" MODIFIED="1540854262521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/A5__refactoring_final$MailGeneratorTest_testRun.ic" NAME="MailGeneratorTest.testRun Coverage Results" MODIFIED="1541576457035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/A5__refactoring_final$MailGeneratorTest_testRun.ic" NAME="MailGeneratorTest.testRun Coverage Results" MODIFIED="1541580129073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/assignment5_timzyt$MailGeneratorTest.ic" NAME="MailGeneratorTest Coverage Results" MODIFIED="1540795804148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -261,7 +806,7 @@
     <SUITE FILE_PATH="coverage/assignment5_timzyt$CmdProcessorTest_testIOException.ic" NAME="CmdProcessorTest.testIOException Coverage Results" MODIFIED="1540794428727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/A5__refactoring_final$CsvProcessorTest_testloadCustomers.ic" NAME="CsvProcessorTest.testloadCustomers Coverage Results" MODIFIED="1541573038097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/A5__refactoring_final$CsvProcessorTest_testloadCustomers.ic" NAME="CsvProcessorTest.testloadCustomers Coverage Results" MODIFIED="1541579099061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/assignment5_timzyt$CsvReaderTest_testIOException.ic" NAME="CsvReaderTest.testIOException Coverage Results" MODIFIED="1540797880272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -273,7 +818,10 @@
     <SUITE FILE_PATH="coverage/assignment5_timzyt$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1540857214853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/A5__refactoring_final$TemplateProcessorTest_testGetPlaceHolderKeysEmail.ic" NAME="TemplateProcessorTest.testGetPlaceHolderKeysEmail Coverage Results" MODIFIED="1541576750387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/A5__refactoring_final$CmdProcessorTest.ic" NAME="CmdProcessorTest Coverage Results" MODIFIED="1541580738795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/A5__refactoring_final$TemplateProcessorTest_testGetPlaceHolderKeysEmail.ic" NAME="TemplateProcessorTest.testGetPlaceHolderKeysEmail Coverage Results" MODIFIED="1541578667497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment5.model.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/A5__refactoring_final$PlaceholderFinderUtilTest.ic" NAME="PlaceholderFinderUtilTest Coverage Results" MODIFIED="1541575439720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -329,7 +877,7 @@
     <option name="myAddOrReplace" value="1" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="70" />
+    <option name="myElementSize" value="83" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1414884661">
@@ -431,23 +979,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="69" />
+          <entry key="assignment5" value="1" />
+          <entry key="java" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="69" />
+          <entry key="JAVA" value="98" />
+          <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="86" />
-          <entry key="java" value="11271" />
+          <entry key="java" value="14118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11271" />
+          <entry key="JAVA" value="14118" />
           <entry key="PLAIN_TEXT" value="86" />
         </counts>
       </usages-collector>
@@ -457,64 +1007,29 @@
     <favorites_list name="assignment5-timzyt" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="59" selection-start-line="59" selection-end-line="59" selection-end-column="35" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="611">
-                  <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
-                  <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" column="21" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -527,8 +1042,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>group0</find>
-      <find>csvReader</find>
       <find>firstLine</find>
       <find>cachedTemplate</find>
       <find>filewriter</find>
@@ -557,6 +1070,8 @@
       <find>.close()</find>
       <find>throws</find>
       <find>exception</find>
+      <find>getPlaceholderKeys</find>
+      <find>base</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -596,7 +1111,6 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CsvReaderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/BufferredReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/AbstractFileProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/FileProcessor.java" />
@@ -608,21 +1122,22 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/StringLoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/FileCompilerUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/FileCombingUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/UserControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CsvProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CsvProcessorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.java" />
       </list>
     </option>
   </component>
@@ -768,17 +1283,6 @@
               <item name="assignment5" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="A5- refactoring-final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5- refactoring-final" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A5- refactoring-final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A5- refactoring-final" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -792,7 +1296,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541576853089" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541582342650" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -828,8 +1332,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MailGeneratorTest.testRun">
-    <configuration name="CsvProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CmdProcessorTest">
+    <configuration name="CmdProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hometest" />
       <extension name="coverage">
         <pattern>
@@ -838,7 +1342,37 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment5.model" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.model.CsvProcessorTest" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.model.CmdProcessorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CmdProcessorTest.testIOException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hometest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment5.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment5.model" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.model.CmdProcessorTest" />
+      <option name="METHOD_NAME" value="testIOException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hometest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment5.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment5.model" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.model.MailGeneratorTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -859,7 +1393,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplateProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TemplateProcessorTest.testParseTemplateWithNoGapBetweenPlaceholders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hometest" />
       <extension name="coverage">
         <pattern>
@@ -869,37 +1403,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment5.model" />
       <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.model.TemplateProcessorTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplateProcessorTest.testGetPlaceHolderKeysEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hometest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment5.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment5.model" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.model.TemplateProcessorTest" />
-      <option name="METHOD_NAME" value="testGetPlaceHolderKeysEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TemplateProcessorTest.testGetPlaceHolderKeysLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hometest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.neu.ccs.cs5010.assignment5.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.assignment5.model" />
-      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.assignment5.model.TemplateProcessorTest" />
-      <option name="METHOD_NAME" value="testGetPlaceHolderKeysLetter" />
+      <option name="METHOD_NAME" value="testParseTemplateWithNoGapBetweenPlaceholders" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -968,19 +1472,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TemplateProcessorTest.testGetPlaceHolderKeysLetter" />
-      <item itemvalue="JUnit.TemplateProcessorTest" />
-      <item itemvalue="JUnit.CsvProcessorTest" />
       <item itemvalue="JUnit.MailGeneratorTest.testRun" />
-      <item itemvalue="JUnit.TemplateProcessorTest.testGetPlaceHolderKeysEmail" />
+      <item itemvalue="JUnit.MailGeneratorTest" />
+      <item itemvalue="JUnit.TemplateProcessorTest.testParseTemplateWithNoGapBetweenPlaceholders" />
+      <item itemvalue="JUnit.CmdProcessorTest" />
+      <item itemvalue="JUnit.CmdProcessorTest.testIOException" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CmdProcessorTest" />
+        <item itemvalue="JUnit.CmdProcessorTest.testIOException" />
+        <item itemvalue="JUnit.TemplateProcessorTest.testParseTemplateWithNoGapBetweenPlaceholders" />
         <item itemvalue="JUnit.MailGeneratorTest.testRun" />
-        <item itemvalue="JUnit.TemplateProcessorTest.testGetPlaceHolderKeysEmail" />
-        <item itemvalue="JUnit.CsvProcessorTest" />
-        <item itemvalue="JUnit.TemplateProcessorTest" />
-        <item itemvalue="JUnit.TemplateProcessorTest.testGetPlaceHolderKeysLetter" />
+        <item itemvalue="JUnit.MailGeneratorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1020,44 +1524,44 @@
       <workItem from="1540841638587" duration="13940000" />
       <workItem from="1540935882324" duration="2461000" />
       <workItem from="1540948111712" duration="34000" />
-      <workItem from="1541538993687" duration="29708000" />
+      <workItem from="1541538993687" duration="35555000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TemplateProcessorTest_testGetWholeParsedTemplate - 2018.11.06 at 23h 31m 15s.xml">
-      <configuration name="TemplateProcessorTest.testGetWholeParsedTemplate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TemplateProcessorTest_testGetWholeParsedTemplate - 2018.11.06 at 23h 32m 31s.xml">
-      <configuration name="TemplateProcessorTest.testGetWholeParsedTemplate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TemplateProcessorTest_testGetPlaceHolderKeys - 2018.11.06 at 23h 33m 19s.xml">
-      <configuration name="TemplateProcessorTest.testGetPlaceHolderKeys" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TemplateProcessorTest_testGetWholeParsedTemplateLetter - 2018.11.06 at 23h 34m 55s.xml">
-      <configuration name="TemplateProcessorTest.testGetWholeParsedTemplateLetter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TemplateProcessorTest_testGetPlaceHolderKeysLetter - 2018.11.06 at 23h 35m 07s.xml">
-      <configuration name="TemplateProcessorTest.testGetPlaceHolderKeysLetter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TemplateProcessorTest - 2018.11.06 at 23h 39m 01s.xml">
-      <configuration name="TemplateProcessorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CsvProcessorTest - 2018.11.06 at 23h 39m 39s.xml">
-      <configuration name="CsvProcessorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MailGeneratorTest_testRun - 2018.11.06 at 23h 40m 59s.xml">
+    <history-entry file="MailGeneratorTest_testRun - 2018.11.07 at 00h 40m 09s.xml">
       <configuration name="MailGeneratorTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest_testRun - 2018.11.06 at 23h 42m 17s.xml">
+    <history-entry file="MailGeneratorTest_testRun - 2018.11.07 at 00h 40m 51s.xml">
       <configuration name="MailGeneratorTest.testRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MailGeneratorTest_testRun - 2018.11.06 at 23h 43m 00s.xml">
+    <history-entry file="MailGeneratorTest_testRun - 2018.11.07 at 00h 41m 26s.xml">
       <configuration name="MailGeneratorTest.testRun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MailGeneratorTest_testRun - 2018.11.07 at 00h 42m 12s.xml">
+      <configuration name="MailGeneratorTest.testRun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MailGeneratorTest_testRun - 2018.11.07 at 00h 42m 51s.xml">
+      <configuration name="MailGeneratorTest.testRun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TemplateProcessorTest_testParseTemplateWithNoGapBetweenPlaceholders - 2018.11.07 at 00h 49m 38s.xml">
+      <configuration name="TemplateProcessorTest.testParseTemplateWithNoGapBetweenPlaceholders" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdProcessorTest - 2018.11.07 at 00h 51m 00s.xml">
+      <configuration name="CmdProcessorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdProcessorTest_testIOException - 2018.11.07 at 00h 51m 36s.xml">
+      <configuration name="CmdProcessorTest.testIOException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdProcessorTest_testIOException - 2018.11.07 at 00h 52m 10s.xml">
+      <configuration name="CmdProcessorTest.testIOException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CmdProcessorTest - 2018.11.07 at 00h 52m 21s.xml">
+      <configuration name="CmdProcessorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136277000" />
+    <option name="totallyTimeSpent" value="142124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1070,7 +1574,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3192" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.15724947" />
       <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.19128996" />
@@ -1082,13 +1585,13 @@
       <window_info id="Favorites" order="7" sideWeight="0.5014881" weight="0.13052937" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3264642" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4295011" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.35900217" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28741866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35900217" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.20065077" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26789588" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.26789588" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -1099,12 +1602,12 @@
       <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4890017" visible="true" weight="0.102345414" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4888889" visible="true" weight="0.19189766" />
       <window_info anchor="right" id="SciView" order="7" weight="0.32994923" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.5109983" side_tool="true" visible="true" weight="0.102345414" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.51111114" side_tool="true" visible="true" weight="0.19189766" />
       <window_info anchor="right" x="459" y="92" width="1307" height="896" id="Byte Code Viewer" order="12" type="FLOATING" />
     </layout>
     <layout-to-restore>
@@ -1224,16 +1727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/exceptions/NullArgumentException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1266,23 +1759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/LineParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -1300,54 +1776,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="61" column="7" lean-forward="true" selection-start-column="2" selection-end-line="86" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="201">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1356,18 +1788,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="60" column="3" lean-forward="true" selection-start-line="51" selection-end-line="60" selection-end-column="3" />
+        <state relative-caret-position="236">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="391">
+          <caret line="41" column="69" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -1381,30 +1810,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="59" selection-start-line="59" selection-end-line="59" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="611">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        <state relative-caret-position="204">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1413,8 +1822,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/MailGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        <state relative-caret-position="201">
+          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CmdProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/LineParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/CsvProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/MailGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/BufferredReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/FileCombineUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/util/PlaceholderFinderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="47" column="92" selection-start-line="47" selection-start-column="92" selection-end-line="47" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/model/TemplateProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.assignment5">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.assignment5</OriginalElement>
+          <nodes>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.model.TemplateProcessor</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.util.PlaceholderFinderUtil</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.exceptions.EmptyArgumentException</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.model.MailGenerator</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.util.BufferredReaderUtil</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.model.CmdProcessor</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.controller.UserController</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.model.LineParser</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.model.CsvProcessor</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.exceptions.NullArgumentException</node>
+            <node x="" y="">edu.neu.ccs.cs5010.assignment5.util.FileCombineUtil</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="546.5" y="360.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/assignment5/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

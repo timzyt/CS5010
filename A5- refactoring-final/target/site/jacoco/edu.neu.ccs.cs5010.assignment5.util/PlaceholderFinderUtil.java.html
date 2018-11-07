@@ -2,44 +2,85 @@
 
 import edu.neu.ccs.cs5010.assignment5.exceptions.EmptyArgumentException;
 import edu.neu.ccs.cs5010.assignment5.exceptions.NullArgumentException;
+
+import java.util.ArrayList;
 import java.util.List;
 
-<span class="nc" id="L7">public class PlaceholderFinderUtil {</span>
+/**
+ * Placeholder Finder utility class.
+ */
+<span class="fc" id="L12">public class PlaceholderFinderUtil {</span>
 
-<span class="nc" id="L9">  String startQuote = &quot;\\[\\[&quot;;</span>
-<span class="nc" id="L10">  String endQuote = &quot;\\]\\]&quot;;</span>
+  /**
+   * The string value of starting square brackets.
+   */
+<span class="fc" id="L17">  String startQuote = &quot;[[&quot;;</span>
+  /**
+   * The string value of closing square brackets.
+   */
+<span class="fc" id="L21">  String closeQuote = &quot;]]&quot;;</span>
+  /**
+   * Positions of all the starting square brackets.
+   */
   List&lt;Integer&gt; startQuotePos;
+  /**
+   * Positions of all the closing square brackets.
+   */
   List&lt;Integer&gt; endQuotePos;
+  /**
+   * All the pairs of starting and closing square brackets.
+   */
   List&lt;Integer[]&gt; placeholderPositions;
-<span class="nc" id="L14">  Integer startPosition = 0;</span>
-<span class="nc" id="L15">  Integer endPosition = 1;</span>
-<span class="nc" id="L16">  Integer positionLength = 2;</span>
+  /**
+   * Represents the index of starting square bracket in each Integer pair, which is 0.
+   */
+<span class="fc" id="L37">  Integer startPosition = 0;</span>
+  /**
+   * Represents the index of closing square bracket in each Integer pair, which is 1.
+   */
+<span class="fc" id="L41">  Integer endPosition = 1;</span>
+  /**
+   * The length of each bracket pair, which is 2.
+   */
+<span class="fc" id="L45">  Integer positionLength = 2;</span>
 
+  /**
+   * Find all placeholders position in the provided string, and return all the pairs of them.
+   *
+   * @param mainContent the main content
+   * @return the list
+   * @throws Exception the exception
+   */
   public List&lt;Integer[]&gt; findAllPlaceholdersPosition(String mainContent) throws Exception {
-<span class="nc bnc" id="L19" title="All 2 branches missed.">    if (mainContent == null) {</span>
-<span class="nc" id="L20">      throw new NullArgumentException(&quot;Provided string argument is null.&quot;);</span>
+<span class="fc bfc" id="L55" title="All 2 branches covered.">    if (mainContent == null) {</span>
+<span class="fc" id="L56">      throw new NullArgumentException(&quot;Provided string argument is null.&quot;);</span>
     }
-<span class="nc bnc" id="L22" title="All 2 branches missed.">    if (mainContent.length() == 0) {</span>
-<span class="nc" id="L23">      throw new EmptyArgumentException(&quot;Provided string argument is empty.&quot;);</span>
-    }
-<span class="nc" id="L25">    for (int i = -1;</span>
-<span class="nc bnc" id="L26" title="All 2 branches missed.">        (i = mainContent.indexOf(startQuote, i + 1)) != -1; i++) {</span>
-<span class="nc" id="L27">      startQuotePos.add(i);</span>
+<span class="fc bfc" id="L58" title="All 2 branches covered.">    if (mainContent.length() == 0) {</span>
+<span class="fc" id="L59">      throw new EmptyArgumentException(&quot;Provided string argument is empty.&quot;);</span>
     }
 
-<span class="nc" id="L30">    for (int i = -1;</span>
-<span class="nc bnc" id="L31" title="All 2 branches missed.">        (i = mainContent.indexOf(endQuote, i + 1)) != -1; i++) {</span>
-<span class="nc" id="L32">      endQuotePos.add(i + endQuote.length());</span>
+<span class="fc" id="L62">    placeholderPositions = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L63">    startQuotePos = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L64">    endQuotePos = new ArrayList&lt;&gt;();</span>
+
+<span class="fc" id="L66">    for (int i = -1;</span>
+<span class="fc bfc" id="L67" title="All 2 branches covered.">        (i = mainContent.indexOf(startQuote, i + 1)) != -1; i++) {</span>
+<span class="fc" id="L68">      startQuotePos.add(i);</span>
     }
 
-<span class="nc bnc" id="L35" title="All 2 branches missed.">    for (int k = 0; k &lt; startQuotePos.size(); k++) {</span>
-<span class="nc" id="L36">      Integer[] currQuotePos = new Integer[positionLength];</span>
-<span class="nc" id="L37">      currQuotePos[startPosition] = startQuotePos.get(k);</span>
-<span class="nc" id="L38">      currQuotePos[endPosition] = endQuotePos.get(k);</span>
-<span class="nc" id="L39">      placeholderPositions.add(currQuotePos);</span>
+<span class="fc" id="L71">    for (int i = -1;</span>
+<span class="fc bfc" id="L72" title="All 2 branches covered.">        (i = mainContent.indexOf(closeQuote, i + 1)) != -1; i++) {</span>
+<span class="fc" id="L73">      endQuotePos.add(i + closeQuote.length());</span>
     }
 
-<span class="nc" id="L42">    return placeholderPositions;</span>
+<span class="fc bfc" id="L76" title="All 2 branches covered.">    for (int k = 0; k &lt; startQuotePos.size(); k++) {</span>
+<span class="fc" id="L77">      Integer[] currQuotePos = new Integer[positionLength];</span>
+<span class="fc" id="L78">      currQuotePos[startPosition] = startQuotePos.get(k);</span>
+<span class="fc" id="L79">      currQuotePos[endPosition] = endQuotePos.get(k);</span>
+<span class="fc" id="L80">      placeholderPositions.add(currQuotePos);</span>
+    }
+
+<span class="fc" id="L83">    return placeholderPositions;</span>
   }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

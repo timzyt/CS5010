@@ -3,21 +3,20 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.regex.Pattern;
 
 /**
  * The type Line parser.
  */
-<span class="nc" id="L11">public class LineParser {</span>
+<span class="fc" id="L10">public class LineParser {</span>
 
   /**
    * The Tokens.
    */
   String[] tokens;
   /**
-   * The Csv pattern 1.
+   * List of String result.
    */
-
+  List&lt;String&gt; resultList;
 
   /**
    * Parse list.
@@ -27,13 +26,14 @@ import java.util.regex.Pattern;
    */
   public List&lt;String&gt; parse(String line) {
     //Pattern csvPattern1 = Pattern.compile(&quot;,(?=(?:[^\&quot;]*\&quot;[^\&quot;]*\&quot;)*[^\&quot;]*$)&quot;);
-<span class="nc" id="L30">    tokens = line.split(&quot;,(?=(?:[^\\\&quot;]*\\\&quot;[^\\\&quot;]*\\\&quot;)*[^\\\&quot;]*$)&quot;, -1);</span>
-<span class="nc" id="L31">    List&lt;String&gt; arrayTokens = new ArrayList&lt;String&gt;(Arrays.asList(tokens));</span>
+<span class="fc" id="L29">    tokens = line.split(&quot;,(?=(?:[^\\\&quot;]*\\\&quot;[^\\\&quot;]*\\\&quot;)*[^\\\&quot;]*$)&quot;, -1);</span>
+<span class="fc" id="L30">    List&lt;String&gt; tempArrayTokens = new ArrayList&lt;String&gt;(Arrays.asList(tokens));</span>
     //trim the quotes for each string item
-<span class="nc bnc" id="L33" title="All 2 branches missed.">    for (String str : arrayTokens) {</span>
-<span class="nc" id="L34">      str.replace(&quot;\&quot;&quot;, &quot;&quot;);</span>
-<span class="nc" id="L35">    }</span>
-<span class="nc" id="L36">    return arrayTokens;</span>
+<span class="fc" id="L32">    resultList = new ArrayList&lt;&gt;();</span>
+<span class="fc bfc" id="L33" title="All 2 branches covered.">    for (String str : tempArrayTokens) {</span>
+<span class="fc" id="L34">      resultList.add(str.replace(&quot;\&quot;&quot;, &quot;&quot;));</span>
+<span class="fc" id="L35">    }</span>
+<span class="fc" id="L36">    return resultList;</span>
   }
 
 }

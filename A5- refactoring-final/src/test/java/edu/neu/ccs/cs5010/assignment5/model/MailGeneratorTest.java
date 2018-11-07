@@ -33,7 +33,7 @@ public class MailGeneratorTest {
   public void before() throws Exception {
     newMailGenerator = new MailGenerator();
     emailTemplate = "email-template.txt";
-    csvFileName = "insurance-company-members_test.csv";
+    csvFileName = "insurance-company-members.csv";
     outputDir = "email";
     mailType = "email";
     badFileName = "noSuchFile.csv";

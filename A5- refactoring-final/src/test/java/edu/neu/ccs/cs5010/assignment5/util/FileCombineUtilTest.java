@@ -36,8 +36,8 @@ public class FileCombineUtilTest {
   @Test
   public void testCombineStringList() throws Exception {
     resultStringList = newBRU.read(testFileName);
-
-    System.out.println(newFCU.combineStringList(resultStringList));
+    result = newFCU.combineStringList(resultStringList);
+    System.out.println(result);
   }
 
   @Test

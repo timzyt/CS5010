@@ -8,12 +8,25 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * BufferedReader utility class.
+ */
 public class BufferredReaderUtil {
 
-  List<String> result = new ArrayList<>();
+  /**
+   * Result List.
+   */
+  List<String> result;
 
+  /**
+   * Read provided file and output as a list of strings.
+   *
+   * @param fileName the file name.
+   * @return List a list of strings.
+   */
   public List<String> read(String fileName) {
     System.getProperty("user.dir");
+    result = new ArrayList<>();
     try (BufferedReader inputFile = new BufferedReader(
         new InputStreamReader(new FileInputStream(fileName), "UTF8"))) {
 

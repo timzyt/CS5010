@@ -3,7 +3,6 @@ package edu.neu.ccs.cs5010.assignment5.model;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.regex.Pattern;
 
 /**
  * The type Line parser.
