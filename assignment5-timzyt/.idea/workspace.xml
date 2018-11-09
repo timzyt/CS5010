@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f7cce0e-c62d-4691-897d-e15a7e4581bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../A5- refactoring-final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A5- refactoring-final/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1f7cce0e-c62d-4691-897d-e15a7e4581bc" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +118,7 @@
     <session id="1414884661">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -441,7 +438,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541747867427" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541747963924" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -609,7 +606,7 @@
       <workItem from="1540935882324" duration="2461000" />
       <workItem from="1540948111712" duration="34000" />
       <workItem from="1541538686745" duration="270000" />
-      <workItem from="1541747680223" duration="276000" />
+      <workItem from="1541747680223" duration="350000" />
     </task>
     <servers />
   </component>
@@ -646,7 +643,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107115000" />
+    <option name="totallyTimeSpent" value="107189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,7 +657,7 @@
   <component name="ToolWindowManager">
     <frame x="1788" y="-1088" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.15938166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4985119" visible="true" weight="0.15938166" />
       <window_info id="Structure" order="1" sideWeight="0.5014881" side_tool="true" weight="0.19128996" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -676,7 +673,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.20093457" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30368763" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30368763" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Statistic" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
