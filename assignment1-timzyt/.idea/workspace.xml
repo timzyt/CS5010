@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0300451-357a-48e2-8aba-08b4288b8451" name="Default Changelist" comment="added a few more tests in problem1">
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A5- refactoring-final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A5- refactoring-final/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment4-timzyt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment4-timzyt/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,9 +50,10 @@
     <session id="1701003138">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -75,7 +67,7 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -140,7 +132,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem1/TransitCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="1241">
               <caret line="83" column="22" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="22" />
               <folding>
                 <element signature="e#1681#1682#0" expanded="true" />
@@ -274,10 +266,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-16" />
-    <option name="y" value="-16" />
-    <option name="width" value="3231" />
-    <option name="height" value="1737" />
+    <option name="x" value="1788" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -287,7 +279,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -414,7 +406,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -596,6 +588,7 @@
       <workItem from="1537891792470" duration="804000" />
       <workItem from="1541355716632" duration="596000" />
       <workItem from="1541356576712" duration="3000" />
+      <workItem from="1541785704560" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="added a few more tests in TransitCardTest">
       <created>1537065032258</created>
@@ -654,12 +647,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133061000" />
+    <option name="totallyTimeSpent" value="133089000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
+    <frame x="1788" y="-1088" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26903552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -688,7 +681,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="PlantUML" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.49844238" visible="true" weight="0.30456853" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.49844238" visible="true" weight="0.17110874" />
       <window_info anchor="right" x="94" y="94" width="1235" height="572" id="Byte Code Viewer" order="10" type="FLOATING" />
       <window_info active="true" anchor="right" id="Coverage" order="11" sideWeight="0.50155765" side_tool="true" visible="true" weight="0.30456853" />
       <window_info anchor="right" id="SciView" order="12" />
@@ -1140,7 +1133,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/assignment1/problem1/TransitCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="1241">
           <caret line="83" column="22" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="22" />
           <folding>
             <element signature="e#1681#1682#0" expanded="true" />
