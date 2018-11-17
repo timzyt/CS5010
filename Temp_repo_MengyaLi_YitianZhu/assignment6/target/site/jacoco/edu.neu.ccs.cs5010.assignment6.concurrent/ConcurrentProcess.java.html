@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>ConcurrentProcess.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment6.concurrent</a> &gt; <span class="el_source">ConcurrentProcess.java</span></div><h1>ConcurrentProcess.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment6.concurrent;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ConcurrentNavigableMap;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+/**
+ * The multiTread process class.
+ */
+public class ConcurrentProcess {
+
+<span class="fc" id="L21">  public static final Integer MAX_THREAD = 20;</span>
+<span class="fc" id="L22">  public static final Integer LINES_IN_BATCH = 3000;</span>
+
+<span class="fc" id="L24">  public static final Integer ZERO = 0;</span>
+
+  private String inputFileName;
+
+<span class="fc" id="L28">  public ConcurrentProcess(String inputFileName) {</span>
+<span class="fc" id="L29">    this.inputFileName = inputFileName;</span>
+<span class="fc" id="L30">  }</span>
+
+  /**
+   * Read and process the file using multiTread.
+   * @return the ConcurrentOutputObject corpus.
+   * @throws IOException throws IOException when necessary.
+   * @throws ExecutionException throws ExecutionException when necessary.
+   * @throws InterruptedException throws InterruptedException when necessary.
+   */
+  public ConcurrentOutputObject multiThreadProcess()
+      throws IOException, ExecutionException, InterruptedException {
+<span class="fc" id="L41">    ExecutorService executorService = Executors.newFixedThreadPool(MAX_THREAD);</span>
+<span class="fc" id="L42">    List&lt;Future&gt; futures = new ArrayList&lt;Future&gt;();</span>
+    try {
+<span class="fc" id="L44">      BufferedReader bufferedReader = new BufferedReader(</span>
+          new InputStreamReader(new FileInputStream(inputFileName), &quot;UTF-8&quot;));
+      String line;
+<span class="fc" id="L47">      List&lt;String&gt; lines = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L48">      int lineCount = ZERO;</span>
+
+<span class="fc bfc" id="L50" title="All 2 branches covered.">      while ((line = bufferedReader.readLine()) != null) {</span>
+        // use comma as separator
+        // create object, add to list.
+        // if reaches limit, submit the job.
+<span class="fc" id="L54">        lineCount++;</span>
+<span class="fc bfc" id="L55" title="All 2 branches covered.">        if (lineCount % LINES_IN_BATCH != ZERO) {</span>
+<span class="fc" id="L56">          lines.add(line);</span>
+        } else {
+<span class="pc bpc" id="L58" title="1 of 2 branches missed.">          if (lines.size() != ZERO) {</span>
+<span class="fc" id="L59">            Future&lt;ConcurrentNavigableMap&lt;Long, ArrayList&lt;Long&gt;&gt;&gt; result = executorService</span>
+<span class="fc" id="L60">                .submit(new CallableProcess(lines));</span>
+<span class="fc" id="L61">            futures.add(result);</span>
+          }
+<span class="fc" id="L63">          lines = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L64">          lines.add(line);</span>
+        }
+      }
+<span class="pc bpc" id="L67" title="1 of 2 branches missed.">      if (lines.size() != ZERO) {</span>
+<span class="fc" id="L68">        Future&lt;ConcurrentNavigableMap&lt;Long, ArrayList&lt;Long&gt;&gt;&gt; result = executorService</span>
+<span class="fc" id="L69">            .submit(new CallableProcess(lines));</span>
+<span class="fc" id="L70">        futures.add(result);</span>
+      }
+<span class="fc" id="L72">      bufferedReader.close();</span>
+<span class="fc" id="L73">      executorService.shutdown();</span>
+<span class="fc" id="L74">    } catch (FileNotFoundException e) {</span>
+<span class="fc" id="L75">      e.printStackTrace();</span>
+<span class="fc" id="L76">    }</span>
+
+    //Combine the result.
+<span class="fc" id="L79">    ConcurrentOutputObject corpus = new ConcurrentOutputObject();</span>
+
+<span class="fc bfc" id="L81" title="All 2 branches covered.">    for (Future&lt;ConcurrentNavigableMap&lt;Long, ArrayList&lt;Long&gt;&gt;&gt; f : futures) {</span>
+      // Aggregate
+<span class="fc" id="L83">      ConcurrentNavigableMap&lt;Long, ArrayList&lt;Long&gt;&gt; map = f.get();</span>
+<span class="fc" id="L84">      corpus.add(map);</span>
+<span class="fc" id="L85">    }</span>
+
+<span class="fc" id="L87">    return corpus;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>
