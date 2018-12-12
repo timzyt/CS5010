@@ -6,10 +6,11 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ConcurrentNavigableMap;
 
 public class CallableProcess implements Callable<ConcurrentNavigableMap<Long, ArrayList<Long>>> {
-
+  private int index;
   private List<String> lines;
 
-  CallableProcess(List<String> lines) {
+  CallableProcess(int index, List<String> lines) {
+    this.index = index;
     this.lines = lines;
   }
 

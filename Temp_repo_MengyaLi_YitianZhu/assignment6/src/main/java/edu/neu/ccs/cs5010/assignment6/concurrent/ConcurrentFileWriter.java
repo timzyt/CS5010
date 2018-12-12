@@ -45,7 +45,6 @@ public class ConcurrentFileWriter implements FileWriterInterface {
     ConcurrentOutputObject corpus = concurrentProcess.multiThreadProcess();
     corpus.processAll();
     TreeMap<Long, ArrayList<Long>> summaries = corpus.getResult();
-
     String outName = this.dirName + "/" + inputFileName.replace("raw", "_result");
     writer(summaries, corpus, outName);
   }

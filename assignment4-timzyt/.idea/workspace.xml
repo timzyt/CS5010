@@ -2,26 +2,587 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d522e47-8ad3-4f46-a70f-b58762b2aac8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab3/src/test/java/SubtractionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/BinOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Define.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Exponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Multiply.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Num.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Subtraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/UnaryMinus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/main/java/edu/neu/ccs/cs5010/simpleCalculator/Model/Var.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment1-timzyt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment1-timzyt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A5- refactoring-final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A5- refactoring-final/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/WearableWorkloadDefault-1024-1000i-CPUrelaxed-long-Python-GETresult.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/WearableWorkloadDefault-1024-1000i-CPUrelaxed-long-Python-POSTresult.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/WearableWorkloadDefault-Javatest-GETraw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/WearableWorkloadDefault-Javatest-GETraw.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-1024-1000i-CPUrelaxed-long-Python-GETresult.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-1024-1000i-CPUrelaxed-long-Python-POST_GET_Combined.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-1024-1000i-CPUrelaxed-long-Python-POST_ThresholdResult.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-1024-1000i-CPUrelaxed-long-Python-POST_result.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-1024-1000i-CPUrelaxed-long-Python-POSTresult.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-Javatest-GET_result.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-Javatest-GETbad.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-Javatest-GETresult.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-Javatest-POST_GET_Combined.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-Javatest-POST_ThresholdResult.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-Javatest-POST_result.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-Javatest-POST_result.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/output/WearableWorkloadDefault-Javatest-POSTresult.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/src/main/java/edu/neu/ccs/cs5010/assignment6/concurrent/CallableProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/src/main/java/edu/neu/ccs/cs5010/assignment6/concurrent/CallableProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/src/main/java/edu/neu/ccs/cs5010/assignment6/concurrent/ConcurrentFileWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/src/main/java/edu/neu/ccs/cs5010/assignment6/concurrent/ConcurrentFileWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/src/main/java/edu/neu/ccs/cs5010/assignment6/concurrent/ConcurrentProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/src/main/java/edu/neu/ccs/cs5010/assignment6/concurrent/ConcurrentProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/checkstyle-checker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/checkstyle-checker.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/classes/edu/neu/ccs/cs5010/assignment6/concurrent/CallableProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/classes/edu/neu/ccs/cs5010/assignment6/concurrent/CallableProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/classes/edu/neu/ccs/cs5010/assignment6/concurrent/ConcurrentFileWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/classes/edu/neu/ccs/cs5010/assignment6/concurrent/ConcurrentFileWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/classes/edu/neu/ccs/cs5010/assignment6/concurrent/ConcurrentProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/classes/edu/neu/ccs/cs5010/assignment6/concurrent/ConcurrentProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/javadoc-bundle-options/javadoc-options-javadoc-resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/css/maven-base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/css/maven-base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/css/print.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/css/print.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/dependency-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/dependency-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/distribution-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/distribution-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/findbugs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/findbugs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/integration.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/integration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/issue-tracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/issue-tracking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/.resources/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/.resources/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/.resources/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/.resources/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/.resources/report.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/.resources/report.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/.resources/sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/.resources/sort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/edu.neu.ccs.cs5010.assignment6.concurrent/CallableProcess.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/edu.neu.ccs.cs5010.assignment6.concurrent/CallableProcess.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/edu.neu.ccs.cs5010.assignment6.concurrent/ProcessLines.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/edu.neu.ccs.cs5010.assignment6.concurrent/ProcessLines.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/edu.neu.ccs.cs5010.assignment6.concurrent/SystemService.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/edu.neu.ccs.cs5010.assignment6.concurrent/SystemService.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/edu.neu.ccs.cs5010.assignment6.sequential.exception/IllegalColumnNumberException.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/edu.neu.ccs.cs5010.assignment6.sequential.exception/IllegalColumnNumberException.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/edu.neu.ccs.cs5010.assignment6.sequential.exception/IllegalThresholdException.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/jacoco/edu.neu.ccs.cs5010.assignment6.sequential.exception/IllegalThresholdException.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/license.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/license.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/mail-lists.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/mail-lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/plugin-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/plugin-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/pmd.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/pmd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/project-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/project-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/project-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/project-reports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/project-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/project-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/source-repository.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/source-repository.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/team-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/team-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/edu/neu/ccs/cs5010/assignment6/sequential/javautil/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/edu/neu/ccs/cs5010/assignment6/sequential/javautil/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/edu/neu/ccs/cs5010/assignment6/sequential/javautil/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/edu/neu/ccs/cs5010/assignment6/sequential/javautil/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref-test/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/concurrent/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/concurrent/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/concurrent/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/concurrent/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/sequential/exception/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/sequential/exception/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/sequential/exception/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/sequential/exception/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/sequential/javautil/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/sequential/javautil/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/sequential/javautil/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/edu/neu/ccs/cs5010/assignment6/sequential/javautil/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Temp_repo_MengyaLi_YitianZhu/assignment6/target/site/xref/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment5-timzyt/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment5-timzyt/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Abel Maclead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Adelina Nabours.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Adell Lipkin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ahmed Angalich.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Aja Gehrett.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Alaine Bergesen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Albina Glick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Alease Buemi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Alecia Bubash.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Alesia Hixenbaugh.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Alex Loader.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Alisha Slusarski.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Alishia Sergi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Aliza Baltimore.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Allene Iturbide.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Alline Jeanty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Alpha Palaia.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Alyce Arias.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Amber Monarrez.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Amie Perigo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ammie Corrio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_An Fritz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Andra Scheyer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Angella Cetta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Annabelle Boord.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Annelle Tagala.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Annmarie Castros.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Antione Onofrio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Arlene Klusman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Arlette Honeywell.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Arminda Parvis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Arthur Farrow.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ashlyn Pinilla.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Audra Kohnert.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Audry Yaw.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Avery Steier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Barbra Adkin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Barrett Toyama.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Beatriz Corrington.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Beckie Silvestrini.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Becky Mirafuentes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Belen Strassner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Benedict Sama.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Benton Skursky.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Bernardine Rodefer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Bernardo Figeroa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Bette Nicka.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Billye Miro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Blair Malet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Blondell Pugh.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Bobbye Rhym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Bok Isaacs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Brandon Callaro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Brett Mccullan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Britt Galam.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Brittni Gillaspie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Brock Bolognia.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Buddy Cloney.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Bulah Padilla.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Caitlin Julia.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cammy Albares.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Candida Corbley.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Caprice Suell.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Carey Dopico.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Carin Deleo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Carissa Batman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Carlee Boulter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Carma Vanheusen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Carmela Cookey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Carmelina Lindall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Carmen Sweigard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Casie Good.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cassi Wildfong.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Catalina Tillotson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Catarina Gleich.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cathrine Pontoriero.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cecil Lapage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cecilia Colaizzo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cecily Hollack.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Celeste Korando.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ceola Setter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Chanel Caudy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Chantell Maynerich.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Charlene Hamilton.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Chau Kitzman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Chauncey Motley.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Chaya Malvin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cherry Lietz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cheryl Haroldson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Christiane Eschberger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ciara Ventura.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Claribel Varriano.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Clay Hoa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Clorinda Heimann.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Colette Kardas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cordelia Storment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Corinne Loder.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cory Gibes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cristal Samara.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cristy Lother.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cyndy Goldammer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Cyril Daufeldt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dalene Riden.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dalene Schoeneck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Danica Bruschke.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Daniel Perruzza.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Daniela Comnick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Daren Weirather.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Daron Dinos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dean Ketelsen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Deandrea Hughey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Deeanna Juhas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Delisa Crupi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Delmy Ahle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Denise Patak.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Deonna Kippley.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Derick Dhamer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Detra Coyier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Devora Perez.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Devorah Chickering.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Diane Devreese.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dick Wenzinger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dierdre Yum.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dominque Dickerson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Donette Foller.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Donte Kines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dorothy Chesterfield.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dorthy Hidvegi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dottie Hellickson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dulce Labreche.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Dyan Oldroyd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Earleen Mai.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Eden Jayson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Edna Miceli.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Eladia Saulter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Elke Sengbusch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Elli Mclaird.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Elly Morocco.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Elouise Gwalthney.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Elvera Benimadho.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Elza Lipke.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Emerson Bowley.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Erick Ferencz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Erick Nievas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Erinn Canlas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ernest Syrop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ernie Stenseth.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Estrella Samu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ettie Hoopengardner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Eun Coody.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Evangelina Radde.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ezekiel Chui.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Fabiola Hauenstein.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Fannie Lungren.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Fatima Saylors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Fausto Agramonte.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Felicidad Poullion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Felix Hirpara.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Fernanda Jillson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Filiberto Tawil.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Fletcher Flosi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Flo Bookamer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_France Buzick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Francine Vocelka.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Franklyn Emard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Frederica Blunk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Freeman Gochal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gail Kitty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gail Similton.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Galen Cantres.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Garry Keetch.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gary Nunlee.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gayla Schnitzler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gearldine Gellinger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Geoffrey Acey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Georgene Montezuma.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gertude Witten.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gilma Liukko.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gladys Rim.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Glen Bartolet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Glendora Sarbacher.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Glenn Berray.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Glenna Slayton.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Glory Kulzer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Glory Schieler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Golda Kaniecki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Goldie Schirpke.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gracia Melnyk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Graciela Ruta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gregoria Pawlowicz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Gwenn Suffield.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Harrison Haufler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Haydee Denooyer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Heike Berganza.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Helaine Halter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Helene Rodenberger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Helga Fredicks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Herman Demesa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Hermila Thyberg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Herminia Nicolozakes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Hillary Skulski.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Hoa Sarao.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Howard Paulas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Hubert Walthall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ilene Eroman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Iluminada Ohms.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Irma Wolfgramm.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Izetta Dewar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Izetta Funnell.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jaclyn Bachman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jacqueline Rowling.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jade Farrar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jamal Vanausdal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Janey Gabisi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jani Biddy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Janine Rhoden.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jeanice Claucherty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jenelle Regusters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jennie Drymon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jennifer Fallick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jerry Dallen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jerry Zurcher.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jess Chaffins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jesusa Shin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jesusita Flister.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jettie Mconnell.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jina Briddick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Joanna Leinenbach.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Joesph Degonia.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Johnetta Abdallah.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Johnna Engelberg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jolanda Hanafan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jolene Ostolaza.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Joni Breland.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jose Stockham.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Joseph Cryer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Josphine Villanueva.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jovita Oles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Judy Aquas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Junita Brideau.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Junita Stoltzman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Justine Ferrario.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Justine Mugnolo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Jutta Amyot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kaitlyn Ogg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kallie Blackwood.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kanisha Waycott.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Karan Karpin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Karl Klonowski.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kasandra Semidey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kate Keneipp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kati Rulapaugh.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Katina Polidori.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kattie Vonasek.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kayleigh Lace.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Keneth Borgman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kenneth Grenet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kerry Theodorov.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kiley Caldarera.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kimberlie Duenas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kimbery Madarang.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kirk Herritt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kris Marrier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Krissy Rauser.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kristeen Turinetti.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kristel Ehmann.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Kristofer Bennick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lai Gato.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lai Harabedian.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Larae Gudroe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lashandra Klang.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lashaunda Lizama.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lashawnda Stuer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lashon Vizarro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Laticia Merced.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Latrice Tolfree.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lauran Burnard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Laurel Pagliuca.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Laurel Reitler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lavera Perin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lavonda Hengel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lavonna Wolny.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lawrence Lorens.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Layla Springe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Leatha Hagele.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lemuel Latzke.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lenna Newville.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Leonida Gobern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Leonora Mauson.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Leota Dilliard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Leota Ragel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Leslie Threets.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lettie Isenhower.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Levi Munis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lezlie Craghead.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ligia Reiber.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lili Paskin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lilli Scriven.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lindsey Dilello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Linn Paa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lisha Centini.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lizbeth Kohl.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lizette Stem.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lonna Diestel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lonny Weglarz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lorean Martabano.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Loren Asar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Loreta Timenez.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lorrie Nestle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lorrine Worlds.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Louisa Cronauer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Louvenia Beech.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lucina Lary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lucy Treston.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Luisa Jurney.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Lynelle Auber.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ma Layous.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Maile Linahan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Malcolm Tromblay.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Malinda Hochard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Margart Meisel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Marge Limmel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Marguerita Hiatt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mari Lueckenbach.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mariann Bilden.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Marjory Mastella.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Markus Lukasik.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Marti Maybury.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Martina Staback.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Marvel Raymo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Maryann Royster.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Matthew Neither.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mattie Poquette.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Maurine Yglesias.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Meaghan Garufi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Melissa Wiklund.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Melodie Knipp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Merilyn Bayless.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Merissa Tomblin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Merlyn Lawler.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Micaela Rhymes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Minna Amigon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mireya Frerking.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mirta Mallett.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mitsue Scipione.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mitsue Tollner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mitzie Hudnall.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mollie Mcdoniel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mona Delasancha.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Moon Parlato.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Mozell Pelkowski.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_My Rantanen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Myra Munns.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Nan Koppinger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Nana Wrinkles.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Natalie Fern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Nelida Sawchuk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Nichelle Meteer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Nickolas Juvera.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Nicolette Brossart.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Nieves Gotter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Noah Kalafatis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Nobuko Halsey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Norah Waymire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Novella Degroot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Nu Mcnease.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Olive Matuszak.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Oretha Menter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ozell Shealy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Pamella Fortino.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Pamella Schmierer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Paris Wide.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Paz Sahagun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Peggie Sturiale.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Penney Weight.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Pete Dubaldi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Portia Stimmel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Quentin Birkner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Quentin Swayze.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Raina Brachle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rasheeda Sayaphon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Raul Upthegrove.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Raylene Kampa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Raymon Calvaresi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rebecka Gesick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Reena Maisto.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Refugia Jacobos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Regenia Kannady.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Reita Leto.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Renea Monterrubio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ressie Auffrey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rhea Aredondo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rickie Plumer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rikki Nayar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rima Bevelacqua.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rodolfo Butzen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rolande Spickerman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rolland Francescon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ronny Caiafa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Roosevelt Hoffis.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rory Papasergi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Roselle Estell.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rosio Cork.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Roslyn Chavous.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Roxane Campain.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Rozella Ostrosky.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ruthann Keener.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ryan Harnos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sabra Uyetake.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sage Wieser.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Salena Karpel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Salome Lacovara.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Samira Heintzman.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sarah Candlish.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Scarlet Cartan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Selma Husser.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Serina Zagen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Shalon Shadrick.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sharee Maile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sharen Bourbon.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sharika Eanes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Shawna Palaspas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Shawnda Yori.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Shenika Seewald.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sheridan Zane.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sherita Saras.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sheron Louissant.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Shonda Greenbush.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Simona Morasca.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Skye Fillingim.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Solange Shinko.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Staci Schmaltz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Stephaine Barfield.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Stephaine Vinning.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Stephane Myricks.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Stephen Emigh.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Stevie Westerbeck.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sue Kownacki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sylvia Cousey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Sylvie Ryser.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Talia Riopelle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tamar Hoogland.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tammara Wardrip.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tarra Nachor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Taryn Moyd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tasia Andreason.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tawna Buvens.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Teddy Pedrozo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tegan Arceo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Teri Ennaco.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Terrilyn Rodeigues.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Thaddeus Ankeny.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Theodora Restrepo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Theola Frey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Thurman Manno.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tiera Frankel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tiffiny Steffensmeier.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Timothy Mulqueen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tonette Wenner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tracey Modzelewski.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tresa Sweely.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Trinidad Mcrae.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Truman Feichtner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Twana Felger.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Ty Smith.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Tyra Shields.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Valentin Klimek.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Valentine Gillian.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Vallie Mondella.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Van Shire.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Venita Maillard.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Veronika Inouye.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Vi Rentfro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Vilma Berlanga.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Vincent Meinerding.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Vincenza Zepp.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Viola Bitsuie.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Virgie Kiel.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Virgina Tegarden.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Viva Toelkes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Weldon Acuff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Whitley Tomasulo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Wilda Giguere.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Willard Kolmetz.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Willodean Konopacki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Willow Kusko.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Winfred Brucato.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Wynell Dorshorst.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Xochitl Discipio.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Xuan Rochin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Yoko Fishburne.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Yolando Luczki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Youlanda Schemmer.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Yuki Whobrey.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Yvonne Tjepkema.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/email_Zona Colla.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/letter_Art Venere.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/letter_James Butt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/letter_Josephine Darakjy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment5-timzyt/email/letter_Lenna Paprocki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment6/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment6/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment6/assignment6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment6/pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,280 +593,280 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testMasterValidator.ic" NAME="HistoryValidatorTest.testMasterValidator Coverage Results" MODIFIED="1539625846626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testGetDriverPoolDatabase.ic" NAME="DriverPoolTest.testGetDriverPoolDatabase Coverage Results" MODIFIED="1539639053211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/assignment4$NameTest_testToString.ic" NAME="NameTest.testToString Coverage Results" MODIFIED="1539499189834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateDriverWithMultipleVehicles1.ic" NAME="DriverPoolValidatorTest.testValidateDriverWithMultipleVehicles1 Coverage Results" MODIFIED="1539590625183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$recordTest_testEquals.ic" NAME="recordTest.testEquals Coverage Results" MODIFIED="1539581591601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateDriverHistory3.ic" NAME="HistoryValidatorTest.testValidateDriverHistory3 Coverage Results" MODIFIED="1539644520424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$ViolationTypesTest.ic" NAME="ViolationTypesTest Coverage Results" MODIFIED="1539578006062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testMasterValidator.ic" NAME="DriverPoolTest.testMasterValidator Coverage Results" MODIFIED="1539635480977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testEquals.ic" NAME="RegistrationTest.testEquals Coverage Results" MODIFIED="1539628756480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$InsuranceTest_testEquals.ic" NAME="InsuranceTest.testEquals Coverage Results" MODIFIED="1539570936226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.insurance.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateDriverHistory.ic" NAME="HistoryValidatorTest.testValidateDriverHistory Coverage Results" MODIFIED="1539644545003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$InsuranceValidatorTest_testValidateInsuredOwner.ic" NAME="InsuranceValidatorTest.testValidateInsuredOwner Coverage Results" MODIFIED="1539587300477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$NameTest_testSetFirstName.ic" NAME="NameTest.testSetFirstName Coverage Results" MODIFIED="1539494449265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$LicenseTest_testConstructor.ic" NAME="LicenseTest.testConstructor Coverage Results" MODIFIED="1539565356507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverTest.ic" NAME="DriverTest Coverage Results" MODIFIED="1539571222648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testFindFullList.ic" NAME="DriverPoolTest.testFindFullList Coverage Results" MODIFIED="1539640290396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest.ic" NAME="DriverPoolValidatorTest Coverage Results" MODIFIED="1539633353484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testToString.ic" NAME="DriverPoolTest.testToString Coverage Results" MODIFIED="1539641518900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testAddDriverVehicle.ic" NAME="DriverPoolTest.testAddDriverVehicle Coverage Results" MODIFIED="1539631043802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testFindDriverFromVehicleSet.ic" NAME="DriverPoolValidatorTest.testFindDriverFromVehicleSet Coverage Results" MODIFIED="1539622810485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$CountryTest_testValue.ic" NAME="CountryTest.testValue Coverage Results" MODIFIED="1539505779553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverTest_testToString.ic" NAME="DriverTest.testToString Coverage Results" MODIFIED="1539499201272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$TimeCalculatorTest_testCalculateAge.ic" NAME="TimeCalculatorTest.testCalculateAge Coverage Results" MODIFIED="1539577446541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateDriverWithMultipleVehicles2.ic" NAME="DriverPoolValidatorTest.testValidateDriverWithMultipleVehicles2 Coverage Results" MODIFIED="1539590595151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$CrashTypesTest.ic" NAME="CrashTypesTest Coverage Results" MODIFIED="1539573695556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.vehicle.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testValidateRegistration2.ic" NAME="RegistrationTest.testValidateRegistration2 Coverage Results" MODIFIED="1539630077039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$NameTest_testSetFirstName2.ic" NAME="NameTest.testSetFirstName2 Coverage Results" MODIFIED="1539495201328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateDriverHistory4.ic" NAME="HistoryValidatorTest.testValidateDriverHistory4 Coverage Results" MODIFIED="1539644508690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateSharedVehicle2.ic" NAME="DriverPoolValidatorTest.testValidateSharedVehicle2 Coverage Results" MODIFIED="1539622694543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$VehicleTest.ic" NAME="VehicleTest Coverage Results" MODIFIED="1539574208316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.vehicle.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$InsuranceValidatorTest_testValidateInsuranceExpiration.ic" NAME="InsuranceValidatorTest.testValidateInsuranceExpiration Coverage Results" MODIFIED="1539587332507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testProvideDriverInfo.ic" NAME="RideShareControllerTest.testProvideDriverInfo Coverage Results" MODIFIED="1539644068203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverTest_testGetLicense.ic" NAME="DriverTest.testGetLicense Coverage Results" MODIFIED="1539497854516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testValidateCountryOfIssuance.ic" NAME="DriverValidatorTest.testValidateCountryOfIssuance Coverage Results" MODIFIED="1539583931314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testToString.ic" NAME="RegistrationTest.testToString Coverage Results" MODIFIED="1539628515565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testSetInsurance2.ic" NAME="RegistrationTest.testSetInsurance2 Coverage Results" MODIFIED="1539627990810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$edu_neu_ccs_cs5010_assignment4_in_hometest.ic" NAME="edu.neu.ccs.cs5010.assignment4 in hometest Coverage Results" MODIFIED="1539593704567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$recordTest_testToString.ic" NAME="recordTest.testToString Coverage Results" MODIFIED="1539582308833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest.ic" NAME="DriverPoolTest Coverage Results" MODIFIED="1539639464651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testMasterValidator.ic" NAME="DriverPoolValidatorTest.testMasterValidator Coverage Results" MODIFIED="1539622715214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testMasterValidator2.ic" NAME="DriverPoolTest.testMasterValidator2 Coverage Results" MODIFIED="1539639516756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$NameTest_testNameConstructor.ic" NAME="NameTest.testNameConstructor Coverage Results" MODIFIED="1539494649777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_vaidateLicenseExpiration.ic" NAME="DriverValidatorTest.vaidateLicenseExpiration Coverage Results" MODIFIED="1539584161617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testHashCode.ic" NAME="DriverPoolTest.testHashCode Coverage Results" MODIFIED="1539641460105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testSetVehicle.ic" NAME="RideShareControllerTest.testSetVehicle Coverage Results" MODIFIED="1539642505517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateDriverWithMultipleVehicles3.ic" NAME="DriverPoolValidatorTest.testValidateDriverWithMultipleVehicles3 Coverage Results" MODIFIED="1539633532799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testMasterValidator.ic" NAME="DriverValidatorTest.testMasterValidator Coverage Results" MODIFIED="1539585065555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testFindDriverList.ic" NAME="DriverPoolTest.testFindDriverList Coverage Results" MODIFIED="1539639870232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testValidateBirthday.ic" NAME="DriverValidatorTest.testValidateBirthday Coverage Results" MODIFIED="1539585003911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$TimeCalculatorTest_testNotPast.ic" NAME="TimeCalculatorTest.testNotPast Coverage Results" MODIFIED="1539577563219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateVehicleHistory2.ic" NAME="HistoryValidatorTest.testValidateVehicleHistory2 Coverage Results" MODIFIED="1539625796292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverTest_testSetName.ic" NAME="DriverTest.testSetName Coverage Results" MODIFIED="1539497847520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$VehicleValidatorTest.ic" NAME="VehicleValidatorTest Coverage Results" MODIFIED="1539586773492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest.ic" NAME="RideShareControllerTest Coverage Results" MODIFIED="1539642605559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$NameTest_testEquals.ic" NAME="NameTest.testEquals Coverage Results" MODIFIED="1539494717409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$InsuranceTest.ic" NAME="InsuranceTest Coverage Results" MODIFIED="1539577414775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.insurance.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateDriverHistory5.ic" NAME="HistoryValidatorTest.testValidateDriverHistory5 Coverage Results" MODIFIED="1539644490719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateUniqueness.ic" NAME="DriverPoolValidatorTest.testValidateUniqueness Coverage Results" MODIFIED="1539589302839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$InsuranceValidatorTest_testMasterValidator.ic" NAME="InsuranceValidatorTest.testMasterValidator Coverage Results" MODIFIED="1539587371306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testGetVehicleRecord.ic" NAME="RideShareControllerTest.testGetVehicleRecord Coverage Results" MODIFIED="1539642885709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testEquals.ic" NAME="DriverPoolTest.testEquals Coverage Results" MODIFIED="1539641384368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testValidateAge.ic" NAME="DriverValidatorTest.testValidateAge Coverage Results" MODIFIED="1539583586617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateVehicleHistory.ic" NAME="HistoryValidatorTest.testValidateVehicleHistory Coverage Results" MODIFIED="1539625706297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$TimeCalculatorTest_testCalculateMonth.ic" NAME="TimeCalculatorTest.testCalculateMonth Coverage Results" MODIFIED="1539577484346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$VehicleValidatorTest_testValidateVehicleAge.ic" NAME="VehicleValidatorTest.testValidateVehicleAge Coverage Results" MODIFIED="1539586761161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest.ic" NAME="DriverValidatorTest Coverage Results" MODIFIED="1539585013036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$InsuranceTest_testToString.ic" NAME="InsuranceTest.testToString Coverage Results" MODIFIED="1539571175241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.insurance.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$recordTest_testIsMovingViolation.ic" NAME="recordTest.testIsMovingViolation Coverage Results" MODIFIED="1539582272133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testValidateLicenseDateOfIssuance.ic" NAME="DriverValidatorTest.testValidateLicenseDateOfIssuance Coverage Results" MODIFIED="1539585198764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$CountryTest.ic" NAME="CountryTest Coverage Results" MODIFIED="1539505785999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testHashCode.ic" NAME="RegistrationTest.testHashCode Coverage Results" MODIFIED="1539628648490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$recordTest.ic" NAME="recordTest Coverage Results" MODIFIED="1539582280147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateVehicleHistory3.ic" NAME="HistoryValidatorTest.testValidateVehicleHistory3 Coverage Results" MODIFIED="1539644613242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testValidateRegistrationInPool.ic" NAME="DriverPoolTest.testValidateRegistrationInPool Coverage Results" MODIFIED="1539631384286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testValidateName.ic" NAME="DriverValidatorTest.testValidateName Coverage Results" MODIFIED="1539583589382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$NameTest.ic" NAME="NameTest Coverage Results" MODIFIED="1539495155250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testAddNewDriver.ic" NAME="RideShareControllerTest.testAddNewDriver Coverage Results" MODIFIED="1539642995500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$LicenseTest.ic" NAME="LicenseTest Coverage Results" MODIFIED="1539571212776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest.ic" NAME="HistoryValidatorTest Coverage Results" MODIFIED="1539625889012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateDriverHistory2.ic" NAME="HistoryValidatorTest.testValidateDriverHistory2 Coverage Results" MODIFIED="1539644534910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$edu_neu_ccs_cs5010_assignment4_ridesharemodel_driver_RiderShareModel_driver_in_hometest.ic" NAME="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.driver in hometest Coverage Results" MODIFIED="1539577398477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.driver.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$CrashTypesTest_testToString.ic" NAME="CrashTypesTest.testToString Coverage Results" MODIFIED="1539582502993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testValidateRegistration.ic" NAME="RegistrationTest.testValidateRegistration Coverage Results" MODIFIED="1539632323342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateSharedVehicle.ic" NAME="DriverPoolValidatorTest.testValidateSharedVehicle Coverage Results" MODIFIED="1539622356371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/assignment4$RegistrationTest.ic" NAME="RegistrationTest Coverage Results" MODIFIED="1539630098887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$recordTest_testEquals.ic" NAME="recordTest.testEquals Coverage Results" MODIFIED="1539581591601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testAddDriverVehicle.ic" NAME="DriverPoolTest.testAddDriverVehicle Coverage Results" MODIFIED="1539631043802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testMasterValidator.ic" NAME="DriverPoolTest.testMasterValidator Coverage Results" MODIFIED="1539635480977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/assignment4$edu_neu_ccs_cs5010_assignment4_ridesharemodel_driver_RiderShareModel_vehicle_in_hometest.ic" NAME="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.vehicle in hometest Coverage Results" MODIFIED="1539577435539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.vehicle.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testSetDriverName.ic" NAME="RideShareControllerTest.testSetDriverName Coverage Results" MODIFIED="1539642594692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/assignment4$DriverTest_testGetLicense.ic" NAME="DriverTest.testGetLicense Coverage Results" MODIFIED="1539497854516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$TimeCalculatorTest_testCalculateAge.ic" NAME="TimeCalculatorTest.testCalculateAge Coverage Results" MODIFIED="1539577446541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testFindFullList.ic" NAME="DriverPoolTest.testFindFullList Coverage Results" MODIFIED="1539640290396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testToString.ic" NAME="RegistrationTest.testToString Coverage Results" MODIFIED="1539628515565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$TimeCalculatorTest_testCalculateMonth.ic" NAME="TimeCalculatorTest.testCalculateMonth Coverage Results" MODIFIED="1539577484346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$TimeCalculatorTest_testNotPast.ic" NAME="TimeCalculatorTest.testNotPast Coverage Results" MODIFIED="1539577563219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$InsuranceTest.ic" NAME="InsuranceTest Coverage Results" MODIFIED="1539577414775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.insurance.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$recordTest_testIsMovingViolation.ic" NAME="recordTest.testIsMovingViolation Coverage Results" MODIFIED="1539582272133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverTest.ic" NAME="DriverTest Coverage Results" MODIFIED="1539571222648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$CountryTest_testValue.ic" NAME="CountryTest.testValue Coverage Results" MODIFIED="1539505779553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest.ic" NAME="RideShareControllerTest Coverage Results" MODIFIED="1539642605559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testMasterValidator.ic" NAME="HistoryValidatorTest.testMasterValidator Coverage Results" MODIFIED="1539625846626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateDriverHistory2.ic" NAME="HistoryValidatorTest.testValidateDriverHistory2 Coverage Results" MODIFIED="1539644534910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$recordTest_testToString.ic" NAME="recordTest.testToString Coverage Results" MODIFIED="1539582308833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest.ic" NAME="HistoryValidatorTest Coverage Results" MODIFIED="1539625889012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$edu_neu_ccs_cs5010_assignment4_in_hometest.ic" NAME="edu.neu.ccs.cs5010.assignment4 in hometest Coverage Results" MODIFIED="1539593704567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$edu_neu_ccs_cs5010_assignment4_ridesharemodel_driver_RiderShareModel_driver_in_hometest.ic" NAME="edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.driver in hometest Coverage Results" MODIFIED="1539577398477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$InsuranceValidatorTest_testValidateInsuredOwner.ic" NAME="InsuranceValidatorTest.testValidateInsuredOwner Coverage Results" MODIFIED="1539587300477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testHashCode.ic" NAME="DriverPoolTest.testHashCode Coverage Results" MODIFIED="1539641460105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateUniqueness.ic" NAME="DriverPoolValidatorTest.testValidateUniqueness Coverage Results" MODIFIED="1539589302839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateSharedVehicle.ic" NAME="DriverPoolValidatorTest.testValidateSharedVehicle Coverage Results" MODIFIED="1539622356371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$InsuranceTest_testEquals.ic" NAME="InsuranceTest.testEquals Coverage Results" MODIFIED="1539570936226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.insurance.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateDriverWithMultipleVehicles1.ic" NAME="DriverPoolValidatorTest.testValidateDriverWithMultipleVehicles1 Coverage Results" MODIFIED="1539590625183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$CrashTypesTest_testToString.ic" NAME="CrashTypesTest.testToString Coverage Results" MODIFIED="1539582502993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.vehicle.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$VehicleValidatorTest_testValidateVehicleAge.ic" NAME="VehicleValidatorTest.testValidateVehicleAge Coverage Results" MODIFIED="1539586761161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testEquals.ic" NAME="RegistrationTest.testEquals Coverage Results" MODIFIED="1539628756480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testValidateName.ic" NAME="DriverValidatorTest.testValidateName Coverage Results" MODIFIED="1539583589382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testFindDriverList.ic" NAME="DriverPoolTest.testFindDriverList Coverage Results" MODIFIED="1539639870232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$VehicleValidatorTest.ic" NAME="VehicleValidatorTest Coverage Results" MODIFIED="1539586773492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$NameTest_testSetFirstName2.ic" NAME="NameTest.testSetFirstName2 Coverage Results" MODIFIED="1539495201328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testSetInsurance2.ic" NAME="RegistrationTest.testSetInsurance2 Coverage Results" MODIFIED="1539627990810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testHashCode.ic" NAME="RegistrationTest.testHashCode Coverage Results" MODIFIED="1539628648490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testFindDriverFromVehicleSet2.ic" NAME="DriverPoolValidatorTest.testFindDriverFromVehicleSet2 Coverage Results" MODIFIED="1539621476889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testGetDriverRecord.ic" NAME="RideShareControllerTest.testGetDriverRecord Coverage Results" MODIFIED="1539642771486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateDriverWithMultipleVehicles.ic" NAME="DriverPoolValidatorTest.testValidateDriverWithMultipleVehicles Coverage Results" MODIFIED="1539590009399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateDriverHistory3.ic" NAME="HistoryValidatorTest.testValidateDriverHistory3 Coverage Results" MODIFIED="1539644520424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/assignment4$ViolationTypesTest_testToString.ic" NAME="ViolationTypesTest.testToString Coverage Results" MODIFIED="1539578144679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testValidateRegistration2.ic" NAME="RegistrationTest.testValidateRegistration2 Coverage Results" MODIFIED="1539630077039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testGetVehicleRecord.ic" NAME="RideShareControllerTest.testGetVehicleRecord Coverage Results" MODIFIED="1539642885709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$LicenseTest.ic" NAME="LicenseTest Coverage Results" MODIFIED="1539571212776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$InsuranceValidatorTest_testMasterValidator.ic" NAME="InsuranceValidatorTest.testMasterValidator Coverage Results" MODIFIED="1539587371306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testValidateRegistrationInPool.ic" NAME="DriverPoolTest.testValidateRegistrationInPool Coverage Results" MODIFIED="1539631384286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$InsuranceTest_testToString.ic" NAME="InsuranceTest.testToString Coverage Results" MODIFIED="1539571175241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.insurance.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$NameTest_testEquals.ic" NAME="NameTest.testEquals Coverage Results" MODIFIED="1539494717409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest.ic" NAME="DriverPoolValidatorTest Coverage Results" MODIFIED="1539633353484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testMasterValidator.ic" NAME="DriverPoolValidatorTest.testMasterValidator Coverage Results" MODIFIED="1539622715214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$CountryTest.ic" NAME="CountryTest Coverage Results" MODIFIED="1539505785999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$NameTest.ic" NAME="NameTest Coverage Results" MODIFIED="1539495155250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RegistrationTest_testValidateRegistration.ic" NAME="RegistrationTest.testValidateRegistration Coverage Results" MODIFIED="1539632323342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateDriverWithMultipleVehicles2.ic" NAME="DriverPoolValidatorTest.testValidateDriverWithMultipleVehicles2 Coverage Results" MODIFIED="1539590595151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testSetVehicle.ic" NAME="RideShareControllerTest.testSetVehicle Coverage Results" MODIFIED="1539642505517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testValidateBirthday.ic" NAME="DriverValidatorTest.testValidateBirthday Coverage Results" MODIFIED="1539585003911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverTest_testToString.ic" NAME="DriverTest.testToString Coverage Results" MODIFIED="1539499201272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$NameTest_testNameConstructor.ic" NAME="NameTest.testNameConstructor Coverage Results" MODIFIED="1539494649777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testProvideDriverInfo.ic" NAME="RideShareControllerTest.testProvideDriverInfo Coverage Results" MODIFIED="1539644068203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testAddNewDriver.ic" NAME="RideShareControllerTest.testAddNewDriver Coverage Results" MODIFIED="1539642995500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testValidateLicenseDateOfIssuance.ic" NAME="DriverValidatorTest.testValidateLicenseDateOfIssuance Coverage Results" MODIFIED="1539585198764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testMasterValidator.ic" NAME="DriverValidatorTest.testMasterValidator Coverage Results" MODIFIED="1539585065555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverTest_testSetName.ic" NAME="DriverTest.testSetName Coverage Results" MODIFIED="1539497847520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testValidateAge.ic" NAME="DriverValidatorTest.testValidateAge Coverage Results" MODIFIED="1539583586617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest.ic" NAME="DriverValidatorTest Coverage Results" MODIFIED="1539585013036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateDriverHistory4.ic" NAME="HistoryValidatorTest.testValidateDriverHistory4 Coverage Results" MODIFIED="1539644508690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateVehicleHistory3.ic" NAME="HistoryValidatorTest.testValidateVehicleHistory3 Coverage Results" MODIFIED="1539644613242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$NameTest_testSetFirstName.ic" NAME="NameTest.testSetFirstName Coverage Results" MODIFIED="1539494449265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.RiderShareModel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testToString.ic" NAME="DriverPoolTest.testToString Coverage Results" MODIFIED="1539641518900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$InsuranceValidatorTest_testValidateInsuranceExpiration.ic" NAME="InsuranceValidatorTest.testValidateInsuranceExpiration Coverage Results" MODIFIED="1539587332507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$recordTest.ic" NAME="recordTest Coverage Results" MODIFIED="1539582280147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_testValidateCountryOfIssuance.ic" NAME="DriverValidatorTest.testValidateCountryOfIssuance Coverage Results" MODIFIED="1539583931314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateDriverWithMultipleVehicles3.ic" NAME="DriverPoolValidatorTest.testValidateDriverWithMultipleVehicles3 Coverage Results" MODIFIED="1539633532799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$VehicleTest.ic" NAME="VehicleTest Coverage Results" MODIFIED="1539574208316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.vehicle.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest.ic" NAME="DriverPoolTest Coverage Results" MODIFIED="1539639464651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverValidatorTest_vaidateLicenseExpiration.ic" NAME="DriverValidatorTest.vaidateLicenseExpiration Coverage Results" MODIFIED="1539584161617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testMasterValidator2.ic" NAME="HistoryValidatorTest.testMasterValidator2 Coverage Results" MODIFIED="1539625878013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateSharedVehicle2.ic" NAME="DriverPoolValidatorTest.testValidateSharedVehicle2 Coverage Results" MODIFIED="1539622694543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$LicenseTest_testConstructor.ic" NAME="LicenseTest.testConstructor Coverage Results" MODIFIED="1539565356507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.driver.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolValidatorTest_testValidateDriverWithMultipleVehicles.ic" NAME="DriverPoolValidatorTest.testValidateDriverWithMultipleVehicles Coverage Results" MODIFIED="1539590009399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testGetDriverPoolDatabase.ic" NAME="DriverPoolTest.testGetDriverPoolDatabase Coverage Results" MODIFIED="1539639053211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testMasterValidator2.ic" NAME="DriverPoolTest.testMasterValidator2 Coverage Results" MODIFIED="1539639516756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateDriverHistory.ic" NAME="HistoryValidatorTest.testValidateDriverHistory Coverage Results" MODIFIED="1539644545003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$ViolationTypesTest.ic" NAME="ViolationTypesTest Coverage Results" MODIFIED="1539578006062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.ridersharemodel.violationrecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testGetDriverRecord.ic" NAME="RideShareControllerTest.testGetDriverRecord Coverage Results" MODIFIED="1539642771486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateVehicleHistory.ic" NAME="HistoryValidatorTest.testValidateVehicleHistory Coverage Results" MODIFIED="1539625706297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$CrashTypesTest.ic" NAME="CrashTypesTest Coverage Results" MODIFIED="1539573695556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.driver.RiderShareModel.vehicle.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$RideShareControllerTest_testSetDriverName.ic" NAME="RideShareControllerTest.testSetDriverName Coverage Results" MODIFIED="1539642594692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$DriverPoolTest_testEquals.ic" NAME="DriverPoolTest.testEquals Coverage Results" MODIFIED="1539641384368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateVehicleHistory2.ic" NAME="HistoryValidatorTest.testValidateVehicleHistory2 Coverage Results" MODIFIED="1539625796292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment4$HistoryValidatorTest_testValidateDriverHistory5.ic" NAME="HistoryValidatorTest.testValidateDriverHistory5 Coverage Results" MODIFIED="1539644490719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>edu.neu.ccs.cs5010.assignment4.ridesharemodel.validators.*</FILTER>
     </SUITE>
   </component>
@@ -315,148 +876,8 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="115" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="419681253">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.1" value="5" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="2" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="2" />
-          <entry key="java" value="279" />
-          <entry key="xml" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="2" />
-          <entry key="JAVA" value="279" />
-          <entry key="XML" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="10" />
-          <entry key="java" value="26659" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="26659" />
-          <entry key="PLAIN_TEXT" value="10" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1035170722">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="1" />
-          <entry key="html" value="2" />
-          <entry key="java" value="72" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="HTML" value="2" />
-          <entry key="JAVA" value="72" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="3662" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3662" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1337432699">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="assignment4" value="1" />
-          <entry key="html" value="4" />
-          <entry key="java" value="162" />
-          <entry key="png" value="2" />
-          <entry key="ridesharemodel" value="1" />
-          <entry key="uml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="4" />
-          <entry key="Image" value="2" />
-          <entry key="JAVA" value="162" />
-          <entry key="UML" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="20946" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="20946" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-467064759">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.m2/settings.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/RiderShareViewTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -568,12 +989,6 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -588,10 +1003,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
-    <option name="y" value="-14" />
-    <option name="width" value="3229" />
-    <option name="height" value="1737" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="3226" />
+    <option name="height" value="1746" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -625,6 +1040,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -661,20 +1077,17 @@
             <path>
               <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
               <item name="assignment4-timzyt" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="assignment4-timzyt" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment4" type="462c0819:PsiDirectoryNode" />
+              <item name="ridesharemodel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -684,7 +1097,7 @@
     <property name="SearchEverywhereHistoryKey" value="comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;compareTo&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541399886696" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543892877467" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -803,12 +1216,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Application.DriverPoolWatchDogs" />
       <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory3" />
       <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory2" />
       <item itemvalue="JUnit.HistoryValidatorTest.testValidateDriverHistory" />
       <item itemvalue="JUnit.HistoryValidatorTest.testValidateVehicleHistory3" />
-      <item itemvalue="Application.DriverPoolWatchDogs" />
     </list>
     <recent_temporary>
       <list>
@@ -859,6 +1334,7 @@
       <workItem from="1540145571795" duration="61000" />
       <workItem from="1541060026962" duration="406000" />
       <workItem from="1541357147961" duration="828000" />
+      <workItem from="1543892814315" duration="75000" />
     </task>
     <servers />
   </component>
@@ -895,13 +1371,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141088000" />
+    <option name="totallyTimeSpent" value="141163000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2574329" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26045015" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -909,6 +1384,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="simpleUML" order="7" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32848233" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33264032" />
@@ -922,6 +1398,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="12" weight="0.11370716" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -970,9 +1447,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/driver/ridersharemodel/violationrecords/ViolationTypesTest.java" />
@@ -1093,13 +1567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="39" column="7" selection-start-line="38" selection-start-column="6" selection-end-line="39" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/RegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="216" column="5" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1399,13 +1866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/RideShareControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="334" column="3" selection-start-line="334" selection-start-column="3" selection-end-line="334" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/validators/HistoryValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3439">
@@ -1502,13 +1962,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/ridesharemodel/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="216" column="5" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/RiderShareViewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="187">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/assignment4/RideShareControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="334" column="3" selection-start-line="334" selection-start-column="3" selection-end-line="334" selection-end-column="3" />
         </state>
       </provider>
     </entry>

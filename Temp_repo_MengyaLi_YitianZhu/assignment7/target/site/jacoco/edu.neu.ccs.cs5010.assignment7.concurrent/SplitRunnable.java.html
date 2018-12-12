@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>SplitRunnable.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment7.concurrent</a> &gt; <span class="el_source">SplitRunnable.java</span></div><h1>SplitRunnable.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment7.concurrent;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.RandomAccessFile;
+import java.util.concurrent.CountDownLatch;
+
+public class SplitRunnable implements Runnable {
+
+  /**
+   * The Byte size.
+   */
+  int byteSize;
+  /**
+   * The Part file name.
+   */
+  String partFileName;
+  /**
+   * The Origin file.
+   */
+  File originFile;
+  /**
+   * The Start pos.
+   */
+  long startPos;
+  /**
+   * The Latch.
+   */
+  CountDownLatch latch;
+
+  /**
+   * Instantiates a new Split runnable.
+   *
+   * @param byteSize the byte size
+   * @param startPos the start pos
+   * @param partFileName the part file name
+   * @param originFile the origin file
+   * @param latch the latch
+   */
+  public SplitRunnable(int byteSize, long startPos, String partFileName,
+<span class="fc" id="L43">      File originFile, CountDownLatch latch) {</span>
+<span class="fc" id="L44">    this.startPos = startPos;</span>
+<span class="fc" id="L45">    this.byteSize = byteSize;</span>
+<span class="fc" id="L46">    this.partFileName = partFileName;</span>
+<span class="fc" id="L47">    this.originFile = originFile;</span>
+<span class="fc" id="L48">    this.latch = latch;</span>
+<span class="fc" id="L49">  }</span>
+
+  /**
+   * Override method.
+   */
+  public void run() {
+
+    RandomAccessFile randomAccessFile;
+<span class="fc" id="L57">    OutputStream outputStream = null;</span>
+
+    try {
+<span class="fc" id="L60">      randomAccessFile = new RandomAccessFile(originFile, &quot;r&quot;);</span>
+<span class="fc" id="L61">      byte[] bytes = new byte[byteSize];</span>
+<span class="fc" id="L62">      randomAccessFile.seek(startPos);// Move to the start of the segment</span>
+<span class="fc" id="L63">      int length = randomAccessFile.read(bytes);</span>
+<span class="fc" id="L64">      outputStream = new FileOutputStream(partFileName);</span>
+<span class="fc" id="L65">      outputStream.write(bytes, 0, length);</span>
+<span class="fc" id="L66">      outputStream.flush();</span>
+<span class="fc" id="L67">      outputStream.close();</span>
+<span class="fc" id="L68">      latch.countDown();</span>
+<span class="nc" id="L69">    } catch (IOException e) {</span>
+<span class="nc" id="L70">      e.printStackTrace();</span>
+<span class="nc" id="L71">      latch.countDown();</span>
+    } finally {
+<span class="pc bpc" id="L73" title="5 of 6 branches missed.">      if (outputStream != null) {</span>
+        try {
+<span class="pc" id="L75">          outputStream.close();</span>
+<span class="nc" id="L76">        } catch (IOException e) {</span>
+<span class="nc" id="L77">          e.printStackTrace();</span>
+<span class="pc" id="L78">        }</span>
+      }
+<span class="nc" id="L80">    }</span>
+<span class="fc" id="L81">  }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

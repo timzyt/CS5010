@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>Player.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.game</a> &gt; <span class="el_source">Player.java</span></div><h1>Player.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.game;
+
+import edu.neu.ccs.cs5010.gameutil.scores.ScoresFactory;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Object class to store the playerData. Including playerName, the playerImpl's scorecard. set of
+ * dice and the total score.
+ */
+public class Player {
+
+  private int playerName;
+  private int turn;
+  private Map&lt;String, Integer&gt; scorecard;
+  private SetOfDice sod;
+  private ScoresFactory scoreFactory;
+<span class="fc" id="L27">  private int totalScore = 0;</span>
+  //private boolean chooseScorePattern = false;
+  /**
+   * The Socket.
+   */
+  public Socket socket;
+  /**
+   * The Input.
+   */
+  public BufferedReader input;
+  /**
+   * The Output.
+   */
+  public PrintWriter output;
+  /**
+   * The Inmsg.
+   */
+  public String inmsg;
+  /**
+   * The Outmsg.
+   */
+  public String outmsg;
+  /**
+   * The Pattern.
+   */
+  public String[] pattern;
+  /**
+   * The Quit.
+   */
+  public boolean quit;
+
+
+  /**
+   * Instantiates a new Player.
+   *
+   * @param playerName the player name
+   */
+<span class="fc" id="L64">  public Player(int playerName) {</span>
+<span class="fc" id="L65">    this.playerName = playerName;</span>
+<span class="fc" id="L66">    this.quit = false;</span>
+<span class="fc" id="L67">    this.turn = 0;</span>
+<span class="fc" id="L68">    this.pattern = new String[]{&quot;Aces&quot;, &quot;Twos&quot;, &quot;Threes&quot;, &quot;Fours&quot;, &quot;Fives&quot;, &quot;Sixes&quot;, &quot;ThreeOfKind&quot;,</span>
+        &quot;FourOfKind&quot;,
+        &quot;FullHouse&quot;, &quot;SmallStraight&quot;, &quot;LargeStraight&quot;, &quot;Yahtzee&quot;, &quot;Chance&quot;};
+<span class="fc" id="L71">    this.scorecard = new HashMap&lt;&gt;();</span>
+<span class="fc" id="L72">    this.sod = new SetOfDice();</span>
+<span class="fc" id="L73">    this.scoreFactory = new ScoresFactory();</span>
+<span class="fc" id="L74">  }</span>
+
+
+  public int getPlayerName() {
+<span class="fc" id="L78">    return playerName;</span>
+  }
+
+
+  /**
+   * Sets socket.
+   *
+   * @param socket the socket
+   */
+  public void setSocket(Socket socket) {
+<span class="fc" id="L88">    this.socket = socket;</span>
+    try {
+<span class="fc" id="L90">      this.input = new BufferedReader(</span>
+<span class="fc" id="L91">          new InputStreamReader(this.socket.getInputStream(), StandardCharsets.UTF_8));</span>
+<span class="fc" id="L92">      this.output = new PrintWriter(</span>
+<span class="fc" id="L93">          new OutputStreamWriter(this.socket.getOutputStream(), StandardCharsets.UTF_8), true);</span>
+<span class="nc" id="L94">    } catch (Exception e) {</span>
+<span class="nc" id="L95">      System.out.println(&quot;Player died: &quot; + e);</span>
+<span class="fc" id="L96">    }</span>
+<span class="fc" id="L97">  }</span>
+
+  /**
+   * Run method of the Thread class.
+   */
+  public void run() {
+    try {
+      // Repeatedly get commands from the client and process them.
+<span class="nc" id="L105">      System.out.println(&quot;START_ROUND: &quot; + (1 + this.scorecard.size()));</span>
+<span class="nc" id="L106">      System.out.println(this.socket);</span>
+<span class="nc" id="L107">      this.input = new BufferedReader(</span>
+<span class="nc" id="L108">          new InputStreamReader(this.socket.getInputStream(), StandardCharsets.UTF_8));</span>
+<span class="nc" id="L109">      this.output = new PrintWriter(</span>
+<span class="nc" id="L110">          new OutputStreamWriter(this.socket.getOutputStream(), StandardCharsets.UTF_8), true);</span>
+<span class="nc" id="L111">      this.inmsg = null;</span>
+<span class="nc" id="L112">      this.outmsg = null;</span>
+<span class="nc" id="L113">      this.turn = 0;</span>
+<span class="nc" id="L114">      output.println(&quot;START_ROUND: &quot; + (1 + this.scorecard.size()));</span>
+
+<span class="nc bnc" id="L116" title="All 2 branches missed.">      while ((this.inmsg = input.readLine()) != null) {</span>
+<span class="nc bnc" id="L117" title="All 2 branches missed.">        if (this.outmsg != null /*&amp;&amp; this.inmsg != null*/</span>
+<span class="nc bnc" id="L118" title="All 2 branches missed.">            &amp;&amp; this.outmsg.indexOf(&quot;CHOOSE_DICE&quot;) != -1</span>
+<span class="nc bnc" id="L119" title="All 2 branches missed.">            &amp;&amp; this.inmsg.indexOf(&quot;ACK&quot;) != -1) {</span>
+<span class="nc" id="L120">          continue;</span>
+        }
+<span class="nc bnc" id="L122" title="All 2 branches missed.">        if (this.inmsg.indexOf(&quot;PRINT_GAME_STATE&quot;) != -1) {</span>
+<span class="nc" id="L123">          this.printGameState();</span>
+<span class="nc" id="L124">          output.println(this.outmsg);</span>
+<span class="nc" id="L125">          continue;</span>
+        }
+        //System.out.println(&quot;\nFrom last server, &quot; + this.outmsg);
+<span class="nc" id="L128">        System.out.println(&quot;\nFrom client, &quot; + this.inmsg);</span>
+<span class="nc" id="L129">        this.outmsg = this.processAction(this.inmsg, this.outmsg);</span>
+<span class="nc" id="L130">        output.println(this.outmsg);</span>
+<span class="nc" id="L131">        System.out.println(&quot;From server, &quot; + this.outmsg);</span>
+<span class="nc bnc" id="L132" title="All 4 branches missed.">        if (this.outmsg != null &amp;&amp; (this.outmsg.indexOf(&quot;TURN_OVER&quot;) != -1</span>
+<span class="nc bnc" id="L133" title="All 2 branches missed.">            || this.outmsg.indexOf(&quot;QUIT_GAME&quot;) != -1)) {</span>
+<span class="nc" id="L134">          break;</span>
+        }
+      }
+<span class="nc" id="L137">      this.outmsg = null;</span>
+
+<span class="nc" id="L139">    } catch (IOException e) {</span>
+<span class="nc" id="L140">      System.out.println(&quot;Player died: &quot; + e);</span>
+<span class="nc" id="L141">    }</span>
+<span class="nc" id="L142">  }</span>
+
+
+  /**
+   * Process action string.
+   *
+   * @param inmsg the inmsg
+   * @param outmsg the outmsg
+   * @return the string
+   */
+  public String processAction(String inmsg, String outmsg) {
+<span class="fc" id="L153">    System.out.println(&quot;Now is player, &quot; + this.playerName);</span>
+<span class="fc" id="L154">    System.out.println(&quot;Turn, &quot; + this.turn);</span>
+    //System.out.println(&quot;InputMSG, &quot; + inmsg);
+    //System.out.println(&quot;OutputMSG, &quot; + outmsg);
+
+<span class="fc bfc" id="L158" title="All 6 branches covered.">    if ((inmsg != null &amp;&amp; inmsg.indexOf(&quot;ACK&quot;) != -1) || inmsg == null) {</span>
+<span class="fc bfc" id="L159" title="All 2 branches covered.">      if (outmsg == null) {</span>
+<span class="fc" id="L160">        outmsg = &quot;START_TURN: &quot;;</span>
+<span class="fc bfc" id="L161" title="All 2 branches covered.">      } else if (outmsg.indexOf(&quot;START_TURN: &quot;) != -1) {</span>
+<span class="fc" id="L162">        sod.rollAllDice();</span>
+<span class="fc" id="L163">        outmsg = &quot;CHOOSE_DICE: &quot; + sod.toString();</span>
+<span class="fc" id="L164">        System.out.println(&quot;ACK then CHOOSE DICE&quot;);</span>
+<span class="pc bpc" id="L165" title="1 of 2 branches missed.">      } else if (outmsg.indexOf(&quot;SCORE_CHOICE_VALID&quot;) != -1) {</span>
+<span class="fc" id="L166">        outmsg = &quot;TURN_OVER: &quot;;</span>
+      }
+<span class="fc bfc" id="L168" title="All 2 branches covered.">    } else if (inmsg.indexOf(&quot;KEEP_DICE&quot;) != -1) {</span>
+<span class="fc" id="L169">      System.out.println(inmsg);</span>
+<span class="fc" id="L170">      String[] toKeep = inmsg.split(&quot;: &quot;);</span>
+<span class="fc bfc" id="L171" title="All 2 branches covered.">      if (toKeep.length != 2) {</span>
+<span class="fc" id="L172">        sod.rollAllDice();</span>
+<span class="fc" id="L173">        outmsg = &quot;CHOOSE_DICE: &quot; + sod.toString();</span>
+<span class="fc" id="L174">        this.turn += 1;</span>
+      } else {
+<span class="fc bfc" id="L176" title="All 2 branches covered.">        if (sod.checkValidSelection(toKeep[1]) != true) {</span>
+<span class="fc" id="L177">          outmsg = &quot;INVALID_DICE_CHOICE: &quot;;</span>
+        } else {
+<span class="fc" id="L179">          int[] keep = Arrays.stream(toKeep[1].split(&quot; &quot;)).mapToInt(Integer::parseInt).toArray();</span>
+<span class="fc" id="L180">          sod.rollSelectedDice(keep);</span>
+<span class="fc" id="L181">          outmsg = &quot;CHOOSE_DICE: &quot; + sod.toString();</span>
+<span class="fc" id="L182">          this.turn += 1;</span>
+
+        }
+      }
+<span class="fc bfc" id="L186" title="All 2 branches covered.">      if (this.turn == 2) {</span>
+<span class="fc" id="L187">        outmsg = &quot;CHOOSE_SCORE: &quot; + sod.toString() + this.validPattern();</span>
+      }
+<span class="fc bfc" id="L189" title="All 2 branches covered.">    } else if (inmsg.indexOf(&quot;SCORE_CHOICE&quot;) != -1) {</span>
+<span class="fc" id="L190">      String scoreChoice = inmsg.split(&quot;SCORE_CHOICE: &quot;)[1];</span>
+<span class="fc bfc" id="L191" title="All 2 branches covered.">      if (!this.checkValidScores(scoreChoice)) {</span>
+<span class="fc" id="L192">        outmsg = &quot;SCORE_CHOICE_INVALID: &quot;;</span>
+      } else {
+        try {
+<span class="fc" id="L195">          this.chooseScore(scoreChoice);</span>
+<span class="nc" id="L196">        } catch (Exception e) {</span>
+<span class="nc" id="L197">          e.printStackTrace();</span>
+<span class="fc" id="L198">        }</span>
+<span class="fc" id="L199">        outmsg = &quot;SCORE_CHOICE_VALID: &quot; + this.printPatterns() + &quot;Total &quot; + this.totalScore;</span>
+      }
+<span class="pc bpc" id="L201" title="1 of 2 branches missed.">    } else if (inmsg.equalsIgnoreCase(&quot;QUIT_GAME&quot;)) {</span>
+<span class="fc" id="L202">      System.out.println(&quot;updating QUIT_Status&quot;);</span>
+<span class="fc" id="L203">      this.quit = true;</span>
+<span class="fc" id="L204">      outmsg = &quot;QUIT_GAME&quot;;</span>
+    }
+    //System.out.println(&quot;Final Outmsg, &quot; + outmsg);
+
+<span class="fc" id="L208">    return outmsg;</span>
+  }
+
+  /**
+   * Valid pattern string.
+   *
+   * @return the string
+   */
+  public String validPattern() {
+<span class="fc" id="L217">    StringBuilder res = new StringBuilder();</span>
+<span class="fc bfc" id="L218" title="All 2 branches covered.">    for (String str : this.pattern) {</span>
+<span class="pc bpc" id="L219" title="1 of 2 branches missed.">      if (!this.scorecard.containsKey(str)) {</span>
+<span class="fc" id="L220">        res.append(&quot; &quot;).append(str);</span>
+      }
+    }
+<span class="fc" id="L223">    return res.toString();</span>
+  }
+
+  /**
+   * Check if provide string of score selection is valid.
+   *
+   * @param str the string
+   * @return the boolean
+   */
+  public boolean checkValidScores(String str) {
+<span class="pc bpc" id="L233" title="1 of 4 branches missed.">    return !this.scorecard.containsKey(str) &amp;&amp; Arrays.asList(this.pattern).contains(str);</span>
+  }
+
+  /**
+   * Choose score.
+   *
+   * @param pattern the pattern
+   * @throws Exception the exception
+   */
+  public void chooseScore(String pattern) throws Exception {
+<span class="fc" id="L243">    int patternScore = scoreFactory.makeScore(pattern).chooseThisPattern(sod);</span>
+<span class="fc" id="L244">    scorecard.put(pattern, patternScore);</span>
+<span class="fc" id="L245">    this.totalScore += patternScore;</span>
+<span class="fc" id="L246">  }</span>
+
+  /**
+   * Print patterns string.
+   *
+   * @return the string
+   */
+  public String printPatterns() {
+<span class="fc" id="L254">    StringBuilder res = new StringBuilder();</span>
+<span class="fc bfc" id="L255" title="All 2 branches covered.">    for (String p : this.pattern) {</span>
+<span class="fc bfc" id="L256" title="All 2 branches covered.">      if (this.scorecard.containsKey(p)) {</span>
+<span class="fc" id="L257">        res.append(p).append(&quot; &quot;).append(this.scorecard.get(p)).append(&quot; &quot;);</span>
+      } else {
+<span class="fc" id="L259">        res.append(p).append(&quot; &quot;).append(&quot;-1 &quot;);</span>
+      }
+    }
+<span class="fc" id="L262">    return res.toString();</span>
+  }
+
+  /**
+   * Gets scored pattern.
+   *
+   * @return the scored pattern
+   */
+  public int getScoredPattern() {
+<span class="fc" id="L271">    return this.scorecard.size();</span>
+  }
+
+  /**
+   * Print the game state.
+   */
+  public void printGameState() {
+<span class="fc" id="L278">    System.out.println(&quot;\n******* YAHTZEE Game State *******&quot;);</span>
+<span class="fc" id="L279">    System.out.println(&quot;Current round: &quot; + this.scorecard.size() + 1);</span>
+<span class="fc" id="L280">    System.out.println(&quot;Current player: &quot; + this.playerName);</span>
+<span class="fc" id="L281">    System.out.println(&quot;Num Rolls so far: &quot; + this.turn);</span>
+<span class="fc" id="L282">    System.out.println(&quot;Current Dice Values: &quot; + this.sod.toString());</span>
+<span class="fc" id="L283">    System.out.println(&quot;---------------------------------------------------------------&quot;);</span>
+<span class="fc" id="L284">    System.out.println(&quot;Player &quot; + this.playerName + &quot; Scorecard&quot;);</span>
+<span class="fc bfc" id="L285" title="All 2 branches covered.">    for (String p : this.pattern) {</span>
+<span class="pc bpc" id="L286" title="1 of 2 branches missed.">      if (this.scorecard.containsKey(p)) {</span>
+<span class="nc" id="L287">        System.out.print(p + &quot; &quot; + this.scorecard.get(p) + &quot; &quot;);</span>
+      } else {
+<span class="fc" id="L289">        System.out.print(p + &quot; -1 &quot;);</span>
+      }
+    }
+<span class="fc" id="L292">    System.out.println(&quot;\nTotal Score: &quot; + this.totalScore);</span>
+<span class="fc" id="L293">    System.out.println(&quot;---------------------------------------------------------------&quot;);</span>
+<span class="fc" id="L294">  }</span>
+
+  /**
+   * Get totalScore of the player.
+   *
+   * @return totalScore
+   */
+  public int getTotalScore() {
+<span class="fc" id="L302">    return totalScore;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\client\YahtzeeClient.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\exceptions\IllegalScoreChoiceException.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\exceptions\IllegalValueException.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\game\Dice.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\game\Player.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\game\SetOfDice.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\game\YahtzeeGame.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\AbstractScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\AcesScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\ChanceScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\FivesScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\FourOfKindScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\FoursScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\FullHouseScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\LargeStraightScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\ScoresFactory.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\SixesScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\SmallStraightScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\ThreeOfKindScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\ThreesScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\TwosScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\gameutil\scores\YahtzeeScore.java">
+</file>
+<file name="C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010\server\YahtzeeServer.java">
+</file>
+</checkstyle>

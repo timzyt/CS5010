@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: edu.neu.ccs.cs5010.assignment7.concurrent.ConcurrentControllerTest
+-------------------------------------------------------------------------------
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.337 sec
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec
+>>>>>>> timz

@@ -19,10 +19,11 @@ import java.util.concurrent.TimeUnit;
  */
 public class ConcurrentProcess {
 
-  public static final Integer MAX_THREAD = 20;
+  public static final Integer MAX_THREAD = 30;
   public static final Integer LINES_IN_BATCH = 3000;
 
   public static final Integer ZERO = 0;
+  private int counter = 1;
 
   private String inputFileName;
 
@@ -58,16 +59,17 @@ public class ConcurrentProcess {
         } else {
           if (lines.size() != ZERO) {
             Future<ConcurrentNavigableMap<Long, ArrayList<Long>>> result = executorService
-                .submit(new CallableProcess(lines));
+                .submit(new CallableProcess(counter, lines));
             futures.add(result);
           }
           lines = new ArrayList<>();
           lines.add(line);
+          counter++;
         }
       }
       if (lines.size() != ZERO) {
         Future<ConcurrentNavigableMap<Long, ArrayList<Long>>> result = executorService
-            .submit(new CallableProcess(lines));
+            .submit(new CallableProcess(counter, lines));
         futures.add(result);
       }
       bufferedReader.close();
@@ -90,7 +92,9 @@ public class ConcurrentProcess {
     for (Future<ConcurrentNavigableMap<Long, ArrayList<Long>>> f : futures) {
       // Aggregate
       ConcurrentNavigableMap<Long, ArrayList<Long>> map = f.get();
+      System.out.println("!!!Adding map of size " + map.size());
       corpus.add(map);
+      System.out.println("!!!corpus size is " + corpus.getConcurrentMap().size());
     }
 
     return corpus;

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>YahtzeeClient.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.client</a> &gt; <span class="el_source">YahtzeeClient.java</span></div><h1>YahtzeeClient.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.client;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.nio.charset.StandardCharsets;
+
+/**
+ * Yahtzee client class.
+ */
+public class YahtzeeClient {
+
+  /**
+   * The standard input.
+   */
+  public BufferedReader stdIn;
+
+  private static final String CHOOSE_SCORE = &quot;CHOOSE_SCORE&quot;;
+  private static final String SCORE_CHOICE_INVALID = &quot;SCORE_CHOICE_INVALID&quot;;
+  private static final String INVALID_DICE_CHOISE = &quot;INVALID_DICE_CHOICE&quot;;
+  private static final String CHOOSE_DICE = &quot;CHOOSE_DICE&quot;;
+  private static final String ACK = &quot;ACK&quot;;
+  private static final String TURN_OVER = &quot;TURN_OVER&quot;;
+  private static final String GAME_OVER = &quot;GAME_OVER&quot;;
+  private String userIn;
+
+  /**
+   * The entry point of application.
+   *
+   * @param args the input arguments
+   * @throws IOException the io exception
+   */
+  public static void main(String[] args) throws IOException {
+<span class="pc bpc" id="L37" title="1 of 2 branches missed.">    if (args.length != 2) {</span>
+<span class="nc" id="L38">      System.err.println(&quot;Usage: java GameClient &lt;host name&gt; &lt;port number&gt;&quot;);</span>
+<span class="nc" id="L39">      System.exit(1);</span>
+    }
+
+<span class="fc" id="L42">    String hostName = args[0];</span>
+<span class="fc" id="L43">    int portNumber = Integer.parseInt(args[1]);</span>
+<span class="fc" id="L44">    YahtzeeClient client = new YahtzeeClient();</span>
+<span class="fc" id="L45">    client.runClient(hostName, portNumber);</span>
+<span class="fc" id="L46">  }</span>
+
+  /**
+   * Instantiates a new Yahtzee client.
+   */
+<span class="fc" id="L51">  public YahtzeeClient() {</span>
+<span class="fc" id="L52">    this.stdIn = new BufferedReader(new InputStreamReader(System.in, StandardCharsets.UTF_8));</span>
+<span class="fc" id="L53">  }</span>
+
+  private void runClient(String hostName, int portNumber) {
+<span class="fc" id="L56">    int msgCounter = 0;</span>
+<span class="fc" id="L57">    String inmsg = null;</span>
+<span class="fc" id="L58">    String outmsg = null;</span>
+    try {
+<span class="nc" id="L60">      Socket socket = new Socket(hostName, portNumber);</span>
+<span class="nc" id="L61">      PrintWriter output = new PrintWriter(</span>
+<span class="nc" id="L62">          new OutputStreamWriter(socket.getOutputStream(), StandardCharsets.UTF_8), true);</span>
+<span class="nc" id="L63">      BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream(),</span>
+          StandardCharsets.UTF_8));
+
+<span class="nc bnc" id="L66" title="All 2 branches missed.">      while ((inmsg = input.readLine()) != null) {</span>
+<span class="nc bnc" id="L67" title="All 2 branches missed.">        if (inmsg.equals(&quot;&quot;)) {</span>
+<span class="nc" id="L68">          continue;</span>
+        }
+<span class="nc" id="L70">        System.out.println(&quot;\nFrom Server: &quot; + msgCounter + &quot; &quot; + inmsg);</span>
+<span class="nc" id="L71">        msgCounter += 1;</span>
+<span class="nc" id="L72">        outmsg = this.processClientAction(inmsg);</span>
+<span class="nc bnc" id="L73" title="All 4 branches missed.">        if (this.userIn != null &amp;&amp; this.userIn.indexOf(&quot;PRINT_GAME_STATE&quot;) != -1) {</span>
+<span class="nc" id="L74">          outmsg = this.userIn;</span>
+        }
+<span class="nc" id="L76">        System.out.println(&quot;From Client: &quot; + msgCounter + &quot; &quot; + outmsg);</span>
+<span class="nc" id="L77">        msgCounter += 1;</span>
+<span class="nc bnc" id="L78" title="All 2 branches missed.">        if (outmsg != null) {</span>
+<span class="nc" id="L79">          output.println(outmsg);</span>
+        }
+        /*
+        if (outmsg.indexOf(&quot;QUIT_GAME&quot;) != -1) {
+          outmsg = null;
+          output.println(outmsg);
+        }
+        */
+<span class="nc bnc" id="L87" title="All 2 branches missed.">        if (inmsg.indexOf(&quot;GAME_OVER&quot;) != -1) {</span>
+<span class="nc" id="L88">          break;</span>
+        }
+      }
+<span class="nc" id="L91">      output.println(&quot;CLIENT_QUIT_SUCCESSFULLY&quot;);</span>
+<span class="nc" id="L92">      System.out.println(&quot;closing socket&quot;);</span>
+<span class="nc" id="L93">      socket.close();</span>
+<span class="fc" id="L94">    } catch (Exception ie) {</span>
+<span class="fc" id="L95">      System.out.println(inmsg);</span>
+<span class="fc" id="L96">      ie.printStackTrace();</span>
+<span class="nc" id="L97">    }</span>
+<span class="fc" id="L98">  }</span>
+
+  private String processClientAction(String inmsg) throws Exception {
+<span class="nc" id="L101">    return getResponse(inmsg);</span>
+  }
+
+  private String getResponse(String fromServer) {
+<span class="nc" id="L105">    String state = fromServer.split(&quot;: &quot;)[0];</span>
+<span class="nc bnc" id="L106" title="All 26 branches missed.">    switch (state) {</span>
+      case TURN_OVER:
+<span class="nc" id="L108">        return &quot;&quot;;</span>
+      case CHOOSE_SCORE:
+<span class="nc" id="L110">        return this.getKeepScore(fromServer);</span>
+      case SCORE_CHOICE_INVALID:
+<span class="nc" id="L112">        return this.getKeepScore(fromServer);</span>
+      case CHOOSE_DICE:
+<span class="nc" id="L114">        return this.getKeepDiceFrame();</span>
+      case INVALID_DICE_CHOISE:
+<span class="nc" id="L116">        return this.getKeepDiceFrame();</span>
+      case GAME_OVER:
+<span class="nc" id="L118">        return GAME_OVER;</span>
+      default:
+<span class="nc" id="L120">        return ACK;</span>
+    }
+  }
+
+  private String getKeepScore(String fromServer) {
+    try {
+<span class="nc" id="L126">      System.out.println(&quot;Enter the Score you want to take:  &quot; + fromServer);</span>
+
+<span class="nc" id="L128">      this.userIn = this.stdIn.readLine();</span>
+<span class="nc bnc" id="L129" title="All 2 branches missed.">      if (this.userIn.isEmpty()) {</span>
+<span class="nc" id="L130">        this.userIn = &quot;A&quot;;</span>
+      }
+<span class="nc bnc" id="L132" title="All 2 branches missed.">      if (this.userIn.equals(&quot;quit&quot;)) {</span>
+<span class="nc" id="L133">        return &quot;QUIT_GAME&quot;;</span>
+      }
+<span class="nc" id="L135">      return &quot;SCORE_CHOICE: &quot; + this.userIn;</span>
+<span class="nc" id="L136">    } catch (IOException ie) {</span>
+<span class="nc" id="L137">      ie.printStackTrace();</span>
+<span class="nc" id="L138">      return &quot;2: 1 1 1 1 1&quot;;</span>
+<span class="nc" id="L139">    } catch (NullPointerException ie) {</span>
+<span class="nc" id="L140">      ie.printStackTrace();</span>
+<span class="nc" id="L141">      return &quot;2: 1 1 1 1 1&quot;;</span>
+    }
+  }
+
+  /*private String getKeepDiceFrame(String fromServer, String userIn) {*/
+  private String getKeepDiceFrame() {
+    try {
+<span class="nc" id="L148">      System.out.println(&quot;Enter numbers for the ones you want to keep, 1-5. &quot;);</span>
+<span class="nc bnc" id="L149" title="All 2 branches missed.">      if ((this.userIn = this.stdIn.readLine()) != null) {</span>
+<span class="nc" id="L150">        this.userIn = this.userIn.trim();</span>
+      }
+
+<span class="nc bnc" id="L153" title="All 2 branches missed.">      if (this.userIn.isEmpty()) {</span>
+<span class="nc" id="L154">        this.userIn = &quot;&quot;;</span>
+      }
+<span class="nc bnc" id="L156" title="All 2 branches missed.">      if (this.userIn.equals(&quot;quit&quot;)) {</span>
+<span class="nc" id="L157">        return &quot;QUIT_GAME&quot;;</span>
+      }
+<span class="nc" id="L159">      return &quot;KEEP_DICE: &quot; + this.userIn;</span>
+<span class="nc" id="L160">    } catch (IOException ie) {</span>
+<span class="nc" id="L161">      ie.printStackTrace();</span>
+<span class="nc" id="L162">      return &quot;2: 1 1 1 1 1&quot;;</span>
+<span class="nc" id="L163">    } catch (NullPointerException ie) {</span>
+<span class="nc" id="L164">      ie.printStackTrace();</span>
+<span class="nc" id="L165">      return &quot;2: 1 1 1 1 1&quot;;</span>
+    }
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

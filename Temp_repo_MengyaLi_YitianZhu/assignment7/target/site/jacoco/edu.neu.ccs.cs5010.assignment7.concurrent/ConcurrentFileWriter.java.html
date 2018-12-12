@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>ConcurrentFileWriter.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment7.concurrent</a> &gt; <span class="el_source">ConcurrentFileWriter.java</span></div><h1>ConcurrentFileWriter.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment7.concurrent;
+
+import edu.neu.ccs.cs5010.assignment7.javautil.PlotterUtil;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class ConcurrentFileWriter {
+
+  public static final String THROUGHPUT_CHART_TITLE = &quot;Throughput per Second Bucket&quot;;
+  public static final String THROUGHPUT_X_TITLE = &quot;Second Bucket&quot;;
+  public static final String THROUGHPUT_Y_TITLE = &quot;Total Throughput per Time Interval&quot;;
+  public static final String LATENCY_CHART_TITLE = &quot;Latency per Second Bucket&quot;;
+  public static final String LATENCY_X_TITLE = &quot;Latency&quot;;
+  public static final String LATENCY_Y_TITLE = &quot;Frequency&quot;;
+  /**
+   * the index of latency count in the arrayList.
+   */
+<span class="fc" id="L24">  public static final Integer INDEX_OF_COUNT = 0;</span>
+  /**
+   * the index of mean latency in the arrayList.
+   */
+<span class="fc" id="L28">  public static final Integer INDEX_OF_MEAN = 1;</span>
+  /**
+   * The directory name.
+   */
+  private String dirName;
+  private int count;
+<span class="fc" id="L34">  private ConcurrentOutputObject corpusThroughput = new ConcurrentOutputObject();</span>
+
+
+  /**
+   * Constructor of ConcurrentFileWriter with parameters.
+   *
+   * @param dirName name of the directory.
+   */
+<span class="fc" id="L42">  public ConcurrentFileWriter(String dirName, int count) {</span>
+<span class="fc" id="L43">    this.dirName = dirName;</span>
+<span class="fc" id="L44">    this.count = count;</span>
+<span class="fc" id="L45">  }</span>
+
+  /**
+   * Get corpusThroughput.
+   * @return corpusThroughput
+   */
+  public ConcurrentOutputObject getCorpusThroughput() {
+<span class="fc" id="L52">    return corpusThroughput;</span>
+  }
+
+  /**
+   * Write Files with provided parameters.
+   * @param inputFileName the input file name
+   * @param latency the boolean type of latency
+   * @param threshold the value of threshold
+   * @throws Exception throw exception
+   */
+  public void writeFile(String inputFileName, boolean latency, Long threshold)
+      throws Exception {
+
+<span class="fc" id="L65">    ConcurrentController concurrentController = new ConcurrentController(inputFileName, count);</span>
+<span class="fc" id="L66">    concurrentController.calculateCorpus(latency);</span>
+<span class="fc" id="L67">    this.corpusThroughput = concurrentController.getCorpusThroughput();</span>
+<span class="fc" id="L68">    this.corpusThroughput.analyzeAllData();</span>
+<span class="fc" id="L69">    TreeMap&lt;Long, ArrayList&lt;Long&gt;&gt; summaries = this.corpusThroughput.getResult();</span>
+
+<span class="fc" id="L71">    String outName = this.dirName + &quot;/&quot; + inputFileName.replace(&quot;raw&quot;, &quot;_result&quot;);</span>
+<span class="fc" id="L72">    throughputWriter(summaries, corpusThroughput, outName);</span>
+<span class="fc bfc" id="L73" title="All 2 branches covered.">    if (inputFileName.contains(&quot;POST&quot;)) {</span>
+<span class="fc" id="L74">      String chartName = outName.replace(&quot;_result.csv&quot;, &quot;_throughput_plot&quot;);</span>
+<span class="fc" id="L75">      throughputPlotter(chartName, summaries);</span>
+    }
+<span class="fc bfc" id="L77" title="All 2 branches covered.">    if (latency) {</span>
+<span class="fc" id="L78">      ConcurrentOutputObject corpusLatency = concurrentController.getCorpusLatency();</span>
+<span class="fc" id="L79">      Map&lt;Long, Integer&gt; latencySummaries</span>
+<span class="fc" id="L80">          = new TreeMap&lt;&gt;(corpusLatency.getLatencyMap());</span>
+<span class="fc" id="L81">      String outNameLatency = this.dirName + &quot;/&quot; + inputFileName.replace(&quot;raw&quot;, &quot;_Latency&quot;);</span>
+<span class="fc" id="L82">      latencyWriter(latencySummaries, outNameLatency);</span>
+<span class="fc" id="L83">      String chartNameLatency = outNameLatency.replace(&quot;_Latency.csv&quot;, &quot;_Latency_plot&quot;);</span>
+<span class="fc" id="L84">      latencyPlotter(chartNameLatency, latencySummaries);</span>
+    }
+<span class="fc bfc" id="L86" title="All 4 branches covered.">    if (inputFileName.contains(&quot;POST&quot;) &amp;&amp; threshold != 0L) {</span>
+<span class="fc" id="L87">      TreeMap&lt;Long, ArrayList&lt;Long&gt;&gt; thresholdSummaries</span>
+<span class="fc" id="L88">          = new TreeMap&lt;&gt;(this.corpusThroughput.findPeakPhase(threshold));</span>
+<span class="fc" id="L89">      this.corpusThroughput.analyzePeakPhase(thresholdSummaries);</span>
+<span class="fc" id="L90">      String outNameThreshold = this.dirName + &quot;/&quot; + inputFileName.replace(&quot;raw&quot;, &quot;_Peak&quot;);</span>
+<span class="fc" id="L91">      throughputWriter(thresholdSummaries, corpusThroughput, outNameThreshold);</span>
+<span class="fc" id="L92">      String chartNameThreshold = outNameThreshold.replace(&quot;_Peak.csv&quot;, &quot;_Peak_plot&quot;);</span>
+<span class="fc" id="L93">      throughputPlotter(chartNameThreshold, thresholdSummaries);</span>
+    }
+<span class="fc" id="L95">  }</span>
+
+  /**
+   * Merge Files.
+   * @param inputFileNamePost input file name.
+   * @param corpusGet ConcurrentOutputObject type
+   * @param corpusPost ConcurrentOutputObject type
+   */
+  public void mergeFile(String inputFileNamePost, ConcurrentOutputObject corpusGet,
+      ConcurrentOutputObject corpusPost) {
+
+<span class="fc" id="L106">    corpusGet.analyzeAllData();</span>
+<span class="fc" id="L107">    TreeMap&lt;Long, ArrayList&lt;Long&gt;&gt; getMap = corpusGet.getResult();</span>
+
+<span class="fc" id="L109">    corpusPost.analyzeAllData();</span>
+<span class="fc" id="L110">    TreeMap&lt;Long, ArrayList&lt;Long&gt;&gt; postMap = corpusPost.getResult();</span>
+
+<span class="fc" id="L112">    String outName = this.dirName + &quot;/&quot; + inputFileNamePost.replace(&quot;raw&quot;, &quot;_GET_Combined&quot;);</span>
+
+<span class="fc" id="L114">    Long peakThroughPut = Long.MIN_VALUE;</span>
+<span class="fc" id="L115">    Long totalThroughPut = corpusGet.getTotalThroughput() + corpusPost.getTotalThroughput();</span>
+
+    try {
+
+<span class="fc" id="L119">      OutputStreamWriter outFile = new OutputStreamWriter(new FileOutputStream(outName),</span>
+          &quot;UTF-8&quot;);
+<span class="fc" id="L121">      String outLine = String.format(&quot;%-28s%-28s%-10s%n&quot;, &quot;POST&quot;, &quot;GET&quot;, &quot;TOTAL&quot;);</span>
+<span class="fc" id="L122">      outFile.write(outLine);</span>
+      //use iterator to be more efficient
+<span class="fc" id="L124">      Iterator&lt;Map.Entry&lt;Long, ArrayList&lt;Long&gt;&gt;&gt; setIt = postMap.entrySet().iterator();</span>
+<span class="fc bfc" id="L125" title="All 2 branches covered.">      while (setIt.hasNext()) {</span>
+<span class="fc" id="L126">        Map.Entry&lt;Long, ArrayList&lt;Long&gt;&gt; pair = setIt.next();</span>
+<span class="fc" id="L127">        Long postKey = pair.getKey();</span>
+<span class="fc" id="L128">        ArrayList&lt;Long&gt; postValue = pair.getValue();</span>
+<span class="fc bfc" id="L129" title="All 2 branches covered.">        if (getMap.keySet().contains(postKey)) {</span>
+<span class="fc" id="L130">          outLine = String.format(&quot;%-13d%-5d%-10d%-13d%-5d%-10d%-10d%n&quot;,</span>
+<span class="fc" id="L131">              postKey, postValue.get(INDEX_OF_COUNT), postValue.get(INDEX_OF_MEAN),</span>
+<span class="fc" id="L132">              postKey, getMap.get(postKey).get(INDEX_OF_COUNT), getMap.get(postKey).get(</span>
+<span class="fc" id="L133">                  INDEX_OF_MEAN),</span>
+<span class="fc" id="L134">              postMap.get(postKey).get(INDEX_OF_COUNT) + getMap.get(postKey).get(INDEX_OF_COUNT));</span>
+          //System.out.println(outLine);
+<span class="fc" id="L136">          peakThroughPut = Math</span>
+<span class="fc" id="L137">              .max(peakThroughPut,</span>
+<span class="fc" id="L138">                  postValue.get(INDEX_OF_COUNT) + getMap.get(postKey).get(INDEX_OF_COUNT));</span>
+        } else {
+<span class="fc" id="L140">          outLine = String.format(&quot;%-13d%-5d%-10d%-13s%-5s%-10s%-10d%n&quot;,</span>
+<span class="fc" id="L141">              postKey, postValue.get(INDEX_OF_COUNT), postValue.get(INDEX_OF_MEAN),</span>
+              &quot;&quot;, &quot;&quot;, &quot;&quot;,
+<span class="fc" id="L143">              postValue.get(INDEX_OF_COUNT));</span>
+<span class="fc" id="L144">          peakThroughPut = Math.max(peakThroughPut, postValue.get(INDEX_OF_COUNT));</span>
+        }
+<span class="fc" id="L146">        outFile.write(outLine);</span>
+<span class="fc" id="L147">      }</span>
+
+<span class="fc" id="L149">      outFile.write(&quot;----------------------------------------------------------------------\n&quot;);</span>
+<span class="fc" id="L150">      outFile.write(&quot;Overall throughput for the test is: &quot;</span>
+          + totalThroughPut + &quot; requests per second\n&quot;);
+<span class="fc" id="L152">      outFile.write(&quot;Peak throughput for the test is: &quot; + peakThroughPut);</span>
+
+<span class="fc" id="L154">      outFile.flush();</span>
+<span class="fc" id="L155">      outFile.close();</span>
+<span class="nc" id="L156">    } catch (IOException ioe) {</span>
+<span class="nc" id="L157">      System.out.println(&quot;Something went wrong! : &quot; + ioe.getMessage());</span>
+<span class="nc" id="L158">      ioe.printStackTrace();</span>
+    } finally {
+<span class="pc" id="L160">      System.out.println(&quot;Job done.&quot;);</span>
+<span class="pc" id="L161">    }</span>
+<span class="fc" id="L162">  }</span>
+
+  /**
+   * Define throughputWriter function.
+   *
+   * @param summaries input map
+   * @param corpus concurrent output object
+   * @param outName output file name
+   */
+  public void throughputWriter(Map&lt;Long, ArrayList&lt;Long&gt;&gt; summaries, ConcurrentOutputObject corpus,
+      String outName) {
+    try {
+<span class="fc" id="L174">      OutputStreamWriter outputFile = new OutputStreamWriter(new FileOutputStream(outName),</span>
+          &quot;UTF-8&quot;);
+<span class="fc" id="L176">      String outLine = String</span>
+<span class="fc" id="L177">          .format(&quot;%-13s%-12s%-10s%n&quot;, &quot;Timestamp/s&quot;, &quot;Throughput&quot;, &quot;Mean Latency/ms&quot;);</span>
+<span class="fc" id="L178">      outputFile.write(outLine);</span>
+<span class="fc" id="L179">      Iterator&lt;Map.Entry&lt;Long, ArrayList&lt;Long&gt;&gt;&gt; setIt = summaries.entrySet().iterator();</span>
+<span class="fc bfc" id="L180" title="All 2 branches covered.">      while (setIt.hasNext()) {</span>
+<span class="fc" id="L181">        Map.Entry&lt;Long, ArrayList&lt;Long&gt;&gt; pair = setIt.next();</span>
+<span class="fc" id="L182">        Long key = pair.getKey();</span>
+<span class="fc" id="L183">        ArrayList&lt;Long&gt; value = pair.getValue();</span>
+<span class="fc" id="L184">        outLine = String</span>
+<span class="fc" id="L185">            .format(&quot;%-13d%-12d%-10d%n&quot;, key, value.get(INDEX_OF_COUNT), value.get(INDEX_OF_MEAN));</span>
+<span class="fc" id="L186">        outputFile.write(outLine);</span>
+<span class="fc" id="L187">      }</span>
+<span class="fc" id="L188">      outputFile.write(&quot;------------------------------\n&quot;);</span>
+<span class="fc bfc" id="L189" title="All 2 branches covered.">      if (outName.contains(&quot;Peak&quot;)) {</span>
+<span class="fc" id="L190">        outputFile.write(&quot;Duration of the peak phase in seconds: &quot;</span>
+<span class="fc" id="L191">            + (corpus.getPeakEndKey() - corpus.getPeakStartKey()) + &quot;\n&quot;);</span>
+<span class="fc" id="L192">        outputFile.write(&quot;Mean Throughput: &quot; + corpus.getThresholdMeanThroughput() + &quot;\n&quot;);</span>
+<span class="fc" id="L193">        outputFile.write(&quot;Highest interval throughput: &quot;</span>
+<span class="fc" id="L194">            + corpus.getThresholdPeakThroughput() + &quot;\n&quot;);</span>
+<span class="fc" id="L195">        outputFile.write(&quot;5th Percentile throughput: &quot; + corpus.getFifthPctThroughput() + &quot;\n&quot;);</span>
+<span class="fc" id="L196">        outputFile.write(&quot;Mean Latency: &quot; + corpus.getThresholdMeanLatency() + &quot;\n&quot;);</span>
+<span class="fc" id="L197">        outputFile.write(&quot;99th Percentile latency: &quot; + corpus.getNintyniePctLatency() + &quot;\n&quot;);</span>
+      } else {
+<span class="fc" id="L199">        outputFile.write(&quot;Test length: &quot; + corpus.getTestLength() + &quot;\n&quot;);</span>
+<span class="fc" id="L200">        outputFile.write(&quot;Mean latency: &quot; + corpus.getMeanLatency() + &quot;\n&quot;);</span>
+<span class="fc" id="L201">        outputFile.write(&quot;The 99th percentile latency: &quot; + corpus.getPercentileResult() + &quot;\n&quot;);</span>
+<span class="fc" id="L202">        outputFile</span>
+<span class="fc" id="L203">            .write(</span>
+<span class="fc" id="L204">                &quot;Total Throughput: &quot; + corpus.getTotalThroughput() + &quot;\n&quot;);</span>
+      }
+<span class="fc" id="L206">      outputFile.flush();</span>
+<span class="fc" id="L207">      outputFile.close();</span>
+<span class="nc" id="L208">    } catch (IOException ioe) {</span>
+<span class="nc" id="L209">      System.out.println(&quot;Something went wrong! : &quot; + ioe.getMessage());</span>
+<span class="nc" id="L210">      ioe.printStackTrace();</span>
+    } finally {
+<span class="pc" id="L212">      System.out.println(&quot;Job done.&quot;);</span>
+<span class="pc" id="L213">    }</span>
+<span class="fc" id="L214">  }</span>
+
+  /**
+   * Define latencyWriter function.
+   *
+   * @param summaries input map
+   * @param outName output file name
+   */
+  public void latencyWriter(Map&lt;Long, Integer&gt; summaries, String outName) {
+    try {
+<span class="fc" id="L224">      OutputStreamWriter outputFile = new OutputStreamWriter(new FileOutputStream(outName),</span>
+          &quot;UTF-8&quot;);
+<span class="fc" id="L226">      String outLine = String.format(&quot;%-13s%-10s%n&quot;, &quot;Latency/ms&quot;, &quot;Frequency&quot;);</span>
+<span class="fc" id="L227">      outputFile.write(outLine);</span>
+<span class="fc" id="L228">      Iterator&lt;Map.Entry&lt;Long, Integer&gt;&gt; setIt = summaries.entrySet().iterator();</span>
+<span class="fc bfc" id="L229" title="All 2 branches covered.">      while (setIt.hasNext()) {</span>
+<span class="fc" id="L230">        Map.Entry&lt;Long, Integer&gt; pair = setIt.next();</span>
+<span class="fc" id="L231">        Long key = pair.getKey();</span>
+<span class="fc" id="L232">        Integer value = pair.getValue();</span>
+<span class="fc" id="L233">        outLine = String</span>
+<span class="fc" id="L234">            .format(&quot;%-13d%-10d%n&quot;, key, value);</span>
+<span class="fc" id="L235">        outputFile.write(outLine);</span>
+<span class="fc" id="L236">      }</span>
+<span class="fc" id="L237">      outputFile.flush();</span>
+<span class="fc" id="L238">      outputFile.close();</span>
+<span class="nc" id="L239">    } catch (IOException ioe) {</span>
+<span class="nc" id="L240">      System.out.println(&quot;Something went wrong! : &quot; + ioe.getMessage());</span>
+<span class="nc" id="L241">      ioe.printStackTrace();</span>
+    } finally {
+<span class="pc" id="L243">      System.out.println(&quot;Job done.&quot;);</span>
+<span class="pc" id="L244">    }</span>
+<span class="fc" id="L245">  }</span>
+
+  /**
+   * Plot the throughput graph based on processed data.
+   *
+   * @param chartName output file name.
+   * @param inputMap input map.
+   */
+  public void throughputPlotter(String chartName, Map&lt;Long, ArrayList&lt;Long&gt;&gt; inputMap)
+      throws IOException {
+<span class="fc" id="L255">    PlotterUtil ptu = new PlotterUtil();</span>
+<span class="fc" id="L256">    ptu.plotThroughput(chartName, inputMap, THROUGHPUT_CHART_TITLE, THROUGHPUT_X_TITLE,</span>
+        THROUGHPUT_Y_TITLE);
+<span class="fc" id="L258">  }</span>
+
+  /**
+   * Plot the latency graph based on processed data.
+   *
+   * @param chartName output file name.
+   * @param inputMap input map.
+   */
+  public void latencyPlotter(String chartName, Map&lt;Long, Integer&gt; inputMap) throws IOException {
+<span class="fc" id="L267">    PlotterUtil ptu = new PlotterUtil();</span>
+<span class="fc" id="L268">    ptu.plotLatency(chartName, inputMap, LATENCY_CHART_TITLE, LATENCY_X_TITLE, LATENCY_Y_TITLE);</span>
+<span class="fc" id="L269">  }</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

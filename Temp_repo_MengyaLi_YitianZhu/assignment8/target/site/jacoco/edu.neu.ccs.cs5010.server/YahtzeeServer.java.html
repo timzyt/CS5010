@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>YahtzeeServer.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.server</a> &gt; <span class="el_source">YahtzeeServer.java</span></div><h1>YahtzeeServer.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.server;
+
+import static edu.neu.ccs.cs5010.game.SetOfDice.ONE;
+
+import edu.neu.ccs.cs5010.game.Player;
+import edu.neu.ccs.cs5010.game.YahtzeeGame;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
+
+/**
+ * The Yahtzee server class.
+ */
+public class YahtzeeServer {
+
+  static final String DEV_OPTION = &quot;DEV&quot;;
+  /**
+   * The constant DEFAULT_PLAYER_NUMBER.
+   */
+  public static final int DEFAULT_PLAYER_NUMBER = 2;
+  /**
+   * The Num player.
+   */
+  public int numPlayer;
+  /**
+   * The Cur player.
+   */
+  public int curPlayer;
+  /**
+   * The Game.
+   */
+  public YahtzeeGame game;
+
+  /**
+   * Instantiates a new Yahtzee server.
+   */
+<span class="fc" id="L44">  public YahtzeeServer() {</span>
+    //this.game = new YahtzeeGame(numPlayer);
+<span class="fc" id="L46">  }</span>
+
+  /**
+   * Initiate server.
+   *
+   * @param portNumber the port number
+   * @param numPlayer the num player
+   */
+  public void initServer(int portNumber, int numPlayer, boolean devMode) {
+<span class="nc" id="L55">    this.numPlayer = numPlayer;</span>
+<span class="nc" id="L56">    this.curPlayer = 0;</span>
+    try {
+<span class="nc" id="L58">      ServerSocket serverSocket = new ServerSocket(portNumber);</span>
+<span class="nc" id="L59">      System.out.println(&quot;Starting server.....&quot;);</span>
+<span class="nc" id="L60">      System.out.println(&quot;Waiting for clients.......&quot;);</span>
+<span class="nc" id="L61">      this.game = new YahtzeeGame(numPlayer);</span>
+<span class="nc" id="L62">      System.out.println(numPlayer);</span>
+<span class="nc bnc" id="L63" title="All 2 branches missed.">      while (game.gameData.size() != game.numPlayer) {</span>
+<span class="nc" id="L64">        Socket client = serverSocket.accept();</span>
+<span class="nc" id="L65">        game.gameData.add(new Player(this.curPlayer));</span>
+<span class="nc" id="L66">        game.gameData.get(curPlayer).setSocket(client);</span>
+<span class="nc" id="L67">        curPlayer++;</span>
+<span class="nc" id="L68">        System.out.println(game.gameData.size() + &quot; player(s) joined, expect &quot; + game.numPlayer</span>
+            + &quot; play(s) to start game.&quot;);
+<span class="nc" id="L70">      }</span>
+<span class="nc" id="L71">      this.notifyAll(&quot;START_GAME: &quot;);</span>
+      //System.out.println(&quot;Finished status, &quot; + game.checkFinishStatus(devMode));
+<span class="nc bnc" id="L73" title="All 4 branches missed.">      while (!game.checkFinishStatus(devMode) || !this.hearAll(&quot;CLIENT_QUIT&quot;)) {</span>
+<span class="nc bnc" id="L74" title="All 2 branches missed.">        for (int curPlayer = 0; curPlayer &lt; this.numPlayer; curPlayer++) {</span>
+<span class="nc" id="L75">          System.out.println(&quot;Current PLayer is &quot; + curPlayer);</span>
+<span class="nc" id="L76">          game.play(curPlayer);</span>
+          //System.out.println(&quot;Finishing status is: &quot; + game.checkFinishStatus(devMode));
+<span class="nc bnc" id="L78" title="All 2 branches missed.">          if (game.checkFinishStatus(devMode)) {</span>
+<span class="nc" id="L79">            this.notifyAll(&quot;GAME_OVER: &quot;);</span>
+<span class="nc" id="L80">            Player winner = new Player(0);</span>
+<span class="nc" id="L81">            int curScore = winner.getTotalScore();</span>
+<span class="nc bnc" id="L82" title="All 2 branches missed.">            for (Player player : game.gameData) {</span>
+<span class="nc bnc" id="L83" title="All 2 branches missed.">              if (player.getTotalScore() &gt; curScore) {</span>
+<span class="nc" id="L84">                winner = player;</span>
+<span class="nc" id="L85">                curScore = player.getTotalScore();</span>
+              }
+<span class="nc" id="L87">            }</span>
+<span class="nc" id="L88">            System.out.println(&quot;The winner is: &quot; + winner.getPlayerName());</span>
+<span class="nc" id="L89">            System.out.println(&quot;The total score is &quot; + curScore);</span>
+          }
+        }
+      }
+<span class="nc" id="L93">      TimeUnit.SECONDS.sleep(2);</span>
+<span class="nc" id="L94">      serverSocket.close();</span>
+
+<span class="nc" id="L96">    } catch (IOException | InterruptedException e) {</span>
+<span class="nc" id="L97">      System.out.println(&quot;Game Over&quot;);</span>
+<span class="nc" id="L98">    }</span>
+<span class="nc" id="L99">  }</span>
+
+  private boolean hearAll(String str) throws IOException, InterruptedException {
+<span class="nc" id="L102">    ArrayList&lt;String&gt; response = new ArrayList&lt;&gt;();</span>
+<span class="nc bnc" id="L103" title="All 2 branches missed.">    for (Player player : this.game.gameData) {</span>
+<span class="nc" id="L104">      BufferedReader userIn = new BufferedReader(</span>
+<span class="nc" id="L105">          new InputStreamReader(player.socket.getInputStream(), StandardCharsets.UTF_8));</span>
+      String input;
+<span class="nc bnc" id="L107" title="All 4 branches missed.">      if ((input = userIn.readLine()) != null &amp;&amp; input.indexOf(str) != -1) {</span>
+<span class="nc" id="L108">        response.add(input);</span>
+      }
+<span class="nc" id="L110">    }</span>
+<span class="nc bnc" id="L111" title="All 2 branches missed.">    return response.size() == this.game.numPlayer;</span>
+  }
+
+  private void notifyAll(String str) throws IOException, InterruptedException {
+<span class="nc bnc" id="L115" title="All 2 branches missed.">    for (Player player : this.game.gameData) {</span>
+<span class="nc" id="L116">      PrintWriter output = player.output;</span>
+<span class="nc" id="L117">      System.out.println(player.getPlayerName() + &quot; : &quot; + str);</span>
+<span class="nc" id="L118">      output.println(player.getPlayerName() + &quot; - &quot; + str);</span>
+<span class="nc" id="L119">    }</span>
+<span class="nc" id="L120">  }</span>
+
+  /**
+   * The entry point of application.
+   *
+   * @param args the input arguments
+   */
+  public static void main(String[] args) {
+<span class="nc bnc" id="L128" title="All 2 branches missed.">    if (args.length &lt; ONE) {</span>
+<span class="nc" id="L129">      System.err.println(&quot;Usage: java YahtzeeServer &lt;port number&gt;&quot;);</span>
+<span class="nc" id="L130">      System.exit(ONE);</span>
+    }
+<span class="nc" id="L132">    int numPlayer = DEFAULT_PLAYER_NUMBER;</span>
+
+<span class="nc" id="L134">    boolean devMode = false;</span>
+
+    //portNumber + playerNum
+<span class="nc bnc" id="L137" title="All 2 branches missed.">    if (args.length == 2</span>
+<span class="nc bnc" id="L138" title="All 2 branches missed.">        &amp;&amp; (!args[1].contentEquals(DEV_OPTION))) {</span>
+<span class="nc" id="L139">      numPlayer = Integer.parseInt(args[1]);</span>
+    }
+
+    //portNumber + DEV
+<span class="nc bnc" id="L143" title="All 2 branches missed.">    if (args.length == 2</span>
+<span class="nc bnc" id="L144" title="All 2 branches missed.">        &amp;&amp; (args[1].contentEquals(DEV_OPTION))) {</span>
+<span class="nc" id="L145">      devMode = true;</span>
+    }
+
+    //portNumber + DEV + playerNum
+<span class="nc bnc" id="L149" title="All 2 branches missed.">    if (args.length == 3) {</span>
+<span class="nc" id="L150">      numPlayer = Integer.parseInt(args[1]);</span>
+<span class="nc" id="L151">      devMode = true;</span>
+    }
+<span class="nc" id="L153">    int portNumber = Integer.parseInt(args[0]);</span>
+<span class="nc" id="L154">    YahtzeeServer server = new YahtzeeServer();</span>
+<span class="nc" id="L155">    server.initServer(portNumber, numPlayer, devMode);</span>
+
+<span class="nc" id="L157">  }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

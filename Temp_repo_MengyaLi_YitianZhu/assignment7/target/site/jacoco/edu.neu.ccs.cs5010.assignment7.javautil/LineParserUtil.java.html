@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>LineParserUtil.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment7.javautil</a> &gt; <span class="el_source">LineParserUtil.java</span></div><h1>LineParserUtil.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment7.javautil;
+
+import edu.neu.ccs.cs5010.assignment7.sequential.exception.IllegalColumnNumberException;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+/**
+ * The Line Parser Utility class.
+ */
+<span class="fc" id="L12">public class LineParserUtil {</span>
+
+<span class="fc" id="L14">  public static final Integer RAW_FILE_COLUMN = 4;</span>
+
+<span class="fc" id="L16">  public static final Integer RESULT_FILE_COLUMN = 3;</span>
+
+  /**
+   * the index of latency count in the arrayList.
+   */
+<span class="fc" id="L21">  public static final Integer INDEX_OF_TIMESTAMP = 0;</span>
+
+  /**
+   * the index of mean latency in the arrayList.
+   */
+<span class="fc" id="L26">  public static final Integer INDEX_OF_LATENCY = 1;</span>
+
+<span class="fc" id="L28">  public static final Integer VALUE_ARRAY_SIZE = 2;</span>
+
+  /**
+   * The String list tokens. Store the result immediately after each line parse.
+   */
+  private String[] tokens;
+
+  /**
+   * The Long list resultList. Store the extracted result from the line parse.
+   */
+  private Long[] resultList;
+
+  /**
+   * The regex pattern 1 for GET-raw file.
+   */
+<span class="fc" id="L43">  private String getPattern = &quot;\&quot;,\&quot;&quot;;</span>
+
+  /**
+   * The regex pattern 2 for POST-raw file.
+   */
+<span class="fc" id="L48">  private String postPattern = &quot;,&quot;;</span>
+
+  /**
+   * Parse one line of String. Verify whether this line came from GET or POST file by checking if.
+   * this line contains post pattern separator (&quot;,&quot;) or not.
+   *
+   * @param line the line
+   * @return the list
+   * @throws Exception the exception
+   */
+  public Long[] parseLine(String line) throws Exception {
+
+<span class="fc bfc" id="L60" title="All 2 branches covered.">    if (line.contains(getPattern)) {</span>
+      //if the line contains the get pattern separator &quot;,&quot;
+      //split the line by get pattern.
+<span class="fc" id="L63">      tokens = line.split(getPattern);</span>
+    }
+<span class="fc bfc" id="L65" title="All 2 branches covered.">    if (!line.contains(postPattern)) {</span>
+      //if the line does not even contain the post pattern
+      //means this line is from the result file
+      //which uses space as separator.
+<span class="fc" id="L69">      tokens = line.split(&quot;\\s+&quot;);</span>
+    } else {
+      //if else, the line must be of post pattern
+      //so separate the line by ,
+<span class="fc" id="L73">      tokens = line.split(postPattern);</span>
+    }
+
+<span class="fc" id="L76">    List&lt;String&gt; tempArrayTokens = new ArrayList&lt;String&gt;(Arrays.asList(tokens));</span>
+<span class="fc" id="L77">    return extractResult(tempArrayTokens);</span>
+  }
+
+  /**
+   * Extract result from the raw line parse output and store in an Long list. Per assignment
+   * requirement, only &quot;Start Time&quot; for each latency test, and the latency value need to be
+   * processed.
+   *
+   * @param arrayTokens the array tokens
+   * @return the Long []
+   * @throws Exception the exception
+   */
+  public Long[] extractResult(List&lt;String&gt; arrayTokens) throws Exception {
+<span class="fc bfc" id="L90" title="All 2 branches covered.">    if (arrayTokens.size() &gt; RAW_FILE_COLUMN) {</span>
+<span class="fc" id="L91">      throw new IllegalColumnNumberException(&quot;Provided row contains more than 4 columns.&quot;);</span>
+    }
+    //if the input arrayList size is 3, means this input is from a result file
+<span class="fc bfc" id="L94" title="All 2 branches covered.">    if (arrayTokens.size() == RESULT_FILE_COLUMN) {</span>
+<span class="fc" id="L95">      resultList = new Long[RESULT_FILE_COLUMN];</span>
+<span class="fc bfc" id="L96" title="All 2 branches covered.">      for (int i = 0; i &lt; RESULT_FILE_COLUMN; i++) {</span>
+        //trim the double quotes for each splitted String
+        //then convert each to Long type
+<span class="fc" id="L99">        System.out.println(tokens[i].replace(&quot;\&quot;&quot;, &quot;&quot;));</span>
+<span class="fc" id="L100">        resultList[i] = Long.valueOf(tokens[i].replace(&quot;\&quot;&quot;, &quot;&quot;));</span>
+      }
+<span class="pc bpc" id="L102" title="1 of 2 branches missed.">    } else if (arrayTokens.size() == RAW_FILE_COLUMN) {</span>
+      //construct new Long list to store parsed line.
+<span class="fc" id="L104">      resultList = new Long[VALUE_ARRAY_SIZE];</span>
+      //trim the quotes for each string item
+      //the first Long in the list represents the Start Time in seconds.
+<span class="fc" id="L107">      resultList[INDEX_OF_TIMESTAMP] = Long</span>
+<span class="fc" id="L108">          .valueOf(arrayTokens.get(INDEX_OF_TIMESTAMP).replace(&quot;\&quot;&quot;, &quot;&quot;));</span>
+      //the second Long in the list represents the latency in milliseconds.
+<span class="fc" id="L110">      resultList[INDEX_OF_LATENCY] = Long</span>
+<span class="fc" id="L111">          .valueOf(arrayTokens.get(VALUE_ARRAY_SIZE).replace(&quot;\&quot;&quot;, &quot;&quot;));</span>
+    }
+    //make a copy of the internal variable resultList
+<span class="fc" id="L114">    Long[] copyResult = new Long[resultList.length];</span>
+<span class="fc" id="L115">    System.arraycopy(resultList, 0, copyResult, 0, resultList.length);</span>
+<span class="fc" id="L116">    return copyResult;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

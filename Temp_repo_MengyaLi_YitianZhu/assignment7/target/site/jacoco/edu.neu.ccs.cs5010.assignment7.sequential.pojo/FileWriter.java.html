@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>FileWriter.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment7.sequential.pojo</a> &gt; <span class="el_source">FileWriter.java</span></div><h1>FileWriter.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment7.sequential.pojo;
+
+import edu.neu.ccs.cs5010.assignment7.javautil.BufferedReaderUtil;
+import edu.neu.ccs.cs5010.assignment7.sequential.exception.NullArgumentException;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+<span class="fc" id="L16">public class FileWriter {</span>
+
+  public static final String MAIN_DIR = &quot;user.dir&quot;;
+  /**
+   * The constant SEC_TO_MILISEC.
+   */
+<span class="fc" id="L22">  public static final Integer SEC_TO_MILISEC = 1000;</span>
+  /**
+   * The constant 99.
+   */
+<span class="fc" id="L26">  public static final Integer NINTYNIE = 99;</span>
+  /**
+   * the index of latency count in the arrayList.
+   */
+<span class="fc" id="L30">  public static final Integer INDEX_OF_COUNT = 0;</span>
+  /**
+   * the index of mean latency in the arrayList.
+   */
+<span class="fc" id="L34">  public static final Integer INDEX_OF_MEAN = 1;</span>
+<span class="fc" id="L35">  private final long startTime = System.nanoTime();</span>
+  private String outName;
+  private String outLine;
+  private Map&lt;Long, List&lt;Long&gt;&gt; dataMapGet;
+  private Map&lt;Long, List&lt;Long&gt;&gt; dataMapPost;
+  private Long postTestLength;
+  private Long getTestLength;
+
+  private Long peakThroughput;
+  private Long totalThroughput;
+
+<span class="fc" id="L46">  private BufferedReaderUtil bru = new BufferedReaderUtil();</span>
+  private MapBuilder mapBdr;
+
+  /**
+   * Write single file method. Process a single input file per the requirement of the assignment,
+   * and write it into the output directory.
+   *
+   * @param inName input file name
+   * @param outputDir output directory
+   * @throws Exception Exceptions
+   */
+  public void writeSingleFile(String inName, String outputDir) throws Exception {
+<span class="fc" id="L58">    System.getProperty(MAIN_DIR);</span>
+<span class="fc" id="L59">    mapBdr = bru.read(inName);</span>
+<span class="fc bfc" id="L60" title="All 2 branches covered.">    if (mapBdr.getDataMap().size() == 0) {</span>
+<span class="fc" id="L61">      throw new NullArgumentException(&quot;dataMap is empty.&quot;);</span>
+    }
+
+<span class="fc" id="L64">    Map&lt;Long, List&lt;Long&gt;&gt; resultMap = new TreeMap&lt;&gt;(mapBdr.getDataMap());</span>
+<span class="fc" id="L65">    outName = inName.replace(&quot;raw&quot;, &quot;result&quot;);</span>
+
+    try {
+<span class="fc" id="L68">      BufferedWriter outFile = new BufferedWriter(</span>
+          new OutputStreamWriter(
+              new FileOutputStream(outputDir + File.separator + outName), &quot;UTF8&quot;));
+      //use iterator to be more efficient
+
+<span class="fc" id="L73">      Iterator&lt;Map.Entry&lt;Long, List&lt;Long&gt;&gt;&gt; setIt = resultMap.entrySet().iterator();</span>
+<span class="fc bfc" id="L74" title="All 2 branches covered.">      while (setIt.hasNext()) {</span>
+<span class="fc" id="L75">        Map.Entry&lt;Long, List&lt;Long&gt;&gt; pair = setIt.next();</span>
+<span class="fc" id="L76">        Long key = pair.getKey();</span>
+<span class="fc" id="L77">        List&lt;Long&gt; value = pair.getValue();</span>
+<span class="fc" id="L78">        outLine = String.format(&quot;%-13d%-5d%-10d%n&quot;,</span>
+<span class="fc" id="L79">            key, value.get(INDEX_OF_COUNT), value.get(INDEX_OF_MEAN));</span>
+<span class="fc" id="L80">        outFile.write(outLine);</span>
+<span class="fc" id="L81">      }</span>
+      //
+      //      for (Long key : resultMap.keySet()) {
+      //        outLine = String.format(&quot;%-13d%-5d%-10d%n&quot;,
+      //            key, resultMap.get(key)[0], resultMap.get(key)[1]);
+      //        outFile.write(outLine);
+      //      }
+<span class="fc" id="L88">      outFile.write(&quot;------------------------------\n&quot;);</span>
+<span class="fc" id="L89">      outFile.write(</span>
+<span class="fc" id="L90">          &quot;Test length: &quot; + (mapBdr.getEndTime() - mapBdr.getStartTime()) / SEC_TO_MILISEC + &quot;\n&quot;);</span>
+<span class="fc" id="L91">      outFile.write(&quot;Mean latency: &quot; + mapBdr.getLatencySum() / mapBdr.getLatencyCount() + &quot;\n&quot;);</span>
+<span class="fc" id="L92">      outFile.write(&quot;The 99th percentile latency: &quot; + mapBdr.getPercentile(NINTYNIE) + &quot;\n&quot;);</span>
+<span class="fc" id="L93">      outFile</span>
+<span class="fc" id="L94">          .write(&quot;Total Throughput: &quot;</span>
+<span class="fc" id="L95">              + mapBdr.getLatencySum() / ((mapBdr.getEndTime() - mapBdr.getStartTime())</span>
+<span class="fc" id="L96">              / SEC_TO_MILISEC) + &quot;\n&quot;);</span>
+<span class="fc" id="L97">      outFile.flush();</span>
+<span class="fc" id="L98">      outFile.close();</span>
+<span class="nc" id="L99">    } catch (IOException ioe) {</span>
+<span class="nc" id="L100">      System.out.println(&quot;Something went wrong! : &quot; + ioe.getMessage());</span>
+<span class="nc" id="L101">      ioe.printStackTrace();</span>
+    } finally {
+<span class="pc" id="L103">      System.out.println((System.nanoTime() - startTime) / 1000000 + &quot;ms&quot;);</span>
+<span class="pc" id="L104">      System.out.println(&quot;Job done.&quot;);</span>
+<span class="pc" id="L105">    }</span>
+
+<span class="fc" id="L107">  }</span>
+
+  /**
+   * Merge two written files into one.
+   *
+   * @param inGetFileName input file name, GET type of data
+   * @param inPostFileName input file name, POST type of data
+   * @param outputDir output directory.
+   * @throws Exception Exception
+   */
+  public void mergeFiles(String inGetFileName, String inPostFileName, String outputDir)
+      throws Exception {
+    //    System.getProperty(MAIN_DIR);
+<span class="fc" id="L120">    String outName = inPostFileName.replace(&quot;raw&quot;, &quot;_GET_Combined&quot;);</span>
+<span class="fc" id="L121">    MapBuilder mapBdrGet = bru.read(inGetFileName);</span>
+<span class="fc" id="L122">    MapBuilder mapBdrPost = bru.read(inPostFileName);</span>
+
+<span class="fc" id="L124">    dataMapGet = new TreeMap&lt;&gt;(mapBdrGet.getDataMap());</span>
+<span class="fc" id="L125">    dataMapPost = new TreeMap&lt;&gt;(mapBdrPost.getDataMap());</span>
+<span class="pc bpc" id="L126" title="1 of 4 branches missed.">    if (dataMapGet.size() == 0 || dataMapPost.size() == 0) {</span>
+<span class="fc" id="L127">      throw new NullArgumentException(&quot;dataMap is empty.&quot;);</span>
+    }
+
+<span class="fc" id="L130">    getTestLength = (mapBdrGet.getEndTime() - mapBdrGet.getStartTime()) / SEC_TO_MILISEC;</span>
+<span class="fc" id="L131">    postTestLength = (mapBdrPost.getEndTime() - mapBdrPost.getStartTime()) / SEC_TO_MILISEC;</span>
+
+    //instantiate peakThroughput
+<span class="fc" id="L134">    peakThroughput = Long.MIN_VALUE;</span>
+<span class="fc" id="L135">    totalThroughput = (mapBdrPost.getLatencyCount() / getTestLength)</span>
+<span class="fc" id="L136">        + (mapBdrGet.getLatencyCount() / postTestLength);</span>
+
+    try {
+
+<span class="fc" id="L140">      BufferedWriter outFile = new BufferedWriter(</span>
+          new OutputStreamWriter(
+              new FileOutputStream(outputDir + File.separator + outName), &quot;UTF8&quot;));
+<span class="fc" id="L143">      outLine = String.format(&quot;%-28s%-28s%-10s%n&quot;, &quot;POST&quot;, &quot;GET&quot;, &quot;TOTAL&quot;);</span>
+<span class="fc" id="L144">      outFile.write(outLine);</span>
+      //use iterator to be more efficient
+<span class="fc" id="L146">      Iterator&lt;Map.Entry&lt;Long, List&lt;Long&gt;&gt;&gt; setIt = dataMapPost.entrySet().iterator();</span>
+<span class="fc bfc" id="L147" title="All 2 branches covered.">      while (setIt.hasNext()) {</span>
+<span class="fc" id="L148">        Map.Entry&lt;Long, List&lt;Long&gt;&gt; pair = setIt.next();</span>
+<span class="fc" id="L149">        Long postKey = pair.getKey();</span>
+<span class="fc" id="L150">        List&lt;Long&gt; postValue = pair.getValue();</span>
+<span class="fc bfc" id="L151" title="All 2 branches covered.">        if (dataMapGet.keySet().contains(postKey)) {</span>
+<span class="fc" id="L152">          outLine = String.format(&quot;%-13d%-5d%-10d%-13d%-5d%-10d%-10d%n&quot;,</span>
+<span class="fc" id="L153">              postKey, postValue.get(INDEX_OF_COUNT), postValue.get(INDEX_OF_MEAN),</span>
+<span class="fc" id="L154">              postKey, dataMapGet.get(postKey).get(INDEX_OF_COUNT),</span>
+<span class="fc" id="L155">              dataMapGet.get(postKey).get(INDEX_OF_MEAN),</span>
+<span class="fc" id="L156">              dataMapPost.get(postKey).get(INDEX_OF_COUNT) + dataMapGet.get(postKey)</span>
+<span class="fc" id="L157">                  .get(INDEX_OF_COUNT));</span>
+          //System.out.println(outLine);
+<span class="fc" id="L159">          peakThroughput = Math</span>
+<span class="fc" id="L160">              .max(peakThroughput,</span>
+<span class="fc" id="L161">                  postValue.get(INDEX_OF_COUNT) + dataMapGet.get(postKey).get(INDEX_OF_COUNT));</span>
+        } else {
+<span class="fc" id="L163">          outLine = String.format(&quot;%-13d%-5d%-10d%-13s%-5s%-10s%-10d%n&quot;,</span>
+<span class="fc" id="L164">              postKey, postValue.get(INDEX_OF_COUNT), postValue.get(INDEX_OF_MEAN),</span>
+              &quot;&quot;, &quot;&quot;, &quot;&quot;,
+<span class="fc" id="L166">              postValue.get(INDEX_OF_COUNT));</span>
+<span class="fc" id="L167">          peakThroughput = Math.max(peakThroughput, postValue.get(INDEX_OF_COUNT));</span>
+        }
+<span class="fc" id="L169">        outFile.write(outLine);</span>
+<span class="fc" id="L170">      }</span>
+
+<span class="fc" id="L172">      outFile.write(&quot;----------------------------------------------------------------------\n&quot;);</span>
+<span class="fc" id="L173">      outFile.write(&quot;Overall throughput for the test is: &quot;</span>
+          + totalThroughput + &quot; requests per second\n&quot;);
+<span class="fc" id="L175">      outFile.write(&quot;Peak throughput for the test is: &quot; + peakThroughput);</span>
+
+<span class="fc" id="L177">      outFile.flush();</span>
+<span class="fc" id="L178">      outFile.close();</span>
+<span class="nc" id="L179">    } catch (IOException ioe) {</span>
+<span class="nc" id="L180">      System.out.println(&quot;Something went wrong! : &quot; + ioe.getMessage());</span>
+<span class="nc" id="L181">      ioe.printStackTrace();</span>
+    } finally {
+<span class="pc" id="L183">      System.out.println((System.nanoTime() - startTime) / 1000000 + &quot;ms&quot;);</span>
+<span class="pc" id="L184">      System.out.println(&quot;Job done.&quot;);</span>
+<span class="pc" id="L185">    }</span>
+<span class="fc" id="L186">  }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

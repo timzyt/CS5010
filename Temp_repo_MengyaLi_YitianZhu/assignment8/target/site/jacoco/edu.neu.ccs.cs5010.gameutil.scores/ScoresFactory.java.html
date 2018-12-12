@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>ScoresFactory.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.gameutil.scores</a> &gt; <span class="el_source">ScoresFactory.java</span></div><h1>ScoresFactory.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.gameutil.scores;
+
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.ACES;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.CHANCE;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.FIVES;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.FOURS;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.FOUR_OF_KIND;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.FULL_HOUSE;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.LARGE_STRAIGHT;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.SIXES;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.SMALL_STRAIGHT;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.THREES;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.THREE_OF_KIND;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.TWOS;
+import static edu.neu.ccs.cs5010.gameutil.scores.AbstractScore.YAHTZEE;
+
+/**
+ * Scores factory class.
+ */
+<span class="fc" id="L20">public class ScoresFactory {</span>
+
+  /**
+   * Make concrete score class.
+   *
+   * @param pattern the pattern string
+   * @return the abstract score type
+   */
+  public AbstractScore makeScore(String pattern) {
+<span class="fc bfc" id="L29" title="All 2 branches covered.">    if (ACES.contentEquals(pattern)) {</span>
+<span class="fc" id="L30">      return new AcesScore();</span>
+<span class="fc bfc" id="L31" title="All 2 branches covered.">    } else if (TWOS.contentEquals(pattern)) {</span>
+<span class="fc" id="L32">      return new TwosScore();</span>
+<span class="fc bfc" id="L33" title="All 2 branches covered.">    } else if (THREES.contentEquals(pattern)) {</span>
+<span class="fc" id="L34">      return new ThreesScore();</span>
+<span class="fc bfc" id="L35" title="All 2 branches covered.">    } else if (FOURS.contentEquals(pattern)) {</span>
+<span class="fc" id="L36">      return new FoursScore();</span>
+<span class="fc bfc" id="L37" title="All 2 branches covered.">    } else if (FIVES.contentEquals(pattern)) {</span>
+<span class="fc" id="L38">      return new FivesScore();</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">    } else if (SIXES.contentEquals(pattern)) {</span>
+<span class="fc" id="L40">      return new SixesScore();</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">    } else if (THREE_OF_KIND.contentEquals(pattern)) {</span>
+<span class="fc" id="L42">      return new ThreeOfKindScore();</span>
+<span class="fc bfc" id="L43" title="All 2 branches covered.">    } else if (FOUR_OF_KIND.contentEquals(pattern)) {</span>
+<span class="fc" id="L44">      return new FourOfKindScore();</span>
+<span class="fc bfc" id="L45" title="All 2 branches covered.">    } else if (SMALL_STRAIGHT.contentEquals(pattern)) {</span>
+<span class="fc" id="L46">      return new SmallStraightScore();</span>
+<span class="fc bfc" id="L47" title="All 2 branches covered.">    } else if (LARGE_STRAIGHT.contentEquals(pattern)) {</span>
+<span class="fc" id="L48">      return new LargeStraightScore();</span>
+<span class="fc bfc" id="L49" title="All 2 branches covered.">    } else if (FULL_HOUSE.contentEquals(pattern)) {</span>
+<span class="fc" id="L50">      return new FullHouseScore();</span>
+<span class="fc bfc" id="L51" title="All 2 branches covered.">    } else if (YAHTZEE.contentEquals(pattern)) {</span>
+<span class="fc" id="L52">      return new YahtzeeScore();</span>
+<span class="fc bfc" id="L53" title="All 2 branches covered.">    } else if (CHANCE.contentEquals(pattern)) {</span>
+<span class="fc" id="L54">      return new ChanceScore();</span>
+    }
+<span class="fc" id="L56">    return null;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Yahtzee:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f27b6318-2f6c-4181-a713-ab14aa9dbb73" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../assignment7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/YahtzeeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/YahtzeeGame.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/assignment8$SmallStraightScoreTest_testNoSmallStraight.ic" NAME="SmallStraightScoreTest.testNoSmallStraight Coverage Results" MODIFIED="1543832606223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testProcessActionQuitGame.ic" NAME="PlayerImplTest.testProcessActionQuitGame Coverage Results" MODIFIED="1543898419534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testProcessActionValidScoreChoice.ic" NAME="PlayerImplTest.testProcessActionValidScoreChoice Coverage Results" MODIFIED="1543898349396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testProcessActionKeepDiceIn_ValidDiceKeep.ic" NAME="PlayerImplTest.testProcessActionKeepDiceIn_ValidDiceKeep Coverage Results" MODIFIED="1543897991955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testProcessActionSecondTurn.ic" NAME="PlayerImplTest.testProcessActionSecondTurn Coverage Results" MODIFIED="1543898130264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$ScoresFactoryTest_testMakeScore.ic" NAME="ScoresFactoryTest.testMakeScore Coverage Results" MODIFIED="1543834209870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeGameTest_testCheckFinishStatusPlayerQuit.ic" NAME="YahtzeeGameTest.testCheckFinishStatusPlayerQuit Coverage Results" MODIFIED="1543969210332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeClient.ic" NAME="YahtzeeClient Coverage Results" MODIFIED="1543898920271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.client.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$LargeStraightScoreTest_testNoLargeStraight.ic" NAME="LargeStraightScoreTest.testNoLargeStraight Coverage Results" MODIFIED="1543833320897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testProcessActionNullIn_ScoreChoiceValidOut.ic" NAME="PlayerImplTest.testProcessActionNullIn_ScoreChoiceValidOut Coverage Results" MODIFIED="1543897467756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$edu_neu_ccs_cs5010_gameutil_scores_in_assignment.ic" NAME="edu.neu.ccs.cs5010.gameutil.scores in assignment Coverage Results" MODIFIED="1543835621292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$DiceTest.ic" NAME="DiceTest Coverage Results" MODIFIED="1543897690669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeGameTest_testCheckFinishFalse.ic" NAME="YahtzeeGameTest.testCheckFinishFalse Coverage Results" MODIFIED="1543895973693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$SetOfDiceTest.ic" NAME="SetOfDiceTest Coverage Results" MODIFIED="1543910362585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$ThreeOfKindScoreTest.ic" NAME="ThreeOfKindScoreTest Coverage Results" MODIFIED="1543835731389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeGameTest_testPlay.ic" NAME="YahtzeeGameTest.testPlay Coverage Results" MODIFIED="1543899896261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$SetOfDiceTest_testCheckValidSelection.ic" NAME="SetOfDiceTest.testCheckValidSelection Coverage Results" MODIFIED="1543910386249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeClientTest_testMain.ic" NAME="YahtzeeClientTest.testMain Coverage Results" MODIFIED="1543969673857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.client.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$SmallStraightScoreTest_testChooseThisPattern.ic" NAME="SmallStraightScoreTest.testChooseThisPattern Coverage Results" MODIFIED="1543832508705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeServerTest_testOneRoundInDEVMode.ic" NAME="YahtzeeServerTest.testOneRoundInDEVMode Coverage Results" MODIFIED="1543899436366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerTest.ic" NAME="PlayerTest Coverage Results" MODIFIED="1543910329583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testPrintGameState.ic" NAME="PlayerImplTest.testPrintGameState Coverage Results" MODIFIED="1543898487425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$AbstractScoreTest_testGetPattern.ic" NAME="AbstractScoreTest.testGetPattern Coverage Results" MODIFIED="1543834583282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testProcessActionInvalidScoreChoice.ic" NAME="PlayerImplTest.testProcessActionInvalidScoreChoice Coverage Results" MODIFIED="1543898358200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeGameTest_testCheckFinishStatusDevMode.ic" NAME="YahtzeeGameTest.testCheckFinishStatusDevMode Coverage Results" MODIFIED="1543910302414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$AbstractScoreTest.ic" NAME="AbstractScoreTest Coverage Results" MODIFIED="1543834910783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$LargeStraightScoreTest_testLargeStraight.ic" NAME="LargeStraightScoreTest.testLargeStraight Coverage Results" MODIFIED="1543833328449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$FullHouseScoreTest_testFullHouse.ic" NAME="FullHouseScoreTest.testFullHouse Coverage Results" MODIFIED="1543842208876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testProcessActionKeepDiceIn_InvalidDiceKeep.ic" NAME="PlayerImplTest.testProcessActionKeepDiceIn_InvalidDiceKeep Coverage Results" MODIFIED="1543897959159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeServerTest_testMain.ic" NAME="YahtzeeServerTest.testMain Coverage Results" MODIFIED="1543894047425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeServerTest.ic" NAME="YahtzeeServerTest Coverage Results" MODIFIED="1543969951023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeClientTest.ic" NAME="YahtzeeClientTest Coverage Results" MODIFIED="1543969648682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.client.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testProcessActionKeepDiceIn_ScoreChoiceValidOut.ic" NAME="PlayerImplTest.testProcessActionKeepDiceIn_ScoreChoiceValidOut Coverage Results" MODIFIED="1543897592048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeGameTest_testCheckFinishWholeRounds.ic" NAME="YahtzeeGameTest.testCheckFinishWholeRounds Coverage Results" MODIFIED="1543895921005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$LargeStraightScoreTest.ic" NAME="LargeStraightScoreTest Coverage Results" MODIFIED="1543833403782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$AcesScoreTest_testChooseThisPattern.ic" NAME="AcesScoreTest.testChooseThisPattern Coverage Results" MODIFIED="1543834353509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$FullHouseScoreTest.ic" NAME="FullHouseScoreTest Coverage Results" MODIFIED="1543842550379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$FourOfKindScoreTest.ic" NAME="FourOfKindScoreTest Coverage Results" MODIFIED="1543835743230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeServerTest_testInvalidChooseScore.ic" NAME="YahtzeeServerTest.testInvalidChooseScore Coverage Results" MODIFIED="1543899236878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeGameTest.ic" NAME="YahtzeeGameTest Coverage Results" MODIFIED="1543969359357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testSetSocket.ic" NAME="PlayerImplTest.testSetSocket Coverage Results" MODIFIED="1543898813888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$SmallStraightScoreTest_testLargeNumberSet.ic" NAME="SmallStraightScoreTest.testLargeNumberSet Coverage Results" MODIFIED="1543832676200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeGameTest_getTotalScore.ic" NAME="YahtzeeGameTest.getTotalScore Coverage Results" MODIFIED="1543964372252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeServerTest_testInvalidKeepDice.ic" NAME="YahtzeeServerTest.testInvalidKeepDice Coverage Results" MODIFIED="1543969894204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeScoreTest.ic" NAME="YahtzeeScoreTest Coverage Results" MODIFIED="1543833664956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$YahtzeeServerTest_testQuit.ic" NAME="YahtzeeServerTest.testQuit Coverage Results" MODIFIED="1543894477979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$edu_neu_ccs_cs5010_game_in_assignment.ic" NAME="edu.neu.ccs.cs5010.game in assignment Coverage Results" MODIFIED="1543910353829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest_testProcessAction.ic" NAME="PlayerImplTest.testProcessAction Coverage Results" MODIFIED="1543897378137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$PlayerImplTest.ic" NAME="PlayerImplTest Coverage Results" MODIFIED="1543898847835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.game.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$ChanceScoreTest.ic" NAME="ChanceScoreTest Coverage Results" MODIFIED="1543835007063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$ThreeOfKindScoreTest_testNoThreeOfKind.ic" NAME="ThreeOfKindScoreTest.testNoThreeOfKind Coverage Results" MODIFIED="1543835873259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/assignment8$FourOfKindScoreTest_testNoFourOfKind.ic" NAME="FourOfKindScoreTest.testNoFourOfKind Coverage Results" MODIFIED="1543835821674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.neu.ccs.cs5010.gameutil.scores.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="36" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="assignment8" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3128">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/server/YahtzeeServerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/SetOfDice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/YahtzeeGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/client/YahtzeeClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="65" selection-start-line="65" selection-start-column="2" selection-end-line="71" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/game/YahtzeeGameTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/client/YahtzeeClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1190">
+              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/assignment8.UML.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="package-info" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>closing</find>
+      <find>Outmsg,</find>
+      <find>QUIT</find>
+      <find>CLIENT QUIT</find>
+      <find>client quit success</find>
+      <find>CLIENT_QUIT</find>
+      <find>mockito</find>
+      <find>main</find>
+      <find>error</find>
+      <find>exit</find>
+      <find>Usage</find>
+      <find>CLIENT_QUIT_SUCCESSFULLY</find>
+      <find>socket</find>
+      <find>game_state</find>
+      <find>quit</find>
+      <find>print</find>
+      <find>state</find>
+      <find>Failures</find>
+      <find>STATE</find>
+      <find>.trim</find>
+      <find>Knock</find>
+      <find>winner</find>
+      <find>WINNER</find>
+      <find>static</find>
+      <find>mockServer</find>
+      <find>score</find>
+      <find>testMain</find>
+      <find>mock</find>
+      <find>jar</find>
+      <find>plugin</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>fh</replace>
+      <replace>yahtzee</replace>
+      <replace>AcesScore</replace>
+      <replace>ChanceScore</replace>
+      <replace>FivesScore</replace>
+      <replace>FourOfKindScore</replace>
+      <replace>SixesScore</replace>
+      <replace>ThreesScore</replace>
+      <replace>ThreeOfKindScore</replace>
+      <replace>TwosScore</replace>
+      <replace>The String constant</replace>
+      <replace>private static final</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Tim Zhu\Documents\Yitian Zhu\NEU\2018_Fall\CS5010 PDP\Student_repo_timzyt\Temp_repo_MengyaLi_YitianZhu\assignment8\src\main\java\edu\neu\ccs\cs5010</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/LargeStraightScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/gameutil/scores/FullHouseScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/gameutil/scores/YahtzeeScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/YahtzeeScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/gameutil/scores/ScoresFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/gameutil/scores/AcesScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/AcesScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/AbstractScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/ChanceScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/FivesScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/ScoresFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/FoursScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/SixesScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/ThreesScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/TwosScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/FourOfKindScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/ThreeOfKindScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Dice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/ScoresFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/FullHouseScoreTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/AcesScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FivesScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FourOfKindScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FoursScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FullHouseScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/SixesScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/ThreeOfKindScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/ThreesScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/TwosScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/YahtzeeScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/ChanceScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/AbstractScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/LargeStraightScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/SmallStraightScore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/game/YahtzeeGameTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/game/PlayerImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/game/PlayerImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/YahtzeeGameLauncher.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/game/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/PlayerImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/game/SetOfDiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/SetOfDice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/client/YahtzeeClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/server/YahtzeeServer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/game/YahtzeeGameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/client/YahtzeeClientTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/server/YahtzeeServerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/YahtzeeGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="3226" />
+    <option name="height" value="1746" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cs5010" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cs5010" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cs5010" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cs5010" type="462c0819:PsiDirectoryNode" />
+              <item name="scores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cs5010" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cs5010" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cs5010" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cs5010" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cs5010" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assignment8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assignment8" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543974939424" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/assignment8.UML.png" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.20114942" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.neu.ccs.cs5010.gameutil.scores" />
+      <recent name="edu.neu.ccs.cs5010.game" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.neu.ccs.cs5010.game" />
+      <recent name="edu.neu.ccs.cs5010.server" />
+      <recent name="edu.neu.ccs.cs5010.gameutil.scores" />
+      <recent name="edu.neu.ccs.cs5010.gameutil" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.YahtzeeServerTest">
+    <configuration name="YahtzeeClientTest.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.client" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.client.YahtzeeClientTest" />
+      <option name="METHOD_NAME" value="testMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YahtzeeServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.server" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.server.YahtzeeServerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YahtzeeServerTest.testInitServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.server" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.server.YahtzeeServerTest" />
+      <option name="METHOD_NAME" value="testInitServer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YahtzeeServerTest.testInvalidKeepDice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.server" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.server.YahtzeeServerTest" />
+      <option name="METHOD_NAME" value="testInvalidKeepDice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YahtzeeServerTest.testQuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.neu.ccs.cs5010.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.neu.ccs.cs5010.server" />
+      <option name="MAIN_CLASS_NAME" value="edu.neu.ccs.cs5010.server.YahtzeeServerTest" />
+      <option name="METHOD_NAME" value="testQuit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Twisted Trial">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.YahtzeeClientTest.testMain" />
+      <item itemvalue="JUnit.YahtzeeServerTest.testInitServer" />
+      <item itemvalue="JUnit.YahtzeeServerTest" />
+      <item itemvalue="JUnit.YahtzeeServerTest.testInvalidKeepDice" />
+      <item itemvalue="JUnit.YahtzeeServerTest.testQuit" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.YahtzeeServerTest" />
+        <item itemvalue="JUnit.YahtzeeServerTest.testQuit" />
+        <item itemvalue="JUnit.YahtzeeServerTest.testInvalidKeepDice" />
+        <item itemvalue="JUnit.YahtzeeServerTest.testInitServer" />
+        <item itemvalue="JUnit.YahtzeeClientTest.testMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f27b6318-2f6c-4181-a713-ab14aa9dbb73" name="Default Changelist" comment="" />
+      <created>1543808251994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543808251994</updated>
+      <workItem from="1543808256776" duration="13630000" />
+      <workItem from="1543823048092" duration="8000" />
+      <workItem from="1543823085772" duration="39368000" />
+      <workItem from="1543889967001" duration="14507000" />
+      <workItem from="1543908592917" duration="2455000" />
+      <workItem from="1543911342756" duration="1091000" />
+      <workItem from="1543951191776" duration="2094000" />
+      <workItem from="1543957384546" duration="575000" />
+      <workItem from="1543958372817" duration="8799000" />
+      <workItem from="1543971692307" duration="173000" />
+      <workItem from="1543971901391" duration="2970000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="YahtzeeClientTest - 2018.12.04 at 16h 27m 33s.xml">
+      <configuration name="YahtzeeClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeClientTest_testMain - 2018.12.04 at 16h 28m 01s.xml">
+      <configuration name="YahtzeeClientTest.testMain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeServerTest_testInitServer - 2018.12.04 at 16h 29m 19s.xml">
+      <configuration name="YahtzeeServerTest.testInitServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeServerTest - 2018.12.04 at 16h 29m 46s.xml">
+      <configuration name="YahtzeeServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeServerTest_testInvalidKeepDice - 2018.12.04 at 16h 30m 01s.xml">
+      <configuration name="YahtzeeServerTest.testInvalidKeepDice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeServerTest - 2018.12.04 at 16h 30m 40s.xml">
+      <configuration name="YahtzeeServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeServerTest - 2018.12.04 at 16h 31m 09s.xml">
+      <configuration name="YahtzeeServerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeServerTest_testInvalidKeepDice - 2018.12.04 at 16h 31m 46s.xml">
+      <configuration name="YahtzeeServerTest.testInvalidKeepDice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeServerTest_testQuit - 2018.12.04 at 16h 32m 25s.xml">
+      <configuration name="YahtzeeServerTest.testQuit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YahtzeeServerTest - 2018.12.04 at 16h 32m 38s.xml">
+      <configuration name="YahtzeeServerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="85670000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49856323" visible="true" weight="0.24115756" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50143677" side_tool="true" weight="0.20682302" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49733475" weight="0.24160346" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5041801" side_tool="true" weight="0.23014805" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.3564464" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49839228" weight="0.32839838" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49517685" weight="0.32839838" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49581993" visible="true" weight="0.3768506" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026652" side_tool="true" weight="0.18526544" />
+      <window_info anchor="bottom" id="Statistic" order="11" sideWeight="0.49946696" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4978678" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4973404" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.49125874" visible="true" weight="0.185209" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.50874126" side_tool="true" visible="true" weight="0.185209" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49856323" visible="true" weight="0.2217484" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50143677" side_tool="true" weight="0.20682302" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.24160346" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50289387" side_tool="true" weight="0.13651137" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4971061" weight="0.35666218" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49840087" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49840087" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.4972826" visible="true" weight="0.18550107" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.5027174" side_tool="true" weight="0.31823027" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/server/YahtzeeServer.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Player.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Player.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Player.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Player.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Player.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Player.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FullHouseScore.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FullHouseScore.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FullHouseScore.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FullHouseScore.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FullHouseScore.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/client/YahtzeeClient.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/client/YahtzeeClient.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/SmallStraightScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/FoursScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/FivesScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="17" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/SixesScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/ThreesScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/TwosScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/ThreeOfKindScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/AcesScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/YahtzeeScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/FourOfKindScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/gameutil/scores/FullHouseScoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/AcesScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FivesScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FourOfKindScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FoursScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/FullHouseScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/ScoresFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/SixesScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/ThreeOfKindScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/ThreesScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/TwosScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/SmallStraightScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/ChanceScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/LargeStraightScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="208" column="27" lean-forward="true" selection-start-line="208" selection-start-column="27" selection-end-line="208" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/net/AbstractPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/edu/neu/ccs/cs5010/game/YahtzeeGameTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/YahtzeeScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/edu/neu/ccs/cs5010/game/SetOfDiceTestTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/game/DiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Dice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/NumberFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="579" selection-start-line="579" selection-end-line="579" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/YahtzeeGameLauncher.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/stefanbirkner/system-rules/1.16.0/system-rules-1.16.0.jar!/org/junit/contrib/java/lang/system/ExpectedSystemExit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/game/SetOfDiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/gameutil/scores/AbstractScore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="132" column="27" selection-start-line="132" selection-start-column="27" selection-end-line="132" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/game/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/edu.neu.ccs.cs5010.server.YahtzeeServer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>edu.neu.ccs.cs5010.server.YahtzeeServer</OriginalElement>
+          <nodes>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.AbstractScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.ThreeOfKindScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.server.YahtzeeServer</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.FivesScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.ChanceScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.client.YahtzeeClient</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.ThreesScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.TwosScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.game.YahtzeeGame</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.FoursScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.LargeStraightScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.FullHouseScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.SixesScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.game.Dice</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.FourOfKindScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.ScoresFactory</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.AcesScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.game.Player</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.YahtzeeScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.gameutil.scores.SmallStraightScore</node>
+            <node x="" y="">edu.neu.ccs.cs5010.game.SetOfDice</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="2286.0" y="514.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/server/YahtzeeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-629">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/server/YahtzeeServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/client/YahtzeeClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" selection-start-line="65" selection-start-column="2" selection-end-line="71" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/neu/ccs/cs5010/game/YahtzeeGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/assignment8.UML.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="84" column="15" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/client/YahtzeeClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1190">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/YahtzeeGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3128">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/neu/ccs/cs5010/game/SetOfDice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Yahtzee:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20114942" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>assignment</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3264368" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-cli:commons-cli:1.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3264368" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

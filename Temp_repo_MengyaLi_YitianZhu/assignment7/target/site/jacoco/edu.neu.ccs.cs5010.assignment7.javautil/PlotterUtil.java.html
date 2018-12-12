@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>PlotterUtil.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment7.javautil</a> &gt; <span class="el_source">PlotterUtil.java</span></div><h1>PlotterUtil.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment7.javautil;
+
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartUtilities;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.block.BlockBorder;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
+import org.jfree.chart.title.TextTitle;
+import org.jfree.data.xy.XYDataset;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
+
+import java.awt.BasicStroke;
+import java.awt.Color;
+import java.awt.Font;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+
+
+<span class="fc" id="L26">public class PlotterUtil {</span>
+
+  /**
+   * the index of latency count in the arrayList.
+   */
+<span class="fc" id="L31">  public static final Integer INDEX_OF_COUNT = 0;</span>
+
+  private JFreeChart chart;
+
+  /**
+   * Generate throughput plot.
+   * @param chartName chart name
+   * @param throughputData throughput data
+   * @param title title of the plot
+   * @param titleX x axis title
+   * @param titleY y axis
+   * @throws IOException throws IOException when necessary.
+   */
+  public void plotThroughput(String chartName, Map&lt;Long, ArrayList&lt;Long&gt;&gt; throughputData,
+      String title, String titleX, String titleY) throws IOException {
+<span class="fc" id="L46">    XYDataset dataset = createDatasetThroughput(chartName, throughputData);</span>
+<span class="fc" id="L47">    chart = createChart(dataset, title, titleX, titleY);</span>
+<span class="fc" id="L48">    String fileName = chartName + &quot;.png&quot;;</span>
+<span class="fc" id="L49">    ChartUtilities.saveChartAsPNG(new File(fileName), chart, 1000, 800);</span>
+<span class="fc" id="L50">  }</span>
+
+  /**
+   * Generate latency plot.
+   * @param chartName chart name
+   * @param latencyData throughput data
+   * @param title title of the plot
+   * @param titleX x axis title
+   * @param titleY y axis
+   * @throws IOException throws IOException when necessary.
+   */
+  public void plotLatency(String chartName, Map&lt;Long, Integer&gt; latencyData, String title,
+      String titleX, String titleY) throws IOException {
+<span class="fc" id="L63">    XYDataset dataset = createDatasetLatency(chartName, latencyData);</span>
+<span class="fc" id="L64">    chart = createChart(dataset, title, titleX, titleY);</span>
+<span class="fc" id="L65">    String fileName = chartName + &quot;.png&quot;;</span>
+<span class="fc" id="L66">    ChartUtilities.saveChartAsPNG(new File(fileName), chart, 1000, 800);</span>
+<span class="fc" id="L67">  }</span>
+
+  /**
+   * create throughput dataset.
+   * @param chartName chart name.
+   * @param throughputData throughput data.
+   * @return XYDataset.
+   */
+  private XYDataset createDatasetThroughput(String chartName,
+      Map&lt;Long, ArrayList&lt;Long&gt;&gt; throughputData) {
+
+<span class="fc" id="L78">    XYSeries series = new XYSeries(chartName);</span>
+<span class="fc" id="L79">    Iterator&lt;Entry&lt;Long, ArrayList&lt;Long&gt;&gt;&gt; setIt = throughputData.entrySet().iterator();</span>
+<span class="fc" id="L80">    Long baseTime = setIt.next().getKey();</span>
+<span class="fc bfc" id="L81" title="All 2 branches covered.">    while (setIt.hasNext()) {</span>
+<span class="fc" id="L82">      Map.Entry&lt;Long, ArrayList&lt;Long&gt;&gt; pair = setIt.next();</span>
+<span class="fc" id="L83">      Long key = pair.getKey() - baseTime;</span>
+<span class="fc" id="L84">      ArrayList&lt;Long&gt; value = pair.getValue();</span>
+<span class="fc" id="L85">      series.add(key, value.get(INDEX_OF_COUNT));</span>
+<span class="fc" id="L86">    }</span>
+<span class="fc" id="L87">    XYSeriesCollection dataset = new XYSeriesCollection();</span>
+<span class="fc" id="L88">    dataset.addSeries(series);</span>
+
+<span class="fc" id="L90">    return dataset;</span>
+  }
+
+  /**
+   * create latency dataset.
+   * @param chartName chart name.
+   * @param latencyData latency data.
+   * @return XYDataset.
+   */
+  private XYDataset createDatasetLatency(String chartName, Map&lt;Long, Integer&gt; latencyData) {
+
+<span class="fc" id="L101">    XYSeries series = new XYSeries(chartName);</span>
+<span class="fc" id="L102">    Iterator&lt;Entry&lt;Long, Integer&gt;&gt; setIt = latencyData.entrySet().iterator();</span>
+<span class="fc bfc" id="L103" title="All 2 branches covered.">    while (setIt.hasNext()) {</span>
+<span class="fc" id="L104">      Map.Entry&lt;Long, Integer&gt; pair = setIt.next();</span>
+<span class="fc" id="L105">      Long key = pair.getKey();</span>
+<span class="fc" id="L106">      Integer value = pair.getValue();</span>
+<span class="fc" id="L107">      series.add(key, value);</span>
+<span class="fc" id="L108">    }</span>
+<span class="fc" id="L109">    XYSeriesCollection dataset = new XYSeriesCollection();</span>
+<span class="fc" id="L110">    dataset.addSeries(series);</span>
+
+<span class="fc" id="L112">    return dataset;</span>
+  }
+
+  /**
+   * Create jFree chart.
+   * @param dataset XYDataset
+   * @param title the title of the chart
+   * @param labelX the label of x axis
+   * @param labelY the label of y axis
+   * @return JFreeChart
+   */
+  private JFreeChart createChart(XYDataset dataset, String title, String labelX,
+      String labelY) {
+<span class="fc" id="L125">    JFreeChart chart = ChartFactory.createXYLineChart(</span>
+        title,
+        labelX,
+        labelY,
+        dataset,
+        PlotOrientation.VERTICAL,
+        true,
+        true,
+        false
+    );
+
+<span class="fc" id="L136">    XYPlot plot = chart.getXYPlot();</span>
+
+<span class="fc" id="L138">    XYLineAndShapeRenderer renderer = new XYLineAndShapeRenderer();</span>
+<span class="fc" id="L139">    renderer.setSeriesPaint(0, Color.RED);</span>
+<span class="fc" id="L140">    renderer.setSeriesStroke(0, new BasicStroke(2.0f));</span>
+
+<span class="fc" id="L142">    plot.setRenderer(renderer);</span>
+<span class="fc" id="L143">    plot.setBackgroundPaint(Color.white);</span>
+
+<span class="fc" id="L145">    plot.setRangeGridlinesVisible(true);</span>
+<span class="fc" id="L146">    plot.setRangeGridlinePaint(Color.BLACK);</span>
+
+<span class="fc" id="L148">    plot.setDomainGridlinesVisible(true);</span>
+<span class="fc" id="L149">    plot.setDomainGridlinePaint(Color.BLACK);</span>
+
+<span class="fc" id="L151">    chart.getLegend().setFrame(BlockBorder.NONE);</span>
+
+<span class="fc" id="L153">    chart.setTitle(new TextTitle(title,</span>
+            new Font(&quot;Serif&quot;, Font.BOLD, 18)
+        )
+    );
+
+<span class="fc" id="L158">    return chart;</span>
+
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>

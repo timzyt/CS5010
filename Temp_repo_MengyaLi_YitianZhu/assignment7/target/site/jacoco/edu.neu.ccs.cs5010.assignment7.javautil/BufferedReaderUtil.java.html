@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>BufferedReaderUtil.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment for class CS5010</a> &gt; <a href="index.source.html" class="el_package">edu.neu.ccs.cs5010.assignment7.javautil</a> &gt; <span class="el_source">BufferedReaderUtil.java</span></div><h1>BufferedReaderUtil.java</h1><pre class="source lang-java linenums">package edu.neu.ccs.cs5010.assignment7.javautil;
+
+import edu.neu.ccs.cs5010.assignment7.sequential.pojo.MapBuilder;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/**
+ * The Buffered Reader Utility class.
+ */
+<span class="fc" id="L14">public class BufferedReaderUtil {</span>
+
+  /**
+   * The Encoding.
+   */
+  public static final String ENCODING = &quot;UTF8&quot;;
+
+  /**
+   * The main directory for file r/w.
+   */
+  public static final String MAIN_DIR = &quot;user.dir&quot;;
+
+  /**
+   * The LineParser class.
+   */
+<span class="fc" id="L29">  private LineParserUtil lpu = new LineParserUtil();</span>
+
+  /**
+   * The MapBuilder class.
+   */
+  private MapBuilder mapBdr;
+
+  /**
+   * Read provided file and output as a list of strings.
+   *
+   * @param fileName the file name.
+   * @return List a list of strings.
+   * @throws IOException IOExceptions
+   */
+  public MapBuilder read(String fileName) throws IOException {
+<span class="fc" id="L44">    System.getProperty(MAIN_DIR);</span>
+<span class="fc" id="L45">    mapBdr = new MapBuilder();</span>
+    try {
+
+<span class="fc" id="L48">      BufferedReader inputFile = new BufferedReader(</span>
+          new InputStreamReader(new FileInputStream(fileName), ENCODING));
+
+      String line;
+
+<span class="fc bfc" id="L53" title="All 2 branches covered.">      while ((line = inputFile.readLine()) != null) {</span>
+<span class="fc" id="L54">        mapBdr.buildMapFromRaw(lpu.parseLine(line));</span>
+      }
+
+<span class="fc" id="L57">      inputFile.close();</span>
+<span class="fc" id="L58">    } catch (FileNotFoundException fnfe) {</span>
+<span class="fc" id="L59">      System.out.println(&quot;*** OUPS! A file was not found : &quot; + fnfe.getMessage());</span>
+<span class="fc" id="L60">      fnfe.printStackTrace();</span>
+<span class="nc" id="L61">    } catch (Exception e) {</span>
+<span class="nc" id="L62">      e.printStackTrace();</span>
+<span class="fc" id="L63">    }</span>
+<span class="fc" id="L64">    return this.mapBdr;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>
